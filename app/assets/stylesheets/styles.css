@@ -70,7 +70,6 @@ UL{
 		float:left;
 		font-size:0.95em;
 		line-height:1.2em;
-		list-style:none;
 		margin:0 0 0.8em 0;
 		padding:0;
 		width:100%;
@@ -354,374 +353,368 @@ UL#payment-methods LI:before{
 					color:#19b794!important;
 					cursor:text;
 					}
-#slicknav_menu{
-	display:none;
-	}
 html,
 body{
 	font:1em/1.4 Arial, Helvetica, sans-serif;
 	color:#191919;
 	margin:0;
 	}
-	body{
-		background:#eeeeee url("/assets/background.png") repeat-x left top;
+	#header,
+	#wrapper,
+	#footer{
+		float:left;
+		width:100%;
 		}
-		#header,
-		#wrapper,
-		#footer{
+	#header{
+		margin:0;
+		}
+		#header .header-content{
 			float:left;
+			padding:0.6em 0;
 			width:100%;
 			}
-		#header{
-			margin:0;
-			}
-			#header .header-content{
+			nav#top-nav-bar{
 				float:left;
-				padding:0.6em 0;
-				width:100%;
+				margin:0;
+				text-align:left;
+				width:58%;
 				}
-				nav#top-nav-bar{
+				nav#top-nav-bar UL{
 					float:left;
 					margin:0;
-					text-align:left;
-					width:58%;
+					width:100%;
 					}
-					nav#top-nav-bar UL{
+					nav#top-nav-bar UL LI{
 						float:left;
-						margin:0;
-						width:100%;
+						margin:0 0 0 1em;
+						max-width:10.7em;
+						padding:0;
+						width:auto;
 						}
-						nav#top-nav-bar UL LI{
+					nav#top-nav-bar UL LI:first-child{
+						margin:0;
+						}
+						nav#top-nav-bar UL LI A{
+							background:#19b894;
+							color:#ffffff!important;
 							float:left;
-							margin:0 0 0 1em;
-							max-width:10.7em;
+							font-size:0.8em;
+							font-weight:normal;
+							padding:1em 1.75em 1em 3.8em;
+							text-transform:none;
+							width:auto;
+							}
+							nav#top-nav-bar UL LI A:hover,
+							nav#top-nav-bar UL LI#search-bar INPUT[type="submit"]:hover{
+								background:#1a1a1a;
+								color:#19b794!important;
+								}
+						nav#top-nav-bar UL LI.favProds A{
+							background:#19b894 url("/assets/favourite-icon.png") no-repeat 2em 50%;
+							}
+							nav#top-nav-bar UL LI.favProds A:hover{
+								background:#191919 url("/assets/favourite-iconHover.png") no-repeat 2em 50%;
+								}
+						nav#top-nav-bar UL LI.account A{
+							background:#19b894 url("/assets/account-icon.png") no-repeat 2em 50%;
+							}
+							nav#top-nav-bar UL LI.account A:hover{
+								background:#191919 url("/assets/account-iconHover.png") no-repeat 2em 50%;
+								}
+						nav#top-nav-bar UL LI.logIn A{
+							background:#19b894 url("/assets/login-icon.png") no-repeat 2em 50%;
+							}
+							nav#top-nav-bar UL LI.logIn A:hover{
+								background:#191919 url("/assets/login-iconHover.png") no-repeat 2em 50%;
+								}
+						nav#top-nav-bar UL LI.logOut A{
+							background:#19b894 url("/assets/logout-icon.png") no-repeat 2em 50%;
+							}
+							nav#top-nav-bar UL LI.logOut A:hover{
+								background:#191919 url("/assets/logout-iconHover.png") no-repeat 2em 50%;
+								}
+					nav#top-nav-bar UL LI#search-bar{
+						float:right;
+						max-width:19.8em;
+						width:19.8em;
+						}
+						nav#top-nav-bar UL LI#search-bar FORM{
+							border:none;
+							padding:0;
+							width:100%;
+							}
+							nav#top-nav-bar UL LI#search-bar INPUT{
+								border:1px solid #bbbbbb!important;
+								border-right:none;
+								color:#a5a5a5;
+								float:left;
+								padding:0.9em 0.85em;
+								width:16.4em;
+								}
+								nav#top-nav-bar UL LI#search-bar INPUT[type="submit"]{
+									background:#19b894;
+									border:none!important;
+									color:#ffffff;
+									float:left;
+									font-size:0.9em;
+									font-weight:normal;
+									padding:0.9em 1.15em!important;
+									text-transform:uppercase;
+									width:auto;
+									}
+			#link-to-cart{
+				float:left;
+				margin:0 0 0 3.5em;
+				width:18.3%;
+				}
+				#link-to-cart A{
+					background:transparent url("/assets/cart.png") no-repeat left top;
+					color:#191919;
+					float:right;
+					font-size:0.75em;
+					min-height:1.4em;
+					padding:1.1em 0 1.1em 4.5em;
+					width:auto;
+					}
+					#link-to-cart A:hover{
+						background:transparent url("/assets/cart-hover.png") no-repeat left top;
+						}						
+					#link-to-cart A SPAN{
+						font-weight:bold;
+						}
+			#header .phone{
+				float:left;
+				margin:0 0 0 1.8em;
+				width:17%;
+				}
+				#header .phone IMG{
+					float:left;
+					max-width:1.6em;
+					width:auto;
+					}
+				#header .phone .inside{
+					float:left;
+					padding:0 0 0 0.8em;
+					width:auto;
+					}
+					#header .phone .inside P{
+						color:#19b794;
+						font-size:0.8em;
+						font-weight:bold;
+						margin:0 0 0.2em 0;
+						padding:0;
+						text-transform:uppercase;
+						}
+					#header .phone .inside A{
+						color:#191919;
+						font-size:1.5em;
+						line-height:0.8em;
+						}
+						#header .phone .inside A:hover{
+							color:#19b794;
+							}
+		#main-menu{
+			background:#191919;
+			float:left;
+			padding:0;
+			width:100%;
+			}				
+			#main-menu FIGURE{
+				float:left;
+				margin:0;
+				padding:0.95em 0;
+				width:auto;
+				}
+				#main-menu FIGURE A{
+					float:left;
+					width:auto;
+					}
+					#main-menu FIGURE A IMG{
+						float:left;
+						max-width:14.2em;
+						padding:0;
+						width:auto!important;
+						}
+			#main-menu NAV{
+				float:left;
+				margin:0 0 0 4.2em;
+				width:77%;
+				}
+				#main-menu NAV UL{
+					border:none;
+					float:left;
+					font-weight:normal;
+					margin:0;
+					padding:0;
+					width:100%;
+					}
+					#main-menu NAV UL LI{
+						float:left;
+						margin:0 0 0 1.56em;
+						padding:3.66em 0;
+						width:auto;
+						}
+					#main-menu NAV UL LI:first-child{
+						margin:0;
+						}
+						#main-menu NAV UL LI A{
+							color:#ffffff!important;
+							float:left;
+							font-family:'Roboto', sans-serif;
+							font-weight:normal;
+							font-size:1em!important;
 							padding:0;
 							width:auto;
 							}
-						nav#top-nav-bar UL LI:first-child{
-							margin:0;
-							}
-							nav#top-nav-bar UL LI A{
-							    background:#19b894;
-							    color:#ffffff!important;
-							    float:left;
-							    font-size:0.8em;
-							    font-weight:normal;
-							    padding:1em 1.75em 1em 3.8em;
-							    text-transform:none;
-							    width:auto;
-								}
-								nav#top-nav-bar UL LI A:hover,
-								nav#top-nav-bar UL LI#search-bar INPUT[type="submit"]:hover{
-								    background:#1a1a1a;
-								    color:#19b794!important;
-									}
-							nav#top-nav-bar UL LI.favProds A{
-							    background:#19b894 url("/assets/favourite-icon.png") no-repeat 2em 50%;
-								}
-								nav#top-nav-bar UL LI.favProds A:hover{
-								    background:#191919 url("/assets/favourite-iconHover.png") no-repeat 2em 50%;
-									}
-							nav#top-nav-bar UL LI.account A{
-							    background:#19b894 url("/assets/account-icon.png") no-repeat 2em 50%;
-								}
-								nav#top-nav-bar UL LI.account A:hover{
-								    background:#191919 url("/assets/account-iconHover.png") no-repeat 2em 50%;
-									}
-							nav#top-nav-bar UL LI.logIn A{
-							    background:#19b894 url("/assets/login-icon.png") no-repeat 2em 50%;
-								}
-								nav#top-nav-bar UL LI.logIn A:hover{
-								    background:#191919 url("/assets/login-iconHover.png") no-repeat 2em 50%;
-									}
-							nav#top-nav-bar UL LI.logOut A{
-							    background:#19b894 url("/assets/logout-icon.png") no-repeat 2em 50%;
-								}
-								nav#top-nav-bar UL LI.logOut A:hover{
-								    background:#191919 url("/assets/logout-iconHover.png") no-repeat 2em 50%;
-									}
-						nav#top-nav-bar UL LI#search-bar{
-							float:right;
-							max-width:19.8em;
-							width:19.8em;
-							}
-							nav#top-nav-bar UL LI#search-bar FORM{
-								border:none;
-								padding:0;
-								width:100%;
-								}
-								nav#top-nav-bar UL LI#search-bar INPUT{
-									border:1px solid #bbbbbb!important;
-									border-right:none;
-									color:#a5a5a5;
-									float:left;
-									padding:0.9em 0.85em;
-									width:16.4em;
-									}
-									nav#top-nav-bar UL LI#search-bar INPUT[type="submit"]{
-										background:#19b894;
-										border:none!important;
-										color:#ffffff;
-										float:left;
-										font-size:0.9em;
-										font-weight:normal;
-										padding:0.9em 1.15em!important;
-										text-transform:uppercase;
-										width:auto;
-										}
-				#link-to-cart{
-					float:left;
-					margin:0 0 0 3.5em;
-					width:17.3%;
-					}
-					#link-to-cart A{
-						background:transparent url("/assets/cart.png") no-repeat left top;
-						color:#191919;
-						float:right;
-						font-size:0.75em;
-						min-height:1.4em;
-						padding:1.1em 0 1.1em 4.5em;
-						width:auto;
-						}
-						#link-to-cart A:hover{
-							background:transparent url("/assets/cart-hover.png") no-repeat left top;
-							}						
-						#link-to-cart A SPAN{
-							font-weight:bold;
-							}
-				#header .phone{
-					float:left;
-					margin:0 0 0 1.8em;
-					width:18%;
-					}
-					#header .phone IMG{
-						float:left;
-						max-width:1.6em;
-						width:auto;
-						}
-					#header .phone .inside{
-						float:left;
-						padding:0 0 0 0.8em;
-						width:auto;
-						}
-						#header .phone .inside P{
-							color:#19b794;
-							font-size:0.8em;
-							font-weight:bold;
-							margin:0 0 0.2em 0;
-							padding:0;
-							text-transform:uppercase;
-							}
-						#header .phone .inside A{
-							color:#191919;
-							font-size:1.5em;
-							line-height:0.8em;
-							}
-							#header .phone .inside A:hover{
-								color:#19b794;
-								}
-			#main-menu{
-				background:#191919;
-				float:left;
-				padding:0;
-				width:100%;
-				}				
-				#main-menu FIGURE{
-				    float:left;
-				    margin:0;
-				    padding:0.95em 0;
-				    width:auto;
-					}
-					#main-menu FIGURE A{
-					    float:left;
-					    width:auto;
-						}
-						#main-menu FIGURE A IMG{
-						    float:left;
-						    max-width:14.2em;
-						    padding:0;
-						    width:auto!important;
-							}
-				#main-menu NAV{
-				    float:right;
-				    margin:0 0 0 4.2em;
-				    width:77%;
-					}
-					#main-menu NAV UL{
-						border:none;
-					    float:left;
-					    font-weight:normal;
-					    margin:0;
-					    padding:0;
-					    width:100%;
-						}
-						#main-menu NAV UL LI{
-						    float:left;
-						    margin:0 0 0 1.56em;
-						    padding:3.66em 0;
-						    width:auto;
-							}
-						#main-menu NAV UL LI:first-child{
-						    margin:0;
-							}
 							#main-menu NAV UL LI A{
 								color:#ffffff!important;
-							    float:left;
-							    font-family:'Roboto', sans-serif;
-							    font-weight:normal;
-							    font-size:1em!important;
-							    padding:0;
-							    width:auto;
+								float:left;
+								font-family:'Roboto', sans-serif;
+								font-weight:normal;
+								font-size:1em!important;
+								padding:0 0.89em 0 0;
+								width:auto;
 								}
-								#main-menu NAV UL LI A{
-									color:#ffffff!important;
-								    float:left;
-								    font-family:'Roboto', sans-serif;
-								    font-weight:normal;
-								    font-size:1em!important;
-								    padding:0 0.89em 0 0;
-								    width:auto;
-									}
-							#main-menu NAV UL LI:first-child A{
-							    padding:0!important;
+						#main-menu NAV UL LI:first-child A{
+							padding:0!important;
+							}
+							#main-menu NAV UL LI A.selected,
+							#main-menu NAV UL LI A:hover{
+								color:#19b794!important;
 								}
-								#main-menu NAV UL LI A.selected,
 								#main-menu NAV UL LI A:hover{
-									color:#19b794!important;
+									background:transparent url("/assets/sel-down-menu-arrow.png") no-repeat right 0.35em!important;
 									}
-									#main-menu NAV UL LI A:hover{
-										background:transparent url("/assets/sel-down-menu-arrow.png") no-repeat right 0.45em!important;
-										}
-									#main-menu NAV UL LI:first-child A:hover{
-										background:none!important;
-										}
-							#main-menu NAV UL LI UL{
-								background:#ffffff;
-								border:none;
-								border-bottom:3px solid #19b794;
-								border-top:3px solid #19b794;
-							    float:left;
-							    left:0;
-							    min-height:10em;
-							    padding:2.2em 0 2.2em 0.95em;
-							    top:5.7em;
-							    width:15.6em;
+								#main-menu NAV UL LI:first-child A:hover{
+									background:none!important;
+									}
+						#main-menu NAV UL LI UL{
+							background:#ffffff;
+							border:none;
+							border-bottom:3px solid #19b794;
+							border-top:3px solid #19b794;
+							float:left;
+							left:0;
+							min-height:10em;
+							padding:2.2em 0 2.2em 0.95em;
+							top:5.7em;
+							width:15.6em;
+							}
+							#main-menu NAV UL LI UL LI{
+								margin:0.4em 0 0 0;
+								padding:0 0.85em 0 0;
+								width:95%;
 								}
-								#main-menu NAV UL LI UL LI{
-									margin:0.4em 0 0 0;
-									padding:0 0.85em 0 0;
-									width:95%;
+							#main-menu NAV UL LI UL LI:first-child{
+								margin:0;
+								}
+								#main-menu NAV UL LI UL LI A,
+								#main-menu NAV UL LI UL LI:first-child A{
+									background:transparent url("menu-arrow.png") no-repeat 16em center;
+									color:#5b5b5b!important;
+									font-size:0.9em!important;
+									line-height:1.2em;
+									padding:0.5em 3em 0.5em 0.5em !important;
+									width:80%;
 									}
-								#main-menu NAV UL LI UL LI:first-child{
-									margin:0;
-									}
-									#main-menu NAV UL LI UL LI A,
-									#main-menu NAV UL LI UL LI:first-child A{
-										background:transparent url("menu-arrow.png") no-repeat 16em center;
-										color:#5b5b5b!important;
-										font-size:0.9em!important;
-										line-height:1.2em;
-									    padding:0.5em 3em 0.5em 0.5em !important;
-									    width:80%;
+									#main-menu NAV UL LI UL LI:hover,
+									#main-menu NAV UL LI UL LI A:hover{
+										background:none!important;
+										color:#ffffff!important;
+										padding:0.5em 2.1em 0.5em 0.5em!important;
 										}
-										#main-menu NAV UL LI UL LI:hover,
-										#main-menu NAV UL LI UL LI A:hover{
-											background:none!important;
+									#main-menu NAV UL LI UL LI:hover{
+										background:#19b794 url("sel-menu-arrow.png") no-repeat scroll 14.4em center!important!important;
+										padding:0 0.8em 0 0 !important;
+										width:95%;
+										}
+									#main-menu NAV UL LI UL LI:first-child:hover{
+										margin:0;
+										}
+										#main-menu NAV UL LI UL LI:hover A,
+										#main-menu NAV UL LI UL LI:first-child A:hover{
+											background:#19b794 url("sel-menu-arrow.png") no-repeat scroll 16em center!important;
 											color:#ffffff!important;
 											padding:0.5em 2.1em 0.5em 0.5em!important;
+											width:85.5%;
 											}
-										#main-menu NAV UL LI UL LI:hover{
-											background:#19b794 url("sel-menu-arrow.png") no-repeat scroll 14.4em center!important!important;
-										    padding:0 0.8em 0 0 !important;
-										    width:95%;
+										#main-menu NAV UL LI UL LI UL,
+										#main-menu NAV UL:nth-last-child(-n+3) LI UL LI UL{
+											border:none;
+											border-bottom:3px solid #19b794;
+											border-top:3px solid #19b794;
+											box-shadow:0 1px 4px #a6a6a6;
+											left:16.4em;
+											padding:1.7em 0.95em;
+											top:0;
 											}
-										#main-menu NAV UL LI UL LI:first-child:hover{
-										    margin:0;
-											}
-											#main-menu NAV UL LI UL LI:hover A,
-											#main-menu NAV UL LI UL LI:first-child A:hover{
-												background:#19b794 url("sel-menu-arrow.png") no-repeat scroll 16em center!important;
-											    color:#ffffff!important;
-											    padding:0.5em 2.1em 0.5em 0.5em!important;
-											    width:85.5%;
+											#main-menu NAV UL LI UL LI UL LI,
+											#main-menu NAV UL LI UL LI:hover UL LI,
+											#main-menu NAV UL:nth-last-child(-n+3) LI UL LI:nth-last-child(-n+3) UL LI{
+												padding:0!important;
+												width:100%;
 												}
-											#main-menu NAV UL LI UL LI UL,
-											#main-menu NAV UL:nth-last-child(-n+3) LI UL LI UL{
-												border:none;
-												border-bottom:3px solid #19b794;
-												border-top:3px solid #19b794;
-												box-shadow:0 1px 4px #a6a6a6;
-												left:16.4em;
-												padding:1.7em 0.95em;
-												top:0;
-												}
-												#main-menu NAV UL LI UL LI UL LI,
-												#main-menu NAV UL LI UL LI:hover UL LI,
-												#main-menu NAV UL:nth-last-child(-n+3) LI UL LI:nth-last-child(-n+3) UL LI{
-													padding:0!important;
-													width:100%;
+												#main-menu NAV UL LI UL LI UL LI A,
+												#main-menu NAV UL LI UL LI UL LI:first-child A,
+												#main-menu NAV UL LI UL LI:hover UL LI A,
+												#main-menu NAV UL:nth-last-child(-n+3) LI UL LI:nth-last-child(-n+3) UL LI A{
+													background:none!important;
+													color:#5b5b5b!important;
+													font-size:1em!important;
+													padding:0.5em 0.4em!important;
+													text-align:left;
+													width:94.5%;
 													}
-													#main-menu NAV UL LI UL LI UL LI A,
-													#main-menu NAV UL LI UL LI UL LI:first-child A,
-													#main-menu NAV UL LI UL LI:hover UL LI A,
-													#main-menu NAV UL:nth-last-child(-n+3) LI UL LI:nth-last-child(-n+3) UL LI A{
-														background:none!important;
-														color:#5b5b5b!important;
-														font-size:1em!important;
-														padding:0.5em 0.4em!important;
-														text-align:left;
-														width:94.5%;
+													#main-menu NAV UL LI UL LI:hover UL LI A:hover,
+													#main-menu NAV UL LI UL LI UL LI A:hover,
+													#main-menu NAV UL:nth-last-child(-n+3) LI UL LI:nth-last-child(-n+3) UL LI A:hover{
+														background:#19b794!important;
+														color:#ffffff!important;
 														}
-														#main-menu NAV UL LI UL LI:hover UL LI A:hover,
-														#main-menu NAV UL LI UL LI UL LI A:hover,
-														#main-menu NAV UL:nth-last-child(-n+3) LI UL LI:nth-last-child(-n+3) UL LI A:hover{
-															background:#19b794!important;
-															color:#ffffff!important;
-															}
-						#main-menu NAV UL LI:nth-last-child(-n+3) UL{
-							left:inherit;
-							padding:2.2em 0.95em 2.2em 0;
-							position:absolute;
-							right:0;
+					#main-menu NAV UL LI:nth-last-child(-n+3) UL{
+						left:inherit;
+						padding:2.2em 0.95em 2.2em 0;
+						position:absolute;
+						right:0;
+						}
+						#main-menu NAV UL LI:nth-last-child(-n+3) UL LI,
+						#main-menu NAV UL LI:nth-last-child(-n+3) UL LI:hover{
+							padding:0 0 0 0.95em!important;
+							width:100%;
 							}
-							#main-menu NAV UL LI:nth-last-child(-n+3) UL LI,
-							#main-menu NAV UL LI:nth-last-child(-n+3) UL LI:hover{
-								padding:0 0 0 0.95em!important;
-								width:100%;
+							#main-menu NAV UL LI:nth-last-child(-n+3) UL LI A{
+								background:transparent url("menu-arrow-left.png") no-repeat 1em center;
+								font-size:0.9em!important;
+								padding:0.5em 0.5em 0.5em 2.1em!important;
+								text-align:right;
+								width:80.3%;
 								}
-								#main-menu NAV UL LI:nth-last-child(-n+3) UL LI A{
-									background:transparent url("menu-arrow-left.png") no-repeat 1em center;
-									font-size:0.9em!important;
-									padding:0.5em 0.5em 0.5em 2.1em!important;
-									text-align:right;
-									width:80.3%;
+							#main-menu NAV UL LI:nth-last-child(-n+3) UL LI:hover A{
+								background:#19b794 url("sel-menu-arrow-left.png") no-repeat 1em center!important;
+								padding:0.5em 0.5em 0.5em 2.1em !important;
+								width:80.3%;
+								}
+							#main-menu NAV UL LI:nth-last-child(-n+3) UL LI UL{
+								left:-17.5em;
+								}								
+								#main-menu NAV UL LI:nth-last-child(-n+3) UL LI UL LI,
+								#main-menu NAV UL LI:nth-last-child(-n+3) UL LI:hover UL LI{
+									padding:0!important;
+									width:100%;
 									}
-								#main-menu NAV UL LI:nth-last-child(-n+3) UL LI:hover A{
-									background:#19b794 url("sel-menu-arrow-left.png") no-repeat 1em center!important;
-									padding:0.5em 0.5em 0.5em 2.1em !important;
-    								width:80.3%;
-									}
-								#main-menu NAV UL LI:nth-last-child(-n+3) UL LI UL{
-									left:-17.5em;
-									}								
-									#main-menu NAV UL LI:nth-last-child(-n+3) UL LI UL LI,
-									#main-menu NAV UL LI:nth-last-child(-n+3) UL LI:hover UL LI{
-										padding:0!important;
-										width:100%;
+									#main-menu NAV UL LI:nth-last-child(-n+3) UL LI UL LI A,
+									#main-menu NAV UL LI:nth-last-child(-n+3) UL LI:hover UL LI A{
+										background:none!important;
+										font-size:1em!important;
+										padding:0.5em 0.4em!important;
+										text-align:right;
+										width:95%;
 										}
-										#main-menu NAV UL LI:nth-last-child(-n+3) UL LI UL LI A,
-										#main-menu NAV UL LI:nth-last-child(-n+3) UL LI:hover UL LI A{
-											background:none!important;
-										    font-size:1em!important;
-										    padding:0.5em 0.4em!important;
-										    text-align:right;
-										    width:95%;
-											}
-										#main-menu NAV UL LI:nth-last-child(-n+3) UL LI:hover UL LI:hover A:hover,
-										#main-menu NAV UL LI:nth-last-child(-n+3) UL LI:first-child:hover UL LI:hover A:hover{
-											background:#19b794!important;
-											width:95%;
-											}
+									#main-menu NAV UL LI:nth-last-child(-n+3) UL LI:hover UL LI:hover A:hover,
+									#main-menu NAV UL LI:nth-last-child(-n+3) UL LI:first-child:hover UL LI:hover A:hover{
+										background:#19b794!important;
+										width:95%;
+										}
 			#wrapper .container{
 				background:#ffffff;
 				box-shadow:0 15px 18px #a6a6a6;
@@ -760,7 +753,6 @@ body{
 						}
 						#tabs{
 							float:left;
-							min-height:15em;
 							width:100%;
 							}
 							#tabs UL{
@@ -772,7 +764,6 @@ body{
 								width:100%;
 								}
 								#tabs UL LI{
-									background:transparent url("/assets/separator.png") no-repeat right center;
 									border:none;
 									border-radius:0;
 									font-size:1em;
@@ -901,9 +892,6 @@ body{
 												float:left;
 												padding:0.5em 0;
 												}
-								#content [data-hook="product_left_part"] #reviews{
-									display:none;
-									}
 							#content [data-hook="product_right_part"]{
 								float:left;
 								margin:0;
@@ -1865,17 +1853,14 @@ body{
 		width:19.85em;
 		}
 		nav#top-nav-bar UL LI#search-bar INPUT[type="submit"]{
-		  	padding:0.95em 1.15em 0.9em 1.15em!important;
-		  	width:16.3em;
+			padding:0.95em 1.15em 0.9em 1.15em!important;
+			width:16.3em;
 			}
 	#content #checkout .row .columns FORM .columns.omega{
 	    min-height:53.8em;
 		}
 	#content UL#products LI{
 		width:18.7%;
-		}
-	#tabs .product{
-		margin:0 0.7em 1.9em 0.7em;
 		}
 }
 
