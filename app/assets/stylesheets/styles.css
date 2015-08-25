@@ -372,6 +372,7 @@ body{
 		margin:0;
 		}
 		#header .header-content{
+			background:#313131;
 			float:left;
 			padding:0.6em 0;
 			width:100%;
@@ -455,9 +456,9 @@ body{
 								width:16.4em;
 								}
 								nav#top-nav-bar UL LI#search-bar INPUT[type="submit"]{
-									background:#19b894;
+									background:#e5e5e5;
 									border:none!important;
-									color:#ffffff;
+									color:#2f2f2f;
 									float:left;
 									font-size:0.9em;
 									font-weight:normal;
@@ -472,7 +473,7 @@ body{
 				}
 				#link-to-cart A{
 					background:transparent url("/assets/cart.png") no-repeat left top;
-					color:#191919;
+					color:#ffffff;
 					float:right;
 					font-size:0.75em;
 					min-height:1.4em;
@@ -509,7 +510,7 @@ body{
 						text-transform:uppercase;
 						}
 					#header .phone .inside A{
-						color:#191919;
+						color:#e5e5e5;
 						font-size:1.5em;
 						line-height:0.8em;
 						}
