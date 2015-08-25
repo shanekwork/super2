@@ -1,14 +1,14 @@
 ::selection{
 	background:#191919;
-	color:#19b794;
+	color:#ed906c;
 	}
 ::-moz-selection{
 	background:#191919;
-	color:#19b794;
+	color:#ed906c;
 	}
 ::-webkit-selection{
 	background:#191919;
-	color:#19b794;
+	color:#ed906c;
 	}
 H1{
 	color:#191919;
@@ -22,7 +22,7 @@ H1{
 	}
 H2,
 H6{
-	color:#19b794;
+	color:#ed906c;
 	float:left;
 	font-size:1.4em;
 	font-weight:normal;
@@ -40,7 +40,7 @@ H3{
 	text-transform:uppercase;
 	}
 H4{
-	color:#19b794;
+	color:#ed906c;
     font-size:1.1em;
     font-weight:normal;
     margin:0 0 0.5em 0;
@@ -54,7 +54,7 @@ P{
 	}
 P A,
 A{
-	color:#19b794;
+	color:#ed906c;
 	font-size:1em;
 	}
 	P A:hover,
@@ -75,7 +75,7 @@ UL{
 		width:100%;
 		}
 		UL LI:before{
-			color:#19b794!important;
+			color:#ed906c!important;
 		    content:"•";
 		    float:left;
 		    font-size:1.3em;
@@ -85,7 +85,7 @@ UL{
 			color:#191919!important;
 			}
 			UL LI A:hover{
-				color:#19b794!important;
+				color:#ed906c!important;
 				}
 DL{
 	float:left;
@@ -140,13 +140,13 @@ FORM{
 					display:none;
 					}
 				FORM SPAN.required{
-					color:#19b794;
+					color:#ed906c;
 					}
 				FORM INPUT,
 				FORM TEXTAREA,
 				FORM SELECT{
 					border:1px solid #bbbbbb!important;
-					color:#19b794;
+					color:#ed906c;
 					padding:0.9em 0.85em!important;
 					width:36.2%;
 					}
@@ -160,7 +160,7 @@ FORM{
 					}
 			A.button,
 			INPUT.button{
-				background:#19b794 url("/assets/submit-icon.png") no-repeat 1.8em center;
+				background:#ed906c url("/assets/submit-icon.png") no-repeat 1.8em center;
 				border:none!important;
 				color:#ffffff;
 			    float:right;
@@ -173,7 +173,7 @@ FORM{
 				A.button:hover,
 				INPUT.button:hover{
 					background:#191919 url("/assets/submit-iconHover.png") no-repeat 1.8em center;
-					color:#19b794;
+					color:#ed906c;
 					}
 LABEL.errror{
 	font-size:0.8em;
@@ -206,7 +206,7 @@ TABLE{
     width:500px!important;
 	}
 	.ui-dialog .ui-widget-header{
-	    background:#19b794;
+	    background:#ed906c;
 	    border:none;
 	    border-radius:0;
 		}
@@ -269,7 +269,7 @@ UL#payment-methods LI:before{
 	}
 	#content BUTTON:hover{
 		background:#1a1a1a;
-		color:#19b794;
+		color:#ed906c;
 		}
 #errorExplanation,
 #stripeError{
@@ -315,16 +315,16 @@ UL#payment-methods LI:before{
 		width:auto;
 		}
 		.pagination .page A{
-			color:#19b794;
+			color:#ed906c;
 			padding:0.2em;
 			}
 			.pagination .page A:hover{
 				background:#191919;
-				color:#19b794;
+				color:#ed906c;
 				}
 	.pagination .current{
 		background:#191919;
-		color:#19b794;
+		color:#ed906c;
 		}
 #breadcrumbs{
 	border:none;
@@ -350,7 +350,7 @@ UL#payment-methods LI:before{
 				}
 				#breadcrumbs UL LI SPAN A,
 				#breadcrumbs UL LI SPAN A:hover{
-					color:#19b794!important;
+					color:#ed906c!important;
 					cursor:text;
 					}
 html,
@@ -407,7 +407,7 @@ body{
 							nav#top-nav-bar UL LI A:hover,
 							nav#top-nav-bar UL LI#search-bar INPUT[type="submit"]:hover{
 								background:#1a1a1a;
-								color:#19b794!important;
+								color:#ed906c!important;
 								}
 						nav#top-nav-bar UL LI.favProds A{
 							background:#19b894 url("/assets/favourite-icon.png") no-repeat 2em 50%;
@@ -498,7 +498,7 @@ body{
 					width:auto;
 					}
 					#header .phone .inside P{
-						color:#19b794;
+						color:#ed906c;
 						font-size:0.8em;
 						font-weight:bold;
 						margin:0 0 0.2em 0;
@@ -511,7 +511,7 @@ body{
 						line-height:0.8em;
 						}
 						#header .phone .inside A:hover{
-							color:#19b794;
+							color:#ed906c;
 							}
 		#main-menu{
 			background:#191919;
@@ -580,7 +580,7 @@ body{
 							}
 							#main-menu NAV UL LI A.selected,
 							#main-menu NAV UL LI A:hover{
-								color:#19b794!important;
+								color:#ed906c!important;
 								}
 								#main-menu NAV UL LI A:hover{
 									background:transparent url("/assets/sel-down-menu-arrow.png") no-repeat right 0.35em!important;
@@ -591,8 +591,8 @@ body{
 						#main-menu NAV UL LI UL{
 							background:#ffffff;
 							border:none;
-							border-bottom:3px solid #19b794;
-							border-top:3px solid #19b794;
+							border-bottom:3px solid #ed906c;
+							border-top:3px solid #ed906c;
 							float:left;
 							left:0;
 							min-height:10em;
@@ -624,7 +624,7 @@ body{
 										padding:0.5em 2.1em 0.5em 0.5em!important;
 										}
 									#main-menu NAV UL LI UL LI:hover{
-										background:#19b794 url("sel-menu-arrow.png") no-repeat scroll 14.4em center!important!important;
+										background:#ed906c url("sel-menu-arrow.png") no-repeat scroll 14.4em center!important!important;
 										padding:0 0.8em 0 0 !important;
 										width:95%;
 										}
@@ -633,7 +633,7 @@ body{
 										}
 										#main-menu NAV UL LI UL LI:hover A,
 										#main-menu NAV UL LI UL LI:first-child A:hover{
-											background:#19b794 url("sel-menu-arrow.png") no-repeat scroll 16em center!important;
+											background:#ed906c url("sel-menu-arrow.png") no-repeat scroll 16em center!important;
 											color:#ffffff!important;
 											padding:0.5em 2.1em 0.5em 0.5em!important;
 											width:85.5%;
@@ -641,8 +641,8 @@ body{
 										#main-menu NAV UL LI UL LI UL,
 										#main-menu NAV UL:nth-last-child(-n+3) LI UL LI UL{
 											border:none;
-											border-bottom:3px solid #19b794;
-											border-top:3px solid #19b794;
+											border-bottom:3px solid #ed906c;
+											border-top:3px solid #ed906c;
 											box-shadow:0 1px 4px #a6a6a6;
 											left:16.4em;
 											padding:1.7em 0.95em;
@@ -668,7 +668,7 @@ body{
 													#main-menu NAV UL LI UL LI:hover UL LI A:hover,
 													#main-menu NAV UL LI UL LI UL LI A:hover,
 													#main-menu NAV UL:nth-last-child(-n+3) LI UL LI:nth-last-child(-n+3) UL LI A:hover{
-														background:#19b794!important;
+														background:#ed906c!important;
 														color:#ffffff!important;
 														}
 					#main-menu NAV UL LI:nth-last-child(-n+3) UL{
@@ -690,7 +690,7 @@ body{
 								width:80.3%;
 								}
 							#main-menu NAV UL LI:nth-last-child(-n+3) UL LI:hover A{
-								background:#19b794 url("sel-menu-arrow-left.png") no-repeat 1em center!important;
+								background:#ed906c url("sel-menu-arrow-left.png") no-repeat 1em center!important;
 								padding:0.5em 0.5em 0.5em 2.1em !important;
 								width:80.3%;
 								}
@@ -712,7 +712,7 @@ body{
 										}
 									#main-menu NAV UL LI:nth-last-child(-n+3) UL LI:hover UL LI:hover A:hover,
 									#main-menu NAV UL LI:nth-last-child(-n+3) UL LI:first-child:hover UL LI:hover A:hover{
-										background:#19b794!important;
+										background:#ed906c!important;
 										width:95%;
 										}
 			#wrapper .container{
@@ -756,7 +756,7 @@ body{
 							width:100%;
 							}
 							#tabs UL{
-								background:#19b794;
+								background:#ed906c;
 								border:none;
 								border-radius:0;
 								float:left;
@@ -791,7 +791,7 @@ body{
 											}
 											#tabs UL LI.ui-tabs-active H2 A,
 											#tabs UL LI H2 A:hover{
-												color:#19b794!important;
+												color:#ed906c!important;
 												}
 							#tabs #special_sale,
 							#tabs #featured,
@@ -828,7 +828,7 @@ body{
 											width:auto;
 											}
 											#tabs .product .product-desc A:hover{
-												color:#19b794;
+												color:#ed906c;
 												}
 									#tabs .product .home_images{
 										margin:0 0 1.45em 0;
@@ -842,7 +842,7 @@ body{
 											}
 									#tabs .product .product-price{
 										border-top:0.15em solid #dddcdb;
-										color:#19b794;
+										color:#ed906c;
 									    float:left;
 									    font-size:1.85em;
 									    padding:0.55em 0 0 0;
@@ -946,7 +946,7 @@ body{
 												}
 											#content [data-hook="product_right_part"] #cart-form #product-price .price,
 											#content [data-hook="product_right_part"] #cart-form #product-price SPAN.priceCurrency{
-											    color:#19b794;
+											    color:#ed906c;
 											    font-size:1.85em;
 											    font-weight:normal;
 											    margin:0 0.5em 0 0;
@@ -981,7 +981,7 @@ body{
 										width:100%;
 										}
 									#reviews .review .reviewRating .name{
-										color:#19b794;
+										color:#ed906c;
 									    float:left;
 									    font-size:0.85em;
 									    font-weight:bold;
@@ -1024,7 +1024,7 @@ body{
 											width:100%;
 											}
 							#reviews A.button{
-								background:#19b794 url("/assets/write-icon.png") no-repeat 1.8em center;
+								background:#ed906c url("/assets/write-icon.png") no-repeat 1.8em center;
 								}
 								#reviews A.button:hover{
 									background:#191919 url("/assets/write-iconHover.png") no-repeat 1.8em center;
@@ -1063,12 +1063,12 @@ body{
 											width:auto;
 											}
 										#new_review .label-field SPAN.required{
-											color:#19b794;
+											color:#ed906c;
 											}
 										#new_review .text-field INPUT,
 										#new_review .text-field TEXTAREA{
 											border:1px solid #bbbbbb;
-    										color:#19b794;
+    										color:#ed906c;
     										padding:0.9em 0.85em;
     										width:50%;
 											}
@@ -1120,7 +1120,7 @@ body{
 								    min-width:5.1em;
 									}
 							#content UL#products LI .product-price{
-							    color:#19b794;
+							    color:#ed906c;
 							    float:left;
 							    padding:0.55em 0 0 0;
 							    text-align:center;
@@ -1128,7 +1128,7 @@ body{
 								}
 							#content UL#products LI .product-price{
 							    border-top:0.25em solid #dddcdb;
-							    color:#19b794;
+							    color:#ed906c;
 							    float:left;
 							    font-size:1em;
 							    padding:0.55em 0 0 0;
@@ -1136,7 +1136,7 @@ body{
 							    width:100%;
 								}
 								#content UL#products LI .product-price SPAN{
-								    color:#19b794;
+								    color:#ed906c;
 								    font-size:1.85em;
 								    font-weight:normal;
 								    line-height:1.4em;
@@ -1160,7 +1160,7 @@ body{
 							    color:#191919;
 								}
 								#content .taxon H3 A:hover{
-								    color:#19b794;
+								    color:#ed906c;
 									}
 					#content .account-summary,
 					#content .account-my-orders,
@@ -1205,7 +1205,7 @@ body{
 								}
 							#content TABLE#cart-detail TD.cart-item-price,
 							#content TABLE#cart-detail TD.cart-item-total{
-								color:#19b794!important;
+								color:#ed906c!important;
 							    font-size:1em!important;
 							    font-weight:normal!important;
 								}
@@ -1225,8 +1225,8 @@ body{
 						    width:100%;
 							}
 							#content FORM#update-cart .links BUTTON#update-button{
-							    background:#19b794 url("/assets/update-icon.png") no-repeat center center;
-							    color:#19b794;
+							    background:#ed906c url("/assets/update-icon.png") no-repeat center center;
+							    color:#ed906c;
 							    font-size:1px;
 							    height:41em;
 							    width:53em;
@@ -1241,7 +1241,7 @@ body{
 							    width:100%;
 								}
 								#content FORM#update-cart .links .checkout-button BUTTON{
-									background:#19b794 url("/assets/checkout-icon.png") no-repeat 1.8em center;
+									background:#ed906c url("/assets/checkout-icon.png") no-repeat 1.8em center;
 								    float:left;
 								    margin:0 1em 0 0;
 								    padding:1em 1.75em 1em 3.5em;
@@ -1263,13 +1263,13 @@ body{
 						    width:auto;
 							}
 						#content #empty-carted FORM #clear_cart_link INPUT{
-						    background:#19b794 url("/assets/empty-icon.png") no-repeat 1.8em center;
+						    background:#ed906c url("/assets/empty-icon.png") no-repeat 1.8em center;
 							}
 							#content #empty-carted FORM #clear_cart_link INPUT:hover{
 							    background:#191919 url("/assets/empty-iconHover.png") no-repeat 1.8em center;
 								}
 						#content #empty-carted FORM #clear_cart_link A{
-							background:#19b794 url("/assets/shopping-icon.png") no-repeat 1.8em center;
+							background:#ed906c url("/assets/shopping-icon.png") no-repeat 1.8em center;
 							}
 							#content #empty-carted FORM #clear_cart_link A:hover{
 							    background:#191919 url("/assets/shopping-iconHover.png") no-repeat 1.8em center;
@@ -1321,7 +1321,7 @@ body{
 											#content #checkout .thirteen.columns OL LI.completed-first A,
 											#content #checkout .thirteen.columns OL LI.completed A{
 												background:transparent url("/assets/completed-checkout.png") no-repeat center top;
-												color:#19b794;
+												color:#ed906c;
 												padding:2em 0 0 0;
 												}
 						#content #checkout .row .columns.alpha{
@@ -1357,7 +1357,7 @@ body{
 										}
 										#content #checkout .row .columns FORM LEGEND{
 											border-bottom:1px solid #d9d9db;
-										    color:#19b794;
+										    color:#ed906c;
 										    float:left;
 										    font-size:1em;
 										    font-weight:normal;
@@ -1415,7 +1415,7 @@ body{
 										    padding:0.35em 0.6em;
 											}
 										#content #checkout .row .columns FORM#checkout_form_delivery .shipment TABLE TD.item-price{
-											color:#19b794;
+											color:#ed906c;
 											text-align:right;
 											}
 											#content #checkout .row .columns FORM#checkout_form_delivery .shipment TABLE TD IMG{
@@ -1450,7 +1450,7 @@ body{
 												min-width:7em;
 												}
 											#content #checkout .row .columns FORM#checkout_form_delivery UL.shipping-methods LABEL SPAN.rate-cost{
-												color:#19b794;
+												color:#ed906c;
 												font-weight:normal;
 												}
 									#content #checkout .row .columns #payment #payment-method-fields{
@@ -1508,7 +1508,7 @@ body{
 											}
 										#content #checkout .row .columns #payment UL#payment-methods LI A#cvv_link{
 											background:transparent url("/assets/help-icon.png") no-repeat left center;
-										    color:#19b794!important;
+										    color:#ed906c!important;
 										    float:left;
 										    font-size:0.8em;
 										    margin:1em 0 1em 0.5em;
@@ -1539,7 +1539,7 @@ body{
 											width:auto;
 											}
 								#content #checkout .row .columns FORM .form-buttons INPUT{
-									background:#19b794 url("/assets/save-icon.png") no-repeat 1.8em center;
+									background:#ed906c url("/assets/save-icon.png") no-repeat 1.8em center;
 									float:left;
 									margin:0;
 									width:auto;
@@ -1639,7 +1639,7 @@ body{
 										}
 										#content #checkout .row .columns.alpha.omega FORM#checkout_form_confirm TABLE#line-items TD.price SPAN,
 										#content #checkout .row .columns.alpha.omega FORM#checkout_form_confirm TABLE#line-items TD.total SPAN{
-										    color:#19b794;
+										    color:#ed906c;
 											}
 										#content #checkout .row .columns.alpha.omega FORM#checkout_form_confirm TABLE#line-items TD.price SPAN{
 										    font-weight:normal;
@@ -1656,7 +1656,7 @@ body{
 						    width:23%;
 							}
 							#content #checkout .row #checkout-summary H3{
-							    color:#19b794;
+							    color:#ed906c;
 							    font-size:1em;
 							    font-weight:normal;
 							    margin:0 0 1.15em;
@@ -1666,13 +1666,13 @@ body{
 							    text-align:left;
 								}
 								#content #checkout .row #checkout-summary TABLE TD STRONG{
-									color:#19b794;
+									color:#ed906c;
 								    float:left;
 								    text-align:right;
 								    width:100%;
 									}
 									#content #checkout .row #checkout-summary TABLE #summary-order-total{
-										color:#19b794;
+										color:#ed906c;
 										font-size:1em;
 										}
 					#content .favorite-product-name{
@@ -1739,7 +1739,7 @@ body{
 								width:47.75%;
 								}
 								#footer .right-footerContent .left-fc I{
-									color:#19b794;
+									color:#ed906c;
 									float:left;
 									font-size:1em;
 									margin:0 0.2em 0 0;
@@ -1841,7 +1841,7 @@ body{
 								font-size:1em;
 								}
 								#footer #bottom-footerContent P A:hover{
-									color:#19b794;
+									color:#ed906c;
 									}
 /* GOOGLE CHROE & SAFARI */
 @media screen and (-webkit-min-device-pixel-ratio:0) {
