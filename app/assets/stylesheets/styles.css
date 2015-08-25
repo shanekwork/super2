@@ -353,6 +353,9 @@ UL#payment-methods LI:before{
 					color:#ed906c!important;
 					cursor:text;
 					}
+#slicknav_menu{
+	display:none;
+	}
 html,
 body{
 	font:1em/1.4 Arial, Helvetica, sans-serif;
@@ -1843,7 +1846,7 @@ body{
 								#footer #bottom-footerContent P A:hover{
 									color:#ed906c;
 									}
-/* GOOGLE CHROE & SAFARI */
+/* GOOGLE CHROME & SAFARI */
 @media screen and (-webkit-min-device-pixel-ratio:0) {
 	nav#top-nav-bar UL LI{
 		margin:0 0 0 0.9em;
