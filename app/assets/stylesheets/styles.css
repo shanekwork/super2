@@ -399,14 +399,11 @@ body{
 						max-width:10.7em;
 						padding:0;
 						position:absolute;
-						right:0;
+						right:8.6em;
 						width:auto;
 						}
 					nav#top-nav-bar UL LI.account{
-						right:3.25em;
-						}
-					nav#top-nav-bar UL LI:first-child{
-						margin:0;
+						right:11.8em;
 						}
 						nav#top-nav-bar UL LI A{
 							background:#e5e5e5 url("/assets/account-icon.png") no-repeat left top;
@@ -414,7 +411,7 @@ body{
 							float:left;
 							font-size:0.8em;
 							font-weight:normal;
-							padding:1em 1.75em;
+							padding:1.1em 1.75em;
 							text-indent:-5000em;
 							text-transform:none;
 							width:auto;
