@@ -773,8 +773,8 @@ body{
 				#content .main-content,
 				#footer .main-footer{
 					float:left;
-					padding:0 1.85em;
-					width:95.4%;
+					padding:00;
+					width:100%;
 					}
 				#content{
 					padding:3em 1.85em;
@@ -791,7 +791,7 @@ body{
 						width:100%;
 						}
 						#tabs UL{
-							background:#ed906c;
+							background:none;
 							border:none;
 							border-radius:0;
 							float:left;
@@ -799,8 +799,11 @@ body{
 							width:100%;
 							}
 							#tabs UL LI{
+								background:none;
 								border:none;
 								border-radius:0;
+								display:inline-block;
+								float:none;
 								font-size:1em;
 								list-style:none;
 								margin:0;
@@ -808,23 +811,23 @@ body{
 								}
 							#tabs UL LI.ui-tabs-active,
 							#tabs UL LI:hover{
-								background:#191919;
+								background:none;
 								}
 								#tabs UL LI H2{
 									float:left;
 									font-size:1.1em;
 									margin:0;
 									padding:0;
+									text-transform:inherit;
 									width:auto;
 									}
 									#tabs UL LI H2 A{
-										color:#ffffff!important;
+										color:#2f2f2f!important;
 										float:left;
-										font-size:1em;
-										padding:0.8em 1.4em;
+										font-size:1.15em;
+										padding:0 1.25em;
 										width:auto;
 										}
-										#tabs UL LI.ui-tabs-active H2 A,
 										#tabs UL LI H2 A:hover{
 											color:#ed906c!important;
 											}
@@ -1727,157 +1730,158 @@ body{
 					#content .search-results #products{
 						margin:0;
 						}
-				#footer{
-					border:none!important;
-				    color:#191919;
-				    margin:0;
-				    padding:0!important;
+			#footer{
+				background:#ed906c;
+				border:none!important;
+			    color:#191919;
+			    margin:0;
+			    padding:0!important;
+				}
+				#footer H3{
+					font-size:1.95em;
+					margin:0 1.3em 0.25em 0;
 					}
-					#footer H3{
-						font-size:1.95em;
-						margin:0 1.3em 0.25em 0;
-						}
-					#footer #top-footerContent{
+				#footer #top-footerContent{
+					float:left;
+					margin:0 0 1.2em 0;
+					width:100%;
+					}
+					#footer .left-footerContent{
 						float:left;
-						margin:0 0 1.2em 0;
-						width:100%;
-						}
-						#footer .left-footerContent{
+						width:45.9%;
+						}						
+						#footer .left-footerContent #footer-right{
 							float:left;
-							width:45.9%;
-							}						
-							#footer .left-footerContent #footer-right{
-								float:left;
+							margin:0;
+							width:100%;
+							}
+							#footer .left-footerContent #footer-right UL{
 								margin:0;
+								}
+								#footer .left-footerContent #footer-right UL LI{
+									float:left;
+									margin:0 2.6em 0.8em 0;
+									width:15.8em;
+									}
+					#footer .right-footerContent{
+						float:left;
+						margin:0;
+						width:54.1%;
+						}
+						#footer .right-footerContent H3{
+							margin:0 0 0.25em 0;
+							}
+						#footer .right-footerContent .left-fc,
+						#footer .right-footerContent .right-fc{
+							float:left;
+							margin:0;
+							width:47.75%;
+							}
+							#footer .right-footerContent .left-fc I{
+								color:#ed906c;
+								float:left;
+								font-size:1em;
+								margin:0 0.2em 0 0;
+								min-width:1.1em;
+								width:auto;
+								}
+							#footer .right-footerContent .left-fc I.fa-mobile{
+								font-size:1.5em;
+								min-width:0.75em;
+								}
+							#footer .right-footerContent .left-fc SPAN{
+								float:left;
+								width:93%;
+								}
+						#footer .right-footerContent .right-fc{
+							margin:0 0 0 2.5em;
+							width:46.1%;
+							}
+							FORM#contact_newsletter{
+								border:none;
+								float:left;
+								padding:0;
 								width:100%;
 								}
-								#footer .left-footerContent #footer-right UL{
+								FORM#contact_newsletter FIELDSET{
+									border:none;
+									padding:0;
+									}
+									FORM#contact_newsletter FIELDSET DIV{
+									    float:left;
+									    padding:0;
+									    width:75%;
+										}
+										FORM#contact_newsletter FIELDSET LABEL{
+											position:absolute;
+											top:-5000em;
+											}
+										FORM#contact_newsletter FIELDSET INPUT{
+											border:1px solid #bbbbbb;
+										    color:#a5a5a5;
+										    float:left;
+										    padding:0.9em 0.85em;
+										    width:99.5%;
+											}
+									FORM#contact_newsletter FIELDSET DIV.button{
+									    float:left;
+									    margin:0 0 0 0.5em;
+									    width:22.35%;
+										}
+										FORM#contact_newsletter FIELDSET DIV.button INPUT#submit{
+										    background:transparent url("/assets/newsletter-button.png") no-repeat left top;
+										    border:none!important;
+										    min-height:3.5em;
+										    padding:0;
+										    width:100%;
+											}
+											FORM#contact_newsletter FIELDSET DIV.button INPUT#submit:hover{
+											    background:transparent url("/assets/newsletter-buttonHover.png") no-repeat left top;
+												}
+							#footer .right-footerContent .right-fc .social{
+								float:left;
+								margin:0.9em 0 0 0;
+								width:100%;
+								}
+								#footer .right-footerContent .right-fc .social UL{
 									margin:0;
 									}
-									#footer .left-footerContent #footer-right UL LI{
+									#footer .right-footerContent .right-fc .social UL LI{
 										float:left;
-										margin:0 2.6em 0.8em 0;
-										width:15.8em;
+										margin:0 0 0 1.95em;
+										width:auto;
 										}
-						#footer .right-footerContent{
-							float:left;
-							margin:0;
-							width:54.1%;
-							}
-							#footer .right-footerContent H3{
-								margin:0 0 0.25em 0;
-								}
-							#footer .right-footerContent .left-fc,
-							#footer .right-footerContent .right-fc{
-								float:left;
-								margin:0;
-								width:47.75%;
-								}
-								#footer .right-footerContent .left-fc I{
-									color:#ed906c;
-									float:left;
-									font-size:1em;
-									margin:0 0.2em 0 0;
-									min-width:1.1em;
-									width:auto;
-									}
-								#footer .right-footerContent .left-fc I.fa-mobile{
-									font-size:1.5em;
-									min-width:0.75em;
-									}
-								#footer .right-footerContent .left-fc SPAN{
-									float:left;
-									width:93%;
-									}
-							#footer .right-footerContent .right-fc{
-								margin:0 0 0 2.5em;
-								width:46.1%;
-								}
-								FORM#contact_newsletter{
-									border:none;
-									float:left;
-									padding:0;
-									width:100%;
-									}
-									FORM#contact_newsletter FIELDSET{
-										border:none;
-										padding:0;
+									#footer .right-footerContent .right-fc .social UL LI:first-child{
+										margin:0 0 0 0.35em;
 										}
-										FORM#contact_newsletter FIELDSET DIV{
-										    float:left;
-										    padding:0;
-										    width:75%;
-											}
-											FORM#contact_newsletter FIELDSET LABEL{
-												position:absolute;
-												top:-5000em;
-												}
-											FORM#contact_newsletter FIELDSET INPUT{
-												border:1px solid #bbbbbb;
-											    color:#a5a5a5;
-											    float:left;
-											    padding:0.9em 0.85em;
-											    width:99.5%;
-												}
-										FORM#contact_newsletter FIELDSET DIV.button{
-										    float:left;
-										    margin:0 0 0 0.5em;
-										    width:22.35%;
-											}
-											FORM#contact_newsletter FIELDSET DIV.button INPUT#submit{
-											    background:transparent url("/assets/newsletter-button.png") no-repeat left top;
-											    border:none!important;
-											    min-height:3.5em;
-											    padding:0;
-											    width:100%;
-												}
-												FORM#contact_newsletter FIELDSET DIV.button INPUT#submit:hover{
-												    background:transparent url("/assets/newsletter-buttonHover.png") no-repeat left top;
-													}
-								#footer .right-footerContent .right-fc .social{
-									float:left;
-									margin:0.9em 0 0 0;
-									width:100%;
-									}
-									#footer .right-footerContent .right-fc .social UL{
-										margin:0;
-										}
-										#footer .right-footerContent .right-fc .social UL LI{
+										#footer .right-footerContent .right-fc .social UL LI A{
 											float:left;
-											margin:0 0 0 1.95em;
 											width:auto;
 											}
-										#footer .right-footerContent .right-fc .social UL LI:first-child{
-											margin:0 0 0 0.35em;
-											}
-											#footer .right-footerContent .right-fc .social UL LI A{
+											#footer .right-footerContent .right-fc .social UL LI A IMG{
 												float:left;
+												max-width:3em;
 												width:auto;
 												}
-												#footer .right-footerContent .right-fc .social UL LI A IMG{
-													float:left;
-													max-width:3em;
-													width:auto;
-													}
-					#footer #bottom-footerContent{
-						border-top:2px solid #dddcdb;
-						float:left;
-						width:100%;
+				#footer #bottom-footerContent{
+					border-top:2px solid #dddcdb;
+					float:left;
+					width:100%;
+					}
+					#footer #bottom-footerContent P{
+						color:#a5a5a5;
+						font-size:0.9em;
+						margin:0;
+						padding:0.8em 0;
+						text-align:center;
 						}
-						#footer #bottom-footerContent P{
+						#footer #bottom-footerContent P A{
 							color:#a5a5a5;
-							font-size:0.9em;
-							margin:0;
-							padding:0.8em 0;
-							text-align:center;
+							font-size:1em;
 							}
-							#footer #bottom-footerContent P A{
-								color:#a5a5a5;
-								font-size:1em;
+							#footer #bottom-footerContent P A:hover{
+								color:#ed906c;
 								}
-								#footer #bottom-footerContent P A:hover{
-									color:#ed906c;
-									}
 /* GOOGLE CHROME & SAFARI */
 @media screen and (-webkit-min-device-pixel-ratio:0) {
 	nav#top-nav-bar UL LI{
