@@ -1737,7 +1737,9 @@ body{
 			    padding:0!important;
 				}
 				#footer H3{
+					font-family:'Indie Flower', cursive;
 					font-size:1.95em;
+					color:#ffffff;
 					margin:0 1.3em 0.25em 0;
 					}
 				#footer #top-footerContent{
