@@ -1,7 +1,6 @@
 <footer id="footer" class="sixteen columns" data-hook>
-	<div class="container">
-		<div class="main-footer">
-			<div id="top-footerContent">
+		<div id="top-footerContent">			
+			<div class="container">
 				<div class="left-footerContent">
 					<h3>Information</h3>
 					<div id="footer-right" class="columns omega eight" data-hook>
@@ -74,11 +73,12 @@
 						</div>
 					</div>
 				</div>
-			</div><!--#top-footerContent-->
+			</div><!--.container-->
+		</div><!--#top-footerContent-->
 
-			<div id="bottom-footerContent" data-hook>
+		<div id="bottom-footerContent" data-hook>
+			<div class="container">
 				<p><%= Spree.t :powered_by  %> <%= link_to ' 39Bots', 'http://google.com/' %></p>
-			</div><!--#bottom-footerContent-->
-		</div><!--.main-footer-->
-	</div>
+			</div><!--.container-->
+		</div><!--#bottom-footerContent-->
 </footer>

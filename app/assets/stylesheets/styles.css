@@ -1730,7 +1730,6 @@ body{
 						margin:0;
 						}
 			#footer{
-				background:#ed906c;
 				border:none!important;
 			    color:#191919;
 			    margin:0;
@@ -1741,10 +1740,12 @@ body{
 					font-size:1.95em;
 					color:#ffffff;
 					margin:0 1.3em 0.25em 0;
+					text-transform:inherit;
 					}
 				#footer #top-footerContent{
+					background:#ed906c;
 					float:left;
-					margin:0 0 1.2em 0;
+					margin:0;
 					width:100%;
 					}
 					#footer .left-footerContent{
@@ -1865,19 +1866,19 @@ body{
 												width:auto;
 												}
 				#footer #bottom-footerContent{
-					border-top:2px solid #dddcdb;
+					background:#313131;
 					float:left;
 					width:100%;
 					}
 					#footer #bottom-footerContent P{
-						color:#a5a5a5;
+						color:#e5e5e5;
 						font-size:0.9em;
 						margin:0;
 						padding:0.8em 0;
 						text-align:center;
 						}
 						#footer #bottom-footerContent P A{
-							color:#a5a5a5;
+							color:#e5e5e5;
 							font-size:1em;
 							}
 							#footer #bottom-footerContent P A:hover{
