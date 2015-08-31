@@ -1,17 +1,17 @@
 ::selection{
-	background:#191919;
+	background:#313131;
 	color:#ed906c;
 	}
 ::-moz-selection{
-	background:#191919;
+	background:#313131;
 	color:#ed906c;
 	}
 ::-webkit-selection{
-	background:#191919;
+	background:#313131;
 	color:#ed906c;
 	}
 H1{
-	color:#191919;
+	color:#313131;
 	float:left;
 	font-size:1.5em;
 	font-weight:normal;
@@ -204,6 +204,7 @@ TABLE{
     box-shadow:0 0 1em #000000;
     padding:0;
     width:500px!important;
+    z-index:999;
 	}
 	.ui-dialog .ui-widget-header{
 	    background:#ed906c;
@@ -404,6 +405,9 @@ body{
 						}
 					nav#top-nav-bar UL LI.account{
 						right:11.8em;
+						}
+					nav#top-nav-bar UL LI.favProds{
+						right:15em;
 						}
 						nav#top-nav-bar UL LI A{
 							background:#e5e5e5 url("/assets/account-icon.png") no-repeat left top;
@@ -1746,6 +1750,9 @@ body{
 				#footer A{
 					color:#ffffff!important;
 					}
+					#footer A:hover{
+						text-decoration:underline;
+						}
 				#footer #top-footerContent{
 					background:#ed906c;
 					float:left;
@@ -1889,7 +1896,7 @@ body{
 							font-size:1em;
 							}
 							#footer #bottom-footerContent P A:hover{
-								color:#ed906c;
+								color:#ed906c!important;
 								}
 /* GOOGLE CHROME & SAFARI */
 @media screen and (-webkit-min-device-pixel-ratio:0) {
