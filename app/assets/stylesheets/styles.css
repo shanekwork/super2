@@ -362,6 +362,9 @@ body{
 	color:#191919;
 	margin:0;
 	}
+body{
+	position:relative;
+	}
 	#header,
 	#wrapper,
 	#footer{
@@ -370,6 +373,8 @@ body{
 		}
 	#header{
 		margin:0;
+	    position:absolute;
+	    z-index:999;
 		}
 		#header .header-content{
 			background:#313131;
@@ -381,7 +386,7 @@ body{
 				float:left;
 				margin:0;
 				text-align:left;
-				width:58%;
+				width:71.9%;
 				}
 				nav#top-nav-bar UL{
 					float:left;
@@ -390,10 +395,15 @@ body{
 					}
 					nav#top-nav-bar UL LI{
 						float:left;
-						margin:0 0 0 1em;
+						margin:0 0 0 0.4em;
 						max-width:10.7em;
 						padding:0;
+						position:absolute;
+						right:0;
 						width:auto;
+						}
+					nav#top-nav-bar UL LI.account{
+						right:3.25em;
 						}
 					nav#top-nav-bar UL LI:first-child{
 						margin:0;
@@ -422,7 +432,7 @@ body{
 							background:transparent url("/assets/account-icon.png") no-repeat left top;
 							}
 							nav#top-nav-bar UL LI.account A:hover{
-								background:transparent url("/assets/account-icon.png") no-repeat left top;
+								background:transparent url("/assets/account-iconHover.png") no-repeat left top;
 								}
 						nav#top-nav-bar UL LI.logIn A{
 							background:transparent url("/assets/login-icon.png") no-repeat left top;
@@ -437,9 +447,13 @@ body{
 								background:transparent url("/assets/logout-iconHover.png") no-repeat left top;
 								}
 					nav#top-nav-bar UL LI#search-bar{
-						float:left;
-						max-width:19.9em;
-						width:19.9em;
+						float:none;
+					    margin:0;
+					    max-width:19.9em;
+					    padding:0 28.5%;
+					    position:inherit;
+					    text-align:center;
+    					width:19.9em;
 						}
 						nav#top-nav-bar UL LI#search-bar FORM{
 							border:none;
@@ -470,7 +484,7 @@ body{
 									}
 			#link-to-cart{
 				float:right;
-				margin:0 0 0 1em;
+				margin:0 0 0 0.4em;
 				width:auto;
 				}
 				#link-to-cart A{
@@ -520,19 +534,41 @@ body{
 							color:#ed906c;
 							}
 		#main-menu{
-			background:#191919;
 			float:left;
 			padding:0;
 			width:100%;
 			}				
 			#main-menu FIGURE{
-				float:left;
-				margin:0;
-				padding:0.95em 0;
-				width:auto;
+				background:#ed906c;
+			    height:136px;
+			    margin:0;
+			    padding:40px 0 0;
+			    position:relative;
+			    width:229px;
+				}
+			#main-menu FIGURE:after{
+				border-color:#ed906c transparent transparent transparent;
+				border-style:solid;
+			    border-width:30px 115px 0 0;
+			    content:"";
+			    position:absolute;
+			    right:0;
+			    top:100%;
+			    z-index:1;
+				}
+			#main-menu FIGURE:before{
+				border-color:transparent #ed906c transparent transparent;
+			    border-style:solid;
+			    border-width:0 115px 30px 0;
+			    content:"";
+			    left:0;
+			    position:absolute;
+			    top:100%;
+			    z-index:1;
 				}
 				#main-menu FIGURE A{
 					float:left;
+					padding:1.6em 1.2em;
 					width:auto;
 					}
 					#main-menu FIGURE A IMG{
@@ -542,8 +578,8 @@ body{
 						width:auto!important;
 						}
 			#main-menu NAV{
-				float:left;
-				margin:0 0 0 4.2em;
+				float:right;
+				margin:0 0 0 4em;
 				width:77%;
 				}
 				#main-menu NAV UL{
@@ -557,30 +593,21 @@ body{
 					#main-menu NAV UL LI{
 						float:left;
 						margin:0 0 0 1.56em;
-						padding:3.66em 0;
+						padding:2.65em 0;
 						width:auto;
 						}
 					#main-menu NAV UL LI:first-child{
 						margin:0;
 						}
 						#main-menu NAV UL LI A{
-							color:#ffffff!important;
+							color:#2f2f2f!important;
 							float:left;
 							font-family:'Roboto', sans-serif;
 							font-weight:normal;
 							font-size:1em!important;
-							padding:0;
+							padding:0 0.89em 0 0;
 							width:auto;
 							}
-							#main-menu NAV UL LI A{
-								color:#ffffff!important;
-								float:left;
-								font-family:'Roboto', sans-serif;
-								font-weight:normal;
-								font-size:1em!important;
-								padding:0 0.89em 0 0;
-								width:auto;
-								}
 						#main-menu NAV UL LI:first-child A{
 							padding:0!important;
 							}
@@ -590,6 +617,7 @@ body{
 								}
 								#main-menu NAV UL LI A:hover{
 									background:transparent url("/assets/sel-down-menu-arrow.png") no-repeat right 0.35em!important;
+									color:#ed906c;
 									}
 								#main-menu NAV UL LI:first-child A:hover{
 									background:none!important;
@@ -721,983 +749,987 @@ body{
 										background:#ed906c!important;
 										width:95%;
 										}
-			#wrapper .container{
-				background:#ffffff;
-				box-shadow:0 15px 18px #a6a6a6;
-				overflow:hidden;
+	#wrapper{
+		position:absolute;
+    	top:10.1em;
+		}
+		#wrapper .container{
+			background:#ffffff;
+			box-shadow:0 15px 18px #a6a6a6;
+			overflow:hidden;
+			}
+			#content{
+				float:left;
+				margin:0;
+				width:100%;
 				}
-				#content{
+				#content .banner{
+					height:458px!important;
+					margin:0 0 2.5em 0;
+					width:100%!important;
+					}
+					#content .banner H1{
+						position:absolute;
+						top:-5000em;
+						}
+				#content,
+				#content .main-content,
+				#footer .main-footer{
 					float:left;
-					margin:0;
+					padding:0 1.85em;
+					width:95.4%;
+					}
+				#content{
+					padding:3em 1.85em;
+					}
+				.home #content{
+					padding:0;
 					width:100%;
 					}
-					#content .banner{
-						height:458px!important;
-						margin:0 0 2.5em 0;
-						width:100%!important;
-						}
-						#content .banner H1{
-							position:absolute;
-							top:-5000em;
-							}
-					#content,
-					#content .main-content,
-					#footer .main-footer{
+				#content .main-content{
+					margin:0 0 0.3em 0;
+					}
+					#tabs{
 						float:left;
-						padding:0 1.85em;
-						width:95.4%;
-						}
-					#content{
-						padding:3em 1.85em;
-						}
-					.home #content{
-						padding:0;
 						width:100%;
 						}
-					#content .main-content{
-						margin:0 0 0.3em 0;
-						}
-						#tabs{
+						#tabs UL{
+							background:#ed906c;
+							border:none;
+							border-radius:0;
 							float:left;
+							margin:0 0 1.25em 0;
 							width:100%;
 							}
-							#tabs UL{
-								background:#ed906c;
+							#tabs UL LI{
 								border:none;
 								border-radius:0;
-								float:left;
-								margin:0 0 1.25em 0;
-								width:100%;
+								font-size:1em;
+								list-style:none;
+								margin:0;
+								width:auto;
 								}
-								#tabs UL LI{
-									border:none;
-									border-radius:0;
-									font-size:1em;
-									list-style:none;
+							#tabs UL LI.ui-tabs-active,
+							#tabs UL LI:hover{
+								background:#191919;
+								}
+								#tabs UL LI H2{
+									float:left;
+									font-size:1.1em;
 									margin:0;
+									padding:0;
 									width:auto;
 									}
-								#tabs UL LI.ui-tabs-active,
-								#tabs UL LI:hover{
-									background:#191919;
-									}
-									#tabs UL LI H2{
+									#tabs UL LI H2 A{
+										color:#ffffff!important;
 										float:left;
-										font-size:1.1em;
-										margin:0;
-										padding:0;
+										font-size:1em;
+										padding:0.8em 1.4em;
 										width:auto;
 										}
-										#tabs UL LI H2 A{
-											color:#ffffff!important;
-											float:left;
-											font-size:1em;
-											padding:0.8em 1.4em;
-											width:auto;
+										#tabs UL LI.ui-tabs-active H2 A,
+										#tabs UL LI H2 A:hover{
+											color:#ed906c!important;
 											}
-											#tabs UL LI.ui-tabs-active H2 A,
-											#tabs UL LI H2 A:hover{
-												color:#ed906c!important;
-												}
-							#tabs #special_sale,
-							#tabs #featured,
-							#tabs #latest{
-								float:left;
-								width:100%;
-								}
-								#tabs .product{
-									border:0.5em solid #dddcdb;
-								    float:left;
-								    margin:0 0.77em 1.9em 0.77em;
-								    max-height:19em;
-								    min-height:19em;
-								    overflow:hidden;
-								    padding:2.2em 0.9em;
-								    width:18.85%;
-									}
-									#tabs .product .product-desc,
-									#tabs .product .home_images,
-									#tabs .product .product-price{
-									    float:left;
-									    width:100%;
-										}
-									#tabs .product .product-desc{
-										margin:0 0 1.45em 0;
-										}
-										#tabs .product .product-desc A{
-											color:#191919;
-											float:left;
-											font-size:1em;
-											max-height:3em;
-											overflow:hidden;
-											text-align:center;
-											width:auto;
-											}
-											#tabs .product .product-desc A:hover{
-												color:#ed906c;
-												}
-									#tabs .product .home_images{
-										margin:0 0 1.45em 0;
-										text-align:center;
-										}
-										#tabs .product .home_images A IMG{
-											max-height:9.1em;
-										    max-width:9.1em;
-										    min-height:7.4em;
-										    min-width:5.1em;
-											}
-									#tabs .product .product-price{
-										border-top:0.15em solid #dddcdb;
-										color:#ed906c;
-									    float:left;
-									    font-size:1.85em;
-									    padding:0.55em 0 0 0;
-									    text-align:center;
-									    width:100%;
-										}
-						#product-show,
-						#reviews{
+						#tabs #special_sale,
+						#tabs #featured,
+						#tabs #latest{
 							float:left;
-							margin:0 0 1em 0;
 							width:100%;
 							}
-							#content [data-hook="product_left_part"]{
-								float:left;
-								margin:0 2.5em 0 0;
-								width:27.8%;
+							#tabs .product{
+								border:0.5em solid #dddcdb;
+							    float:left;
+							    margin:0 0.77em 1.9em 0.77em;
+							    max-height:19em;
+							    min-height:19em;
+							    overflow:hidden;
+							    padding:2.2em 0.9em;
+							    width:18.85%;
 								}
-								#product-images{
-									float:left;
-									width:100%;
-									}
-								#product-images #main-image{
-								    border:0.5em solid #dddcdb;
-								    float:left;
-								    margin:0 0 1em 0;
-								    padding:2.2em 0.9em;
-								    text-align:center;
-								    width:18.3em;
-									}
-									#product-images #main-image IMG{
-										max-width:18.3em;
-	    								min-width:14.3em;
-										}
-								#product-images #thumbnails{
+								#tabs .product .product-desc,
+								#tabs .product .home_images,
+								#tabs .product .product-price{
 								    float:left;
 								    width:100%;
 									}
-									#product-images #thumbnails UL{
-									    margin:0;
-										}
-										#product-images #thumbnails UL LI{
-										    border:0.25em solid #dddcdb;
-										    margin:0 0.45em 1em 0.45em;
-										    width:auto;
-											}
-											#product-images #thumbnails UL LI A IMG{
-												float:left;
-												padding:0.5em 0;
-												}
-							#content [data-hook="product_right_part"]{
-								float:left;
-								margin:0;
-								width:68.5%;
-								}
-								#content [data-hook="product_right_part"] H1.product-title{
-									border-bottom:0.15em solid #dddcdb;
-								    color:#191919;
-								    font-weight:normal;
-								    text-align:inherit;
+								#tabs .product .product-desc{
+									margin:0 0 1.45em 0;
 									}
-								#content [data-hook="product_right_part"] [data-hook="description"]{
-									clear:both;
-								    color:#191919;
-								    float:left;
-								    font-size:1em;
-								    margin:0 0 1em 0;
-								    text-align:justify;
-								    width:60%;
-									}							
-								#content [data-hook="product_right_part"] A.favorite_link{
-								    background:transparent url("/assets/favouriteBig-icon.png") no-repeat left top;
-								    clear:both;
-								    float:left;
-								    margin:0 0 1em 0;
-								    padding:0 0 0 2em;
-								    width:auto;
-									}
-									#content [data-hook="product_right_part"] A.favorite_link:hover{
-									    background:transparent url("/assets/favouriteBig-iconHover.png") no-repeat left top;
-									    color:#191919;
-										}
-								#content [data-hook="product_right_part"] #cart-form{
-								    clear:both;
-								    float:left;
-								    width:auto;
-									}
-									#content [data-hook="product_right_part"] #cart-form FORM{
-									    border:none;
-									    padding:0;
-									    width:100%;
-										}
-										#content [data-hook="product_right_part"] #cart-form #product-price,
-										#content [data-hook="product_right_part"] #cart-form .add-to-cart{
-										    float:left;
-										    margin:0 0 1em 0;
-										    width:100%;
-											}
-											#content [data-hook="product_right_part"] #cart-form #product-price H6{
-											    position:absolute;
-											    top:-5000em;
-												}
-											#content [data-hook="product_right_part"] #cart-form #product-price .price,
-											#content [data-hook="product_right_part"] #cart-form #product-price SPAN.priceCurrency{
-											    color:#ed906c;
-											    font-size:1.85em;
-											    font-weight:normal;
-											    margin:0 0.5em 0 0;
-												}
-											#content [data-hook="product_right_part"] #cart-form #product-price SPAN.priceCurrency{
-											    display:none;
-												}
-											#content [data-hook="product_right_part"] #cart-form #product-price SPAN.priceNormal{
-											    color:#b4b4b4;
-											    font-size:1.25em;
-											    text-decoration:line-through;
-												}
-											#content [data-hook="product_right_part"] #cart-form .add-to-cart INPUT{
-												margin:0.65em 0.5em 0.65em 0;
-												padding:0.25em 0 0.25em 0.5em!important;
-												}
-						#reviews{
-							margin:0;
-							}
-							#reviews .review{
-								float:left;
-								margin:0 0 2em 0;
-								width:100%;
-								}
-								#reviews .review .reviewRating{
-									float:left;
-									width:24.3%;
-									}
-									#reviews .review .reviewRating .reviews-rating{
-										float:left;
-										margin:0 0 0.3em 0;
-										width:100%;
-										}
-									#reviews .review .reviewRating .name{
-										color:#ed906c;
-									    float:left;
-									    font-size:0.85em;
-									    font-weight:bold;
-									    margin:0 0 0.3em 0;
-									    width:100%;
-										}
-									#reviews .review .reviewRating .attribution{
-										float:left;
-										margin:0 0 0.3em 0;
-										width:100%;
-										}
-										#reviews .review .reviewRating .attribution .translation_missing{
-											display:none;
-											}
-										#reviews .review .reviewRating .attribution .date{
-											font-size:0.85em;
-											}
-									#reviews .review .reviewRating .author{
+									#tabs .product .product-desc A{
 										color:#191919;
 										float:left;
-										font-size:0.85em;
-										width:100%;
+										font-size:1em;
+										max-height:3em;
+										overflow:hidden;
+										text-align:center;
+										width:auto;
 										}
-								#reviews .review .reviewBody{
-									float:left;
-									margin:0 0 0 2em;
-									width:73%;
-									}
-									#reviews .review .reviewBody .feedback_review{
-										border-top:0.15em dotted #dddcdb;
-									    float:left;
-									    width:100%;
-										}
-										#reviews .review .reviewBody .feedback_review P{
-											padding:0;
-											}
-										#reviews .review .reviewBody .feedback_review FORM{
-											border:none;
-											padding:0;
-											width:100%;
-											}
-							#reviews A.button{
-								background:#ed906c url("/assets/write-icon.png") no-repeat 1.8em center;
-								}
-								#reviews A.button:hover{
-									background:#191919 url("/assets/write-iconHover.png") no-repeat 1.8em center;
-									}
-						#content-new-review{
-							float:left;
-							width:100%;
-							}
-							#new_review{
-								border:1px solid #dddcdb;
-								float:left;
-								padding:2em;
-								width:94.5%;
-								}
-								#new_review > DIV{
-									float:left;
-									margin:0 0 1em 0;
-									width:100%;
-									}
-									#new_review .stars-field,
-									#new_review .label-field,
-									#new_review .text-field{
-										float:left;
-										margin:0;
-										width:72.2%;
-										}
-									#new_review .label-field{
-										margin:0 2em 0 0;
-										width:25%;
-										}
-										#new_review .label-field LABEL{
-											color:#191919;
-											float:none;
-											font-size:1em;
-											margin:0;
-											width:auto;
-											}
-										#new_review .label-field SPAN.required{
+										#tabs .product .product-desc A:hover{
 											color:#ed906c;
 											}
-										#new_review .text-field INPUT,
-										#new_review .text-field TEXTAREA{
-											border:1px solid #bbbbbb;
-    										color:#ed906c;
-    										padding:0.9em 0.85em;
-    										width:50%;
-											}
-					#content UL#products{
-					    margin:0 0.77em 1.9em 0.77em;
-						}
-						#content UL#products LI{
-							border:0.5em solid #dddcdb;
-						    float:left;
-						    font-size:1.1em;
-						    margin:0 0.77em 1.9em;
-						    max-height:19em;
-						    min-height:19em;
-						    overflow:hidden;
-						    padding:2.2em 0.9em;
-						    width:18.85%;
-							}
-							#content UL#products LI .product-desc{
-							    float:left;
-							    margin:0 0 1.45em 0;
-							    width:100%;
-								}
-								#content UL#products LI .product-desc A{
-									border:none;
-								    color:#191919;
+								#tabs .product .home_images{
+									margin:0 0 1.45em 0;
+									text-align:center;
+									}
+									#tabs .product .home_images A IMG{
+										max-height:9.1em;
+									    max-width:9.1em;
+									    min-height:7.4em;
+									    min-width:5.1em;
+										}
+								#tabs .product .product-price{
+									border-top:0.15em solid #dddcdb;
+									color:#ed906c;
 								    float:left;
-								    font-size:1em;
-								    font-weight:normal;
-								    height:auto;
-								    max-height:2.5em;
-								    overflow:hidden;
+								    font-size:1.85em;
+								    padding:0.55em 0 0 0;
 								    text-align:center;
-								    width:auto;
+								    width:100%;
 									}
-							#content UL#products LI .product-image{
-							    border:none;
+					#product-show,
+					#reviews{
+						float:left;
+						margin:0 0 1em 0;
+						width:100%;
+						}
+						#content [data-hook="product_left_part"]{
+							float:left;
+							margin:0 2.5em 0 0;
+							width:27.8%;
+							}
+							#product-images{
+								float:left;
+								width:100%;
+								}
+							#product-images #main-image{
+							    border:0.5em solid #dddcdb;
 							    float:left;
-							    margin:0 0 1.45em 0;
-							    max-height:9.35em;
-							    min-height:9.35em;
-							    padding:0;
+							    margin:0 0 1em 0;
+							    padding:2.2em 0.9em;
 							    text-align:center;
+							    width:18.3em;
+								}
+								#product-images #main-image IMG{
+									max-width:18.3em;
+    								min-width:14.3em;
+									}
+							#product-images #thumbnails{
+							    float:left;
 							    width:100%;
 								}
-								#content UL#products LI .product-image A IMG{
-								    max-height:9.1em;
-								    max-width:9.1em;
-								    min-height:7.4em;
-								    min-width:5.1em;
+								#product-images #thumbnails UL{
+								    margin:0;
 									}
-							#content UL#products LI .product-price{
-							    color:#ed906c;
-							    float:left;
-							    padding:0.55em 0 0 0;
-							    text-align:center;
-							    width:100%;
+									#product-images #thumbnails UL LI{
+									    border:0.25em solid #dddcdb;
+									    margin:0 0.45em 1em 0.45em;
+									    width:auto;
+										}
+										#product-images #thumbnails UL LI A IMG{
+											float:left;
+											padding:0.5em 0;
+											}
+						#content [data-hook="product_right_part"]{
+							float:left;
+							margin:0;
+							width:68.5%;
+							}
+							#content [data-hook="product_right_part"] H1.product-title{
+								border-bottom:0.15em solid #dddcdb;
+							    color:#191919;
+							    font-weight:normal;
+							    text-align:inherit;
 								}
-							#content UL#products LI .product-price{
-							    border-top:0.25em solid #dddcdb;
-							    color:#ed906c;
+							#content [data-hook="product_right_part"] [data-hook="description"]{
+								clear:both;
+							    color:#191919;
 							    float:left;
 							    font-size:1em;
-							    padding:0.55em 0 0 0;
-							    text-align:center;
-							    width:100%;
+							    margin:0 0 1em 0;
+							    text-align:justify;
+							    width:60%;
+								}							
+							#content [data-hook="product_right_part"] A.favorite_link{
+							    background:transparent url("/assets/favouriteBig-icon.png") no-repeat left top;
+							    clear:both;
+							    float:left;
+							    margin:0 0 1em 0;
+							    padding:0 0 0 2em;
+							    width:auto;
 								}
-								#content UL#products LI .product-price SPAN{
-								    color:#ed906c;
-								    font-size:1.85em;
-								    font-weight:normal;
-								    line-height:1.4em;
-								    padding:0;
-									}
-					#content H2.taxon-title{
-					    font-size:1.4em;
-						}
-					#content .taxon{
-					    float:left;
-					    margin:0 0 0.5em 0;
-					    width:100%;
-						}
-						#content .taxon H3{
-						    float:left;
-						    margin:0 0.5em 0 0;
-						    min-width:10em;
-						    width:auto;
-							}
-							#content .taxon H3 A{
-							    color:#191919;
-								}
-								#content .taxon H3 A:hover{
-								    color:#ed906c;
-									}
-					#content .account-summary,
-					#content .account-my-orders,
-					#content #users-address-list-empty,
-					#content #new_address_link{
-					    float:left;
-					    margin:0 0 1em 0;
-					    width:100%;
-						}
-						#content .account-summary DL{
-							margin:0;
-						    width:98.2%;
-							}
-					#content FORM#update-cart{
-					    border:none;
-					    float:left;
-					    padding:0;
-					    width:100%;
-						}
-						#content TABLE#cart-detail TD.cart-item-image IMG{
-							display:inline!important;
-						    max-width:50px;
-							}
-						#content TABLE#cart-detail TR.line-item TD{
-							text-align:center;
-							}
-						#content TABLE#cart-detail TR.line-item TD.cart-item-price,
-						#content TABLE#cart-detail TR.line-item TD.cart-item-total{
-							text-align:right;
-							}
-						#content TABLE#cart-detail TR.line-item TD.cart-item-description{
-							text-align:left;
-							}
-							#content TABLE#cart-detail TD.cart-item-description H4{
-								margin:0;
-								}
-								#content TABLE#cart-detail TD.cart-item-description H4 A{
-									font-weight:normal;
-									}
-							#content TABLE#cart-detail TD.cart-item-description SPAN{
-								font-size:0.9em;
-								}
-							#content TABLE#cart-detail TD.cart-item-price,
-							#content TABLE#cart-detail TD.cart-item-total{
-								color:#ed906c!important;
-							    font-size:1em!important;
-							    font-weight:normal!important;
-								}
-							#content TABLE#cart-detail TD.cart-item-quantity INPUT{
-								padding:0.25em 0 0.25em 0.5em!important;
-								}
-							#content TABLE#cart-detail TD.cart-item-total{
-							    font-weight:bold!important;
-								}
-							#content TABLE#cart-detail TR.total-price H5{
-								font-size:1.4em;
-							    font-weight:normal;
-								}
-						#content FORM#update-cart .links{
-						    float:left;
-						    text-align:center;
-						    width:100%;
-							}
-							#content FORM#update-cart .links BUTTON#update-button{
-							    background:#ed906c url("/assets/update-icon.png") no-repeat center center;
-							    color:#ed906c;
-							    font-size:1px;
-							    height:41em;
-							    width:53em;
-								}
-								#content FORM#update-cart .links BUTTON#update-button:hover{
-								    background:#191919 url("/assets/update-iconHover.png") no-repeat center center;
+								#content [data-hook="product_right_part"] A.favorite_link:hover{
+								    background:transparent url("/assets/favouriteBig-iconHover.png") no-repeat left top;
 								    color:#191919;
 									}
-							#content FORM#update-cart .links .checkout-button{
-							    float:right;
-							    margin:1em 0 0 0;
-							    width:100%;
-								}
-								#content FORM#update-cart .links .checkout-button BUTTON{
-									background:#ed906c url("/assets/checkout-icon.png") no-repeat 1.8em center;
-								    float:left;
-								    margin:0 1em 0 0;
-								    padding:1em 1.75em 1em 3.5em;
-								    width:auto;
-									}
-									#content FORM#update-cart .links .checkout-button BUTTON:hover{
-										background:#191919 url("/assets/checkout-iconHover.png") no-repeat 1.8em center;
-										}
-					#content #empty-carted FORM{
-						border:none;
-					    float:left;
-					    padding:0;
-					    width:100%;
-						}
-						#content #empty-carted FORM #clear_cart_link INPUT,
-						#content #empty-carted FORM #clear_cart_link A{
-						    float:left;
-						    margin:0 1em 0 0;
-						    width:auto;
-							}
-						#content #empty-carted FORM #clear_cart_link INPUT{
-						    background:#ed906c url("/assets/empty-icon.png") no-repeat 1.8em center;
-							}
-							#content #empty-carted FORM #clear_cart_link INPUT:hover{
-							    background:#191919 url("/assets/empty-iconHover.png") no-repeat 1.8em center;
-								}
-						#content #empty-carted FORM #clear_cart_link A{
-							background:#ed906c url("/assets/shopping-icon.png") no-repeat 1.8em center;
-							}
-							#content #empty-carted FORM #clear_cart_link A:hover{
-							    background:#191919 url("/assets/shopping-iconHover.png") no-repeat 1.8em center;
-								}
-					#content #checkout{
-					    float:left;
-					    width:100%;
-						}
-						#content #checkout H1{
-						    width:100%;
-							}
-						#content #checkout .thirteen.columns{
-						    margin:0;
-						    width:100%;
-							}
-							#content #checkout .thirteen.columns OL{
-								background:transparent url("/assets/checkout-bar.png") repeat-x 0 0.55em;
-							    list-style:none;
-							    min-height:4em;
-							    overflow:hidden;
-							    text-align:center;
-								}
-								#content #checkout .thirteen.columns OL LI{
-									display:inline;
-								    float:none;
-								    margin:0;
-								    padding:0 3.5em 1em 3.5em;
-								    position:relative;
-								    text-align:center;
-								    top:1.9em;
-									}
-									#content #checkout .thirteen.columns OL LI,
-									#content #checkout .thirteen.columns OL LI:hover{
-										background:none;
-										}
-										#content #checkout .thirteen.columns OL LI SPAN{
-											background:transparent url("/assets/next-checkout.png") no-repeat center top;
-											color:#191919;
-											padding:2em 0 0 0;
-											}
-										#content #checkout .thirteen.columns OL LI.current-first SPAN,
-										#content #checkout .thirteen.columns OL LI.current SPAN{
-											background:transparent url("/assets/current-checkout.png") no-repeat center top;
-											}
-										#content #checkout .thirteen.columns OL LI.completed-first SPAN,
-										#content #checkout .thirteen.columns OL LI.completed SPAN{
-											background:none;
-											}
-											#content #checkout .thirteen.columns OL LI.completed-first A,
-											#content #checkout .thirteen.columns OL LI.completed A{
-												background:transparent url("/assets/completed-checkout.png") no-repeat center top;
-												color:#ed906c;
-												padding:2em 0 0 0;
-												}
-						#content #checkout .row .columns.alpha{
-						    float:left;
-						    width:74%;
-							}						
-						#content #checkout .row H1.columns.alpha{
-							margin:0 0 1em 0;
-						    width:100%;
-							}
-							#content #checkout .row .columns FORM{
-							    border:none;
+							#content [data-hook="product_right_part"] #cart-form{
+							    clear:both;
 							    float:left;
-							    padding:0;
-							    width:100%;
+							    width:auto;
 								}
-								#content #checkout .row .columns FORM .columns.alpha,
-								#content #checkout .row .columns FORM .columns.omega,
-								#content #checkout .row .columns FORM#checkout_form_delivery,
-								#content #checkout .row .columns FORM#checkout_form_payment,
-								#content #checkout .row .columns FORM#checkout_form_confirm{
-									border:1px solid #d9d9db;
-								    float:left;
-								    margin:0;
-								    min-height:53.8em;
-								    padding:0.8em;
-								    width:46.4%;
+								#content [data-hook="product_right_part"] #cart-form FORM{
+								    border:none;
+								    padding:0;
+								    width:100%;
 									}
-									#content #checkout .row .columns FORM FIELDSET{
-										border:none;
-									    margin:0;
-									    padding:0;
-										}
-										#content #checkout .row .columns FORM LEGEND{
-											border-bottom:1px solid #d9d9db;
-										    color:#ed906c;
-										    float:left;
-										    font-size:1em;
-										    font-weight:normal;
-										    margin:0 0 1.5em 0;
-										    padding:0.35em 0.35em 1.1em 0.35em;
-										    text-align:center;
-										    width:97.8%;
-											}
-										#content #checkout .row .columns FORM .inner{
-										    float:left;
-										    width:100%;
-											}
-											#content #checkout .row .columns FORM .inner LABEL{
-												margin:0 0.2em 0 0;
-											    width:auto;
-												}
-											#content #checkout .row .columns FORM .inner LABEL.errror{
-												font-size:0.8em;
-    											margin:0.3em 0 0 0;
-												}
-											#content #checkout .row .columns FORM .inner SPAN#bcountry-selection,
-											#content #checkout .row .columns FORM .inner SPAN#scountry-selection{
-												float:left;
-											    width:100%;
-												}
-												#content #checkout .row .columns FORM .inner SELECT{
-												    width:auto;
-													}
-								#content #checkout .row .columns FORM#checkout_form_delivery,
-								#content #checkout .row .columns FORM#checkout_form_payment{
-									min-height:auto;
-								    width:96.8%;
-									}
-									#content #checkout .row .columns FORM#checkout_form_delivery LEGEND{
-									    width:98.8%;
-										}
-									#content #checkout .row .columns FORM#checkout_form_delivery .shipment H3,
-									#content #checkout .row .columns FORM#checkout_form_delivery .shipment TABLE TH,
-									#content #checkout .row .columns FORM#checkout_form_delivery .shipment H5{
-									    background:none;
-									    color:#191919;
-									    font-size:1em;
-									    font-weight:bold;
-									    margin:0 0 0.5em 0;
-									    padding:0;
-										}
-									#content #checkout .row .columns FORM#checkout_form_delivery .shipment TABLE{
-										    float:left;
-										    margin:0 0 2em 0;
-										    width:100%;
-											}
-										#content #checkout .row .columns FORM#checkout_form_delivery .shipment TABLE TH{
-										    background:#d9d9db;
-										    margin:0;
-										    padding:0.35em 0.6em;
-											}
-										#content #checkout .row .columns FORM#checkout_form_delivery .shipment TABLE TD.item-price{
-											color:#ed906c;
-											text-align:right;
-											}
-											#content #checkout .row .columns FORM#checkout_form_delivery .shipment TABLE TD IMG{
-											    width:auto;
-												}
-									#content #checkout .row .columns FORM#checkout_form_delivery .shipment H5{
-										float:left;
-										width:100%;
-										}
-									#content #checkout .row .columns FORM#checkout_form_delivery .shipment UL.shipping-methods,
-									#content #checkout .row .columns FORM#checkout_form_delivery .shipment UL.shipping-methods LI{
-										float:left;
-										margin:0 0 1em 0;
-										width:100%;
-										}
-									#content #checkout .row .columns FORM#checkout_form_delivery UL.shipping-methods LI{
-										margin:0 0 0.5em 0;
-										}
-										#content #checkout .row .columns FORM#checkout_form_delivery UL.shipping-methods LABEL{
-											margin:0;
-											}
-											#content #checkout .row .columns FORM#checkout_form_delivery UL.shipping-methods LABEL INPUT,
-											#content #checkout .row .columns FORM#checkout_form_delivery UL.shipping-methods LABEL SPAN{
-												float:left;
-												margin:0.2em 0.5em 0 0;
-												width:auto;
-												}
-											#content #checkout .row .columns FORM#checkout_form_delivery UL.shipping-methods LABEL SPAN{
-												margin:0 0.5em 0 0;
-												}
-											#content #checkout .row .columns FORM#checkout_form_delivery UL.shipping-methods LABEL SPAN.rate-name{
-												min-width:7em;
-												}
-											#content #checkout .row .columns FORM#checkout_form_delivery UL.shipping-methods LABEL SPAN.rate-cost{
-												color:#ed906c;
-												font-weight:normal;
-												}
-									#content #checkout .row .columns #payment #payment-method-fields{
+									#content [data-hook="product_right_part"] #cart-form #product-price,
+									#content [data-hook="product_right_part"] #cart-form .add-to-cart{
 									    float:left;
 									    margin:0 0 1em 0;
 									    width:100%;
 										}
-										#content #checkout .row .columns #payment #payment-method-fields LABEL,
-										#content #checkout .row .columns #payment .field LABEL{
-										    margin:0;
-										    width:auto;
+										#content [data-hook="product_right_part"] #cart-form #product-price H6{
+										    position:absolute;
+										    top:-5000em;
 											}
-										#content #checkout .row .columns #payment .field LABEL{
+										#content [data-hook="product_right_part"] #cart-form #product-price .price,
+										#content [data-hook="product_right_part"] #cart-form #product-price SPAN.priceCurrency{
+										    color:#ed906c;
+										    font-size:1.85em;
+										    font-weight:normal;
 										    margin:0 0.5em 0 0;
 											}
-											#content #checkout .row .columns #payment #payment-method-fields LABEL INPUT{
-											    float:left;
-											    margin:0.2em 0.5em 0 0;
-											    width:auto;
-												}
-									#content #checkout .row .columns #payment UL#payment-methods,
-									#content #checkout .row .columns #payment UL#payment-methods LI{
-									    margin:0;
-										}
-										#content #checkout .row .columns #payment UL#payment-methods LI IMG{
-											margin:0 0 1em 0;
-										    width:auto;
+										#content [data-hook="product_right_part"] #cart-form #product-price SPAN.priceCurrency{
+										    display:none;
 											}
-										#content #checkout .row .columns #payment UL#payment-methods LI .label-field,
-										#content #checkout .row .columns #payment .field .label-field{
-										    float:left;
-										    margin:0 0 0.5em 0;
-										    width:100%;
+										#content [data-hook="product_right_part"] #cart-form #product-price SPAN.priceNormal{
+										    color:#b4b4b4;
+										    font-size:1.25em;
+										    text-decoration:line-through;
 											}
-											#content #checkout .row .columns #payment UL#payment-methods LI LABEL{
-												margin:0 0.5em 0 0;
-											    width:auto;
-												}
-											#content #checkout .row .columns #payment UL#payment-methods LI SPAN{
-												float:left;
-											    width:auto;
-												}
-										#content #checkout .row .columns #payment UL#payment-methods LI INPUT,
-										#content #checkout .row .columns #payment .field INPUT{
-											clear:both;
-										    float:left;
-										    width:50%;
+										#content [data-hook="product_right_part"] #cart-form .add-to-cart INPUT{
+											margin:0.65em 0.5em 0.65em 0;
+											padding:0.25em 0 0.25em 0.5em!important;
 											}
-										#content #checkout .row .columns #payment UL#payment-methods LI SPAN#card_type{
-										    color:#ff0000;
-										    float:left;
-										    font-size:0.8em;
-										    margin:0.2em 0 0;
-										    width:100%;
-											}
-										#content #checkout .row .columns #payment UL#payment-methods LI A#cvv_link{
-											background:transparent url("/assets/help-icon.png") no-repeat left center;
-										    color:#ed906c!important;
-										    float:left;
-										    font-size:0.8em;
-										    margin:1em 0 1em 0.5em;
-										    padding:0 0 0 1.8em;
-										    width:auto;
-											}
-											#content #checkout .row .columns #payment UL#payment-methods LI A#cvv_link:hover{
-												background:transparent url("/assets/help-iconHover.png") no-repeat left center;
-											    color:#191919!important;
-												}
-								#content #checkout .row .columns FORM .columns.omega{
-									margin:0 0 1em 0.6em;
-									min-height:15em;
+					#reviews{
+						margin:0;
+						}
+						#reviews .review{
+							float:left;
+							margin:0 0 2em 0;
+							width:100%;
+							}
+							#reviews .review .reviewRating{
+								float:left;
+								width:24.3%;
+								}
+								#reviews .review .reviewRating .reviews-rating{
+									float:left;
+									margin:0 0 0.3em 0;
+									width:100%;
 									}
-									#content #checkout .row .columns FORM .columns.omega P{
-										margin:0 0 1em 0;
+								#reviews .review .reviewRating .name{
+									color:#ed906c;
+								    float:left;
+								    font-size:0.85em;
+								    font-weight:bold;
+								    margin:0 0 0.3em 0;
+								    width:100%;
+									}
+								#reviews .review .reviewRating .attribution{
+									float:left;
+									margin:0 0 0.3em 0;
+									width:100%;
+									}
+									#reviews .review .reviewRating .attribution .translation_missing{
+										display:none;
+										}
+									#reviews .review .reviewRating .attribution .date{
+										font-size:0.85em;
+										}
+								#reviews .review .reviewRating .author{
+									color:#191919;
+									float:left;
+									font-size:0.85em;
+									width:100%;
+									}
+							#reviews .review .reviewBody{
+								float:left;
+								margin:0 0 0 2em;
+								width:73%;
+								}
+								#reviews .review .reviewBody .feedback_review{
+									border-top:0.15em dotted #dddcdb;
+								    float:left;
+								    width:100%;
+									}
+									#reviews .review .reviewBody .feedback_review P{
 										padding:0;
 										}
-										#content #checkout .row .columns FORM .columns.omega P INPUT{
-											width:100%;
-											}
-										#content #checkout .row .columns FORM .columns.omega P.field.checkbox INPUT{
-											margin:0.2em 0.5em 0 0;
-											width:auto;
-											}
-										#content #checkout .row .columns FORM .columns.omega P.field.checkbox LABEL{
-											margin:0;
-											width:auto;
-											}
-								#content #checkout .row .columns FORM .form-buttons INPUT{
-									background:#ed906c url("/assets/save-icon.png") no-repeat 1.8em center;
+									#reviews .review .reviewBody .feedback_review FORM{
+										border:none;
+										padding:0;
+										width:100%;
+										}
+						#reviews A.button{
+							background:#ed906c url("/assets/write-icon.png") no-repeat 1.8em center;
+							}
+							#reviews A.button:hover{
+								background:#191919 url("/assets/write-iconHover.png") no-repeat 1.8em center;
+								}
+					#content-new-review{
+						float:left;
+						width:100%;
+						}
+						#new_review{
+							border:1px solid #dddcdb;
+							float:left;
+							padding:2em;
+							width:94.5%;
+							}
+							#new_review > DIV{
+								float:left;
+								margin:0 0 1em 0;
+								width:100%;
+								}
+								#new_review .stars-field,
+								#new_review .label-field,
+								#new_review .text-field{
 									float:left;
 									margin:0;
-									width:auto;
+									width:72.2%;
 									}
-									#content #checkout .row .columns FORM .form-buttons INPUT:hover{
-										background:#191919 url("/assets/save-iconHover.png") no-repeat 1.8em center;
+								#new_review .label-field{
+									margin:0 2em 0 0;
+									width:25%;
+									}
+									#new_review .label-field LABEL{
+										color:#191919;
+										float:none;
+										font-size:1em;
+										margin:0;
+										width:auto;
 										}
-								#content #checkout .row .columns FORM .form-buttons SPAN INPUT{
+									#new_review .label-field SPAN.required{
+										color:#ed906c;
+										}
+									#new_review .text-field INPUT,
+									#new_review .text-field TEXTAREA{
+										border:1px solid #bbbbbb;
+										color:#ed906c;
+										padding:0.9em 0.85em;
+										width:50%;
+										}
+				#content UL#products{
+				    margin:0 0.77em 1.9em 0.77em;
+					}
+					#content UL#products LI{
+						border:0.5em solid #dddcdb;
+					    float:left;
+					    font-size:1.1em;
+					    margin:0 0.77em 1.9em;
+					    max-height:19em;
+					    min-height:19em;
+					    overflow:hidden;
+					    padding:2.2em 0.9em;
+					    width:18.85%;
+						}
+						#content UL#products LI .product-desc{
+						    float:left;
+						    margin:0 0 1.45em 0;
+						    width:100%;
+							}
+							#content UL#products LI .product-desc A{
+								border:none;
+							    color:#191919;
+							    float:left;
+							    font-size:1em;
+							    font-weight:normal;
+							    height:auto;
+							    max-height:2.5em;
+							    overflow:hidden;
+							    text-align:center;
+							    width:auto;
+								}
+						#content UL#products LI .product-image{
+						    border:none;
+						    float:left;
+						    margin:0 0 1.45em 0;
+						    max-height:9.35em;
+						    min-height:9.35em;
+						    padding:0;
+						    text-align:center;
+						    width:100%;
+							}
+							#content UL#products LI .product-image A IMG{
+							    max-height:9.1em;
+							    max-width:9.1em;
+							    min-height:7.4em;
+							    min-width:5.1em;
+								}
+						#content UL#products LI .product-price{
+						    color:#ed906c;
+						    float:left;
+						    padding:0.55em 0 0 0;
+						    text-align:center;
+						    width:100%;
+							}
+						#content UL#products LI .product-price{
+						    border-top:0.25em solid #dddcdb;
+						    color:#ed906c;
+						    float:left;
+						    font-size:1em;
+						    padding:0.55em 0 0 0;
+						    text-align:center;
+						    width:100%;
+							}
+							#content UL#products LI .product-price SPAN{
+							    color:#ed906c;
+							    font-size:1.85em;
+							    font-weight:normal;
+							    line-height:1.4em;
+							    padding:0;
+								}
+				#content H2.taxon-title{
+				    font-size:1.4em;
+					}
+				#content .taxon{
+				    float:left;
+				    margin:0 0 0.5em 0;
+				    width:100%;
+					}
+					#content .taxon H3{
+					    float:left;
+					    margin:0 0.5em 0 0;
+					    min-width:10em;
+					    width:auto;
+						}
+						#content .taxon H3 A{
+						    color:#191919;
+							}
+							#content .taxon H3 A:hover{
+							    color:#ed906c;
+								}
+				#content .account-summary,
+				#content .account-my-orders,
+				#content #users-address-list-empty,
+				#content #new_address_link{
+				    float:left;
+				    margin:0 0 1em 0;
+				    width:100%;
+					}
+					#content .account-summary DL{
+						margin:0;
+					    width:98.2%;
+						}
+				#content FORM#update-cart{
+				    border:none;
+				    float:left;
+				    padding:0;
+				    width:100%;
+					}
+					#content TABLE#cart-detail TD.cart-item-image IMG{
+						display:inline!important;
+					    max-width:50px;
+						}
+					#content TABLE#cart-detail TR.line-item TD{
+						text-align:center;
+						}
+					#content TABLE#cart-detail TR.line-item TD.cart-item-price,
+					#content TABLE#cart-detail TR.line-item TD.cart-item-total{
+						text-align:right;
+						}
+					#content TABLE#cart-detail TR.line-item TD.cart-item-description{
+						text-align:left;
+						}
+						#content TABLE#cart-detail TD.cart-item-description H4{
+							margin:0;
+							}
+							#content TABLE#cart-detail TD.cart-item-description H4 A{
+								font-weight:normal;
+								}
+						#content TABLE#cart-detail TD.cart-item-description SPAN{
+							font-size:0.9em;
+							}
+						#content TABLE#cart-detail TD.cart-item-price,
+						#content TABLE#cart-detail TD.cart-item-total{
+							color:#ed906c!important;
+						    font-size:1em!important;
+						    font-weight:normal!important;
+							}
+						#content TABLE#cart-detail TD.cart-item-quantity INPUT{
+							padding:0.25em 0 0.25em 0.5em!important;
+							}
+						#content TABLE#cart-detail TD.cart-item-total{
+						    font-weight:bold!important;
+							}
+						#content TABLE#cart-detail TR.total-price H5{
+							font-size:1.4em;
+						    font-weight:normal;
+							}
+					#content FORM#update-cart .links{
+					    float:left;
+					    text-align:center;
+					    width:100%;
+						}
+						#content FORM#update-cart .links BUTTON#update-button{
+						    background:#ed906c url("/assets/update-icon.png") no-repeat center center;
+						    color:#ed906c;
+						    font-size:1px;
+						    height:41em;
+						    width:53em;
+							}
+							#content FORM#update-cart .links BUTTON#update-button:hover{
+							    background:#191919 url("/assets/update-iconHover.png") no-repeat center center;
+							    color:#191919;
+								}
+						#content FORM#update-cart .links .checkout-button{
+						    float:right;
+						    margin:1em 0 0 0;
+						    width:100%;
+							}
+							#content FORM#update-cart .links .checkout-button BUTTON{
+								background:#ed906c url("/assets/checkout-icon.png") no-repeat 1.8em center;
+							    float:left;
+							    margin:0 1em 0 0;
+							    padding:1em 1.75em 1em 3.5em;
+							    width:auto;
+								}
+								#content FORM#update-cart .links .checkout-button BUTTON:hover{
+									background:#191919 url("/assets/checkout-iconHover.png") no-repeat 1.8em center;
+									}
+				#content #empty-carted FORM{
+					border:none;
+				    float:left;
+				    padding:0;
+				    width:100%;
+					}
+					#content #empty-carted FORM #clear_cart_link INPUT,
+					#content #empty-carted FORM #clear_cart_link A{
+					    float:left;
+					    margin:0 1em 0 0;
+					    width:auto;
+						}
+					#content #empty-carted FORM #clear_cart_link INPUT{
+					    background:#ed906c url("/assets/empty-icon.png") no-repeat 1.8em center;
+						}
+						#content #empty-carted FORM #clear_cart_link INPUT:hover{
+						    background:#191919 url("/assets/empty-iconHover.png") no-repeat 1.8em center;
+							}
+					#content #empty-carted FORM #clear_cart_link A{
+						background:#ed906c url("/assets/shopping-icon.png") no-repeat 1.8em center;
+						}
+						#content #empty-carted FORM #clear_cart_link A:hover{
+						    background:#191919 url("/assets/shopping-iconHover.png") no-repeat 1.8em center;
+							}
+				#content #checkout{
+				    float:left;
+				    width:100%;
+					}
+					#content #checkout H1{
+					    width:100%;
+						}
+					#content #checkout .thirteen.columns{
+					    margin:0;
+					    width:100%;
+						}
+						#content #checkout .thirteen.columns OL{
+							background:transparent url("/assets/checkout-bar.png") repeat-x 0 0.55em;
+						    list-style:none;
+						    min-height:4em;
+						    overflow:hidden;
+						    text-align:center;
+							}
+							#content #checkout .thirteen.columns OL LI{
+								display:inline;
+							    float:none;
+							    margin:0;
+							    padding:0 3.5em 1em 3.5em;
+							    position:relative;
+							    text-align:center;
+							    top:1.9em;
+								}
+								#content #checkout .thirteen.columns OL LI,
+								#content #checkout .thirteen.columns OL LI:hover{
 									background:none;
-									margin:0.2em 0.3em 0 0;
 									}
-								#content #checkout .row .columns FORM .form-buttons LABEL{
-									margin:0;
-									width:auto;
+									#content #checkout .thirteen.columns OL LI SPAN{
+										background:transparent url("/assets/next-checkout.png") no-repeat center top;
+										color:#191919;
+										padding:2em 0 0 0;
+										}
+									#content #checkout .thirteen.columns OL LI.current-first SPAN,
+									#content #checkout .thirteen.columns OL LI.current SPAN{
+										background:transparent url("/assets/current-checkout.png") no-repeat center top;
+										}
+									#content #checkout .thirteen.columns OL LI.completed-first SPAN,
+									#content #checkout .thirteen.columns OL LI.completed SPAN{
+										background:none;
+										}
+										#content #checkout .thirteen.columns OL LI.completed-first A,
+										#content #checkout .thirteen.columns OL LI.completed A{
+											background:transparent url("/assets/completed-checkout.png") no-repeat center top;
+											color:#ed906c;
+											padding:2em 0 0 0;
+											}
+					#content #checkout .row .columns.alpha{
+					    float:left;
+					    width:74%;
+						}						
+					#content #checkout .row H1.columns.alpha{
+						margin:0 0 1em 0;
+					    width:100%;
+						}
+						#content #checkout .row .columns FORM{
+						    border:none;
+						    float:left;
+						    padding:0;
+						    width:100%;
+							}
+							#content #checkout .row .columns FORM .columns.alpha,
+							#content #checkout .row .columns FORM .columns.omega,
+							#content #checkout .row .columns FORM#checkout_form_delivery,
+							#content #checkout .row .columns FORM#checkout_form_payment,
+							#content #checkout .row .columns FORM#checkout_form_confirm{
+								border:1px solid #d9d9db;
+							    float:left;
+							    margin:0;
+							    min-height:53.8em;
+							    padding:0.8em;
+							    width:46.4%;
+								}
+								#content #checkout .row .columns FORM FIELDSET{
+									border:none;
+								    margin:0;
+								    padding:0;
 									}
-								#content #checkout .row .columns FORM .form-buttons .save-user-address{
+									#content #checkout .row .columns FORM LEGEND{
+										border-bottom:1px solid #d9d9db;
+									    color:#ed906c;
+									    float:left;
+									    font-size:1em;
+									    font-weight:normal;
+									    margin:0 0 1.5em 0;
+									    padding:0.35em 0.35em 1.1em 0.35em;
+									    text-align:center;
+									    width:97.8%;
+										}
+									#content #checkout .row .columns FORM .inner{
+									    float:left;
+									    width:100%;
+										}
+										#content #checkout .row .columns FORM .inner LABEL{
+											margin:0 0.2em 0 0;
+										    width:auto;
+											}
+										#content #checkout .row .columns FORM .inner LABEL.errror{
+											font-size:0.8em;
+											margin:0.3em 0 0 0;
+											}
+										#content #checkout .row .columns FORM .inner SPAN#bcountry-selection,
+										#content #checkout .row .columns FORM .inner SPAN#scountry-selection{
+											float:left;
+										    width:100%;
+											}
+											#content #checkout .row .columns FORM .inner SELECT{
+											    width:auto;
+												}
+							#content #checkout .row .columns FORM#checkout_form_delivery,
+							#content #checkout .row .columns FORM#checkout_form_payment{
+								min-height:auto;
+							    width:96.8%;
+								}
+								#content #checkout .row .columns FORM#checkout_form_delivery LEGEND{
+								    width:98.8%;
+									}
+								#content #checkout .row .columns FORM#checkout_form_delivery .shipment H3,
+								#content #checkout .row .columns FORM#checkout_form_delivery .shipment TABLE TH,
+								#content #checkout .row .columns FORM#checkout_form_delivery .shipment H5{
+								    background:none;
+								    color:#191919;
+								    font-size:1em;
+								    font-weight:bold;
+								    margin:0 0 0.5em 0;
+								    padding:0;
+									}
+								#content #checkout .row .columns FORM#checkout_form_delivery .shipment TABLE{
+									    float:left;
+									    margin:0 0 2em 0;
+									    width:100%;
+										}
+									#content #checkout .row .columns FORM#checkout_form_delivery .shipment TABLE TH{
+									    background:#d9d9db;
+									    margin:0;
+									    padding:0.35em 0.6em;
+										}
+									#content #checkout .row .columns FORM#checkout_form_delivery .shipment TABLE TD.item-price{
+										color:#ed906c;
+										text-align:right;
+										}
+										#content #checkout .row .columns FORM#checkout_form_delivery .shipment TABLE TD IMG{
+										    width:auto;
+											}
+								#content #checkout .row .columns FORM#checkout_form_delivery .shipment H5{
+									float:left;
+									width:100%;
+									}
+								#content #checkout .row .columns FORM#checkout_form_delivery .shipment UL.shipping-methods,
+								#content #checkout .row .columns FORM#checkout_form_delivery .shipment UL.shipping-methods LI{
 									float:left;
 									margin:0 0 1em 0;
 									width:100%;
 									}
-						#content #checkout .row .columns.alpha.omega{
-						    float:left;
-						    width:100%;
-							}
-							#content #checkout .row .columns.alpha.omega FORM#checkout_form_confirm{
-								margin:0;
-							    width:97.6%;
-								}
-								#content #checkout .row .columns.alpha.omega FORM#checkout_form_confirm LEGEND{
-								    width:99.1%;
+								#content #checkout .row .columns FORM#checkout_form_delivery UL.shipping-methods LI{
+									margin:0 0 0.5em 0;
 									}
-								#content #checkout .row .columns.alpha.omega FORM#checkout_form_confirm .steps-data{
-								    margin:0;
-									}
-									#content #checkout .row .columns.alpha.omega FORM#checkout_form_confirm .alpha.four,
-									#content #checkout .row .columns.alpha.omega FORM#checkout_form_confirm .omega.four{
-										border:none;
-										border-right:1px solid #d9d9db;
-										margin:0 0.6em 0 0;
-										min-height:17em;
-										padding:0 0.8em;
-									    width:22.15%;
+									#content #checkout .row .columns FORM#checkout_form_delivery UL.shipping-methods LABEL{
+										margin:0;
 										}
-									#content #checkout .row .columns.alpha.omega FORM#checkout_form_confirm .omega.four{
-										border:none;
-									  	margin:0;
-										}
-										#content #checkout .row .columns.alpha.omega FORM#checkout_form_confirm .alpha.four H6,
-										#content #checkout .row .columns.alpha.omega FORM#checkout_form_confirm .omega.four H6{
-											border:none;
-										    color:#191919;
-										    font-size:1em;
-										    font-weight:bold;
-										    margin:0 0 1em 0;
-											}
-											#content #checkout .row .columns.alpha.omega FORM#checkout_form_confirm .alpha.four H6 A,
-											#content #checkout .row .columns.alpha.omega FORM#checkout_form_confirm .omega.four H6 A{
-												font-size:0.85em;
-											    font-weight:normal;
-											    text-transform:none;
-												}
-										#content #checkout .row .columns.alpha.omega FORM#checkout_form_confirm .alpha.four .tel SPAN{
-										    font-weight:bold;
-											}
-										#content #checkout .row .columns.alpha.omega FORM#checkout_form_confirm #order_details DIV:last-child,
-										#content #checkout .row .columns.alpha.omega FORM#checkout_form_confirm #order_summary DIV:last-child{
-										    margin:0;
-											}
-										#content #checkout .row .columns.alpha.omega FORM#checkout_form_confirm .delivery,
-										#content #checkout .row .columns.alpha.omega FORM#checkout_form_confirm .payment-info{
+										#content #checkout .row .columns FORM#checkout_form_delivery UL.shipping-methods LABEL INPUT,
+										#content #checkout .row .columns FORM#checkout_form_delivery UL.shipping-methods LABEL SPAN{
 											float:left;
-											width:100%;
-											}
-											#content #checkout .row .columns.alpha.omega FORM#checkout_form_confirm .delivery I{
-												font-size:1.5em;
-												margin:0 0.3em 0 0;
-												}
-										#content #checkout .row .columns.alpha.omega FORM#checkout_form_confirm .payment-info IMG{
+											margin:0.2em 0.5em 0 0;
 											width:auto;
 											}
-								#content #checkout .row .columns.alpha.omega FORM#checkout_form_confirm TABLE#line-items{
-									border:none;
-									margin:0;
-									padding:0;
+										#content #checkout .row .columns FORM#checkout_form_delivery UL.shipping-methods LABEL SPAN{
+											margin:0 0.5em 0 0;
+											}
+										#content #checkout .row .columns FORM#checkout_form_delivery UL.shipping-methods LABEL SPAN.rate-name{
+											min-width:7em;
+											}
+										#content #checkout .row .columns FORM#checkout_form_delivery UL.shipping-methods LABEL SPAN.rate-cost{
+											color:#ed906c;
+											font-weight:normal;
+											}
+								#content #checkout .row .columns #payment #payment-method-fields{
+								    float:left;
+								    margin:0 0 1em 0;
 								    width:100%;
 									}
-									#content #checkout .row .columns.alpha.omega FORM#checkout_form_confirm TABLE#line-items TD IMG{
+									#content #checkout .row .columns #payment #payment-method-fields LABEL,
+									#content #checkout .row .columns #payment .field LABEL{
+									    margin:0;
 									    width:auto;
 										}
-									#content #checkout .row .columns.alpha.omega FORM#checkout_form_confirm TABLE#line-items TD.price,
-									#content #checkout .row .columns.alpha.omega FORM#checkout_form_confirm TABLE#line-items TD.qty,
-									#content #checkout .row .columns.alpha.omega FORM#checkout_form_confirm TABLE#line-items TD.total{
-									    text-align:right;
+									#content #checkout .row .columns #payment .field LABEL{
+									    margin:0 0.5em 0 0;
 										}
-									#content #checkout .row .columns.alpha.omega FORM#checkout_form_confirm TABLE#line-items TD.qty{
-									    text-align:center;
-										}
-										#content #checkout .row .columns.alpha.omega FORM#checkout_form_confirm TABLE#line-items TD.price SPAN,
-										#content #checkout .row .columns.alpha.omega FORM#checkout_form_confirm TABLE#line-items TD.total SPAN{
-										    color:#ed906c;
+										#content #checkout .row .columns #payment #payment-method-fields LABEL INPUT{
+										    float:left;
+										    margin:0.2em 0.5em 0 0;
+										    width:auto;
 											}
-										#content #checkout .row .columns.alpha.omega FORM#checkout_form_confirm TABLE#line-items TD.price SPAN{
-										    font-weight:normal;
-											}
-									#content #checkout .row .columns.alpha.omega FORM#checkout_form_confirm TFOOT TD{
-									    color:#191919;
-									    text-transform:none;									   
-										}
-						#content #checkout .row #checkout-summary{
-						    float:left;
-						    margin:0 0 1em 0;
-						    min-height:15em;
-						    padding:0.75em;
-						    width:23%;
-							}
-							#content #checkout .row #checkout-summary H3{
-							    color:#ed906c;
-							    font-size:1em;
-							    font-weight:normal;
-							    margin:0 0 1.15em;
-							    padding:0.2em 0.45em 0.85em 0.45em;
-								}
-							#content #checkout .row #checkout-summary TABLE TD{
-							    text-align:left;
-								}
-								#content #checkout .row #checkout-summary TABLE TD STRONG{
-									color:#ed906c;
-								    float:left;
-								    text-align:right;
-								    width:100%;
+								#content #checkout .row .columns #payment UL#payment-methods,
+								#content #checkout .row .columns #payment UL#payment-methods LI{
+								    margin:0;
 									}
-									#content #checkout .row #checkout-summary TABLE #summary-order-total{
-										color:#ed906c;
-										font-size:1em;
+									#content #checkout .row .columns #payment UL#payment-methods LI IMG{
+										margin:0 0 1em 0;
+									    width:auto;
 										}
-					#content .favorite-product-name{
-						text-align:left;
+									#content #checkout .row .columns #payment UL#payment-methods LI .label-field,
+									#content #checkout .row .columns #payment .field .label-field{
+									    float:left;
+									    margin:0 0 0.5em 0;
+									    width:100%;
+										}
+										#content #checkout .row .columns #payment UL#payment-methods LI LABEL{
+											margin:0 0.5em 0 0;
+										    width:auto;
+											}
+										#content #checkout .row .columns #payment UL#payment-methods LI SPAN{
+											float:left;
+										    width:auto;
+											}
+									#content #checkout .row .columns #payment UL#payment-methods LI INPUT,
+									#content #checkout .row .columns #payment .field INPUT{
+										clear:both;
+									    float:left;
+									    width:50%;
+										}
+									#content #checkout .row .columns #payment UL#payment-methods LI SPAN#card_type{
+									    color:#ff0000;
+									    float:left;
+									    font-size:0.8em;
+									    margin:0.2em 0 0;
+									    width:100%;
+										}
+									#content #checkout .row .columns #payment UL#payment-methods LI A#cvv_link{
+										background:transparent url("/assets/help-icon.png") no-repeat left center;
+									    color:#ed906c!important;
+									    float:left;
+									    font-size:0.8em;
+									    margin:1em 0 1em 0.5em;
+									    padding:0 0 0 1.8em;
+									    width:auto;
+										}
+										#content #checkout .row .columns #payment UL#payment-methods LI A#cvv_link:hover{
+											background:transparent url("/assets/help-iconHover.png") no-repeat left center;
+										    color:#191919!important;
+											}
+							#content #checkout .row .columns FORM .columns.omega{
+								margin:0 0 1em 0.6em;
+								min-height:15em;
+								}
+								#content #checkout .row .columns FORM .columns.omega P{
+									margin:0 0 1em 0;
+									padding:0;
+									}
+									#content #checkout .row .columns FORM .columns.omega P INPUT{
+										width:100%;
+										}
+									#content #checkout .row .columns FORM .columns.omega P.field.checkbox INPUT{
+										margin:0.2em 0.5em 0 0;
+										width:auto;
+										}
+									#content #checkout .row .columns FORM .columns.omega P.field.checkbox LABEL{
+										margin:0;
+										width:auto;
+										}
+							#content #checkout .row .columns FORM .form-buttons INPUT{
+								background:#ed906c url("/assets/save-icon.png") no-repeat 1.8em center;
+								float:left;
+								margin:0;
+								width:auto;
+								}
+								#content #checkout .row .columns FORM .form-buttons INPUT:hover{
+									background:#191919 url("/assets/save-iconHover.png") no-repeat 1.8em center;
+									}
+							#content #checkout .row .columns FORM .form-buttons SPAN INPUT{
+								background:none;
+								margin:0.2em 0.3em 0 0;
+								}
+							#content #checkout .row .columns FORM .form-buttons LABEL{
+								margin:0;
+								width:auto;
+								}
+							#content #checkout .row .columns FORM .form-buttons .save-user-address{
+								float:left;
+								margin:0 0 1em 0;
+								width:100%;
+								}
+					#content #checkout .row .columns.alpha.omega{
+					    float:left;
+					    width:100%;
 						}
-					#content .search-results{
-						float:left;
-						width:100%;
-						}
-						#content .search-results H6{
-							border:none;
-						    color:#191919;
-						    font-size:1.5em;
-						    line-height:1.4em;
-						    margin:0 0 1em 0;
-							}
-						#content .search-results #products{
+						#content #checkout .row .columns.alpha.omega FORM#checkout_form_confirm{
 							margin:0;
+						    width:97.6%;
 							}
+							#content #checkout .row .columns.alpha.omega FORM#checkout_form_confirm LEGEND{
+							    width:99.1%;
+								}
+							#content #checkout .row .columns.alpha.omega FORM#checkout_form_confirm .steps-data{
+							    margin:0;
+								}
+								#content #checkout .row .columns.alpha.omega FORM#checkout_form_confirm .alpha.four,
+								#content #checkout .row .columns.alpha.omega FORM#checkout_form_confirm .omega.four{
+									border:none;
+									border-right:1px solid #d9d9db;
+									margin:0 0.6em 0 0;
+									min-height:17em;
+									padding:0 0.8em;
+								    width:22.15%;
+									}
+								#content #checkout .row .columns.alpha.omega FORM#checkout_form_confirm .omega.four{
+									border:none;
+								  	margin:0;
+									}
+									#content #checkout .row .columns.alpha.omega FORM#checkout_form_confirm .alpha.four H6,
+									#content #checkout .row .columns.alpha.omega FORM#checkout_form_confirm .omega.four H6{
+										border:none;
+									    color:#191919;
+									    font-size:1em;
+									    font-weight:bold;
+									    margin:0 0 1em 0;
+										}
+										#content #checkout .row .columns.alpha.omega FORM#checkout_form_confirm .alpha.four H6 A,
+										#content #checkout .row .columns.alpha.omega FORM#checkout_form_confirm .omega.four H6 A{
+											font-size:0.85em;
+										    font-weight:normal;
+										    text-transform:none;
+											}
+									#content #checkout .row .columns.alpha.omega FORM#checkout_form_confirm .alpha.four .tel SPAN{
+									    font-weight:bold;
+										}
+									#content #checkout .row .columns.alpha.omega FORM#checkout_form_confirm #order_details DIV:last-child,
+									#content #checkout .row .columns.alpha.omega FORM#checkout_form_confirm #order_summary DIV:last-child{
+									    margin:0;
+										}
+									#content #checkout .row .columns.alpha.omega FORM#checkout_form_confirm .delivery,
+									#content #checkout .row .columns.alpha.omega FORM#checkout_form_confirm .payment-info{
+										float:left;
+										width:100%;
+										}
+										#content #checkout .row .columns.alpha.omega FORM#checkout_form_confirm .delivery I{
+											font-size:1.5em;
+											margin:0 0.3em 0 0;
+											}
+									#content #checkout .row .columns.alpha.omega FORM#checkout_form_confirm .payment-info IMG{
+										width:auto;
+										}
+							#content #checkout .row .columns.alpha.omega FORM#checkout_form_confirm TABLE#line-items{
+								border:none;
+								margin:0;
+								padding:0;
+							    width:100%;
+								}
+								#content #checkout .row .columns.alpha.omega FORM#checkout_form_confirm TABLE#line-items TD IMG{
+								    width:auto;
+									}
+								#content #checkout .row .columns.alpha.omega FORM#checkout_form_confirm TABLE#line-items TD.price,
+								#content #checkout .row .columns.alpha.omega FORM#checkout_form_confirm TABLE#line-items TD.qty,
+								#content #checkout .row .columns.alpha.omega FORM#checkout_form_confirm TABLE#line-items TD.total{
+								    text-align:right;
+									}
+								#content #checkout .row .columns.alpha.omega FORM#checkout_form_confirm TABLE#line-items TD.qty{
+								    text-align:center;
+									}
+									#content #checkout .row .columns.alpha.omega FORM#checkout_form_confirm TABLE#line-items TD.price SPAN,
+									#content #checkout .row .columns.alpha.omega FORM#checkout_form_confirm TABLE#line-items TD.total SPAN{
+									    color:#ed906c;
+										}
+									#content #checkout .row .columns.alpha.omega FORM#checkout_form_confirm TABLE#line-items TD.price SPAN{
+									    font-weight:normal;
+										}
+								#content #checkout .row .columns.alpha.omega FORM#checkout_form_confirm TFOOT TD{
+								    color:#191919;
+								    text-transform:none;									   
+									}
+					#content #checkout .row #checkout-summary{
+					    float:left;
+					    margin:0 0 1em 0;
+					    min-height:15em;
+					    padding:0.75em;
+					    width:23%;
+						}
+						#content #checkout .row #checkout-summary H3{
+						    color:#ed906c;
+						    font-size:1em;
+						    font-weight:normal;
+						    margin:0 0 1.15em;
+						    padding:0.2em 0.45em 0.85em 0.45em;
+							}
+						#content #checkout .row #checkout-summary TABLE TD{
+						    text-align:left;
+							}
+							#content #checkout .row #checkout-summary TABLE TD STRONG{
+								color:#ed906c;
+							    float:left;
+							    text-align:right;
+							    width:100%;
+								}
+								#content #checkout .row #checkout-summary TABLE #summary-order-total{
+									color:#ed906c;
+									font-size:1em;
+									}
+				#content .favorite-product-name{
+					text-align:left;
+					}
+				#content .search-results{
+					float:left;
+					width:100%;
+					}
+					#content .search-results H6{
+						border:none;
+					    color:#191919;
+					    font-size:1.5em;
+					    line-height:1.4em;
+					    margin:0 0 1em 0;
+						}
+					#content .search-results #products{
+						margin:0;
+						}
 				#footer{
 					border:none!important;
 				    color:#191919;
