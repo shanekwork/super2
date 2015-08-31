@@ -438,7 +438,7 @@ body{
 								background:#191919 url("/assets/logout-iconHover.png") no-repeat 2em 50%;
 								}
 					nav#top-nav-bar UL LI#search-bar{
-						float:right;
+						float:left;
 						max-width:19.8em;
 						width:19.8em;
 						}
@@ -467,9 +467,9 @@ body{
 									width:auto;
 									}
 			#link-to-cart{
-				float:left;
-				margin:0 0 0 3.5em;
-				width:18.3%;
+				float:right;
+				margin:0 0 0 1em;
+				width:auto;
 				}
 				#link-to-cart A{
 					background:transparent url("/assets/cart.png") no-repeat left top;
@@ -488,8 +488,8 @@ body{
 						}
 			#header .phone{
 				float:left;
-				margin:0 0 0 1.8em;
-				width:17%;
+				margin:0 1em 0 0;
+				width:auto;
 				}
 				#header .phone IMG{
 					float:left;
