@@ -1737,15 +1737,20 @@ body{
 				}
 				#footer H3{
 					font-family:'Indie Flower', cursive;
-					font-size:1.95em;
+					font-size:3em;
 					color:#ffffff;
+					line-height:1.3em;
 					margin:0 1.3em 0.25em 0;
 					text-transform:inherit;
+					}
+				#footer A{
+					color:#ffffff!important;
 					}
 				#footer #top-footerContent{
 					background:#ed906c;
 					float:left;
 					margin:0;
+					padding:2.6em 0;
 					width:100%;
 					}
 					#footer .left-footerContent{
@@ -1780,7 +1785,7 @@ body{
 							width:47.75%;
 							}
 							#footer .right-footerContent .left-fc I{
-								color:#ed906c;
+								color:#ffffff;
 								float:left;
 								font-size:1em;
 								margin:0 0.2em 0 0;
@@ -1792,6 +1797,7 @@ body{
 								min-width:0.75em;
 								}
 							#footer .right-footerContent .left-fc SPAN{
+								color:#ffffff;
 								float:left;
 								width:93%;
 								}
@@ -1819,7 +1825,7 @@ body{
 											top:-5000em;
 											}
 										FORM#contact_newsletter FIELDSET INPUT{
-											border:1px solid #bbbbbb;
+											border:none!important;
 										    color:#a5a5a5;
 										    float:left;
 										    padding:0.9em 0.85em;
@@ -1833,6 +1839,7 @@ body{
 										FORM#contact_newsletter FIELDSET DIV.button INPUT#submit{
 										    background:transparent url("/assets/newsletter-button.png") no-repeat left top;
 										    border:none!important;
+										    box-shadow:none;
 										    min-height:3.5em;
 										    padding:0;
 										    width:100%;
@@ -1850,11 +1857,11 @@ body{
 									}
 									#footer .right-footerContent .right-fc .social UL LI{
 										float:left;
-										margin:0 0 0 1.95em;
+										margin:0 0 0 1em;
 										width:auto;
 										}
 									#footer .right-footerContent .right-fc .social UL LI:first-child{
-										margin:0 0 0 0.35em;
+										margin:0;
 										}
 										#footer .right-footerContent .right-fc .social UL LI A{
 											float:left;
@@ -1874,7 +1881,7 @@ body{
 						color:#e5e5e5;
 						font-size:0.9em;
 						margin:0;
-						padding:0.8em 0;
+						padding:3.1em 0;
 						text-align:center;
 						}
 						#footer #bottom-footerContent P A{

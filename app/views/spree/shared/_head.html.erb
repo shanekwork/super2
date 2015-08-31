@@ -5,13 +5,16 @@
 <%== meta_data_tags %>
 <%= canonical_tag(Spree::Config.site_url) %>
 <%= favicon_link_tag image_path('favicon.ico') %>
+
 <%= stylesheet_link_tag 'spree/frontend/all', :media => 'screen' %>
 <%= stylesheet_link_tag 'jquery-styles', :media => 'screen' %><%= csrf_meta_tags %>
 <%= stylesheet_link_tag 'slicknav', :media => 'screen' %>
-<%= stylesheet_link_tag 'styles', :media => 'screen' %>
-<%= stylesheet_link_tag 'stylesMobile', :media => 'screen' %>
+<%= stylesheet_link_tag 'https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css', :media => 'screen' %>
 <%= stylesheet_link_tag 'http://fonts.googleapis.com/css?family=Roboto', :media => 'screen' %>
 <%= stylesheet_link_tag 'https://fonts.googleapis.com/css?family=Indie+Flower', :media => 'screen' %>
+<%= stylesheet_link_tag 'styles', :media => 'screen' %>
+<%= stylesheet_link_tag 'stylesMobile', :media => 'screen' %>
+
 <%= javascript_include_tag 'spree/frontend/all' %>
 <%= javascript_include_tag '//code.jquery.com/ui/1.11.3/jquery-ui.js' %>
 <%= javascript_include_tag 'slicknav.js' %>
