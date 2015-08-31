@@ -424,10 +424,10 @@ body{
 								background:transparent url("/assets/account-iconHover.png") no-repeat left top;
 								}
 						nav#top-nav-bar UL LI.favProds A{
-							background:transparent url("/assets/favourite-icon.png") no-repeat 2em 50%;
+							background:transparent url("/assets/favourite-icon.png") no-repeat left top;
 							}
 							nav#top-nav-bar UL LI.favProds A:hover{
-								background:transparent url("/assets/favourite-iconHover.png") no-repeat 2em 50%;
+								background:transparent url("/assets/favourite-iconHover.png") no-repeat left top;
 								}
 						nav#top-nav-bar UL LI.account A{
 							background:transparent url("/assets/account-icon.png") no-repeat left top;
@@ -472,6 +472,7 @@ body{
 								nav#top-nav-bar UL LI#search-bar INPUT[type="submit"]{
 									background:#e5e5e5;
 									border:none!important;
+									box-shadow:none!important;
 									color:#2f2f2f;
 									float:left;
 									font-size:0.9em;
@@ -1753,6 +1754,10 @@ body{
 					#footer A:hover{
 						text-decoration:underline;
 						}
+				#map{
+        			height:450px;
+					width:100%;
+					}
 				#footer #top-footerContent{
 					background:#ed906c;
 					float:left;
