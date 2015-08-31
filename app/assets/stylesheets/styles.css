@@ -1,5 +1,3 @@
-@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css') screen;
-
 ::selection{
 	background:#191919;
 	color:#ed906c;
@@ -401,7 +399,7 @@ body{
 						margin:0;
 						}
 						nav#top-nav-bar UL LI A{
-							background:#e5e5e5;
+							background:#e5e5e5 url("/assets/account-icon.png") no-repeat left top;
 							color:#ffffff!important;							
 							float:left;
 							font-size:0.8em;
@@ -412,27 +410,36 @@ body{
 							width:auto;
 							}
 							nav#top-nav-bar UL LI A:hover{
-								background:#ed906c;
+								background:#ed906c url("/assets/account-iconHover.png") no-repeat left top;
 								}
 							nav#top-nav-bar UL LI#search-bar INPUT[type="submit"]:hover{
-								background:#1a1a1a;
-								color:#ed906c!important;
+								background:#ed906c;
+								color:#1a1a1a!important;
 								}
 						nav#top-nav-bar UL LI.favProds A{
-							background:#19b894 url("/assets/favourite-icon.png") no-repeat 2em 50%;
+							background:#e5e5e5 url("/assets/favourite-icon.png") no-repeat 2em 50%;
 							}
 							nav#top-nav-bar UL LI.favProds A:hover{
-								background:#191919 url("/assets/favourite-iconHover.png") no-repeat 2em 50%;
+								background:#ed906c url("/assets/favourite-iconHover.png") no-repeat 2em 50%;
 								}
-						nav#top-nav-bar UL LI.account A:before{
-							content:"\f007";
+						nav#top-nav-bar UL LI.account A{
+							background:#e5e5e5 url("/assets/account-icon.png") no-repeat left top;
 							}
-						nav#top-nav-bar UL LI.logIn A:before{
-							content:"\f023";
+							nav#top-nav-bar UL LI.account A:hover{
+								background:#ed906c url("/assets/account-icon.png") no-repeat left top;
+								}
+						nav#top-nav-bar UL LI.logIn A{
+							background:#e5e5e5 url("/assets/login-icon.png") no-repeat left top;
 							}
-						nav#top-nav-bar UL LI.logOut A:before{
-							content:"\f13e";
+							nav#top-nav-bar UL LI.logIn A:hover{
+								background:#ed906c url("/assets/login-iconHover.png") no-repeat left top;
+								}
+						nav#top-nav-bar UL LI.logOut A{
+							background:#e5e5e5 url("/assets/logout-icon.png") no-repeat left top;
 							}
+							nav#top-nav-bar UL LI.logOut A:hover{
+								background:#ed906c url("/assets/logout-iconHover.png") no-repeat left top;
+								}
 					nav#top-nav-bar UL LI#search-bar{
 						float:left;
 						max-width:19.8em;
