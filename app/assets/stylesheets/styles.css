@@ -1806,6 +1806,10 @@ body{
 									margin:0 2.6em 0.8em 0;
 									width:15.8em;
 									}
+								#footer .left-footerContent #footer-right UL LI:before{
+									content:none;
+									padding:0;
+									}
 					#footer .right-footerContent{
 						float:left;
 						margin:0;
