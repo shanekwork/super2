@@ -780,7 +780,7 @@ body{
 					width:100%;
 					}
 				#imageContent{
-					background:transparent url("assets/imageContent.png") no-repeat center top;
+					background:transparent url("/assets/imageContent.png") no-repeat center top;
 				    float:left;
 				    height:9em;
 				    width:100%;
