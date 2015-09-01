@@ -357,6 +357,23 @@ UL#payment-methods LI:before{
 #slicknav_menu{
 	display:none;
 	}
+#toTop{
+	bottom:20px;
+    position:fixed;
+    right:50px;
+    z-index:999;
+	}
+	#toTop A{
+	    background:#6495b3 url("https://super2.herokuapp.com/assets/topPageArrow.png");
+	    border-radius:50%;
+	    box-shadow:0 0 10px #000000;
+	    display:block;
+	    height:50px;
+	    width:50px;
+		}
+		#toTop A:hover{
+		    background:#e5e5e5 url("https://super2.herokuapp.com/assets/topPageArrowHover.png");
+			}
 html,
 body{
 	font:1em/1.4 Arial, Helvetica, sans-serif;
