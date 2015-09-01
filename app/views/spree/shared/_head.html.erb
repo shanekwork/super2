@@ -24,15 +24,15 @@
 	function initialize() {
 	var mapCanvas = document.getElementById('map');
 	var mapOptions = {
-	  center: new google.maps.LatLng(53.292272, -6.425468),
-	  zoom: 30,
+	  center: new google.maps.LatLng(53.290466, -6.422161),
+	  zoom: 8,
 	  mapTypeId: google.maps.MapTypeId.ROADMAP
 	}
 	var map = new google.maps.Map(mapCanvas, mapOptions)
 
 	var iconBase = 'https://super2.herokuapp.com/assets/';
 	var marker = new google.maps.Marker({
-	  position: new google.maps.LatLng(53.290472, -6.421912),
+	  position: new google.maps.LatLng(53.290466, -6.422161),
 	  map: map,
 	  icon: iconBase + 'gpsLocator.png'
 	});
