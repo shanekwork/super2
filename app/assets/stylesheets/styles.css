@@ -774,16 +774,21 @@ body{
 		}
 		#wrapper .container{
 			overflow:hidden;
-			}
-			#content{
+			}			
+			#content,
+			#content .main-content,
+			#footer .main-footer{
 				float:left;
+				padding:0;
+				width:100%;
+				}
+			#content{
 				margin:0;
 				padding:3em 1.85em;
 				width:95.6%;
 				}
 			.home #content{
 				padding:0;
-				width:100%;
 				}
 				#content .banner{
 					height:458px!important;
@@ -794,13 +799,6 @@ body{
 						position:absolute;
 						top:-5000em;
 						}
-				#content,
-				#content .main-content,
-				#footer .main-footer{
-					float:left;
-					padding:00;
-					width:100%;
-					}
 				#imageContent{
 					background:transparent url("/assets/imageContent.png") no-repeat center top;
 				    float:left;
