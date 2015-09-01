@@ -811,9 +811,6 @@ body{
 					position:absolute;
     				z-index:-999;
 					}
-				#content .main-content{
-					margin:0 0 0.3em 0;
-					}
 					#tabs{
 						float:left;
 						width:100%;
@@ -868,6 +865,8 @@ body{
 							}
 						#tabs #special_sale{
 							background:transparent url("/assets/grey-bckg.png") repeat left top;
+							border-radius:0;
+							padding:9.4em 0;
 							}
 							#tabs .product{
 								border:0.5em solid #dddcdb;

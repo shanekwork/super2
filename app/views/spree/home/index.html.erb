@@ -10,33 +10,36 @@
 <div class="container">
     <div class="main-content">
         <div id="tabs">
-
-             <ul>
-                <li>
-                    <h2>
-                        <a href="#special_sale">Sale Items</a>
-                    </h2>
-                </li>
-                <li>
-                    <h2>
-                        <a href="#featured">Featured Products</a>
-                    </h2>
-                </li>
-                <li>
-                    <h2>
-                        <a href="#latest">Latest Products</a>
-                    </h2>
-                </li>
-            </ul>
+            <div class="container">
+                <ul>
+                    <li>
+                        <h2>
+                            <a href="#special_sale">Sale Items</a>
+                        </h2>
+                    </li>
+                    <li>
+                        <h2>
+                            <a href="#featured">Featured Products</a>
+                        </h2>
+                    </li>
+                    <li>
+                        <h2>
+                            <a href="#latest">Latest Products</a>
+                        </h2>
+                    </li>
+                </ul>
+            </div><!--.container-->
 
             <div id="special_sale" class="clearfix">
-              <% @products.where(special: true).each do |e| %>
-                <div class="product">
-                    <div class="product-desc"><%= link_to e.short_description, e, class: 'threex3' %></div>
-                    <div class="home_images"><%= link_to image_tag('http://www.op-insight.co.uk/images/product/large/' + e.image_name + '.jpg'), e %></div>
-                    <div class="product-price">€<%= e.price %></div>
-                </div>
-              <% end %>
+                <div class="container">
+                    <% @products.where(special: true).each do |e| %>
+                        <div class="product">
+                            <div class="product-desc"><%= link_to e.short_description, e, class: 'threex3' %></div>
+                            <div class="home_images"><%= link_to image_tag('http://www.op-insight.co.uk/images/product/large/' + e.image_name + '.jpg'), e %></div>
+                            <div class="product-price">€<%= e.price %></div>
+                        </div>
+                    <% end %>
+                </div><!--.container-->
             </div><!--#special_sale-->
 
             <div id="featured" class="clearfix">
