@@ -779,6 +779,15 @@ body{
 					padding:00;
 					width:100%;
 					}
+				#imageContent{
+					background:transparent url("assets/imageContent.png");
+				    float:left;
+				    height:9em;
+				    width:100%;
+					}
+				.home #imageContent{
+					display:none;
+					}
 				#content{
 					padding:3em 1.85em;
 					}
