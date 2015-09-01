@@ -611,7 +611,7 @@ body{
 					}
 					#main-menu NAV UL LI{
 						float:left;
-						margin:0 0 0 1.56em;
+						margin:0 0 0 2.08em;
 						padding:2.65em 0;
 						width:auto;
 						}
@@ -789,6 +789,7 @@ body{
 				}
 			.home #content{
 				padding:0;
+				width:100%;
 				}
 				#content .banner{
 					height:458px!important;
@@ -865,6 +866,9 @@ body{
 							float:left;
 							width:100%;
 							}
+						#tabs #special_sale{
+							background:transparent url("/assets/grey-bckg.png") repeat left top;
+							}
 							#tabs .product{
 								border:0.5em solid #dddcdb;
 							    float:left;
@@ -889,6 +893,7 @@ body{
 										float:left;
 										font-size:1em;
 										max-height:3em;
+										min-height:3em;
 										overflow:hidden;
 										text-align:center;
 										width:auto;
