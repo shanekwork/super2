@@ -787,6 +787,8 @@ body{
 					}
 				.home #imageContent{
 					display:none;
+					position:absolute;
+    				z-index:-999;
 					}
 				#content{
 					padding:3em 1.85em;
