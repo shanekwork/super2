@@ -793,7 +793,7 @@ body{
 				}
 				#content .banner{
 					height:458px!important;
-					margin:0 0 2.5em 0;
+					margin:0;
 					width:100%!important;
 					}
 					#content .banner H1{
@@ -820,7 +820,8 @@ body{
 							border:none;
 							border-radius:0;
 							float:left;
-							margin:0 0 1.25em 0;
+							margin:0;
+							padding:2.5em 0 1.85em 0;
 							text-align:center;
 							width:100%;
 							}
@@ -853,6 +854,7 @@ body{
 										float:left;
 										font-size:1.1em;
 										padding:0;
+										position:relative;
 										width:auto;
 										}
 									#tabs UL LI H2 A::before{
