@@ -882,13 +882,11 @@ body{
 						#tabs #special_sale,
 						#tabs #featured,
 						#tabs #latest{
-							float:left;
-							width:100%;
-							}
-						#tabs #special_sale{
 							background:transparent url("/assets/grey-bckg.png") repeat left top;
 							border-radius:0;
+							float:left;
 							padding:9.4em 0 7.45em 0;
+							width:100%;
 							}
 							#tabs .product{
 								background:#ffffff;
