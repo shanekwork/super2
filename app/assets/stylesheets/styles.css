@@ -848,8 +848,7 @@ body{
 									text-transform:inherit;
 									width:auto;
 									}
-									#tabs UL LI H2 A,
-									#tabs UL LI.ui-tabs-active H2 A:hover{
+									#tabs UL LI H2 A{
 										color:#2f2f2f!important;
 										float:left;
 										font-size:1.1em;
@@ -875,6 +874,10 @@ body{
 										}
 										#tabs UL LI H2 A:hover{
 											color:#ed906c!important;
+											}										
+										#tabs UL LI.ui-tabs-active H2 A:hover{
+											color:#2f2f2f!important;
+											cursor:text;
 											}
 						#tabs #special_sale,
 						#tabs #featured,
