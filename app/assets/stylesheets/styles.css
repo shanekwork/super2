@@ -847,12 +847,29 @@ body{
 									text-transform:inherit;
 									width:auto;
 									}
-									#tabs UL LI H2 A{
+									#tabs UL LI H2 A,
+									#tabs UL LI.ui-tabs-active H2 A{
 										color:#2f2f2f!important;
 										float:left;
 										font-size:1.1em;
 										padding:0;
 										width:auto;
+										}
+									#tabs UL LI H2 A::before{
+									    border-color:transparent transparent #313131 transparent;
+									    border-style:solid;
+									    border-width:0 8px 9px 8px;
+									    bottom:-1.8em;
+									    content:"";
+									    height:0;
+									    left:50%;
+									    opacity:0;
+									    position:absolute;
+									    transition:all 0.2s ease 0s;
+									    width:0;
+										}
+									#tabs UL LI.ui-tabs-active H2 A::before{
+									    opacity:1;
 										}
 										#tabs UL LI H2 A:hover{
 											color:#ed906c!important;
@@ -869,14 +886,15 @@ body{
 							padding:9.4em 0 7.45em 0;
 							}
 							#tabs .product{
+								background:#ffffff;
 								border:0.5em solid #dddcdb;
 							    float:left;
-							    margin:0 0.77em 1.9em 0.77em;
-							    max-height:19em;
-							    min-height:19em;
+							    margin:0 1.28em 1.9em 1.28em;
+							    max-height:16em;
+							    min-height:16em;
 							    overflow:hidden;
-							    padding:2.2em 0.9em;
-							    width:18.85%;
+							    padding:2.4em 1.3em;
+							    width:17.9%;
 								}
 								#tabs .product .product-desc,
 								#tabs .product .home_images,
@@ -885,12 +903,14 @@ body{
 								    width:100%;
 									}
 								#tabs .product .product-desc{
-									margin:0 0 1.45em 0;
+									margin:0 0 1.3em 0;
+									text-align:center;
 									}
 									#tabs .product .product-desc A{
 										color:#191919;
-										float:left;
-										font-size:1em;
+										display:block;
+										float:none;
+										font-size:0.85em;
 										max-height:3em;
 										min-height:3em;
 										overflow:hidden;
@@ -901,21 +921,21 @@ body{
 											color:#ed906c;
 											}
 								#tabs .product .home_images{
-									margin:0 0 1.45em 0;
+									margin:0 0 1.4em 0;
 									text-align:center;
 									}
 									#tabs .product .home_images A IMG{
-										max-height:9.1em;
-									    max-width:9.1em;
-									    min-height:7.4em;
+										max-height:6.8em;
+									    max-width:7em;
+									    min-height:6.8em;
 									    min-width:5.1em;
 										}
 								#tabs .product .product-price{
-									border-top:0.15em solid #dddcdb;
+									border-top:2px solid #dddcdb;
 									color:#ed906c;
 								    float:left;
-								    font-size:1.85em;
-								    padding:0.55em 0 0 0;
+								    font-size:1.65em;
+								    padding:0.45em 0 0 0;
 								    text-align:center;
 								    width:100%;
 									}
