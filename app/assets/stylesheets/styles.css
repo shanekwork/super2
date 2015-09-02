@@ -784,6 +784,7 @@ body{
 				}
 			#content{
 				margin:0;
+				min-height:15em;
 				padding:3em 1.85em;
 				width:95.6%;
 				}
@@ -1895,7 +1896,7 @@ body{
 											border:none!important;
 										    color:#a5a5a5;
 										    float:left;
-										    padding:0.9em 0.85em;
+										    padding:1em 0.85em!important;
 										    width:99.5%;
 											}
 									FORM#contact_newsletter FIELDSET DIV.button{
@@ -2020,7 +2021,10 @@ nav#top-nav-bar UL LI#search-bar{
 }
 
 /* IE 11 */
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {	
+	#header .phone{
+		margin:0 0.99em 0 0;
+		}
 	nav#top-nav-bar UL LI{
 		margin:0 0 0 0.9em;
 		}
@@ -2028,8 +2032,17 @@ nav#top-nav-bar UL LI#search-bar{
 		max-width:19.85em;
 		width:19.85em;
 		}
-	#main-menu NAV UL LI {
-	    margin:0 0 0 1.53em;
+		nav#top-nav-bar UL LI#search-bar INPUT{
+			width:16.3em;
+			}
+		nav#top-nav-bar UL LI A{
+			font-size:1px;
+			max-width:6em;
+			min-width:6em;
+    		padding:12.5em 18.75em;
+			}
+	#main-menu NAV UL LI{
+	    margin:0 0 0 2.04em;
 		}
 	#content #checkout .row .columns FORM .columns.omega{
 	    min-height:53.8em;
