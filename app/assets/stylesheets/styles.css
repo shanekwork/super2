@@ -890,14 +890,13 @@ body{
 							}
 							#tabs .product{
 								background:#ffffff;
-								border:0.5em solid #dddcdb;
 							    float:left;
-							    margin:0 1.28em 1.9em 1.28em;
+							    margin:0 1.76em 1.9em 1.76em;
 							    max-height:16em;
 							    min-height:16em;
 							    overflow:hidden;
 							    padding:2.4em 1.3em;
-							    width:17.9%;
+							    width:17%;
 								}
 								#tabs .product .product-desc,
 								#tabs .product .home_images,
