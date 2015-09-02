@@ -885,6 +885,7 @@ body{
 							background:transparent url("/assets/grey-bckg.png") repeat left top;
 							border-radius:0;
 							float:left;
+							min-height:22.7em;
 							padding:9.4em 0 7.45em 0;
 							width:100%;
 							}
