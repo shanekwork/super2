@@ -880,75 +880,69 @@ body{
 											color:#2f2f2f!important;
 											cursor:text;
 											}
-						#tabs .contentTabs{
+						#tabs #special_sale,
+						#tabs #featured,
+						#tabs #latest{
 							background:transparent url("/assets/grey-bckg.png") repeat left top;
+							border-radius:0;
 							float:left;
 							min-height:22.7em;
 							padding:9.4em 0 7.45em 0;
 							width:100%;
 							}
-							#tabs #special_sale,
-							#tabs #featured,
-							#tabs #latest{
-								background:none;
-								border-radius:0;
-								float:left;
-								padding:0;
-								width:100%;
+							#tabs .product{
+								background:#ffffff;
+							    float:left;
+							    margin:0 1.76em 2.3em 1.76em;
+							    max-height:16em;
+							    min-height:16em;
+							    overflow:hidden;
+							    padding:2.4em 1.3em;
+							    width:17%;
 								}
-								#tabs .product{
-									background:#ffffff;
+								#tabs .product .product-desc,
+								#tabs .product .home_images,
+								#tabs .product .product-price{
 								    float:left;
-								    margin:0 1.6em 2.3em 1.6em;
-								    max-height:16em;
-								    min-height:16em;
-								    overflow:hidden;
-								    padding:2.4em 1.3em;
-								    width:17%;
+								    width:100%;
 									}
-									#tabs .product .product-desc,
-									#tabs .product .home_images,
-									#tabs .product .product-price{
-									    float:left;
-									    width:100%;
-										}
-									#tabs .product .product-desc{
-										margin:0 0 1.3em 0;
+								#tabs .product .product-desc{
+									margin:0 0 1.3em 0;
+									text-align:center;
+									}
+									#tabs .product .product-desc A{
+										color:#191919;
+										display:block;
+										float:none;
+										font-size:0.85em;
+										max-height:3em;
+										min-height:3em;
+										overflow:hidden;
 										text-align:center;
+										width:auto;
 										}
-										#tabs .product .product-desc A{
-											color:#191919;
-											display:block;
-											float:none;
-											font-size:0.85em;
-											max-height:3em;
-											min-height:3em;
-											overflow:hidden;
-											text-align:center;
-											width:auto;
+										#tabs .product .product-desc A:hover{
+											color:#ed906c;
 											}
-											#tabs .product .product-desc A:hover{
-												color:#ed906c;
-												}
-									#tabs .product .home_images{
-										margin:0 0 1.4em 0;
-										text-align:center;
+								#tabs .product .home_images{
+									margin:0 0 1.4em 0;
+									text-align:center;
+									}
+									#tabs .product .home_images A IMG{
+										max-height:6.8em;
+									    max-width:7em;
+									    min-height:6.8em;
+									    min-width:5.1em;
 										}
-										#tabs .product .home_images A IMG{
-											max-height:6.8em;
-										    max-width:7em;
-										    min-height:6.8em;
-										    min-width:5.1em;
-											}
-									#tabs .product .product-price{
-										border-top:2px solid #dddcdb;
-										color:#ed906c;
-									    float:left;
-									    font-size:1.65em;
-									    padding:0.45em 0 0 0;
-									    text-align:center;
-									    width:100%;
-										}
+								#tabs .product .product-price{
+									border-top:2px solid #dddcdb;
+									color:#ed906c;
+								    float:left;
+								    font-size:1.65em;
+								    padding:0.45em 0 0 0;
+								    text-align:center;
+								    width:100%;
+									}
 					#product-show,
 					#reviews{
 						float:left;
