@@ -1963,19 +1963,26 @@ body{
 	nav#top-nav-bar UL LI{
 		margin:0 0 0 0.9em;
 		}
-	nav#top-nav-bar UL LI#search-bar{
-		max-width:19.85em;
-		width:19.85em;
-		}
 		nav#top-nav-bar UL LI#search-bar INPUT[type="submit"]{
 			padding:0.95em 1.15em 0.9em 1.15em!important;
-			width:16.3em;
 			}
+		nav#top-nav-bar UL LI A{
+			font-size:1px;
+			max-width:6em;
+			min-width:6em;
+    		padding:12.5em 18.75em;
+			}
+	#main-menu NAV UL LI{
+		margin:0 0 0 2.04em;
+		}
 	#content #checkout .row .columns FORM .columns.omega{
 	    min-height:53.8em;
 		}
 	#content UL#products LI{
 		width:18.7%;
+		}
+	#toTop{
+		bottom:45px;
 		}
 }
 
