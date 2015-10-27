@@ -188,7 +188,7 @@ TABLE{
     width:100%;
 	}
 .container{
-	width:1280px;
+	width:1167px;
 	}
 .ui-widget{
 	font-family:Arial, Helvetica, sans-serif;
@@ -400,6 +400,7 @@ body{
 			}
 		#header .header-top{
 			background:#252525;
+			padding:0.63em 0;
 			}
 			#header .header-top .phone{
 				float:left;
@@ -490,22 +491,33 @@ body{
 								nav#top-nav-bar UL LI#search-bar INPUT[type="submit"]:hover{
 									background:#ed906c;
 									}
-				.header-bottom FIGURE{
+		#header .header-bottom{
+			padding:1.55em 0;
+			}
+			.header-bottom FIGURE{
+				float:left;
+			    margin:0 3em 0 0!important;
+			    width:auto!important;
+				}
+				.header-bottom FIGURE A{
 					float:left;
-				    margin:0;
-				    width:229px;
+					padding:0;
+					width:auto;
 					}
-					.header-bottom FIGURE A{
+					.header-bottom FIGURE A IMG{
 						float:left;
-						padding:1.6em 1.2em;
-						width:auto;
+						max-width:14.2em;
+						padding:0!important;
+						width:auto!important;
 						}
-						.header-bottom FIGURE A IMG{
-							float:left;
-							max-width:14.2em;
-							padding:0;
-							width:auto!important;
-							}
+			.right-header-bottom{
+				float:right;
+				width:auto;
+				}
+				#search-bar{
+					float:left;
+					width:auto;
+					}
 				#link-to-cart{
 					float:right;
 					margin:0 0 0 1em;
@@ -526,6 +538,7 @@ body{
 						#link-to-cart A SPAN{
 							font-weight:bold;
 							}
+			}
 		#main-menu{
 			float:left;
 			padding:0;
