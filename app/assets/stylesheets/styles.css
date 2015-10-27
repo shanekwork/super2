@@ -532,9 +532,11 @@ body{
 						    margin:0;
 						    overflow:hidden;
 							padding:0;
-						    width:120px;
+						    width:auto;
 							}
-							#search-bar FORM SELECT{
+							#search-bar FORM .select-style SELECT{
+								-webkit-appearance:none;
+       							-moz-appearance:none;
 								appearance:none;
 								border:none;
 								color:#4b4b4b;
@@ -544,6 +546,9 @@ body{
 								padding:5px 8px;
     							width:auto;
 								}
+								#search-bar FORM .select-style SELECT:focus{
+								    outline:none;
+									}
 								#search-bar FORM SELECT OPTION{
 									color:#888888;
 									}
