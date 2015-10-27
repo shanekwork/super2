@@ -494,24 +494,25 @@ body{
 		#header .header-bottom{
 			padding:1.55em 0;
 			}
-			.header-bottom FIGURE{
+			#header .header-bottom FIGURE{
 				float:left;
 			    margin:0 3em 0 0!important;
 			    width:auto!important;
 				}
-				.header-bottom FIGURE A{
+				#header .header-bottom FIGURE A{
 					float:left;
 					padding:0;
 					width:auto;
 					}
-					.header-bottom FIGURE A IMG{
+					#header .header-bottom FIGURE A IMG{
 						float:left;
 						max-width:14.2em;
 						padding:0!important;
 						width:auto!important;
 						}
-			.right-header-bottom{
+			#header .right-header-bottom{
 				float:right;
+				margin:1em 0 0 0;
 				width:auto;
 				}
 				#search-bar{
@@ -562,14 +563,12 @@ body{
 							width:auto;
 							}
 						#search-bar FORM INPUT{
-							background:none;
 							border:none!important;
 						    color:#646464;
 						    font-family:"Montserrat",sans-serif;
 						    font-size:13px!important;
 						    height:34px;
 						    padding:0 12px!important;
-						    text-indent:-5000em;
 							}
 						#search-bar FORM INPUT[type="submit"]{
 							background:transparent url("/assets/search.png") no-repeat left top;
