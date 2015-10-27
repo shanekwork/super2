@@ -525,15 +525,28 @@ body{
 					    padding:0;
 					    width:100%;
 						}
-						#search-bar FORM SELECT{
-							color:#4b4b4b;
-							display:block;
-							font-family:'Montserrat', sans-serif;
-							font-size:11px;
+						#search-bar FORM .select-style{
+							background: #fff url("/assets/arrowdown.gif") no-repeat 90% 50%;
+						    border:1px solid #cccccc;
+						    border-radius:3px;
+						    margin:0;
+						    overflow:hidden;
+							padding:0;
+						    width:120px;
 							}
-							#search-bar FORM SELECT OPTION{
-								color:#888888;
+							#search-bar FORM SELECT{
+								appearance:none;
+								border:none;
+								color:#4b4b4b;
+								display:block;
+								font-family:'Montserrat', sans-serif;
+								font-size:11px;
+								padding:5px 8px;
+    							width:auto;
 								}
+								#search-bar FORM SELECT OPTION{
+									color:#888888;
+									}
 						#search-bar FORM SELECT,
 						#search-bar FORM INPUT{
 							float:left;
