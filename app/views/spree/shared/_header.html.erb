@@ -1,16 +1,17 @@
 <header id="header" class="row" data-hook>
-	<div class="header-content">
-		<div class="container">
-			<div class="header-top">
+		<div class="header-top">
+			<div class="container">
 				<div class="phone">
 					<i class="fa fa-phone"></i>
 					<p>Call us</p>
 					<a href="tel:0035314361847">+353 1 4361847</a>
 				</div>
 		  		<%= render :partial => 'spree/shared/nav_bar' %>
-		  	</div><!--.header-top-->
+		  	</div><!--.container-->
+	  	</div><!--.header-top-->
 
-		  	<div class="header-bottom">
+	  	<div class="header-bottom">
+	  		<div class="container">
 		  		<figure id="logo" class="columns six" data-hook><%= logo %></figure>
 		  		<div id="search-bar">
 		  			<%= render :partial => 'spree/shared/search' %>
@@ -23,9 +24,8 @@
 					&nbsp;
 				</div>    
 				<script>Spree.fetch_cart()</script>
-			</div><!--.header-bottom-->
-		</div><!--container-->
-	</div><!--header-content-->
+			</div><!--.container-->
+		</div><!--.header-bottom-->
 
 	<div id="main-menu">
 		<div class="container">
