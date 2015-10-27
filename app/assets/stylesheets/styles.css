@@ -33,7 +33,7 @@ H6{
 	}
 H3{
 	color:#191919;
-	font-family:'Roboto', sans-serif;
+	font-family:'Open Sans', sans-serif;
     font-size:1.2em;
     font-weight:normal;
     margin:0 0 0.5em 0;
@@ -400,202 +400,143 @@ body{
 			padding:0.6em 0;
 			width:100%;
 			}
-			nav#top-nav-bar{
+			#header .header-top,
+			#header .header-bottom{
 				float:left;
-				margin:0;
-				text-align:left;
-				width:71.9%;
+				margin:0 0 1em 0;
+				width:100%;
 				}
-				nav#top-nav-bar UL{
+				#header .header-top .phone{
 					float:left;
-					margin:0;
-					width:100%;
+					margin:0 1em 0 0;
+					width:auto;
 					}
-					nav#top-nav-bar UL LI{
+					#header .header-top .phone i{
+						color:#d5d5d5;
+					    float:left;
+					    font-size:0.75em;
+					    margin:0.15em 0.6em 0 0;
+					}
+					#header .header-top .phone P{
+						color:#d5d5d5;
+					    float:left;
+					    font-size:0.75em;
+					    margin:0 0.2em 0 0;
+					    width:auto;
+						}
+					#header .header-top .phone A,
+					#header .header-top .phone A:hover{
+						color:#ec4445;
+					    float:left;
+					    font-size:0.75em;
+					    width:auto;
+						}			
+				nav#top-nav-bar{
+					float:right;
+					margin:0;
+					width:auto;
+					}
+					nav#top-nav-bar UL{
 						float:left;
-						margin:0 0 0 0.4em;
-						max-width:10.7em;
-						padding:0;
-						position:absolute;
-						right:8.6em;
-						width:auto;
+						margin:0;
+						width:100%;
 						}
-					nav#top-nav-bar UL LI.account{
-						right:11.8em;
-						}
-					nav#top-nav-bar UL LI.favProds{
-						right:15em;
-						}
-						nav#top-nav-bar UL LI A{
-							background:#e5e5e5 url("/assets/account-icon.png") no-repeat left top;
-							color:#ffffff!important;							
+						nav#top-nav-bar UL LI{
 							float:left;
-							font-size:0.8em;
-							font-weight:normal;
-							padding:1.1em 1.75em;
-							text-indent:-5000em;
-							text-transform:none;
+							margin:0 0 0 1.25em;
+							padding:0;
 							width:auto;
 							}
-							nav#top-nav-bar UL LI A:hover{
-								background:transparent url("/assets/account-iconHover.png") no-repeat left top;
-								}
-						nav#top-nav-bar UL LI.favProds A{
-							background:transparent url("/assets/favourite-icon.png") no-repeat left top;
-							}
-							nav#top-nav-bar UL LI.favProds A:hover{
-								background:transparent url("/assets/favourite-iconHover.png") no-repeat left top;
-								}
-						nav#top-nav-bar UL LI.account A{
-							background:transparent url("/assets/account-icon.png") no-repeat left top;
-							}
-							nav#top-nav-bar UL LI.account A:hover{
-								background:transparent url("/assets/account-iconHover.png") no-repeat left top;
-								}
-						nav#top-nav-bar UL LI.logIn A{
-							background:transparent url("/assets/login-icon.png") no-repeat left top;
-							}
-							nav#top-nav-bar UL LI.logIn A:hover{
-								background:transparent url("/assets/login-iconHover.png") no-repeat left top;
-								}
-						nav#top-nav-bar UL LI.logOut A{
-							background:transparent url("/assets/logout-icon.png") no-repeat left top;
-							}
-							nav#top-nav-bar UL LI.logOut A:hover{
-								background:transparent url("/assets/logout-iconHover.png") no-repeat left top;
-								}
-					nav#top-nav-bar UL LI#search-bar{
-						float:none;
-					    margin:0;
-					    max-width:19.9em;
-					    padding:0 28.5%;
-					    position:inherit;
-					    text-align:center;
-    					width:19.9em;
-						}
-						nav#top-nav-bar UL LI#search-bar FORM{
-							border:none;
-							padding:0;
-							width:100%;
-							}
-							nav#top-nav-bar UL LI#search-bar INPUT{
-								border:1px solid #bbbbbb!important;
-								border-right:none;
-								color:#a5a5a5;
+							nav#top-nav-bar UL LI A{
+								color:#d5d5d5!important;
 								float:left;
-								padding:0.9em 0.85em;
-								width:16.4em;
+								font-size:0.75em;
+								font-weight:normal;
+								text-transform:inherit;
+								width:auto;
 								}
-								nav#top-nav-bar UL LI#search-bar INPUT[type="submit"]{
-									background:#e5e5e5;
-									border:none!important;
-									box-shadow:none!important;
-									color:#2f2f2f;
-									float:left;
-									font-size:0.9em;
-									font-weight:normal;
-									padding:0.9em 1.2em!important;
-									text-transform:uppercase;
-									width:auto;
-									}									
-								nav#top-nav-bar UL LI#search-bar INPUT[type="submit"]:hover{
-									background:#ed906c;
+								nav#top-nav-bar UL LI A:hover{
+									color:#ec4445!important;
 									}
-			#link-to-cart{
-				float:right;
-				margin:0 0 0 0.4em;
-				width:auto;
-				}
-				#link-to-cart A{
-					background:transparent url("/assets/cart.png") no-repeat left top;
-					color:#ffffff;
+						nav#top-nav-bar UL LI#search-bar{
+							float:none;
+						    margin:0;
+						    max-width:19.9em;
+						    padding:0 28.5%;
+						    position:inherit;
+						    text-align:center;
+	    					width:19.9em;
+							}
+							nav#top-nav-bar UL LI#search-bar FORM{
+								border:none;
+								padding:0;
+								width:100%;
+								}
+								nav#top-nav-bar UL LI#search-bar INPUT{
+									border:1px solid #bbbbbb!important;
+									border-right:none;
+									color:#a5a5a5;
+									float:left;
+									padding:0.9em 0.85em;
+									width:16.4em;
+									}
+									nav#top-nav-bar UL LI#search-bar INPUT[type="submit"]{
+										background:#e5e5e5;
+										border:none!important;
+										box-shadow:none!important;
+										color:#2f2f2f;
+										float:left;
+										font-size:0.9em;
+										font-weight:normal;
+										padding:0.9em 1.2em!important;
+										text-transform:uppercase;
+										width:auto;
+										}									
+									nav#top-nav-bar UL LI#search-bar INPUT[type="submit"]:hover{
+										background:#ed906c;
+										}
+
+				#main-menu FIGURE{
+					float:left;
+				    margin:0;
+				    width:229px;
+					}
+					#main-menu FIGURE A{
+						float:left;
+						padding:1.6em 1.2em;
+						width:auto;
+						}
+						#main-menu FIGURE A IMG{
+							float:left;
+							max-width:14.2em;
+							padding:0;
+							width:auto!important;
+							}
+				#link-to-cart{
 					float:right;
-					font-size:0.75em;
-					min-height:1.4em;
-					padding:1.1em 0 1.1em 4.5em;
+					margin:0 0 0 1em;
 					width:auto;
 					}
-					#link-to-cart A:hover{
-						background:transparent url("/assets/cart-hover.png") no-repeat left top;
-						}						
-					#link-to-cart A SPAN{
-						font-weight:bold;
+					#link-to-cart A{
+						background:transparent url("/assets/cart.png") no-repeat left top;
+						color:#ffffff;
+						float:right;
+						font-size:0.75em;
+						min-height:1.4em;
+						padding:1.1em 0 1.1em 4.5em;
+						width:auto;
 						}
-			#header .phone{
-				float:left;
-				margin:0 1em 0 0;
-				width:auto;
-				}
-				#header .phone IMG{
-					float:left;
-					max-width:1.6em;
-					width:auto;
-					}
-				#header .phone .inside{
-					float:left;
-					padding:0 0 0 0.8em;
-					width:auto;
-					}
-					#header .phone .inside P{
-						color:#ed906c;
-						font-size:0.8em;
-						font-weight:bold;
-						margin:0 0 0.2em 0;
-						padding:0;
-						text-transform:uppercase;
-						}
-					#header .phone .inside A{
-						color:#e5e5e5;
-						font-size:1.5em;
-						line-height:0.8em;
-						}
-						#header .phone .inside A:hover{
-							color:#ed906c;
+						#link-to-cart A:hover{
+							background:transparent url("/assets/cart-hover.png") no-repeat left top;
+							}						
+						#link-to-cart A SPAN{
+							font-weight:bold;
 							}
 		#main-menu{
 			float:left;
 			padding:0;
 			width:100%;
-			}				
-			#main-menu FIGURE{
-				background:#ed906c;
-			    height:136px;
-			    margin:0;
-			    padding:40px 0 0;
-			    position:relative;
-			    width:229px;
-				}
-			#main-menu FIGURE:after{
-				border-color:#ed906c transparent transparent transparent;
-				border-style:solid;
-			    border-width:30px 115px 0 0;
-			    content:"";
-			    position:absolute;
-			    right:0;
-			    top:100%;
-			    z-index:1;
-				}
-			#main-menu FIGURE:before{
-				border-color:transparent #ed906c transparent transparent;
-			    border-style:solid;
-			    border-width:0 115px 30px 0;
-			    content:"";
-			    left:0;
-			    position:absolute;
-			    top:100%;
-			    z-index:1;
-				}
-				#main-menu FIGURE A{
-					float:left;
-					padding:1.6em 1.2em;
-					width:auto;
-					}
-					#main-menu FIGURE A IMG{
-						float:left;
-						max-width:14.2em;
-						padding:0;
-						width:auto!important;
-						}
+			}
 			#main-menu NAV{
 				float:right;
 				margin:0 0 0 4em;
@@ -621,7 +562,7 @@ body{
 						#main-menu NAV UL LI A{
 							color:#2f2f2f!important;
 							float:left;
-							font-family:'Roboto', sans-serif;
+							font-family:'Open Sans', sans-serif;
 							font-weight:normal;
 							font-size:1em!important;
 							padding:0 0.89em 0 0;
@@ -1793,7 +1734,6 @@ body{
 			    padding:0!important;
 				}
 				#footer H3{
-					font-family:'Indie Flower', cursive;
 					font-size:3em;
 					color:#ffffff;
 					line-height:1.3em;
