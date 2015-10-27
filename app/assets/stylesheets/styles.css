@@ -525,37 +525,55 @@ body{
 					    padding:0;
 					    width:100%;
 						}
-						#search-bar FORM .select-style{
-							background: #fff url("/assets/arrowdown.gif") no-repeat 90% 50%;
-						    border:1px solid #cccccc;
-						    border-radius:3px;
+						#search-bar .select-style{
+							background:#ffffff url("/assets/arrowdown.gif") no-repeat 90% 50%;
+						    border:none;
+						    border-right:1px solid #ececec;
 						    margin:0;
 						    overflow:hidden;
 							padding:0;
 						    width:auto;
 							}
-							#search-bar FORM .select-style SELECT{
+							#search-bar .select-style SELECT{
 								-webkit-appearance:none;
        							-moz-appearance:none;
 								appearance:none;
-								border:none;
+								border:none!important;
 								color:#4b4b4b;
 								display:block;
 								font-family:'Montserrat', sans-serif;
-								font-size:11px;
-								padding:5px 8px;
+								font-size:0.69em;
+								padding:0.73em 1em!important;
     							width:auto;
 								}
-								#search-bar FORM .select-style SELECT:focus{
+								#search-bar .select-style SELECT:focus{
 								    outline:none;
 									}
-								#search-bar FORM SELECT OPTION{
+								#search-bar .select-style SELECT OPTION{
 									color:#888888;
+									font-family:Arial,Helvetica,sans-serif;
+									font-size:1.15em;
+									font-weight:normal;
+									margin:0 0 0.15em 0;
 									}
-						#search-bar FORM SELECT,
+						#search-bar .select-style SELECT,
 						#search-bar FORM INPUT{
 							float:left;
 							width:auto;
+							}
+						#search-bar FORM INPUT{
+							background:none;
+							border:none!important;
+						    color:#646464;
+						    font-family:"Montserrat",sans-serif;
+						    font-size:13px!important;
+						    height:34px;
+						    padding:0 12px!important;
+						    text-indent:-5000em;
+							}
+						#search-bar FORM INPUT[type="submit"]{
+							background:transparent url("/assets/search.png") no-repeat left top;
+						    text-indent:-5000em;
 							}
 				#link-to-cart{
 					float:right;
