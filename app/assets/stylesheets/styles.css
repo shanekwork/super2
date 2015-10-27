@@ -395,7 +395,7 @@ body{
 		#header .header-top,
 		#header .header-bottom{
 			float:left;
-			margin:0 0 1em 0;
+			margin:0;
 			width:100%;
 			}
 		#header .header-top{
@@ -518,6 +518,27 @@ body{
 					float:left;
 					width:auto;
 					}
+					#search-bar FORM{
+						border:none;
+						box-shadow:0 0 2px #cccccc;
+					    float:left;
+					    padding:0;
+					    width:100%;
+						}
+						#search-bar FORM SELECT{
+							color:#4b4b4b;
+							display:block;
+							font-family:'Montserrat', sans-serif;
+							font-size:11px;
+							}
+							#search-bar FORM SELECT OPTION{
+								color:#888888;
+								}
+						#search-bar FORM SELECT,
+						#search-bar FORM INPUT{
+							float:left;
+							width:auto;
+							}
 				#link-to-cart{
 					float:right;
 					margin:0 0 0 1em;
@@ -539,14 +560,15 @@ body{
 							font-weight:bold;
 							}
 		#main-menu{
+			background:#363636;
 			float:left;
 			padding:0;
 			width:100%;
 			}
 			#main-menu NAV{
 				float:right;
-				margin:0 0 0 4em;
-				width:77%;
+				margin:0;
+				width:100%;
 				}
 				#main-menu NAV UL{
 					border:none;
@@ -566,7 +588,7 @@ body{
 						margin:0;
 						}
 						#main-menu NAV UL LI A{
-							color:#2f2f2f!important;
+							color:#ffffff!important;
 							float:left;
 							font-family:'Open Sans', sans-serif;
 							font-weight:normal;
