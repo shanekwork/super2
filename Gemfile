@@ -8,7 +8,8 @@ gem 'pg', '~> 0.18.1'
 gem 'sass-rails', '~> 4.0.2'
 
 gem 'uglifier', '>= 1.3.0'
-
+gem 'carrierwave', '~> 0.10.0'
+gem 'fog', '~> 1.24.0'
 
 gem 'mail_form'
 gem 'simple_form'
