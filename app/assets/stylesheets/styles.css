@@ -587,10 +587,7 @@ body{
 						min-height:1.4em;
 						padding:1.1em 0 1.1em 4.5em;
 						width:auto;
-						}
-						#link-to-cart A:hover{
-							background:transparent url("/assets/cart-hover.png") no-repeat left top;
-							}						
+						}						
 						#link-to-cart A SPAN{
 							font-weight:bold;
 							}
