@@ -33,7 +33,7 @@ H6{
 	}
 H3{
 	color:#191919;
-	font-family:'Open Sans', sans-serif;
+	font-family:"Montserrat" ,sans-serif;
     font-size:1.2em;
     font-weight:normal;
     margin:0 0 0.5em 0;
@@ -851,6 +851,7 @@ body{
 						#tabs UL{
 							background:none;
 							border:none;
+							border-bottom:1px solid #e8e8e9;
 							border-radius:0;
 							float:left;
 							margin:0;
@@ -873,6 +874,12 @@ body{
 							#tabs UL LI:hover{
 								background:none;
 								}
+								#tabs UL LI.ui-tabs-active:after,
+								#tabs UL LI:hover{
+									border-bottom:3px solid #252525;
+									bottom:-2px;
+									position:absolute;
+									}
 								#tabs UL LI H2{
 									float:left;
 									font-size:1.1em;
