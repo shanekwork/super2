@@ -616,7 +616,7 @@ body{
 					#main-menu NAV UL LI{
 						float:left;
 						margin:0 0 0 2.08em;
-						padding:2.65em 0;
+						padding:1.25em 0;
 						width:auto;
 						}
 					#main-menu NAV UL LI:first-child{
@@ -625,22 +625,28 @@ body{
 						#main-menu NAV UL LI A{
 							color:#ffffff!important;
 							float:left;
-							font-family:'Open Sans', sans-serif;
+							font-family:Montserrat,Arial,Helvetica,sans-serif;
 							font-weight:normal;
-							font-size:1em!important;
+							font-size:0.88em!important;
 							padding:0 0.89em 0 0;
+							transition:all 0.4s ease 0s;
 							width:auto;
+							}
+
+						#main-menu NAV UL LI A:after{
+							content:"\f0d7";
+							font-family:"FontAwesome";
+							margin:0 0 10px 0;
 							}
 						#main-menu NAV UL LI:first-child A{
 							padding:0!important;
 							}
 							#main-menu NAV UL LI A.selected,
 							#main-menu NAV UL LI A:hover{
-								color:#ed906c!important;
+								color:#ec4445!important;
 								}
 								#main-menu NAV UL LI A:hover{
-									background:transparent url("/assets/sel-down-menu-arrow.png") no-repeat right 0.35em!important;
-									color:#ed906c;
+									color:#ec4445;
 									}
 								#main-menu NAV UL LI:first-child A:hover{
 									background:none!important;
@@ -667,7 +673,6 @@ body{
 								}
 								#main-menu NAV UL LI UL LI A,
 								#main-menu NAV UL LI UL LI:first-child A{
-									background:transparent url("menu-arrow.png") no-repeat 16em center;
 									color:#5b5b5b!important;
 									font-size:0.9em!important;
 									line-height:1.2em;
@@ -681,7 +686,6 @@ body{
 										padding:0.5em 2.1em 0.5em 0.5em!important;
 										}
 									#main-menu NAV UL LI UL LI:hover{
-										background:#ed906c url("sel-menu-arrow.png") no-repeat scroll 14.4em center!important;
 										padding:0 0.8em 0 0!important;
 										width:95%;
 										}
@@ -690,7 +694,6 @@ body{
 										}
 										#main-menu NAV UL LI UL LI:hover A,
 										#main-menu NAV UL LI UL LI:first-child A:hover{
-											background:#ed906c url("sel-menu-arrow.png") no-repeat scroll 16em center!important;
 											color:#ffffff!important;
 											padding:0.5em 2.1em 0.5em 0.5em!important;
 											width:85.5%;
