@@ -925,11 +925,9 @@ body{
 						#tabs #special_sale,
 						#tabs #featured,
 						#tabs #latest{
-							background:transparent url("/assets/grey-bckg.png") repeat left top;
 							border-radius:0;
 							float:left;
-							min-height:22.7em;
-							padding:9.4em 0 7.45em 0;
+							padding:0;
 							width:100%;
 							}
 							#tabs .product{
