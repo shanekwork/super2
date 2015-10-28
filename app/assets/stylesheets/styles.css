@@ -609,13 +609,25 @@ body{
 				margin:0;
 				width:100%;
 				}
+				#main-menu NAV A#offcanvas-toggler{
+					color:#ffffff;
+					float:right;
+					padding:1.05em 0;
+					width:auto;
+					}
+					#main-menu NAV A#offcanvas-toggler:hover{
+						color:#ec4445;
+						}
+					#main-menu NAV A#offcanvas-toggler I{
+						font-size:1.25em;
+						}
 				#main-menu NAV UL{
 					border:none;
 					float:left;
 					font-weight:normal;
 					margin:0;
 					padding:0;
-					width:100%;
+					width:auto;
 					}
 					#main-menu NAV UL LI{
 						float:left;
