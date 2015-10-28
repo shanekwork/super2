@@ -846,6 +846,7 @@ body{
 					}
 					#tabs{
 						float:left;
+						margin:2.7em 0 0 0;
 						width:100%;
 						}
 						#tabs UL{
@@ -854,7 +855,7 @@ body{
 							border-bottom:1px solid #e8e8e9;
 							border-radius:0;
 							float:left;
-							margin:0 0 1em 0;
+							margin:0 0 2em 0;
 							padding:0;
 							text-align:center;
 							width:100%;
@@ -892,7 +893,7 @@ body{
 									#tabs UL LI H3 A{
 										color:#252525!important;
 										float:left;
-										font-size:1.1em;
+										font-size:1em;
 										padding:0;
 										position:relative;
 										width:auto;
