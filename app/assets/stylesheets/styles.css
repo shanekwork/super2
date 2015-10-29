@@ -1909,7 +1909,7 @@ body{
 					#footer .right-footerContent{
 						float:left;
 						margin:0;
-						padding:0 0.95em;
+						padding:0 0.95em 0 0;
 						width:74.25%;
 						}
 						#footer .right-footerContent .left-fc,
@@ -1930,7 +1930,7 @@ body{
 							padding:0 0.95em;
 							}
 							#footer .right-footerContent .middle-fc UL{
-								margin:0.4em 0 0 0;
+								margin:0.35em 0 0 0;
 								}
 								#footer .right-footerContent .middle-fc LI{
 									margin:0.63em 0 0.32em 0;
@@ -1943,7 +1943,7 @@ body{
 									    font-size:15px;
 									    height:36px;
 									    line-height:36px;
-									    margin:0;
+									    margin:0 0.75em 0 0;
 									    text-align:center;
 									    width:36px;
 										}
@@ -1972,7 +1972,8 @@ body{
 							}
 							#footer .right-footerContent .right-fc P{
 								color:#a7a7a7;
-								margin:0 0 0.5em 0;
+								font-size:0.75em;
+								margin:1em 0 0.85em 0;
 								}
 							FORM#contact_newsletter{
 								border:none;
@@ -1987,7 +1988,7 @@ body{
 									FORM#contact_newsletter FIELDSET DIV{
 									    float:left;
 									    padding:0;
-									    width:86.4%%;
+									    width:86.97%;
 										}
 										FORM#contact_newsletter FIELDSET LABEL{
 											position:absolute;
@@ -2003,16 +2004,17 @@ body{
 											}
 									FORM#contact_newsletter FIELDSET DIV.button{
 									    float:left;
-									    margin:0 0 0 0.5em;
-									    width:22.35%;
+									    margin:0;
+									    width:auto;
 										}
 										FORM#contact_newsletter FIELDSET DIV.button INPUT#submit{
-										    background:#ec4445 url("/assets/bkg_newsletter.png") no-repeat left top;
+										    background:#ec4445 url("/assets/bkg_newsletter.png") no-repeat center center;
 										    border:none!important;
 										    box-shadow:none;
-										    min-height:3.5em;
+										    font-size:0.65em;
+										    height:35px;
 										    padding:0;
-										    width:100%;
+										    width:35px;
 											}
 								#footer .right-footerContent .right-fc .social{
 									float:left;
