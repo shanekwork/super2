@@ -1835,6 +1835,7 @@ body{
 			#footer{
 				border:none!important;
 			    color:#191919;
+			    font-family:"Open Sans", sans-serif;
 			    margin:0;
 			    padding:0!important;
 				}
@@ -1848,6 +1849,7 @@ body{
 					text-transform:uppercase;
 					}
 				#footer LI{
+					font-size:1em;
 					margin:0;
 					position:relative;
 					}
@@ -1855,7 +1857,7 @@ body{
 						border-bottom:1px solid #5b5b5b;
 						color:#a7a7a7!important;
 						display:block;
-						font-size:0.75em;
+						font-size:0.7em;
 						line-height:40px;
 						}
 					#footer A:after{
@@ -1865,7 +1867,7 @@ body{
 					    right:0;
 						}
 						#footer A:hover{
-							color:#ec4445;
+							color:#ec4445!important;
 							text-decoration:none;
 							}
 				#map{
@@ -1881,8 +1883,8 @@ body{
 					}
 					#footer .left-footerContent{
 						float:left;
-						padding:0 0.95em;
-						width:22.39%;
+						padding:0 0.95em 0 0;
+						width:23.14%;
 						}
 						#footer .left-footerContent IMG{
 							max-width:11.2em;
@@ -1908,14 +1910,14 @@ body{
 						float:left;
 						margin:0;
 						padding:0 0.95em;
-						width:72.4%;
+						width:74.25%;
 						}
 						#footer .right-footerContent .left-fc,
 						#footer .right-footerContent .middle-fc,
 						#footer .right-footerContent .right-fc{
 							float:left;
 							margin:0;
-							width:30.93%;
+							width:30.99%;
 							}
 						#footer .right-footerContent .left-fc{
 							padding:0 0.95em 0 0;
@@ -1927,26 +1929,51 @@ body{
 						#footer .right-footerContent .middle-fc{
 							padding:0 0.95em;
 							}
-							#footer .right-footerContent .middle-fc I{
-								color:#ffffff;
-								float:left;
-								font-size:1em;
-								margin:0 0.2em 0 0;
-								min-width:1.1em;
-								width:auto;
+							#footer .right-footerContent .middle-fc UL{
+								margin:0.4em 0 0 0;
 								}
-							#footer .right-footerContent .middle-fc I.fa-mobile{
-								font-size:1.5em;
-								min-width:0.75em;
-								}
-							#footer .right-footerContent .middle-fc SPAN{
-								color:#ffffff;
-								float:left;
-								width:93%;
-								}
+								#footer .right-footerContent .middle-fc LI{
+									margin:0.63em 0 0.32em 0;
+									}
+									#footer .right-footerContent .middle-fc I{
+										border:2px solid #747474;
+									    border-radius:100%;
+									    color:#a7a7a7;
+									    float:left;
+									    font-size:15px;
+									    height:36px;
+									    line-height:36px;
+									    margin:0;
+									    text-align:center;
+									    width:36px;
+										}
+									#footer .right-footerContent .middle-fc I.fa-mobile{
+										font-size:1.5em;
+										min-width:0.75em;
+										}
+									#footer .right-footerContent .middle-fc SPAN{
+										color:#a7a7a7;
+									    float:left;
+									    font-size:0.75em;
+									    width:80.87%;
+										}
+										#footer .right-footerContent .middle-fc SPAN A{
+											border-bottom:none;
+										    font-size:1em;
+											}
+										#footer .right-footerContent .middle-fc SPAN A:after{
+										    content:"";
+											}
+											#footer .right-footerContent .middle-fc SPAN A:hover{
+												color:#a7a7a7!important;
+												}
 						#footer .right-footerContent .right-fc{
 							padding:0 0 0 0.95em;
 							}
+							#footer .right-footerContent .right-fc P{
+								color:#a7a7a7;
+								margin:0 0 0.5em 0;
+								}
 							FORM#contact_newsletter{
 								border:none;
 								float:left;
@@ -1960,18 +1987,19 @@ body{
 									FORM#contact_newsletter FIELDSET DIV{
 									    float:left;
 									    padding:0;
-									    width:75%;
+									    width:86.4%%;
 										}
 										FORM#contact_newsletter FIELDSET LABEL{
 											position:absolute;
 											top:-5000em;
 											}
 										FORM#contact_newsletter FIELDSET INPUT{
+											background:#555555;
 											border:none!important;
-										    color:#a5a5a5;
+										    color:#a7a7a7;
 										    float:left;
 										    padding:1em 0.85em!important;
-										    width:99.5%;
+										    width:100%;
 											}
 									FORM#contact_newsletter FIELDSET DIV.button{
 									    float:left;
@@ -1979,16 +2007,13 @@ body{
 									    width:22.35%;
 										}
 										FORM#contact_newsletter FIELDSET DIV.button INPUT#submit{
-										    background:transparent url("/assets/newsletter-button.png") no-repeat left top;
+										    background:#ec4445 url("/assets/bkg_newsletter.png") no-repeat left top;
 										    border:none!important;
 										    box-shadow:none;
 										    min-height:3.5em;
 										    padding:0;
 										    width:100%;
 											}
-											FORM#contact_newsletter FIELDSET DIV.button INPUT#submit:hover{
-											    background:transparent url("/assets/newsletter-buttonHover.png") no-repeat left top;
-												}
 								#footer .right-footerContent .right-fc .social{
 									float:left;
 									margin:0.9em 0 0 0;
