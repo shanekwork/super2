@@ -1847,12 +1847,27 @@ body{
 					padding:0 0 0.6em 0;
 					text-transform:uppercase;
 					}
-				#footer A{
-					color:#ffffff!important;
+				#footer LI{
+					margin:0;
+					position:relative;
 					}
-					#footer A:hover{
-						text-decoration:underline;
+					#footer A{
+						border-bottom:1px solid #5b5b5b;
+						color:#a7a7a7!important;
+						display:block;
+						font-size:0.75em;
+						line-height:40px;
 						}
+					#footer A:after{
+						content:"\f105";
+					    font-family:"FontAwesome";
+					    position:absolute;
+					    right:0;
+						}
+						#footer A:hover{
+							color:#ec4445;
+							text-decoration:none;
+							}
 				#map{
         			height:450px;
 					width:100%;
@@ -1861,7 +1876,7 @@ body{
 					background:#252525;
 					float:left;
 					margin:0;
-					padding:2.6em 0;
+					padding:2.2em 0;
 					width:100%;
 					}
 					#footer .left-footerContent{
@@ -1895,20 +1910,24 @@ body{
 						padding:0 0.95em;
 						width:72.4%;
 						}
-						#footer .right-footerContent H3{
-							margin:0 0 0.25em 0;
-							}
 						#footer .right-footerContent .left-fc,
 						#footer .right-footerContent .middle-fc,
 						#footer .right-footerContent .right-fc{
 							float:left;
 							margin:0;
-							width:32.13%;
+							width:30.93%;
 							}
 						#footer .right-footerContent .left-fc{
 							padding:0 0.95em 0 0;
 							}
-							#footer .right-footerContent .left-fc I{
+							#footer .right-footerContent .eight.columns{
+							    margin:0;
+							    width:100%;
+								}
+						#footer .right-footerContent .middle-fc{
+							padding:0 0.95em;
+							}
+							#footer .right-footerContent .middle-fc I{
 								color:#ffffff;
 								float:left;
 								font-size:1em;
@@ -1916,17 +1935,17 @@ body{
 								min-width:1.1em;
 								width:auto;
 								}
-							#footer .right-footerContent .left-fc I.fa-mobile{
+							#footer .right-footerContent .middle-fc I.fa-mobile{
 								font-size:1.5em;
 								min-width:0.75em;
 								}
-							#footer .right-footerContent .left-fc SPAN{
+							#footer .right-footerContent .middle-fc SPAN{
 								color:#ffffff;
 								float:left;
 								width:93%;
 								}
-						#footer .right-footerContent .middle-fc{
-							padding:0 0.95em;
+						#footer .right-footerContent .right-fc{
+							padding:0 0 0 0.95em;
 							}
 							FORM#contact_newsletter{
 								border:none;
@@ -1970,9 +1989,6 @@ body{
 											FORM#contact_newsletter FIELDSET DIV.button INPUT#submit:hover{
 											    background:transparent url("/assets/newsletter-buttonHover.png") no-repeat left top;
 												}
-							#footer .right-footerContent .middle-fc{
-								padding:0 0 0 0.95em;
-								}
 								#footer .right-footerContent .right-fc .social{
 									float:left;
 									margin:0.9em 0 0 0;
