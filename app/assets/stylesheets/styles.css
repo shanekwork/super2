@@ -56,6 +56,7 @@ P A,
 A{
 	color:#ec4445;
 	font-size:1em;
+	transition:all 0.4s ease 0s;
 	}
 	P A:hover,
 	A:hover{
@@ -379,7 +380,8 @@ UL#payment-methods LI:before{
 		    color:#ffffff;
 			}
 		#toTop A I{
-
+			font-size:20px;
+    		line-height:38px;
 			}
 			#toTop A:hover I{
 			    color:#ffffff;
@@ -410,7 +412,7 @@ body{
 			}
 		#header .header-top{
 			background:#252525;
-			padding:0.63em 0;
+			padding:0.65em 0;
 			}
 			#header .header-top .phone{
 				float:left;
@@ -502,7 +504,7 @@ body{
 									background:#ec4445;
 									}
 		#header .header-bottom{
-			padding:1.55em 0;
+			padding:1.55em 0 1.6em 0;
 			}
 			#header .header-bottom FIGURE{
 				float:left;
@@ -516,6 +518,7 @@ body{
 					}
 					#header .header-bottom FIGURE A IMG{
 						float:left;
+						max-height:3.5em;
 						max-width:14.2em;
 						padding:0!important;
 						width:auto!important;
@@ -554,7 +557,7 @@ body{
 								display:block;
 								font-family:'Montserrat', sans-serif;
 								font-size:0.69em;
-								padding:0.73em 1em!important;
+								padding:0.75em 1em!important;
     							width:auto;
 								}
 								#search-bar .select-style SELECT:focus{
@@ -577,7 +580,7 @@ body{
 						    color:#646464;
 						    font-family:"Montserrat",sans-serif;
 						    font-size:13px!important;
-						    height:34px;
+						    height:35px;
 						    padding:0 12px!important;
 							}
 						#search-bar FORM INPUT[type="submit"]{
@@ -642,7 +645,7 @@ body{
 					#main-menu NAV UL LI{
 						float:left;
 						margin:0 0 0 2.08em;
-						padding:1.25em 0;
+						padding:1.23em 0;
 						width:auto;
 						}
 					#main-menu NAV UL LI:first-child{
@@ -935,14 +938,14 @@ body{
 							width:100%;
 							}
 							#tabs .product{
-								background:#f4f4f4;
 							    float:left;
-							    margin:0 1.6em 2.3em 1.6em;
+								font-family:"Montserrat",sans-serif;
+							    margin:0 0.9em 2.3em 0.9em;
 							    max-height:16em;
 							    min-height:16em;
 							    overflow:hidden;
-							    padding:2.4em 1.3em;
-							    width:17%;
+							    padding:0;
+							    width:22.2%;
 								}
 								#tabs .product .product-desc,
 								#tabs .product .home_images,
@@ -951,26 +954,29 @@ body{
 								    width:100%;
 									}
 								#tabs .product .product-desc{
-									margin:0 0 1.3em 0;
-									text-align:center;
+									margin:0 0 0.35em 0;
 									}
 									#tabs .product .product-desc A{
-										color:#191919;
+										color:#777777;
 										display:block;
 										float:none;
 										font-size:0.85em;
 										max-height:3em;
 										min-height:3em;
 										overflow:hidden;
-										text-align:center;
+										text-align:left;
 										width:auto;
 										}
 										#tabs .product .product-desc A:hover{
 											color:#ec4445;
 											}
 								#tabs .product .home_images{
-									margin:0 0 1.4em 0;
-									text-align:center;
+									background:#f4f4f4;
+								    margin:0 0 0.85em;
+								    min-height:7em;
+								    padding:6.4em 1.3em;
+								    text-align:center;
+								    width:82.5%;
 									}
 									#tabs .product .home_images A IMG{
 										max-height:6.8em;
@@ -979,11 +985,11 @@ body{
 									    min-width:5.1em;
 										}
 								#tabs .product .product-price{
-									border-top:2px solid #dddcdb;
 									color:#ec4445;
 								    float:left;
-								    font-size:1.65em;
-								    padding:0.45em 0 0 0;
+								    font-size:1em;
+								    line-height:0.98em;
+								    padding:0;
 								    text-align:center;
 								    width:100%;
 									}
