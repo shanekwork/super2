@@ -358,21 +358,27 @@ UL#payment-methods LI:before{
 	display:none;
 	}
 #toTop{
-	bottom:20px;
+	bottom:12px;
     position:fixed;
-    right:50px;
+    right:12px;
     z-index:999;
 	}
 	#toTop A{
-	    background:#6495b3 url("https://super2.herokuapp.com/assets/topPageArrow.png") no-repeat center center;
-	    border-radius:50%;
-	    box-shadow:0 0 10px #000000;
+		background:#ffffff;
+		border:1px solid #252525;
+		color:#252525;
 	    display:block;
-	    height:50px;
-	    width:50px;
+	    height:40px;
+	    transition:all 0.4s ease 0s;
+	    width:40px;
 		}
 		#toTop A:hover{
-		    background:#e5e5e5 url("https://super2.herokuapp.com/assets/topPageArrowHover.png") no-repeat center center;
+		    background:#ec4445;
+		    border:1px solid #ec4445;
+		    color:#ffffff;
+			}
+		#toTop A:hover I{
+		    color:#ffffff;
 			}
 html,
 body{
