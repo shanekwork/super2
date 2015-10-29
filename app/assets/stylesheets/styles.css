@@ -368,18 +368,22 @@ UL#payment-methods LI:before{
 		border:1px solid #252525;
 		color:#252525;
 	    display:block;
-	    height:40px;
+	    height:38px;
 	    transition:all 0.4s ease 0s;
-	    width:40px;
+	    text-align:center;
+	    width:38px;
 		}
 		#toTop A:hover{
 		    background:#ec4445;
 		    border:1px solid #ec4445;
 		    color:#ffffff;
 			}
-		#toTop A:hover I{
-		    color:#ffffff;
+		#toTop A I{
+
 			}
+			#toTop A:hover I{
+			    color:#ffffff;
+				}
 html,
 body{
 	font:1em/1.4 Arial, Helvetica, sans-serif;
