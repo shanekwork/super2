@@ -901,7 +901,7 @@ body{
 									#tabs UL LI H3 A::before{
 									    border:none;
 										border-bottom:3px solid #252525;
-									    bottom:-0.38em;
+									    bottom:-0.45em;
 									    content:"";
 									    height:0;
 									    left:0;
@@ -912,16 +912,10 @@ body{
 									    transition:all 0.2s ease 0s;
 									    width:2.35em;
 										}
-									#tabs UL LI.ui-tabs-active H3 A::before{
+									#tabs UL LI.ui-tabs-active H3 A::before,
+									#tabs UL LI.ui-state-hover H3 A::before{
 									    opacity:1;
 										}
-										#tabs UL LI H3 A:hover{
-											color:#ec4445!important;
-											}										
-										#tabs UL LI.ui-tabs-active H3 A:hover{
-											color:#252525!important;
-											cursor:text;
-											}
 						#tabs #special_sale,
 						#tabs #featured,
 						#tabs #latest{
@@ -931,7 +925,7 @@ body{
 							width:100%;
 							}
 							#tabs .product{
-								background:#ffffff;
+								background:#f4f4f4;
 							    float:left;
 							    margin:0 1.6em 2.3em 1.6em;
 							    max-height:16em;
