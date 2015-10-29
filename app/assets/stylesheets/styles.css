@@ -941,9 +941,6 @@ body{
 							    float:left;
 								font-family:"Montserrat",sans-serif;
 							    margin:0 0.9em 2.3em 0.9em;
-							    max-height:16em;
-							    min-height:16em;
-							    overflow:hidden;
 							    padding:0;
 							    width:22.2%;
 								}
@@ -990,7 +987,6 @@ body{
 								    font-size:1em;
 								    line-height:0.98em;
 								    padding:0;
-								    text-align:center;
 								    width:100%;
 									}
 					#product-show,
@@ -1860,7 +1856,7 @@ body{
 					width:100%;
 					}
 				#footer #top-footerContent{
-					background:#ec4445;
+					background:#252525;
 					float:left;
 					margin:0;
 					padding:2.6em 0;
