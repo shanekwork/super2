@@ -1910,14 +1910,14 @@ body{
 						float:left;
 						margin:0;
 						padding:0 0.95em 0 0;
-						width:74.25%;
+						width:75.55%;
 						}
 						#footer .right-footerContent .left-fc,
 						#footer .right-footerContent .middle-fc,
 						#footer .right-footerContent .right-fc{
 							float:left;
 							margin:0;
-							width:30.99%;
+							width:31%;
 							}
 						#footer .right-footerContent .left-fc{
 							padding:0 0.95em 0 0;
@@ -1974,6 +1974,7 @@ body{
 								color:#a7a7a7;
 								font-size:0.75em;
 								margin:1em 0 0.85em 0;
+								text-align:left;
 								}
 							FORM#contact_newsletter{
 								border:none;
@@ -1999,7 +2000,8 @@ body{
 											border:none!important;
 										    color:#a7a7a7;
 										    float:left;
-										    padding:1em 0.85em!important;
+										    font-size:0.68em;
+										    padding:0.95em 0.85em!important;
 										    width:100%;
 											}
 									FORM#contact_newsletter FIELDSET DIV.button{
