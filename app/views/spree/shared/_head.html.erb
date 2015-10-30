@@ -19,31 +19,6 @@
 <%= javascript_include_tag 'spree/frontend/all' %>
 <%= javascript_include_tag '//code.jquery.com/ui/1.11.3/jquery-ui.js' %>
 <%= javascript_include_tag 'slicknav.js' %>
-<%= javascript_include_tag 'https://maps.googleapis.com/maps/api/js' %>
-
-<script>
-	function initialize() {
-	var mapCanvas = document.getElementById('map');
-	var mapOptions = {
-	  center: new google.maps.LatLng(53.290466, -6.422161),
-	  scrollwheel: false,
-	  zoom: 18,
-	  mapTypeId: google.maps.MapTypeId.ROADMAP
-	}
-	var map = new google.maps.Map(mapCanvas, mapOptions)
-
-	var iconBase = 'https://super2.herokuapp.com/assets/';
-	var marker = new google.maps.Marker({
-	  position: new google.maps.LatLng(53.290466, -6.422161),
-	  map: map,
-	  icon: iconBase + 'gpsLocator.png'
-	});
-
-	}
-	google.maps.event.addDomListener(window, 'load', initialize);
-
-</script>
-
 
 <!--[if lt IE 9]>
   <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6/html5shiv.min.js"></script>
