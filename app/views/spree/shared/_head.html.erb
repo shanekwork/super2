@@ -14,6 +14,7 @@
 <%= stylesheet_link_tag 'https://fonts.googleapis.com/css?family=Montserrat', :media => 'screen' %>
 <%= stylesheet_link_tag 'styles', :media => 'screen' %>
 <%= stylesheet_link_tag 'stylesMobile', :media => 'screen' %>
+<%= stylesheet_link_tag 'pogo-slider.min', :media => 'screen' %>
 
 <%= javascript_include_tag 'spree/frontend/all' %>
 <%= javascript_include_tag '//code.jquery.com/ui/1.11.3/jquery-ui.js' %>
@@ -153,6 +154,17 @@
 			$('html, body').animate({scrollTop : 0},1000);
 			return false;
 		});
+
+		//Home main Slider
+		$("#js-main-slider").pogoSlider({
+			autoplay:true,
+			autoplayTimeout:5000,
+			displayProgess:true,
+			preserveTargetSize:true,
+			targetWidth:1000,
+			targetHeight:300,
+			responsive:true
+		}).data("plugin_pogoSlider");
 	});
 </script>
 

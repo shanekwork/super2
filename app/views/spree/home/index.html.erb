@@ -1,10 +1,25 @@
 <div class="banner">
     <h1>Banner ubuntu</h1>
-    <ul>
-        <li><%= link_to (image_tag "slider1.jpg", :width => "100%"), root_path %></li>
-        <li><%= link_to (image_tag "slider2.jpg", :width => "100%"), root_path %></li>
-        <li><%= link_to (image_tag "slider3.jpg", :width => "100%"), root_path %></li>
-    </ul>
+    <div class="pogoSlider" id="js-main-slider">      
+        <ul>
+            <li>
+                <a href="/" class="pogoSlider-slide" data-transition="barRevealDown">
+                    <img class="pogoSlider-slide-element" width="100%" src="/assets/slider1.jpg" alt="Slider2">
+                </a>
+            </li>
+            <li>
+                <a href="/" class="pogoSlider-slide" data-transition="barRevealDown">
+                    <img class="pogoSlider-slide-element" width="100%" src="/assets/slider2.jpg" alt="Slider2">
+                </a>
+            </li>
+            <li>
+                <a href="/" class="pogoSlider-slide" data-transition="barRevealDown">
+                    <img class="pogoSlider-slide-element" width="100%" src="/assets/slider3.jpg" alt="Slider2">
+                </a>
+            </li>
+        </ul>
+        <script src="/assets/javascripts/jquery.pogo-slider.min.js"></script>
+    </div>
 </div>
 
 <div class="main-content">
