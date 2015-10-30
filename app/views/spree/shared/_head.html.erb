@@ -135,10 +135,19 @@
 			autoplay:true,
 			autoplayTimeout:5000,
 			displayProgess:true,
-			preserveTargetSize:true,
-			targetWidth:1000,
-			targetHeight:300,
-			responsive:true
+			slideTransition:"zipReveal",slideTransitionDuration:1000,
+			elementTransitionIn:"slideUp",
+			elementTransitionOut:"slideDown",
+			elementTransitionStart:500,
+			elementTransitionDuration:1000,
+			generateButtons:true,
+			buttonPosition:"CenterHorizontal",
+			generateNav:false,
+			navPosition:'Bottom',
+			pauseOnHover:true,
+			targetWidth:1920,
+			targetHeight:753,
+			responsive:true,
 		}).data("plugin_pogoSlider");
 	});
 </script>
