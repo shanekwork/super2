@@ -1909,7 +1909,7 @@ body{
 					#footer .right-footerContent{
 						float:left;
 						margin:0;
-						padding:0 0.95em 0 0;
+						padding:0;
 						width:75.55%;
 						}
 						#footer .right-footerContent .left-fc,
@@ -2035,14 +2035,24 @@ body{
 											margin:0;
 											}
 											#footer .right-footerContent .right-fc .social UL LI A{
-												float:left;
-												width:auto;
+												border:1px solid #5b5b5b;
+											    float:left;
+											    font-size:0.8em;
+											    height:34px;
+											    text-align:center;
+											    width:34px;
 												}
-												#footer .right-footerContent .right-fc .social UL LI A IMG{
-													float:left;
-													max-width:3em;
-													width:auto;
+											#footer .right-footerContent .right-fc .social UL LI A:after{
+												content:"";
+												}
+												#footer .right-footerContent .right-fc .social UL LI A:hover{
+													border:1px solid #ec4445;
 													}
+													#footer .right-footerContent .right-fc .social UL LI A IMG{
+														float:left;
+														max-width:3em;
+														width:auto;
+														}
 				#footer #bottom-footerContent{
 					background:#313131;
 					float:left;
