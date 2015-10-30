@@ -870,10 +870,12 @@ body{
 					#js-main-slider .pogoSlider-dir-btn--prev{
 						background:transparent url("/assets/btn_prev.png") no-repeat left center;
 						margin-left:1px;
+						left:7.5em;
 						}
 					#js-main-slider .pogoSlider-dir-btn--next{
 						background:transparent url("/assets/btn_next.png") no-repeat left center;
 						margin-right:1px;
+						right:7.5em;
 						}
 				#imageContent{
 					background:transparent url("/assets/imageContent.png") no-repeat center top;
