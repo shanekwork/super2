@@ -2055,20 +2055,21 @@ body{
 														width:auto;
 														}
 				#footer #bottom-footerContent{
-					background:#313131;
+					border-top:1px solid #5b5b5b;
+					background:#252525;
 					float:left;
 					width:100%;
 					}
 					#footer #bottom-footerContent P{
-						color:#e5e5e5;
+						color:#a7a7a7;
 						font-size:0.75em;
 						margin:0;
-						padding:3.1em 0;
-						text-align:center;
+						padding:1.55em 0;
+						text-align:left;
 						}
 						#footer #bottom-footerContent P A{
 							border:none;
-						    color:#ec4445;
+						    color:#ec4445!important;
 						    display:inline;
 						    font-size:1em;
 							}
