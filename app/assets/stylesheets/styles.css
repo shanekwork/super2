@@ -261,7 +261,7 @@ UL#payment-methods LI:before{
     content:none;
     font-size:1em;
 	}
-#content BUTTON{
+/*#content BUTTON{
 	background:#19b894;
     border:none;
     color:#ffffff;
@@ -272,7 +272,7 @@ UL#payment-methods LI:before{
 	#content BUTTON:hover{
 		background:#1a1a1a;
 		color:#ec4445;
-		}
+		}*/
 #errorExplanation,
 #stripeError{
     background:#f2dede url("/assets/errorBig-icon.png") no-repeat 3em 3em;
