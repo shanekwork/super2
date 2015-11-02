@@ -839,7 +839,7 @@ body{
 				width:100%;
 				}
 				#content .banner{
-					height:458px!important;
+					height:auto!important;
 					margin:0;
 					width:100%!important;
 					}
