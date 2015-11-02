@@ -713,11 +713,7 @@ body{
 									padding:0;
 									width:21.28%;
 									}
-								#main-menu NAV UL LI UL LI:first-child{
-									margin:0;
-									}
-									#main-menu NAV UL LI UL LI A,
-									#main-menu NAV UL LI UL LI:first-child A{
+									#main-menu NAV UL LI UL LI A{
 										border-bottom:1px solid #f2f2f2;
 										color:#2f2f2f!important;
 										font-family:"Open Sans",sans-serif;
@@ -739,15 +735,7 @@ body{
 											color:#ec4445!important;
 											padding:0.5em 2.1em 0.5em 0.5em!important;
 											}
-										#main-menu NAV UL LI UL LI:hover{
-											padding:0 0.8em 0 0!important;
-											width:95%;
-											}
-										#main-menu NAV UL LI UL LI:first-child:hover{
-											margin:0;
-											}
-											#main-menu NAV UL LI UL LI:hover A,
-											#main-menu NAV UL LI UL LI:first-child A:hover{
+											#main-menu NAV UL LI UL LI:hover A{
 												color:#ffffff!important;
 												padding:0.5em 2.1em 0.5em 0.5em!important;
 												}
@@ -778,10 +766,6 @@ body{
 														text-transform:initial;
 														width:100%;
 														}
-														#main-menu NAV UL LI UL LI:hover UL LI A:hover{
-															background:#ec4445!important;
-															color:#ffffff!important;
-															}
 		#wrapper .container{
 			overflow:hidden;
 			}			
