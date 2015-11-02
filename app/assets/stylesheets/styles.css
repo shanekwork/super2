@@ -696,7 +696,7 @@ body{
 							transform:perspective(600px) rotateX(0deg);
 						    transition:transform 0.5s ease 0s, opacity 0.2s ease 0s, max-height 0s step-end 0s, max-width 0s step-end 0s, padding 0s step-end 0s;
 							}
-							#main-menu NAV UL LI > UL{
+							#main-menu NAV UL LI UL{
 								background:#ffffff;
 								border:none;
 								border-bottom:3px solid #ec4445;
