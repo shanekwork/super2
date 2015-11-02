@@ -726,8 +726,10 @@ body{
 										width:100%;
 										}
 									#main-menu NAV UL LI UL LI A{
-										content:"";
 										min-height:2.5em;
+										}
+									#main-menu NAV UL LI UL LI A:after{
+										content:"";
 										}
 										#main-menu NAV UL LI UL LI:hover,
 										#main-menu NAV UL LI UL LI A:hover{
