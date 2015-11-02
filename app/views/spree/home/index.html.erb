@@ -50,8 +50,8 @@
                     <div id="fwslider">
                         <div class="slider_container">
                             <% @products.where(special: true).each do |e| %>
-                                <div class="product">                                    
-                                    <div class="slide">
+                                <div class="slide">
+                                    <div class="product">                                    
                                         <div class="home_images">
                                             <%= link_to image_tag('http://www.op-insight.co.uk/images/product/large/' + e.image_name + '.jpg'), e %>
                                         </div>
@@ -79,8 +79,8 @@
                     <div id="fwslider">
                         <div class="slider_container">
                             <% @products.where(featured: true).each do |e| %>
-                                <div class="product">                                    
-                                    <div class="slide">
+                                <div class="slide">
+                                    <div class="product">
                                         <div class="home_images">
                                             <%= link_to image_tag('http://www.op-insight.co.uk/images/product/large/' + e.image_name + '.jpg'), e %>
                                         </div>
@@ -108,8 +108,8 @@
                     <div id="fwslider">
                         <div class="slider_container">
                             <% @products.where(latest: true).each do |e| %>
-                                <div class="product">                                
-                                    <div class="slide"> 
+                                <div class="slide">
+                                    <div class="product">
                                         <div class="home_images">
                                             <%= link_to image_tag('http://www.op-insight.co.uk/images/product/large/' + e.image_name + '.jpg'), e %>
                                         </div>
