@@ -890,7 +890,7 @@ body{
 					}
 					#tabs{
 						float:left;
-						margin:2.7em 0 0 0;
+						margin:1.6em 0 0 0;
 						width:100%;
 						}
 						#tabs UL{
@@ -2103,6 +2103,9 @@ body{
 						    color:#ec4445!important;
 						    display:inline;
 						    font-size:1em;
+							}
+						#footer #bottom-footerContent P A:after{
+							content:"";
 							}
 							#footer #bottom-footerContent P A:hover{
 								text-decoration:underline;
