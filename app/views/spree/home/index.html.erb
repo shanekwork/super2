@@ -49,9 +49,9 @@
                 <div id="slideFW">
                     <div id="fwslider">
                         <div class="slider_container">
-                            <div class="slide">
-                                <% @products.where(special: true).each do |e| %>
-                                    <div class="product">
+                            <% @products.where(special: true).each do |e| %>
+                                <div class="product">                                    
+                                    <div class="slide">
                                         <div class="home_images">
                                             <%= link_to image_tag('http://www.op-insight.co.uk/images/product/large/' + e.image_name + '.jpg'), e %>
                                         </div>
@@ -62,8 +62,8 @@
                                             €<%= e.price %>
                                         </div>
                                     </div>
-                                <% end %>
-                            </div>
+                                </div>
+                            <% end %>
                         </div>
                         <div class="timers"></div>
                         <div class="slidePrev"><span></span></div>
@@ -78,9 +78,9 @@
                 <div id="slideFW">
                     <div id="fwslider">
                         <div class="slider_container">
-                            <div class="slide">
-                                <% @products.where(featured: true).each do |e| %>
-                                    <div class="product">
+                            <% @products.where(featured: true).each do |e| %>
+                                <div class="product">                                    
+                                    <div class="slide">
                                         <div class="home_images">
                                             <%= link_to image_tag('http://www.op-insight.co.uk/images/product/large/' + e.image_name + '.jpg'), e %>
                                         </div>
@@ -91,8 +91,8 @@
                                             €<%= e.price %>
                                         </div>
                                     </div>
-                                <% end %>
-                            </div>
+                                </div>
+                            <% end %>
                         </div>
                         <div class="timers"></div>
                         <div class="slidePrev"><span></span></div>
@@ -107,9 +107,9 @@
                 <div id="slideFW">
                     <div id="fwslider">
                         <div class="slider_container">
-                            <div class="slide"> 
-                                <% @products.where(latest: true).each do |e| %>
-                                    <div class="product">
+                            <% @products.where(latest: true).each do |e| %>
+                                <div class="product">                                
+                                    <div class="slide"> 
                                         <div class="home_images">
                                             <%= link_to image_tag('http://www.op-insight.co.uk/images/product/large/' + e.image_name + '.jpg'), e %>
                                         </div>
@@ -120,8 +120,8 @@
                                             €<%= e.price %>
                                         </div>
                                     </div>
-                                <% end %>
-                            </div>
+                                </div>
+                            <% end %>
                         </div>
                         <div class="timers"></div>
                         <div class="slidePrev"><span></span></div>
