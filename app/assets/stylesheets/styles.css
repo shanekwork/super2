@@ -727,18 +727,13 @@ body{
 										min-height:2.5em;
 										}
 									#main-menu NAV UL LI UL LI A:after{
-										content:"";
+										content:none;
 										}
-										#main-menu NAV UL LI UL LI:hover,
 										#main-menu NAV UL LI UL LI A:hover{
 											background:none!important;
 											color:#ec4445!important;
-											padding:0.5em 2.1em 0.5em 0.5em!important;
+											padding:0!important;
 											}
-											#main-menu NAV UL LI UL LI:hover A{
-												color:#ffffff!important;
-												padding:0.5em 2.1em 0.5em 0.5em!important;
-												}
 											#main-menu NAV UL LI UL LI UL{
 												border:none;
 												box-shadow:none;
