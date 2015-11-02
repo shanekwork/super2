@@ -718,12 +718,14 @@ body{
 									}
 									#main-menu NAV UL LI UL LI A,
 									#main-menu NAV UL LI UL LI:first-child A{
-										color:#2f2f2f;
+										border-bottom:1px solid #f2f2f2;
+										color:#2f2f2f!important;
 										font-family:"Open Sans",sans-serif;
 										font-size:0.77em!important;
+										font-weight:bold;
 										line-height:1.2em;
-										padding:0.5em 0!important;
-										width:100%;
+										padding:11px 25px!important;
+										width:72%;
 										}
 									#main-menu NAV UL LI UL LI A{
 										min-height:2.5em;
@@ -734,7 +736,7 @@ body{
 										#main-menu NAV UL LI UL LI:hover,
 										#main-menu NAV UL LI UL LI A:hover{
 											background:none!important;
-											color:#ffffff!important;
+											color:#ec4445!important;
 											padding:0.5em 2.1em 0.5em 0.5em!important;
 											}
 										#main-menu NAV UL LI UL LI:hover{
@@ -748,7 +750,6 @@ body{
 											#main-menu NAV UL LI UL LI:first-child A:hover{
 												color:#ffffff!important;
 												padding:0.5em 2.1em 0.5em 0.5em!important;
-												width:85.5%;
 												}
 											#main-menu NAV UL LI UL LI UL{
 												border:none;
@@ -767,11 +768,12 @@ body{
 													}
 													#main-menu NAV UL LI UL LI UL LI A{
 														background:none!important;
+														border-bottom:none;
 														color:#2f2f2f!important;
-														content:"";
 														font-size:1em!important;
 														font-weight:normal!important;
-														padding:0.5em 0.4em!important;
+														min-height:auto;
+														padding:0.5em 0!important;
 														text-align:left;
 														text-transform:initial;
 														width:100%;
