@@ -677,103 +677,104 @@ body{
 								#main-menu NAV UL LI:first-child A:hover{
 									background:none!important;
 									}
-						#main-menu NAV UL LI:hover > UL{
-							background:#ffffff;
-							border:none;
-							border-bottom:3px solid #ec4445;
-							border-top:3px solid #ec4445;
+						#main-menu NAV UL LI:hover .menu-content{
 							display:block;
-							float:left;
-							left:0;
 							max-height:0;
 						    max-width:0;
-							min-height:10em;
 							opacity:0;
 							overflow:hidden;
-							padding:2.2em 0 2.2em 0.95em;
 							transform:perspective(600px) rotateX(-90deg);
 						    transform-origin:0 0 0;
 						    transition:transform 0.5s ease 0s, opacity 0.6s ease 0s, max-height 0.6s step-end 0s, max-width 0.6s step-end 0s, padding 0.6s step-end 0s;
-							top:5.7em;
-							width:15.6em;
 							}						
-						#main-menu NAV UL LI:hover > UL{
-							max-height:0;
-						    max-width:0;
-							min-height:10em;
+						#main-menu NAV UL LI:hover .menu-content{
+							max-height:3000px;
+						    max-width:3000px;
 							opacity:1;
 							overflow:visible;
 							transform:perspective(600px) rotateX(0deg);
 						    transition:transform 0.5s ease 0s, opacity 0.2s ease 0s, max-height 0s step-end 0s, max-width 0s step-end 0s, padding 0s step-end 0s;
 							}
-							#main-menu NAV UL LI UL LI{
-								margin:0.4em 0 0 0;
-								padding:0 0.85em 0 0;
-								width:95%;
+							#main-menu NAV UL LI:hover > UL{
+								background:#ffffff;
+								border:none;
+								border-bottom:3px solid #ec4445;
+								border-top:3px solid #ec4445;
+								float:left;
+								left:0;
+								min-height:10em;
+								padding:2.2em 0 2.2em 0.95em;
+								top:5.7em;
+								width:15.6em;
 								}
-							#main-menu NAV UL LI UL LI:first-child{
-								margin:0;
-								}
-								#main-menu NAV UL LI UL LI A,
-								#main-menu NAV UL LI UL LI:first-child A{
-									color:#5b5b5b!important;
-									font-size:0.9em!important;
-									line-height:1.2em;
-									padding:0.5em 3em 0.5em 0.5em !important;
-									width:80%;
+								#main-menu NAV UL LI UL LI{
+									margin:0.4em 0 0 0;
+									padding:0 0.85em 0 0;
+									width:95%;
 									}
-									#main-menu NAV UL LI UL LI:hover,
-									#main-menu NAV UL LI UL LI A:hover{
-										background:none!important;
-										color:#ffffff!important;
-										padding:0.5em 2.1em 0.5em 0.5em!important;
+								#main-menu NAV UL LI UL LI:first-child{
+									margin:0;
+									}
+									#main-menu NAV UL LI UL LI A,
+									#main-menu NAV UL LI UL LI:first-child A{
+										color:#5b5b5b!important;
+										font-size:0.9em!important;
+										line-height:1.2em;
+										padding:0.5em 3em 0.5em 0.5em !important;
+										width:80%;
 										}
-									#main-menu NAV UL LI UL LI:hover{
-										padding:0 0.8em 0 0!important;
-										width:95%;
-										}
-									#main-menu NAV UL LI UL LI:first-child:hover{
-										margin:0;
-										}
-										#main-menu NAV UL LI UL LI:hover A,
-										#main-menu NAV UL LI UL LI:first-child A:hover{
+										#main-menu NAV UL LI UL LI:hover,
+										#main-menu NAV UL LI UL LI A:hover{
+											background:none!important;
 											color:#ffffff!important;
 											padding:0.5em 2.1em 0.5em 0.5em!important;
-											width:85.5%;
 											}
-										#main-menu NAV UL LI UL LI UL,
-										#main-menu NAV UL:nth-last-child(-n+3) LI UL LI UL{
-											border:none;
-											border-bottom:3px solid #ec4445;
-											border-top:3px solid #ec4445;
-											box-shadow:0 1px 4px #a6a6a6;
-											left:16.4em;
-											padding:1.7em 0.95em;
-											top:0;
+										#main-menu NAV UL LI UL LI:hover{
+											padding:0 0.8em 0 0!important;
+											width:95%;
 											}
-											#main-menu NAV UL LI UL LI UL LI,
-											#main-menu NAV UL LI UL LI:hover UL LI,
-											#main-menu NAV UL:nth-last-child(-n+3) LI UL LI:nth-last-child(-n+3) UL LI{
-												padding:0!important;
-												width:100%;
+										#main-menu NAV UL LI UL LI:first-child:hover{
+											margin:0;
+											}
+											#main-menu NAV UL LI UL LI:hover A,
+											#main-menu NAV UL LI UL LI:first-child A:hover{
+												color:#ffffff!important;
+												padding:0.5em 2.1em 0.5em 0.5em!important;
+												width:85.5%;
 												}
-												#main-menu NAV UL LI UL LI UL LI A,
-												#main-menu NAV UL LI UL LI UL LI:first-child A,
-												#main-menu NAV UL LI UL LI:hover UL LI A,
-												#main-menu NAV UL:nth-last-child(-n+3) LI UL LI:nth-last-child(-n+3) UL LI A{
-													background:none!important;
-													color:#5b5b5b!important;
-													font-size:1em!important;
-													padding:0.5em 0.4em!important;
-													text-align:left;
-													width:94.5%;
+											#main-menu NAV UL LI UL LI UL,
+											#main-menu NAV UL:nth-last-child(-n+3) LI UL LI UL{
+												border:none;
+												border-bottom:3px solid #ec4445;
+												border-top:3px solid #ec4445;
+												box-shadow:0 1px 4px #a6a6a6;
+												left:16.4em;
+												padding:1.7em 0.95em;
+												top:0;
+												}
+												#main-menu NAV UL LI UL LI UL LI,
+												#main-menu NAV UL LI UL LI:hover UL LI,
+												#main-menu NAV UL:nth-last-child(-n+3) LI UL LI:nth-last-child(-n+3) UL LI{
+													padding:0!important;
+													width:100%;
 													}
-													#main-menu NAV UL LI UL LI:hover UL LI A:hover,
-													#main-menu NAV UL LI UL LI UL LI A:hover,
-													#main-menu NAV UL:nth-last-child(-n+3) LI UL LI:nth-last-child(-n+3) UL LI A:hover{
-														background:#ec4445!important;
-														color:#ffffff!important;
+													#main-menu NAV UL LI UL LI UL LI A,
+													#main-menu NAV UL LI UL LI UL LI:first-child A,
+													#main-menu NAV UL LI UL LI:hover UL LI A,
+													#main-menu NAV UL:nth-last-child(-n+3) LI UL LI:nth-last-child(-n+3) UL LI A{
+														background:none!important;
+														color:#5b5b5b!important;
+														font-size:1em!important;
+														padding:0.5em 0.4em!important;
+														text-align:left;
+														width:94.5%;
 														}
+														#main-menu NAV UL LI UL LI:hover UL LI A:hover,
+														#main-menu NAV UL LI UL LI UL LI A:hover,
+														#main-menu NAV UL:nth-last-child(-n+3) LI UL LI:nth-last-child(-n+3) UL LI A:hover{
+															background:#ec4445!important;
+															color:#ffffff!important;
+															}
 					#main-menu NAV UL LI:nth-last-child(-n+3) UL{
 						left:inherit;
 						padding:2.2em 0.95em 2.2em 0;
