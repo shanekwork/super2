@@ -46,89 +46,57 @@
 
         <div id="special_sale" class="clearfix">
             <div class="container">
-                <div id="slideFW">
-                    <div id="fwslider">
-                        <div class="slider_container">
-                            <% @products.where(special: true).each do |e| %>
-                                <div class="slide">
-                                    <div class="product">                                    
-                                        <div class="home_images">
-                                            <%= link_to image_tag('http://www.op-insight.co.uk/images/product/large/' + e.image_name + '.jpg'), e %>
-                                        </div>
-                                        <div class="product-desc">
-                                            <%= link_to e.short_description, e, class: 'threex3' %>
-                                        </div>
-                                        <div class="product-price">
-                                            €<%= e.price %>
-                                        </div>
-                                    </div>
-                                </div>
-                            <% end %>
+                <% @products.where(special: true).each do |e| %>
+                        <div class="product">                                    
+                            <div class="home_images">
+                                <%= link_to image_tag('http://www.op-insight.co.uk/images/product/large/' + e.image_name + '.jpg'), e %>
+                            </div>
+                            <div class="product-desc">
+                                <%= link_to e.short_description, e, class: 'threex3' %>
+                            </div>
+                            <div class="product-price">
+                                €<%= e.price %>
+                            </div>
                         </div>
-                        <div class="timers"></div>
-                        <div class="slidePrev"><span></span></div>
-                        <div class="slideNext"><span></span></div>
                     </div>
-                </div>
+                <% end %>
             </div><!--.container-->
         </div><!--#special_sale-->
 
         <div id="featured" class="clearfix">
             <div class="container">
-                <div id="slideFW">
-                    <div id="fwslider">
-                        <div class="slider_container">
-                            <% @products.where(featured: true).each do |e| %>
-                                <div class="slide">
-                                    <div class="product">
-                                        <div class="home_images">
-                                            <%= link_to image_tag('http://www.op-insight.co.uk/images/product/large/' + e.image_name + '.jpg'), e %>
-                                        </div>
-                                        <div class="product-desc">
-                                            <%= link_to e.short_description, e, class: 'threex3' %>
-                                        </div>
-                                        <div class="product-price">
-                                            €<%= e.price %>
-                                        </div>
-                                    </div>
-                                </div>
-                            <% end %>
+                <% @products.where(featured: true).each do |e| %>
+                    <div class="product">
+                        <div class="home_images">
+                            <%= link_to image_tag('http://www.op-insight.co.uk/images/product/large/' + e.image_name + '.jpg'), e %>
                         </div>
-                        <div class="timers"></div>
-                        <div class="slidePrev"><span></span></div>
-                        <div class="slideNext"><span></span></div>
+                        <div class="product-desc">
+                            <%= link_to e.short_description, e, class: 'threex3' %>
+                        </div>
+                        <div class="product-price">
+                            €<%= e.price %>
+                        </div>
                     </div>
-                </div>
-            </div>
+                <% end %>
+            </div><!--.container-->
         </div><!--#featured-->
 
         <div id="latest" class="clearfix">
             <div class="container">
-                <div id="slideFW">
-                    <div id="fwslider">
-                        <div class="slider_container">
-                            <% @products.where(latest: true).each do |e| %>
-                                <div class="slide">
-                                    <div class="product">
-                                        <div class="home_images">
-                                            <%= link_to image_tag('http://www.op-insight.co.uk/images/product/large/' + e.image_name + '.jpg'), e %>
-                                        </div>
-                                        <div class="product-desc">
-                                            <%= link_to e.short_description, e, class: 'threex3' %>
-                                        </div>
-                                        <div class="product-price">
-                                            €<%= e.price %>
-                                        </div>
-                                    </div>
-                                </div>
-                            <% end %>
+                <% @products.where(latest: true).each do |e| %>
+                    <div class="product">
+                        <div class="home_images">
+                            <%= link_to image_tag('http://www.op-insight.co.uk/images/product/large/' + e.image_name + '.jpg'), e %>
                         </div>
-                        <div class="timers"></div>
-                        <div class="slidePrev"><span></span></div>
-                        <div class="slideNext"><span></span></div>
+                        <div class="product-desc">
+                            <%= link_to e.short_description, e, class: 'threex3' %>
+                        </div>
+                        <div class="product-price">
+                            €<%= e.price %>
+                        </div>
                     </div>
-                </div>
-            </div>
+                <% end %>
+            </div><!--.container-->
         </div><!--#latest-->
 
     </div><!--#tabs-->
