@@ -150,6 +150,15 @@
 			targetHeight:300,
 			responsive:true,
 		}).data("plugin_pogoSlider");
+
+		//Vertical menu
+		$(".offcanvas-toggler").click(function(){
+			$(".offcanvas-menu").css("opacity", "1");
+		});
+
+		$(".offcanvas-menu .close-offcanvas").click(function(){
+			$(".offcanvas-menu").css("opacity", "0");
+		});
 	});
 </script>
 
