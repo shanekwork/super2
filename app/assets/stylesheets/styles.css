@@ -456,6 +456,9 @@ body{
 						padding:0;
 						width:auto;
 						}
+					nav#top-nav-bar UL LI#search-bar{
+						display:none;
+						}
 						nav#top-nav-bar UL LI A{
 							color:#d5d5d5!important;
 							float:left;
