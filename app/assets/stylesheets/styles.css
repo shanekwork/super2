@@ -700,6 +700,8 @@ body{
 								background:#ffffff;
 								border:none;
 								border-bottom:3px solid #ec4445;
+								display:flex!important;
+								flex-wrap:wrap;
 								float:left;
 								left:0;
 								min-height:10em;
