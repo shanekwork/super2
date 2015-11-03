@@ -553,6 +553,7 @@ body{
 								-webkit-appearance:none;
        							-moz-appearance:none;
 								appearance:none;
+								background:none;
 								border:none!important;
 								color:#4b4b4b;
 								display:block;
