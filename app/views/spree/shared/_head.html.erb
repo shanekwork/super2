@@ -153,11 +153,7 @@
 
 		//Vertical menu
 		$(".offcanvas-toggler").click(function(){
-			$(".offcanvas-menu").css("opacity", "1");
-		});
-
-		$(".offcanvas-menu .close-offcanvas").click(function(){
-			$(".offcanvas-menu").css("opacity", "0");
+			$(".offcanvas-menu").animate({width: "toggle"});
 		});
 	});
 </script>
