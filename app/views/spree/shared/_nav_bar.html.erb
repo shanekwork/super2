@@ -1,5 +1,10 @@
 <nav id="top-nav-bar" class="columns ten">
-  <ul id="nav-bar" class="inline" data-hook>    
+  <ul id="nav-bar" class="inline" data-hook>
+
+  	<li id="search-bar" data-hook>
+      <%= render :partial => 'spree/shared/search' %>
+    </li>
+    
 	<% if spree_user_signed_in? %>
       
     <% else %>
