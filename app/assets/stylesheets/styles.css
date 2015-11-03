@@ -654,7 +654,6 @@ body{
 						margin:0;
 						}
 						#main-menu NAV UL LI A{
-							background:none!important;
 							color:#ffffff!important;
 							float:left;
 							font-family:Montserrat,Arial,Helvetica,sans-serif;
@@ -674,7 +673,7 @@ body{
 								color:#ec4445!important;
 								}
 								#main-menu NAV UL LI:first-child A:hover{
-									background:none;
+									background:none!important;
 									}
 						#main-menu NAV UL LI .menu-content{
 							display:block;
@@ -729,8 +728,7 @@ body{
 										content:none;
 										}
 										#main-menu NAV UL LI UL LI A:hover{
-											background:none;
-											color:#ec4445;
+											color:#ec4445!important;
 											padding:0;
 											}
 										#main-menu NAV UL LI UL LI UL{
