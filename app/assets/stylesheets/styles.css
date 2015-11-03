@@ -654,6 +654,7 @@ body{
 						margin:0;
 						}
 						#main-menu NAV UL LI A{
+							background:none!important;
 							color:#ffffff!important;
 							float:left;
 							font-family:Montserrat,Arial,Helvetica,sans-serif;
@@ -763,8 +764,7 @@ body{
 													}
 													#main-menu NAV UL LI UL LI UL LI A:hover,
 													#main-menu NAV UL LI:hover UL LI UL LI A:hover{
-														background:none!important;
-														color:#ec4445;
+														color:#ec4445!important;
 														}
 		#wrapper .container{
 			overflow:hidden;
