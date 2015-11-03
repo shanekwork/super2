@@ -645,8 +645,9 @@ body{
 					}
 					#main-menu NAV UL LI{
 						float:left;
+						line-height:3.73em;
 						margin:0 0 0 2.08em;
-						padding:1.26em 0;
+						padding:0;
 						width:auto;
 						}
 					#main-menu NAV UL LI:first-child{
@@ -751,14 +752,20 @@ body{
 													background:none;
 													border-bottom:none;
 													color:#2f2f2f;
-													font-size:1em;
+													font-size:0.8em;
 													font-weight:normal;
+													margin:0!important;
 													min-height:auto;
-													padding:0.5em 0;
+													padding:0 1.8em 2.1em 1.8em!important;
 													text-align:left;
 													text-transform:initial;
-													width:100%;
+													width:auto;
 													}
+													#main-menu NAV UL LI UL LI UL LI A:hover,
+													#main-menu NAV UL LI:hover UL LI UL LI A:hover{
+														background:none!important;
+														color:#ec4445;
+														}
 		#wrapper .container{
 			overflow:hidden;
 			}			
