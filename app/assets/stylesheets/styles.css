@@ -732,6 +732,7 @@ body{
 										content:none;
 										}
 										#main-menu NAV UL LI UL LI A:hover{
+											background:none!important;
 											color:#ec4445!important;
 											padding:0;
 											}
