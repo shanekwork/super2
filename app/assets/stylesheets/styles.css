@@ -2064,14 +2064,14 @@ body{
 							#footer #bottom-footerContent P A:hover{
 								text-decoration:underline;
 								}
-			.offcanvas-menu{
+			/*.offcanvas-menu{
 				background:red;
 			    height:100%;
 			    position:absolute;
 			    right:-5000em;
 			    width:250px;
 			    z-index:999;
-				}
+				}*/
 /* GOOGLE CHROME & SAFARI */
 @media screen and (-webkit-min-device-pixel-ratio:0) {
 	nav#top-nav-bar UL LI{
