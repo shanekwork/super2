@@ -2090,6 +2090,9 @@ body{
 					    background:#000000;
 					    color:#ffffff;
 						}
+						.offcanvas-menu a.close-offcanvas I{
+						    font-size:0.75em;
+							}
 
 /* GOOGLE CHROME & SAFARI */
 @media screen and (-webkit-min-device-pixel-ratio:0) {
