@@ -393,7 +393,7 @@ body{
 	margin:0;
 	}
 body{
-	position:relative;
+	position:static!important;
 	}
 	#header,
 	#wrapper,
