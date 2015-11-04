@@ -26,11 +26,11 @@
         }
         .cb_slide_panel a.close {
             background: url(../img/panel_close_default.jpg) no-repeat;
-            border: 1px solid #E0E0E0;
-            height: 40px;
+            border: 2px solid #eeeeee;
+            height: 20px;
             position: absolute;
             text-indent: -9999em;
-            width: 40px;
+            width: 20px;
             display: none;
         }
         .cb_slide_panel.panel_left a.close {
@@ -38,7 +38,8 @@
             top: 20px;
         }
         .cb_slide_panel.panel_right a.close {
-            left: -42px;
+            border-radius:100%;
+            right: 1em;
             top: 20px;
         }
         .cb_slide_panel.panel_top a.close {
