@@ -159,10 +159,7 @@
               mode:'push'
 		});
 
-		var mainMenu = $("#main-nav-bar");
-        var verticalMenu = $("#slidepanel .wrapper");
-
-		verticalMenu.innerHTML = mainMenu.innerHTML;
+		$("#main-nav-bar").clone().prependTo($("#slidepanel .inner .wrapper"));
 	});
 </script>
 
