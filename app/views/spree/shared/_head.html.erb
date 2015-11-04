@@ -155,11 +155,28 @@
 
 		//Vertical menu
 		$("#offcanvas-toggler").click(function(){
-			$('.offcanvas-menu').toggle(slide, right, 500);
+			// Set the effect type
+		    var effect = 'slide';
+
+		    // Set the options for the effect type chosen
+		    var options = { direction: 'right' };
+
+		    // Set the duration (default: 400 milliseconds)
+		    var duration = 500;
+
+			$('.offcanvas-menu').toggle(effect, options, duration);
 		});
 
 		$(".offcanvas-menu a.close-offcanvas").click(function(){
-			$('.offcanvas-menu').toggle(slide, left, 500);
+			var effect = 'slide';
+
+		    // Set the options for the effect type chosen
+		    var options = { direction: 'left' };
+
+		    // Set the duration (default: 400 milliseconds)
+		    var duration = 500;
+
+			$('.offcanvas-menu').toggle(effect, options, duration);
 		});
 	});
 </script>
