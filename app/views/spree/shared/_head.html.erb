@@ -154,12 +154,13 @@
 		}).data("plugin_pogoSlider");
 
 		//Vertical menu
-		$('[data-slidepanel]').slidepanel({
-              orientation:'right',
-              mode:'push'
+		$("#offcanvas-toggler").click(function(){
+			$('#slidepanel').toggle(slide, right, 500);
 		});
 
-		$("#main-nav-bar").clone().prependTo($("#slidepanel .inner .wrapper"));
+		$("#slidepanel a.close").click(function(){
+			$('#slidepanel').toggle(slide, left, 500);
+		});
 	});
 </script>
 
