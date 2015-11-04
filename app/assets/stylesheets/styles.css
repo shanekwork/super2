@@ -2093,6 +2093,10 @@ body{
 						.offcanvas-menu a.close-offcanvas I{
 						    font-size:0.75em;
 							}
+				.offcanvas-menu .offcanvas-inner{
+					position:relative;
+					top:3em;
+					}
 
 /* GOOGLE CHROME & SAFARI */
 @media screen and (-webkit-min-device-pixel-ratio:0) {
