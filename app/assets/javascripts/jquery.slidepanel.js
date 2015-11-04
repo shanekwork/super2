@@ -19,21 +19,7 @@
         var base = this;
 
         if($('#slidepanel').length == 0){
-            var panel_html = '<div id="slidepanel" class="cb_slide_panel"><div class="wrapper"><a href="#" class="close"><i class="fa fa-remove"></i></a><div class="inner"><div class="wrapper"><div class="offcanvas-menu">
-    <a class="close-offcanvas" href="#">
-        <i class="fa fa-remove"></i>
-    </a>
-    <div class="offcanvas-inner">
-        <div class="module-title">
-            <h3>
-                <span>Menus Offcanvas</span>
-            </h3>
-        </div>
-        <div class="module-content">
-            <%= render :partial => 'spree/shared/main_nav_bar' if store_menu? %>
-        </div>
-    </div>
-</div></div></div></div></div>';
+            var panel_html = '<div id="slidepanel" class="cb_slide_panel"><div class="wrapper"><a href="#" class="close"><i class="fa fa-remove"></i></a><div class="inner"><div class="wrapper"></div></div></div></div>';
             $(panel_html).hide().appendTo($('body'));    
         }
 
