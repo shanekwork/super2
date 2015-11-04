@@ -2067,9 +2067,8 @@ body{
 			.offcanvas-menu{
 				background:red;
 			    height:100%;
-			    opacity:0;
-			    position:fixed;
-			    right:0;
+			    position:absolute;
+			    right:-5000em;
 			    width:250px;
 			    z-index:999;
 				}
