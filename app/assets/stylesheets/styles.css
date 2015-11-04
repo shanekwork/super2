@@ -2097,6 +2097,9 @@ body{
 					position:relative;
 					top:3em;
 					}
+					.offcanvas-menu .offcanvas-inner .module-content #offcanvas-toggler{
+						display:none;
+						}
 
 /* GOOGLE CHROME & SAFARI */
 @media screen and (-webkit-min-device-pixel-ratio:0) {
