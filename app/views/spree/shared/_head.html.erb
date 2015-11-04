@@ -155,7 +155,7 @@
 
 		//Vertical menu
 		$("#offcanvas-toggler").click(function(){
-			&("body").addClass("oncavas");
+			$("body").addClass("oncavas");
 
 			// Set the effect type
 		    var effect = 'slide';
@@ -165,12 +165,12 @@
 
 		    // Set the duration (default: 400 milliseconds)
 		    var duration = 500;
-		    
+
 			$('.offcanvas-menu').toggle(effect, options, duration);
 		});
 
 		$(".offcanvas-menu a.close-offcanvas").click(function(){
-			&("body").removeClass("oncavas");
+			$("body").removeClass("oncavas");
 
 			var effect = 'slide';
 
