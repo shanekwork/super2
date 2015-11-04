@@ -401,7 +401,7 @@ body{
 	    transition:opacity 0.5s ease 0s;
 	    width:100%;
 		}
-	.body-innerwrapper:after{
+	.body-inner:after{
 	    background:rgba(0, 0, 0, 0.8) none repeat 0 0;
 	    content:"";
 	    height:0;
