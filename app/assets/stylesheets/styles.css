@@ -248,10 +248,10 @@ TABLE{
 	    width:68.3%!important;
 		}
 	.flash.error{
-		background:transparent url("/assets/errorBig-icon.png") no-repeat 50% 3.4em;
+		background:transparent url("/assets/errorBig-icon.png") no-repeat 50% 1.5em;
 		}
 	.flash.alert{
-		background:transparent url("/assets/alertBig-icon.png") no-repeat 50% 3.4em;
+		background:transparent url("/assets/alertBig-icon.png") no-repeat 50% 1.5em;
 		}
 nav#top-nav-bar UL LI::before,
 #main-menu NAV UL LI:before,
