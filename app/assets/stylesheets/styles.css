@@ -413,7 +413,7 @@ body{
 			}
 		#header .header-top{
 			background:#252525;
-			padding:0.65em 0;
+			padding:0.63em 0;
 			}
 			#header .header-top .phone{
 				float:left;
@@ -508,7 +508,7 @@ body{
 									background:#ec4445;
 									}
 		#header .header-bottom{
-			padding:1.55em 0 1.6em 0;
+			padding:1.5em 0 1.6em 0;
 			}
 			#header .header-bottom FIGURE{
 				float:left;
@@ -630,7 +630,7 @@ body{
 				#main-menu NAV A#offcanvas-toggler{
 					color:#ffffff;
 					float:right;
-					padding:1.05em 0;
+					padding:1em 0;
 					width:auto;
 					}
 					#main-menu NAV A#offcanvas-toggler:hover{
@@ -649,7 +649,7 @@ body{
 					}
 					#main-menu NAV UL LI{
 						float:left;
-						line-height:3.73em;
+						line-height:3.7em;
 						margin:0 0 0 2.08em;
 						padding:0;
 						width:auto;
@@ -663,7 +663,7 @@ body{
 							float:left;
 							font-family:Montserrat,Arial,Helvetica,sans-serif;
 							font-weight:normal;
-							font-size:0.88em;
+							font-size:0.9em!important;
 							padding:0!important;
 							transition:all 0.4s ease 0s;
 							width:auto;
