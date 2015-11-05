@@ -674,6 +674,9 @@ body{
 							transition:all 0.4s ease 0s;
 							width:auto;
 							}
+						#main-menu NAV UL LI A:after{
+							content:"";
+							}
 						#main-menu NAV UL LI:first-child A{
 							padding:0!important;
 							}
