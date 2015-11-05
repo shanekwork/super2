@@ -102,11 +102,6 @@
 		/* Add class to child nav links */
 		$("#main-nav-bar li:has(> ul)").addClass("main-nav-bar-child");
 
-		// Add down arrow only to menu items with submenus
-	    $("#main-nav-bar > li:has('ul')").each(function() {
-	        $(this).find("a:first").css("background", "transparent url('/assets/down-menu-arrow.png') no-repeat right 0.35em");
-	    });
-
 	    /* Hide main menu for mobile devices */
 		$("nav#main-menu-label").slicknav();
 
@@ -182,6 +177,9 @@
 
 			$('.offcanvas-menu').toggle(effect, options, duration);
 		});
+
+		/* Hide vertical menu options */
+		$("ul#main-nav-bar li .menu-content ul").slicknav();
 	});
 </script>
 
