@@ -2143,7 +2143,8 @@ body{
 									}
 							.offcanvas-menu .offcanvas-inner .module-content #main-nav-bar LI UL,
 							.offcanvas-menu .offcanvas-inner .module-content #main-nav-bar LI:hover UL{
-								display:block;
+								display:block!important;
+								left:0;
 								position:relative;
 								}
 
