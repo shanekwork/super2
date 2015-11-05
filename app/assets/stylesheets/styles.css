@@ -236,22 +236,22 @@ TABLE{
 	.flash.success,
 	.flash.error,
 	.flash.alert{
-		background:transparent url("/assets/success-icon.png") no-repeat 50% 3.4em;
+		background:transparent url("/assets/successBig-icon.png") no-repeat 50% 1.5em;
 		color:#191919;
 		float:left;
 		font-size:1.5em;
 	    font-style:italic;
 	    margin:0;
-	    padding:6em 3em 4em 3em;
+	    padding:9em 3em 2.8em 3em;
 	    text-align:center;
 	    text-transform:uppercase;
 	    width:68.3%!important;
 		}
 	.flash.error{
-		background:transparent url("/assets/error-icon.png") no-repeat 50% 3.4em;
+		background:transparent url("/assets/errorBig-icon.png") no-repeat 50% 3.4em;
 		}
 	.flash.alert{
-		background:transparent url("/assets/alert-icon.png") no-repeat 50% 3.4em;
+		background:transparent url("/assets/alertBig-icon.png") no-repeat 50% 3.4em;
 		}
 nav#top-nav-bar UL LI::before,
 #main-menu NAV UL LI:before,
@@ -281,7 +281,7 @@ UL#payment-methods LI:before{
 		}*/
 #errorExplanation,
 #stripeError{
-    background:#f2dede url("/assets/errorBig-icon.png") no-repeat 3em 3em;
+    background:#f2dede url("/assets/error-icon.png") no-repeat 3em 3em;
     border:1px solid #e45353;
     float:left;
     margin:0 0 2em 0!important;
