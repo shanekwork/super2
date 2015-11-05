@@ -2106,19 +2106,30 @@ body{
 						display:none;
 						}
 					.offcanvas-menu .offcanvas-inner .module-content #main-nav-bar{
-						display:none;
+						border:none;
+					    margin:0.3em 0;
+					    padding:0;
 						}
 						.offcanvas-menu .offcanvas-inner .module-content #main-nav-bar LI{
-							font-size:1em;
+							border-bottom:1px dotted #e8e8e8;
+						    font-size:1em;
+						    margin:0;
+						    padding:0.45em 0;
 							}
 						.offcanvas-menu .offcanvas-inner .module-content #main-nav-bar LI:before{
 							content:"";
 							}
 							.offcanvas-menu .offcanvas-inner .module-content #main-nav-bar LI A{
-								font-size:1em;
+								color:#777777!important;
+							    font-family:"Open Sans",sans-serif;
+							    font-size:0.75em!important;
 							    font-weight:normal;
 							    padding:0!important;
+							    text-transform:capitalize;
 								}
+								.offcanvas-menu .offcanvas-inner .module-content #main-nav-bar LI A:hover{
+									color:#ec4445!important;
+									}
 
 /* GOOGLE CHROME & SAFARI */
 @media screen and (-webkit-min-device-pixel-ratio:0) {
