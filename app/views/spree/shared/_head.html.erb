@@ -31,8 +31,29 @@
 		/* Add class just to home page */
 		var pathname = window.location.pathname;
 		if(pathname == "/"){
-				$("body").addClass("home");
-			}
+			$("body").addClass("home");
+
+			//Home main Slider
+			$("#js-main-slider").pogoSlider({
+				autoplay:true,
+				autoplayTimeout:5000,
+				displayProgess:true,
+				slideTransition:"zipReveal",
+				slideTransitionDuration:1000,
+				elementTransitionIn:"slideUp",
+				elementTransitionOut:"slideDown",
+				elementTransitionStart:500,
+				elementTransitionDuration:1000,
+				generateButtons:true,
+				buttonPosition:"CenterHorizontal",
+				generateNav:false,
+				navPosition:'Bottom',
+				pauseOnHover:false,
+				targetWidth:1000,
+				targetHeight:300,
+				responsive:true,
+			}).data("plugin_pogoSlider");
+		}
 
 		/* Add tabs to index */
 		$( "#tabs" ).tabs();
@@ -126,27 +147,6 @@
 			$('html, body').animate({scrollTop : 0},1000);
 			return false;
 		});
-
-		//Home main Slider
-		$("#js-main-slider").pogoSlider({
-			autoplay:true,
-			autoplayTimeout:5000,
-			displayProgess:true,
-			slideTransition:"zipReveal",
-			slideTransitionDuration:1000,
-			elementTransitionIn:"slideUp",
-			elementTransitionOut:"slideDown",
-			elementTransitionStart:500,
-			elementTransitionDuration:1000,
-			generateButtons:true,
-			buttonPosition:"CenterHorizontal",
-			generateNav:false,
-			navPosition:'Bottom',
-			pauseOnHover:false,
-			targetWidth:1000,
-			targetHeight:300,
-			responsive:true,
-		}).data("plugin_pogoSlider");
 
 		//Vertical menu
 		$("#offcanvas-toggler").click(function(){
