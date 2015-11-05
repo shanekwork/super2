@@ -2121,6 +2121,7 @@ body{
 							}
 							.offcanvas-menu .offcanvas-inner .module-content #main-nav-bar LI A{
 								color:#777777!important;
+								display:block;
 							    font-family:"Open Sans",sans-serif;
 							    font-size:0.75em!important;
 							    font-weight:normal;
