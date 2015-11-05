@@ -223,7 +223,7 @@ TABLE{
 		    transition:all 0.4s ease 0s;
 		    width:26px;
 			}
-			.ui-dialog .ui-state-hover{
+			.ui-dialog .ui-widget-header .ui-state-hover{
 				background:#000000;
 				}
 			.ui-dialog .ui-state-default .ui-icon{
