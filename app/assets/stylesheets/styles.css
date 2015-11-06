@@ -2153,10 +2153,12 @@ body{
 							.offcanvas-menu .offcanvas-inner .module-content #main-nav-bar LI:hover UL{
 								border:none;
 								border-top:1px dotted #e8e8e8;
-								display:none;
 								left:0;
 								position:relative;
 								width:100%;
+								}
+							.offcanvas-menu .offcanvas-inner .module-content #main-nav-bar LI UL{
+								display:none;
 								}
 								.offcanvas-menu .offcanvas-inner .module-content #main-nav-bar LI UL LI{
 									margin:0 0 0 1em;
