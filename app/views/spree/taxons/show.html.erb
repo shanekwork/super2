@@ -1,5 +1,7 @@
 <h2 class="taxon-title"><%= @taxon.name %></h2>
 
+<%= breadcrumbs(@taxon) %>
+
 <% content_for :sidebar do %>
   <div data-hook="taxon_sidebar_navigation">
     <!--<%= render :partial => 'spree/shared/taxonomies' %>-->
