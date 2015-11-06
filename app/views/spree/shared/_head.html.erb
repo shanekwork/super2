@@ -180,6 +180,16 @@
 
 		/* Hide vertical menu options */
 		$("ul#main-nav-bar li .menu-content ul").slicknav();
+
+		$(".offcanvas-menu .module-content ul#main-nav-bar > li a").click(function(){
+			//slide up all the link lists
+			$(".offcanvas-menu .module-content ul li ul").slideUp();
+			$(".offcanvas-menu .module-content ul li").removeClass("selected");
+			//slide down the link list below the h5 clicked - only if its closed
+			if(!$(this).next().is(":visible")){
+				$(this).next().slideDown();
+			}
+		});
 	});
 </script>
 
