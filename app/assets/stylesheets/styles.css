@@ -24,6 +24,7 @@ H2,
 H6{
 	color:#ec4445;
 	float:left;
+	font-family:"Montserrat",sans-serif;
 	font-size:1.4em;
 	font-weight:normal;
 	margin:0 0 1em 0;
@@ -797,10 +798,15 @@ body{
 				}
 			#content{
 				margin:0;
-				min-height:15em;
-				padding:3em 1.85em;
-				width:95.6%;
+				padding:0;
+				width:100%;
 				}
+				#content .inside-content{
+					float:left;
+					min-height:15em;
+					padding:3em 1.85em;
+					width:95.6%;
+					}
 			.home #content{
 				padding:0;
 				width:100%;
@@ -1280,9 +1286,26 @@ body{
 							    line-height:1.4em;
 							    padding:0;
 								}
-				#content H2.taxon-title{
+				#content .page-title{
 				    font-size:1.4em;
 					}
+					#content H2.taxon-title{
+					    color:#ffffff;
+					    display:inline-block;
+					    float:none;
+					    font-size:40px;
+					    line-height:1.35em;
+					    position:relative;
+					    width:auto;
+						}
+					#content H2.taxon-title:after{
+					    border-bottom:4px double #fff;
+					    bottom:0;
+					    content:"";
+					    left:-15px;
+					    position:absolute;
+					    width:130%;
+						}
 				#content .taxon{
 				    float:left;
 				    margin:0 0 0.5em 0;
