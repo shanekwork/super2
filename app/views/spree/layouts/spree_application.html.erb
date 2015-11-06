@@ -13,14 +13,11 @@
   <body class="<%= body_class %>" id="<%= @body_id || 'default' %>" data-hook="body">
     <div class="body-inner">
 
-        <%= render :partial => 'spree/shared/header' %>
-    
+        <%= render :partial => 'spree/shared/header' %>    
 
         <div id="wrapper" class="row" data-hook>
 
           <%= render :partial => 'spree/shared/sidebar' if content_for? :sidebar %>
-
-          <div id="imageContent" class="imageContent" data-hook></div>
 
           <div id="content" class="columns <%= !content_for?(:sidebar) ? "sixteen" : "twelve omega" %>" data-hook>
             <%= flash_messages %>
