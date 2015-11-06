@@ -2141,12 +2141,26 @@ body{
 								.offcanvas-menu .offcanvas-inner .module-content #main-nav-bar LI A:hover{
 									color:#ec4445!important;
 									}
+							.offcanvas-menu .offcanvas-inner .module-content #main-nav-bar .menu-content{
+								float:left;
+							    margin:0;
+							    padding:0;
+							    width:100%;
+								}
 							.offcanvas-menu .offcanvas-inner .module-content #main-nav-bar LI UL,
 							.offcanvas-menu .offcanvas-inner .module-content #main-nav-bar LI:hover UL{
+								border:none;
 								display:block!important;
 								left:0;
 								position:relative;
+								width:100%;
 								}
+								.offcanvas-menu .offcanvas-inner .module-content #main-nav-bar LI UL LI{
+									width:100%;
+									}
+									.offcanvas-menu .offcanvas-inner .module-content #main-nav-bar LI UL LI A{
+										background:none;
+										}
 
 /* GOOGLE CHROME & SAFARI */
 @media screen and (-webkit-min-device-pixel-ratio:0) {
