@@ -2153,7 +2153,7 @@ body{
 							.offcanvas-menu .offcanvas-inner .module-content #main-nav-bar LI:hover UL{
 								border:none;
 								border-top:1px dotted #e8e8e8;
-								display:block!important;
+								display:block;
 								left:0;
 								position:relative;
 								width:100%;
