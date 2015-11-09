@@ -9,13 +9,11 @@
   <% end %>
 <% end %>
 
-<div class="page-title">
-  <% if products.empty? %>
-    <%= Spree.t(:no_products_found) %>
-  <% elsif params.key?(:keywords) %>
-    <h2 class="taxon-title"><%= Spree.t(:search_results, :keywords => h(params[:keywords])) %></h2>
-  <% end %>
-</div>
+<% if products.empty? %>
+  <%= Spree.t(:no_products_found) %>
+<% elsif params.key?(:keywords) %>
+  <h2 class="taxon-title"><%= Spree.t(:search_results, :keywords => h(params[:keywords])) %></h2>
+<% end %>
 
 <div class="inside-content">
   <% if products.any? %>
