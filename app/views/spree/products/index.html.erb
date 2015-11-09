@@ -16,9 +16,7 @@
         <h2 class="taxon-title"><%= Spree.t(:no_products_found) %></h2>
       </div>
       <% else %>
-        <div class="inside-content">
-          <%= render :partial => 'spree/shared/products', :locals => { :products => @products, :taxon => @taxon } %>
-        </div>
+        <%= render :partial => 'spree/shared/products', :locals => { :products => @products, :taxon => @taxon } %>
       <% end %>
     
   </div>
