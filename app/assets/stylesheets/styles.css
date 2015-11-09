@@ -343,7 +343,9 @@ UL#payment-methods LI:before{
 		    min-width:7px;
 		    padding:0 9px;
 			}
-		.pagination .current{
+		.pagination .current,
+		.pagination .current:hover{
+			background:#ec4445;
 			cursor:default;
 			}
 			.pagination .first A:hover,
@@ -353,6 +355,12 @@ UL#payment-methods LI:before{
 			.pagination .last A:hover{
 				background:#ec4445;
 				}
+	.pagination .page.gap{
+		color:#777777;
+	    font-weight:bold;
+	    height:25px;
+	    line-height:25px;
+		}
 #breadcrumbs{
 	border:none;
     float:left;
