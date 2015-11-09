@@ -842,6 +842,14 @@ body{
 					padding:2.3em 5.7em;
 					width:86.5%;
 					}
+					#content .inside-content .page-title{
+						display:none;
+						}
+					#content .inside-content .inside-content{
+					    min-height:auto;
+					    padding:0;
+					    width:100%;
+						}
 			.home #content{
 				padding:0;
 				width:100%;
@@ -1252,7 +1260,7 @@ body{
 										width:50%;
 										}
 				#content UL#products{
-				    margin:0 0 1.9em 0;
+				    margin:0;
 					}
 					#content UL#products LI{
 						float:left;
@@ -1337,7 +1345,7 @@ body{
 						}
 				#content .taxon{
 				    float:left;
-				    margin:0 0 0.5em 0;
+				    margin:0;
 				    width:100%;
 					}
 					#content .taxon H3{
