@@ -313,27 +313,36 @@ UL#payment-methods LI:before{
     width:75.5%!important;
 	}
 .pagination{
-	float:left;
-	margin:1em 0;
-	text-align:right;
-	width:100%;
+	border-top:1px solid #e8e8e9;
+    float:left;
+    margin:0;
+    padding:15px 0 0;
+    text-align:right;
+    width:100%;
 	}
 	.pagination .page{
-		margin:0 0.5em;
-		padding:0.2em;
-		width:auto;
+		display:inline-block;
+	    font-family:"Montserrat", Arial,Helvetica,sans-serif;
+	    margin:0 2px!important;
+	    padding:0;
+	    text-align:center;
+	    width:auto;
 		}
 		.pagination .page A{
-			color:#ec4445;
-			padding:0.2em;
+			background:#909295;
+		    color:#ffffff;
+		    display:inline-block;
+		    font-size:0.75em;
+		    height:25px;
+		    line-height:25px;
+		    min-width:7px;
+		    padding:0 9px;
 			}
 			.pagination .page A:hover{
-				background:#191919;
-				color:#ec4445;
+				background:#ec4445;
 				}
 	.pagination .current{
-		background:#191919;
-		color:#ec4445;
+		background:#ec4445;
 		}
 #breadcrumbs{
 	border:none;
@@ -1226,73 +1235,63 @@ body{
 										width:50%;
 										}
 				#content UL#products{
-				    margin:0 0.77em 1.9em 0.77em;
+				    margin:0 0 1.9em 0;
 					}
 					#content UL#products LI{
-						border:0.5em solid #dddcdb;
-					    float:left;
-					    font-size:1.1em;
-					    margin:0 0.77em 1.9em;
-					    max-height:19em;
-					    min-height:19em;
-					    overflow:hidden;
-					    padding:2.2em 0.9em;
-					    width:18.85%;
+						float:left;
+					    font-family:"Montserrat",sans-serif;
+					    font-size:1em;
+					    margin:0 1em 2.3em;
+					    padding:0;
+					    width:22.25%;
 						}
+						#content UL#products LI .product-image{
+						    background:#f4f4f4;
+						    border:none;
+						    float:left;
+						    margin:0 0 0.85em 0;
+						    min-height:7em;
+						    padding:7.1em 1.43em;
+						    text-align:center;
+						    width:82.5%;
+							}
+							#content UL#products LI .product-image A IMG{
+							    max-height:7em;
+							    max-width:7em;
+							    min-height:7.5em;
+							    min-width:5.1em;
+								}
 						#content UL#products LI .product-desc{
 						    float:left;
-						    margin:0 0 1.45em 0;
+						    margin:0 0 0.35em 0;
 						    width:100%;
 							}
 							#content UL#products LI .product-desc A{
 								border:none;
-							    color:#191919;
-							    float:left;
-							    font-size:1em;
+							    color:#777777!important;
+							    display:block;
+							    float:none;
+							    font-size:0.95em;
 							    font-weight:normal;
-							    height:auto;
-							    max-height:2.5em;
+							    max-height:3em;
+							    min-height:3em;
 							    overflow:hidden;
-							    text-align:center;
+							    text-align:left;
 							    width:auto;
 								}
-						#content UL#products LI .product-image{
-						    border:none;
-						    float:left;
-						    margin:0 0 1.45em 0;
-						    max-height:9.35em;
-						    min-height:9.35em;
-						    padding:0;
-						    text-align:center;
-						    width:100%;
-							}
-							#content UL#products LI .product-image A IMG{
-							    max-height:9.1em;
-							    max-width:9.1em;
-							    min-height:7.4em;
-							    min-width:5.1em;
-								}
 						#content UL#products LI .product-price{
-						    color:#ec4445;
-						    float:left;
-						    padding:0.55em 0 0 0;
-						    text-align:center;
-						    width:100%;
-							}
-						#content UL#products LI .product-price{
-						    border-top:0.25em solid #dddcdb;
 						    color:#ec4445;
 						    float:left;
 						    font-size:1em;
-						    padding:0.55em 0 0 0;
-						    text-align:center;
+						    line-height:0.98em;
+						    padding:0;
+						    text-align:left;
 						    width:100%;
 							}
 							#content UL#products LI .product-price SPAN{
 							    color:#ec4445;
-							    font-size:1.85em;
+							    font-size:1.1em;
 							    font-weight:normal;
-							    line-height:1.4em;
 							    padding:0;
 								}
 				#content .page-title{
