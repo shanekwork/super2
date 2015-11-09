@@ -338,21 +338,29 @@ UL#payment-methods LI:before{
 #breadcrumbs{
 	border:none;
     float:left;
-    margin:0 0 1em 0;
-    padding:3em 1.85em 0 1.85em;
+    margin:0 0 1.95em 0;
+    padding:0;
     width:100%;
 	}
 	#breadcrumbs UL{
 	    margin:0;
 		}
 		#breadcrumbs UL LI{
+			color:#777777;
 			margin:0;
-			padding:0 0.8em 0 0;
+			padding:0 0.85em 0 0;
 		    width:auto;
 			}
 			#breadcrumbs UL LI A{
-				padding:0 0.8em 0 0;
+				color:#777777!important;
+			    font-family:"Open Sans",sans-serif;
+			    font-size:0.8em;
+			    font-weight:bold;
+			    padding:0 1.25em 0 0;
 				}
+				#breadcrumbs UL LI A:hover{
+					color:#ec4445!important;
+					}
 			#breadcrumbs UL LI SPAN{
 				font-weight:normal;
 				text-transform:none;
@@ -361,6 +369,7 @@ UL#payment-methods LI:before{
 				#breadcrumbs UL LI SPAN A:hover{
 					color:#ec4445!important;
 					cursor:text;
+					font-weight:normal;
 					}
 #slicknav_menu{
 	display:none;
@@ -804,8 +813,8 @@ body{
 				#content .inside-content{
 					float:left;
 					min-height:15em;
-					padding:3em 1.85em;
-					width:95.6%;
+					padding:2.3em 5.7em;
+					width:86.5%;
 					}
 			.home #content{
 				padding:0;
@@ -1289,7 +1298,7 @@ body{
 				#content .page-title{
 				    background:transparent url("/assets/imageContent.png") no-repeat center top;
 				    min-height:5.1em;
-				    padding:2em 0;
+				    padding:2.75em 0;
 				    position:relative;
 				    text-align:center;
 					}
