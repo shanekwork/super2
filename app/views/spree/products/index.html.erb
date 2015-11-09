@@ -12,13 +12,11 @@
 <% if params[:keywords] %>
 
   <div class="search-results" data-hook="search_results">
-    <div class="page-title">
-      <% if @products.empty? %>
+    <% if @products.empty? %>
         <h2 class="taxon-title"><%= Spree.t(:no_products_found) %></h2>
-      <% else %>
-        <%= render :partial => 'spree/shared/products', :locals => { :products => @products, :taxon => @taxon } %>
-      <% end %>
-    </div>
+    <% else %>
+      <%= render :partial => 'spree/shared/products', :locals => { :products => @products, :taxon => @taxon } %>
+    <% end %>
   </div>
 
 <% else %>
