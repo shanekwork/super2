@@ -1304,6 +1304,9 @@ body{
 							    text-align:left;
 							    width:auto;
 								}
+								#content UL#products LI .product-desc A:hover{
+								    color:#ec4445!important;
+									}
 						#content UL#products LI .product-price{
 						    color:#ec4445;
 						    float:left;
