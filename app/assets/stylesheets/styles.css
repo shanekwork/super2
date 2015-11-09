@@ -328,7 +328,12 @@ UL#payment-methods LI:before{
 	    text-align:center;
 	    width:auto;
 		}
-		.pagination .page A{
+		.pagination .first A,
+		.pagination .prev A,
+		.pagination .page A,
+		.pagination .current,
+		.pagination .next A,
+		.pagination .last A{
 			background:#909295;
 		    color:#ffffff;
 		    display:inline-block;
@@ -338,12 +343,16 @@ UL#payment-methods LI:before{
 		    min-width:7px;
 		    padding:0 9px;
 			}
-			.pagination .page A:hover{
+		.pagination .current{
+			cursor:default;
+			}
+			.pagination .first A:hover,
+			.pagination .prev A:hover,
+			.pagination .page A:hover,
+			.pagination .next A:hover,
+			.pagination .last A:hover{
 				background:#ec4445;
 				}
-	.pagination .current{
-		background:#ec4445;
-		}
 #breadcrumbs{
 	border:none;
     float:left;
