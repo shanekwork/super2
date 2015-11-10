@@ -1045,7 +1045,7 @@ body{
 						#content [data-hook="product_left_part"]{
 							float:left;
 							margin:0 2.5em 0 0;
-							width:27.8%;
+							width:38.6%;
 							}
 							#product-images{
 								float:left;
@@ -1057,7 +1057,7 @@ body{
 							    margin:0 0 1em 0;
 							    padding:2.2em 0.9em;
 							    text-align:center;
-							    width:18.3em;
+							    width:26.3em;
 								}
 								#product-images #main-image IMG{
 									max-width:18.3em;
@@ -1082,7 +1082,7 @@ body{
 						#content [data-hook="product_right_part"]{
 							float:left;
 							margin:0;
-							width:68.5%;
+							width:57.9%;
 							}
 							#content [data-hook="product_right_part"] H1.product-title{
 								border-bottom:0.15em solid #dddcdb;
