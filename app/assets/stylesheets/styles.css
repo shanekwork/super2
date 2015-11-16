@@ -1165,6 +1165,20 @@ body{
 											text-align:center;
 											width:53px;
 											}
+										#content [data-hook="product_right_part"] #cart-form .add-to-cart BUTTON#add-to-cart-button{
+											background:#ec4445 url("/assets/addCart.png") no-repeat right top;
+										    border:none;
+										    color:#ffffff;
+										    font-family:Open Sans,sans-serif;
+										    font-size:14px;
+										    height:40px;
+										    letter-spacing:1px;
+										    padding:0 70px 0 20px;
+										    text-transform:uppercase;
+											}
+											#content [data-hook="product_right_part"] #cart-form .add-to-cart BUTTON#add-to-cart-button:hover{
+												background:#a5a5a5 url("/assets/addCart-hover.png") no-repeat right top;
+												}
 					#reviews{
 						margin:0;
 						}
