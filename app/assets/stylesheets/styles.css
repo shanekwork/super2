@@ -1106,19 +1106,22 @@ body{
 							    width:60%;
 								}							
 							#content [data-hook="product_right_part"] A.favorite_link{
-							    background:transparent url("/assets/favouriteBig-icon.png") no-repeat left top;
+							    background:transparent url("/assets/favouriteBig-icon.png") no-repeat left center;
 							    clear:both;
 							    color:#bababa;
 							    float:left;
+							    font-family:"Open Sans",sans-serif;
 							    font-size:0.75em;
+							    font-weight:bold;
+							    letter-spacing:1px;
 							    margin:0 0 1em 0;
 							    padding:0 0 0 2em;
 							    text-transform:uppercase;
 							    width:auto;
 								}
 								#content [data-hook="product_right_part"] A.favorite_link:hover{
-								    background:transparent url("/assets/favouriteBig-iconHover.png") no-repeat left top;
-								    color:#191919;
+								    background:transparent url("/assets/favouriteBig-iconHover.png") no-repeat left center;
+								    color:#ec4445;
 									}
 							#content [data-hook="product_right_part"] #cart-form{
 							    clear:both;
@@ -1160,7 +1163,7 @@ body{
 											color:#939fa6;
 										    font-size:14px;
 										    height:40px;
-											margin:0;
+											margin:0 0.5em 0 0;
 											padding:0.25em 0 0.25em 0.5em!important;
 											text-align:center;
 											width:53px;
@@ -1170,10 +1173,10 @@ body{
 										    border:none;
 										    color:#ffffff;
 										    font-family:Open Sans,sans-serif;
-										    font-size:14px;
-										    height:40px;
+										    font-size:0.88em;
+										    height:2.85em;
 										    letter-spacing:1px;
-										    padding:0 70px 0 20px;
+										    padding:0 5em 0 1.45em;
 										    text-transform:uppercase;
 											}
 											#content [data-hook="product_right_part"] #cart-form .add-to-cart BUTTON#add-to-cart-button:hover{
