@@ -1052,7 +1052,8 @@ body{
 								width:100%;
 								}
 							#product-images #main-image{
-							    border:0.5em solid #dddcdb;
+							    background:#f4f4f4;
+							    border:none;
 							    float:left;
 							    margin:0 0 1em 0;
 							    padding:2.2em 0.9em;
@@ -1084,11 +1085,13 @@ body{
 							margin:0;
 							width:57.9%;
 							}
-							#content [data-hook="product_right_part"] H1.product-title{
-								border-bottom:0.15em solid #dddcdb;
+							#content [data-hook="product_right_part"] H2.product-title{
+								border-bottom:medium none;
 							    color:#191919;
+							    font-size:1.65em;
 							    font-weight:normal;
 							    text-align:inherit;
+							    text-transform:inherit;
 								}
 							#content [data-hook="product_right_part"] [data-hook="description"]{
 								clear:both;
