@@ -974,16 +974,24 @@ body{
 									color:#ec4445;
 									}
 					#forgot-password P{
-						margin:0 auto;
+						color:#777777;
+						font-family:"Open Sans",sans-serif;
+						font-size:0.75em;
+						margin:0 auto 0.8em auto;
     					width:23.2em;
 						}
 					#forgot-password FORM{
+						border:none;
 					    display:block;
 					    float:none;
 					    margin:0 auto;
 					    padding: 0;
-					    width:23.2em;
+					    width:17.5em;
 						}
+						#forgot-password FORM P LABEL,
+						#forgot-password FORM P INPUT{
+							font-size:1em;
+							}
 						#forgot-password FORM P INPUT.button{
 							background:#ec4445;
 							border:1px solid #e92829;
