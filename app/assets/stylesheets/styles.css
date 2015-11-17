@@ -956,7 +956,7 @@ body{
 								padding:0;
 								}
 							#existing-customer FORM > P:last-child,
-							#new-customer FORM > P:last-child{
+							#new-customer FORM > DIV[data-hook="signup_inside_form"] P:last-child{
 								border-top:1px solid #e5e5e5;
 								margin:0;
 								padding:0.5em 0.9em;
