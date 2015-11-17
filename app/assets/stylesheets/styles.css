@@ -917,6 +917,7 @@ body{
 				#existing-customer,
 				#forgot-password{
 					float:left;
+					min-height:20em;
 					padding:2.3em 5.7em;
     				width:86.5%;
 					}
@@ -972,6 +973,26 @@ body{
 								#existing-customer DIV > A:hover{
 									color:#ec4445;
 									}
+					#forgot-password P{
+						margin:0 auto;
+    					width:23.2em;
+						}
+					#forgot-password FORM{
+					    display:block;
+					    float:none;
+					    margin:0 auto;
+					    padding: 0;
+					    width:23.2em;
+						}
+						#forgot-password FORM P INPUT.button{
+							background:#ec4445;
+							border:1px solid #e92829;
+						    float:left;
+							}
+							#forgot-password FORM P INPUT.button:hover{
+								background:#e61719;
+								border:1px solid #cf1516;
+								}
 				.home #imageContent{
 					display:none;
 					position:absolute;
