@@ -915,14 +915,16 @@ body{
 				    width:100%;
 					}
 				#existing-customer,
-				#forgot-password{
+				#forgot-password,
+				#new-customer{
 					float:left;
 					min-height:20em;
 					padding:2.3em 5.7em;
     				width:86.5%;
 					}
 					#existing-customer H6,
-					#forgot-password H6{
+					#forgot-password H6,
+					#new-customer H6{
 						border-bottom:1px solid #eeeeee;
 						color:#252525;
 						font-size:1.8em;
@@ -931,30 +933,37 @@ body{
 						text-align:left;
 	    				text-transform:capitalize;
 						}
-					#existing-customer > DIV{
+					#existing-customer > DIV,
+					#new-customer > DIV{
 						text-indent:-5000em;
 						}
-						#existing-customer FORM{
+						#existing-customer FORM,
+						#new-customer FORM{
 							clear:both;
 							padding:1em 0 0 0;
 							text-indent:0;
 							width:34.7em;
 							}
 							#existing-customer FORM > DIV,
-							#existing-customer P{
+							#existing-customer P,
+							#new-customer FORM > DIV,
+							#new-customer P{
 								padding:0 1.15em;
 								width:93.5%;
 								}
-							#existing-customer FORM > DIV P{
+							#existing-customer FORM > DIV P,
+							#new-customer FORM > DIV P{
 								padding:0;
 								}
-							#existing-customer FORM > P:last-child{
+							#existing-customer FORM > P:last-child,
+							#new-customer FORM > P:last-child{
 								border-top:1px solid #e5e5e5;
 								margin:0;
 								padding:0.5em 0.9em;
 	    						width:95%;
 								}
-							#existing-customer DIV > A{
+							#existing-customer DIV > A,
+							#new-customer DIV > A{
 								clear:left;
 							    color:#777777;
 							    float:left;
@@ -966,11 +975,13 @@ body{
 							    top:-2.8em;
 							    width:auto;
 								}
-							#existing-customer DIV > A:last-child{
+							#existing-customer DIV > A:last-child,
+							#new-customer DIV > A:last-child{
 								left:10.6em;
 							    top:-4.2em;
 								}
-								#existing-customer DIV > A:hover{
+								#existing-customer DIV > A:hover,
+								#new-customer DIV > A:hover{
 									color:#ec4445;
 									}
 					#forgot-password P{
