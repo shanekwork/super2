@@ -914,12 +914,15 @@ body{
 				    height:9em;
 				    width:100%;
 					}
-				#existing-customer{
+				#existing-customer,
+				#forgot-password H6{
 					float:left;
 					padding:2.3em 5.7em;
     				width:86.5%;
 					}
-					#existing-customer H6{
+					#existing-customer H6,
+					#forgot-password H6{
+						border-bottom:1px solid #eeeeee;
 						color:#252525;
 						font-size:1.8em;
 						margin:0 0 1em 0;
