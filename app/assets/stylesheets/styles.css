@@ -111,7 +111,7 @@ FORM{
 	border:1px solid #e5e5e5;
 	float:left;
 	padding:1em 1.15em;
-	width:34.7em;
+	width:100%;
 	}
 	FORM > DIV{
 		float:left;
@@ -185,6 +185,7 @@ FORM{
 			    font-weight:normal;
 			    margin:0;
 			    padding:0.85em 1.25em!important;
+			    text-transform:uppercase;
 			    width:auto;
 				}
 				A.button:hover,
@@ -925,16 +926,45 @@ body{
 						text-align:left;
 	    				text-transform:capitalize;
 						}
-					#existing-customer FORM{
-						padding:1em 0;
+					#existing-customer > DIV{
+						text-indent:-5000em;
 						}
-						#existing-customer FORM > DIV,
-						#existing-customer P{
-							padding:0 1.15em;
+						#existing-customer FORM{
+							clear:both;
+							padding:1em 0 0 0;
+							text-indent:0;
+							width:34.7em;
 							}
-						#existing-customer P:last-child{
-							border-top:1px solid #e5e5e5;
-							}
+							#existing-customer FORM > DIV,
+							#existing-customer P{
+								padding:0 1.15em;
+								width:93.5%;
+								}
+							#existing-customer FORM > P:last-child{
+								border-top:1px solid #e5e5e5;
+								margin:0;
+								padding:0.5em 0.9em;
+	    						width:95%;
+								}
+							#existing-customer FORM > DIV A{
+								clear:left;
+							    color:#777777;
+							    float:left;
+							    font-family:"Open Sans",sans-serif;
+							    font-size:0.82em;
+							    padding:0 1.15em;
+							    position:relative;
+							    text-indent:0;
+							    top:-2.8em;
+							    width:auto;
+								}
+							#existing-customer FORM > DIV A:last-child{
+								left:10.6em;
+							    top:-4.2em;
+								}
+								#existing-customer FORM > DIV A:hover{
+									color:#ec4445;
+									}
 				.home #imageContent{
 					display:none;
 					position:absolute;
