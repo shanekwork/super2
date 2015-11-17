@@ -992,6 +992,9 @@ body{
 						#forgot-password FORM P INPUT{
 							font-size:1em;
 							}
+						#forgot-password FORM P INPUT{
+							margin:0 0 0.4em 0;
+							}
 						#forgot-password FORM P INPUT.button{
 							background:#ec4445;
 							border:1px solid #e92829;
