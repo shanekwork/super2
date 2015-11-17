@@ -108,20 +108,21 @@ DL{
 	    width:87.3%;
 		}
 FORM{
-	border:1px solid #dddcdb;
+	border:1px solid #e5e5e5;
 	float:left;
-	padding:2em;
-	width:94.5%;
+	padding:1em 1.15em;
+	width:34.7em;
 	}
 	FORM > DIV{
 		float:left;
-		margin:0 0 1em 0;
+		margin:0;
 		width:100%;
 		}
 		FORM .stars-field,
 		FORM .label-field,
 		FORM .text-field{
 			float:left;
+			font-family:"Open Sans",sans-serif;
 			margin:0;
 			width:72.2%;
 			}
@@ -132,11 +133,16 @@ FORM{
 				width:100%;
 				}
 				FORM LABEL{
-					color:#191919;
+					color:#777777;
 					float:left;
-					font-size:1em;
-					margin:0 2em 0 0;
-					width:25%;
+					font-family:"Open Sans",sans-serif;
+					font-size:0.75em;
+					margin:0 2em 0.5em 0;
+					width:100%;
+					}
+				FORM LABEL[for="spree_user_remember_me"]{
+					margin:0;
+					width:auto;
 					}
 				FORM BR{
 					display:none;
@@ -147,35 +153,43 @@ FORM{
 				FORM INPUT,
 				FORM TEXTAREA,
 				FORM SELECT{
-					border:1px solid #bbbbbb!important;
-					color:#ec4445;
+					border:1px solid #e5e5e5!important;
+					color:#555555;
+					font-family:"Open Sans",sans-serif;
 					padding:0.9em 0.85em!important;
-					width:36.2%;
+					width:16em;
 					}
 				FORM SELECT{
 					padding:0.58em 0.85em!important;
 					}
 				FORM P INPUT[type="checkbox"]{
 				    float:left;
-				    margin:0.25em 0.5em 0 27.8%;
+				    margin:0.1em 0.5em 0 0;
 				    width:auto;
+					}
+				FORM INPUT:focus,
+				FORM TEXTAREA:focus{
+					border-color:rgba(82, 168, 236, 0.8);
+				    box-shadow:0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(82, 168, 236, 0.6);
+				    outline:none;
 					}
 			A.button,
 			INPUT.button{
-				background:#ec4445 url("/assets/submit-icon.png") no-repeat 1.8em center;
+				background:#252525;
 				border:none!important;
+				border-radius:0.15em;
 				color:#ffffff;
 			    float:right;
-			    font-size:0.85em;
+			    font-family:"Montserrat",Arial,Helvetica,sans-serif;
+			    font-size:0.75em;
 			    font-weight:normal;
 			    margin:0;
-			    padding:1em 1.75em 1em 3.5em!important;
+			    padding:0.85em 1.25em!important;
 			    width:auto;
 				}
 				A.button:hover,
 				INPUT.button:hover{
-					background:#191919 url("/assets/submit-iconHover.png") no-repeat 1.8em center;
-					color:#ec4445;
+					background:#ec4445;
 					}
 LABEL.errror{
 	font-size:0.8em;
@@ -899,6 +913,28 @@ body{
 				    height:9em;
 				    width:100%;
 					}
+				#existing-customer{
+					float:left;
+					padding:2.3em 5.7em;
+    				width:86.5%;
+					}
+					#existing-customer H6{
+						font-size:1.8em;
+						margin:0 0 1em 0;
+						padding:0 0 0.45em 0;
+						text-align:left;
+	    				text-transform:capitalize;
+						}
+					#existing-customer FORM{
+						padding:1em 0;
+						}
+						#existing-customer FORM > DIV,
+						#existing-customer P{
+							padding:0 1.15em;
+							}
+						#existing-customer P:last-child{
+							border-top:1px solid #e5e5e5;
+							}
 				.home #imageContent{
 					display:none;
 					position:absolute;
