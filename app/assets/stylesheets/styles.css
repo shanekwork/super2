@@ -949,7 +949,7 @@ body{
 								padding:0.5em 0.9em;
 	    						width:95%;
 								}
-							#existing-customer FORM > DIV A{
+							#existing-customer DIV > A{
 								clear:left;
 							    color:#777777;
 							    float:left;
@@ -961,11 +961,11 @@ body{
 							    top:-2.8em;
 							    width:auto;
 								}
-							#existing-customer FORM > DIV A:last-child{
+							#existing-customer DIV > A:last-child{
 								left:10.6em;
 							    top:-4.2em;
 								}
-								#existing-customer FORM > DIV A:hover{
+								#existing-customer DIV > A:hover{
 									color:#ec4445;
 									}
 				.home #imageContent{
