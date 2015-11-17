@@ -940,6 +940,9 @@ body{
 								padding:0 1.15em;
 								width:93.5%;
 								}
+							#existing-customer FORM > DIV P{
+								padding:0;
+								}
 							#existing-customer FORM > P:last-child{
 								border-top:1px solid #e5e5e5;
 								margin:0;
