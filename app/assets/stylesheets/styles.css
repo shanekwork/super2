@@ -915,7 +915,7 @@ body{
 				    width:100%;
 					}
 				#existing-customer,
-				#forgot-password H6{
+				#forgot-password{
 					float:left;
 					padding:2.3em 5.7em;
     				width:86.5%;
