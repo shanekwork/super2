@@ -9,5 +9,13 @@
       <key>created_at</key>
       <string>2014-07-23 14:52:38 UTC</string>
     </user>
+    <user>
+      <key>email</key>
+      <string>beatriz@supportsolutions.ie</string>
+      <key>sign_in_count</key>
+      <string>8</string>
+      <key>created_at</key>
+      <string>2015-11-18 14:52:38 UTC</string>
+    </user>
   </array>
 </users>
