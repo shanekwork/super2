@@ -876,7 +876,8 @@ body{
 				padding:0;
 				width:100%;
 				}
-				#content .inside-content{
+				#content .inside-content,
+				#page_content{
 					float:left;
 					min-height:15em;
 					padding:2.3em 5.7em;
