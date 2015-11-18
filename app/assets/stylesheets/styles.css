@@ -1542,7 +1542,8 @@ body{
 							    font-weight:normal;
 							    padding:0;
 								}
-				#content .page-title{
+				#content .page-title,				
+				#content H1{
 				    background:transparent url("/assets/imageContent.png") no-repeat center top;
 				    min-height:5.1em;
 				    padding:2.75em 0;
