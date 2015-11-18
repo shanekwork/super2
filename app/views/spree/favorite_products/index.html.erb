@@ -3,6 +3,7 @@
     <h2 class="taxon-title"><%= Spree.t(:my_favorite_products) %></h2>
   </div>
   <div class="inside-content">
+    <%= breadcrumbs(@taxon) %>
     <% if @favorite_products.present? %>
       <table class="favorite-products order-summary">
         <thead>
