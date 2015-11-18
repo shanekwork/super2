@@ -214,8 +214,9 @@ TABLE{
 		    font-weight:normal;
 		    padding:0.8em 0.3em;
 			}
-		TABLE THEAD TR TH.favorite-product-name{
-			text-align:center;
+		TABLE THEAD TR TH.favorite-product-name,
+		TABLE TBODY TR TD.favorite-product-name{
+			text-align:center!important;
 			}
 		TABLE TBODY TR TD{
 			border:1px solid #e5e5e5;
