@@ -944,6 +944,10 @@ body{
 							text-indent:0;
 							width:34.7em;
 							}
+							#existing-customer FORM LABEL,
+							#new-customer FORM LABEL{
+								margin:0;
+								}
 							#existing-customer FORM > DIV,
 							#existing-customer P,
 							#new-customer FORM > DIV,
@@ -963,6 +967,9 @@ body{
 								}
 							#new-customer FORM > DIV[data-hook="signup_inside_form"] #password-credentials P:last-child{
 								border-top:none;
+								margin:0 0 1em 0;
+							    padding:0 1.15em;
+							    width:93.5%;
 								}
 							#new-customer FORM > DIV[data-hook="signup_inside_form"]{
 								padding:0;
