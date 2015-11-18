@@ -1543,15 +1543,13 @@ body{
 							    font-weight:normal;
 							    padding:0;
 								}
-				#content .page-title,				
-				#content H1{
+				#content .page-title{
 				    background:transparent url("/assets/imageContent.png") no-repeat center top;
 				    min-height:5.1em;
 				    padding:2.75em 0;
 				    position:relative;
 				    text-align:center;
 					}
-					#content H1,
 					#content H2.taxon-title{
 					    color:#ffffff;
 					    display:inline-block;
@@ -1561,7 +1559,6 @@ body{
 					    position:relative;
 					    width:auto;
 						}
-					#content H1,
 					#content H2.taxon-title:after{
 					    border-bottom:4px double #fff;
 					    bottom:0;
