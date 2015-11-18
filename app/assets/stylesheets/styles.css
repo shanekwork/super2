@@ -224,8 +224,9 @@ TABLE{
 			padding:0.8em 0.3em;
 			}
 			TABLE TBODY TR TD IMG{
+				color:#ec4445;
 				max-width:6.6em;
-    			width:6.6em;
+    			width:6.6em!important;
 				}
 .container{
 	width:1167px;
