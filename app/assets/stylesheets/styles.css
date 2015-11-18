@@ -946,7 +946,7 @@ body{
 							}
 							#existing-customer FORM LABEL,
 							#new-customer FORM LABEL{
-								margin:0;
+								margin:0 0 0.5em 0;
 								}
 							#existing-customer FORM > DIV,
 							#existing-customer P,
@@ -997,6 +997,10 @@ body{
 								#new-customer DIV > A:hover{
 									color:#ec4445;
 									}
+							#new-customer DIV > A:last-child{
+								left:0;
+							    top:-2.85em;
+								}
 					#forgot-password P{
 						color:#777777;
 						font-family:"Open Sans",sans-serif;
