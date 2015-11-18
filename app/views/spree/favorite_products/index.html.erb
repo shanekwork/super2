@@ -4,7 +4,6 @@
   </div>
   <div class="inside-content">
     <% if @favorite_products.present? %>
-      <%= breadcrumbs(@taxon) %>
       <table class="favorite-products order-summary">
         <thead>
         <tr>
@@ -24,7 +23,6 @@
         </tbody>
       </table>
     <% else %>
-      <%= breadcrumbs(@taxon) %>
       <p><%= Spree.t(:you_have_no_favorite_products_yet) %></p>
     <% end %>
 
