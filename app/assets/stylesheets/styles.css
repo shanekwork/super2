@@ -1743,6 +1743,9 @@ body{
 								    padding:0 15px;
 								    width:auto;
 									}
+								#content #empty-carted FORM #clear_cart_link A{
+								    height:auto;
+									}
 									#content FORM#update-cart .links .checkout-button BUTTON:hover,
 									#content #empty-carted FORM #clear_cart_link INPUT:hover,
 									#content #empty-carted FORM #clear_cart_link A:hover{
