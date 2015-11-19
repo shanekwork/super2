@@ -206,7 +206,8 @@ TABLE{
     margin:0 0 1em 0;
     width:100%;
 	}
-	TABLE THEAD{
+	TABLE THEAD,
+	TABLE#cart-detail TR.cart-subtotal{
 		background:#fafafa;
 		}
 		TABLE THEAD TR TH{
@@ -1611,101 +1612,133 @@ body{
 				    float:left;
 				    padding:0;
 				    width:100%;
-					}
-					#content TABLE#cart-detail TD.cart-item-image IMG{
-						display:inline!important;
-					    max-width:50px;
+					}					
+					#content TABLE#cart-detail{
+						border:1px solid #dddddd;
 						}
-					#content TABLE#cart-detail TR.line-item TD{
-						text-align:center;
-						}
-					#content TABLE#cart-detail TR.line-item TD.cart-item-price,
-					#content TABLE#cart-detail TR.line-item TD.cart-item-total{
-						text-align:right;
-						}
-					#content TABLE#cart-detail TR.line-item TD.cart-item-description{
-						text-align:left;
-						}
-						#content TABLE#cart-detail TD.cart-item-description H4{
-							margin:0;
+						#content TABLE#cart-detail TH,
+						#content TABLE#cart-detail TD{
+							border:none;
 							}
-							#content TABLE#cart-detail TD.cart-item-description H4 A{
-								font-weight:normal;
+						#content TABLE#cart-detail TH{
+							border-bottom:1px solid #dddddd;
+							font-family:Verdana,helvetica,sans-serif;
+		    				font-size:0.75em;
+		    				padding:0.69em;
+							}
+						#content TABLE#cart-detail TD.cart-item-image IMG{
+							display:inline!important;
+						    max-width:50px;
+							}
+						#content TABLE#cart-detail TR.line-item TD{
+							text-align:center;
+							}
+						#content TABLE#cart-detail TR.line-item TD.cart-item-price,
+						#content TABLE#cart-detail TR.line-item TD.cart-item-total{
+							font-weight:normal!important;
+							text-align:right;
+							}
+						#content TABLE#cart-detail TR.line-item TD.cart-item-description{
+							text-align:left;
+							}
+							#content TABLE#cart-detail TD.cart-item-description H4{
+								margin:0;
 								}
-						#content TABLE#cart-detail TD.cart-item-description SPAN{
-							font-size:0.9em;
-							}
-						#content TABLE#cart-detail TD.cart-item-price,
-						#content TABLE#cart-detail TD.cart-item-total{
-							color:#ec4445!important;
-						    font-size:1em!important;
-						    font-weight:normal!important;
-							}
-						#content TABLE#cart-detail TD.cart-item-quantity INPUT{
-							padding:0.25em 0 0.25em 0.5em!important;
-							}
-						#content TABLE#cart-detail TD.cart-item-total{
-						    font-weight:bold!important;
-							}
-						#content TABLE#cart-detail TR.total-price H5{
-							font-size:1.4em;
-						    font-weight:normal;
-							}
-					#content FORM#update-cart .links{
-					    float:left;
-					    text-align:center;
-					    width:100%;
-						}
-						#content FORM#update-cart .links BUTTON#update-button{
-						    background:#ec4445 url("/assets/update-icon.png") no-repeat center center;
-						    color:#ec4445;
-						    font-size:1px;
-						    height:41em;
-						    width:53em;
-							}
-							#content FORM#update-cart .links BUTTON#update-button:hover{
-							    background:#191919 url("/assets/update-iconHover.png") no-repeat center center;
-							    color:#191919;
+								#content TABLE#cart-detail TD.cart-item-description H4 A,
+								#content TABLE#cart-detail TD.cart-item-description SPAN{
+									color:#333333;
+								    font-family:Verdana,helvetica,sans-serif;
+								    font-size:0.75em;
+								    font-weight:normal;
+								    text-transform:uppercase;
+									}
+									#content TABLE#cart-detail TD.cart-item-description H4 A:hover{
+										color:#ec4445;
+										}
+							#content TABLE#cart-detail TD.cart-item-price,
+							#content TABLE#cart-detail TD.cart-item-total{
+								color:#777777!important;
+							    font-family:Verdana,helvetica,sans-serif;
+							    font-size:0.8em!important;
+							    font-weight:normal!important;
 								}
-						#content FORM#update-cart .links .checkout-button{
-						    float:right;
-						    margin:1em 0 0 0;
-						    width:100%;
-							}
-							#content FORM#update-cart .links .checkout-button BUTTON{
-								background:#ec4445 url("/assets/checkout-icon.png") no-repeat 1.8em center;
-							    float:left;
-							    margin:0 1em 0 0;
-							    padding:1em 1.75em 1em 3.5em;
+							#content TABLE#cart-detail TD.cart-item-quantity INPUT{
+								height:37px!important;
+    							padding:0.15em 0.3em!important;
+								}
+							#content TABLE#cart-detail TD.cart-item-total{
+							    font-weight:bold!important;
+								}
+							#content TABLE#cart-detail TD.cart-item-delete A IMG{
+							    max-width:1em;
 							    width:auto;
 								}
-								#content FORM#update-cart .links .checkout-button BUTTON:hover{
-									background:#191919 url("/assets/checkout-iconHover.png") no-repeat 1.8em center;
+							TABLE#cart-detail TR.cart-subtotal TD H5{
+								color:#777777;
+							    font-family:Verdana,helvetica,sans-serif;
+							    font-size:12px;
+							    font-weight:normal;
+							    text-transform:uppercase;			
+								}
+							#content TABLE#cart-detail TR.total-price H5{
+								font-size:1.4em;
+							    font-weight:normal;
+								}
+						#content FORM#update-cart .links{
+						    float:left;
+						    text-align:center;
+						    width:100%;
+							}
+							#content FORM#update-cart .links BUTTON#update-button{
+							    background:#ec4445 url("/assets/update-icon.png") no-repeat center center;
+							    color:#ec4445;
+							    font-size:1px;
+							    height:41em;
+							    width:53em;
+								}
+								#content FORM#update-cart .links BUTTON#update-button:hover{
+								    background:#191919 url("/assets/update-iconHover.png") no-repeat center center;
+								    color:#191919;
 									}
-				#content #empty-carted FORM{
-					border:none;
-				    float:left;
-				    padding:0;
-				    width:100%;
-					}
-					#content #empty-carted FORM #clear_cart_link INPUT,
-					#content #empty-carted FORM #clear_cart_link A{
+							#content FORM#update-cart .links .checkout-button{
+							    float:right;
+							    margin:1em 0 0 0;
+							    width:100%;
+								}
+								#content FORM#update-cart .links .checkout-button BUTTON{
+									background:#ec4445 url("/assets/checkout-icon.png") no-repeat 1.8em center;
+								    float:left;
+								    margin:0 1em 0 0;
+								    padding:1em 1.75em 1em 3.5em;
+								    width:auto;
+									}
+									#content FORM#update-cart .links .checkout-button BUTTON:hover{
+										background:#191919 url("/assets/checkout-iconHover.png") no-repeat 1.8em center;
+										}
+					#content #empty-carted FORM{
+						border:none;
 					    float:left;
-					    margin:0 1em 0 0;
-					    width:auto;
+					    padding:0;
+					    width:100%;
 						}
-					#content #empty-carted FORM #clear_cart_link INPUT{
-					    background:#ec4445 url("/assets/empty-icon.png") no-repeat 1.8em center;
-						}
-						#content #empty-carted FORM #clear_cart_link INPUT:hover{
-						    background:#191919 url("/assets/empty-iconHover.png") no-repeat 1.8em center;
+						#content #empty-carted FORM #clear_cart_link INPUT,
+						#content #empty-carted FORM #clear_cart_link A{
+						    float:left;
+						    margin:0 1em 0 0;
+						    width:auto;
 							}
-					#content #empty-carted FORM #clear_cart_link A{
-						background:#ec4445 url("/assets/shopping-icon.png") no-repeat 1.8em center;
-						}
-						#content #empty-carted FORM #clear_cart_link A:hover{
-						    background:#191919 url("/assets/shopping-iconHover.png") no-repeat 1.8em center;
+						#content #empty-carted FORM #clear_cart_link INPUT{
+						    background:#ec4445 url("/assets/empty-icon.png") no-repeat 1.8em center;
 							}
+							#content #empty-carted FORM #clear_cart_link INPUT:hover{
+							    background:#191919 url("/assets/empty-iconHover.png") no-repeat 1.8em center;
+								}
+						#content #empty-carted FORM #clear_cart_link A{
+							background:#ec4445 url("/assets/shopping-icon.png") no-repeat 1.8em center;
+							}
+							#content #empty-carted FORM #clear_cart_link A:hover{
+							    background:#191919 url("/assets/shopping-iconHover.png") no-repeat 1.8em center;
+								}
 				#content #checkout{
 				    float:left;
 				    width:100%;
