@@ -1709,16 +1709,20 @@ body{
 						    text-align:center;
 						    width:100%;
 							}
+							#content FORM#update-cart .links INPUT#order_coupon_code{
+							    padding:0.65em 0.85em!important;
+								}
 							#content FORM#update-cart .links BUTTON#update-button{
-							    background:#ec4445 url("/assets/update-icon.png") no-repeat center center;
+							    background:#252525 url("/assets/update-icon.png") no-repeat center center;
 							    color:#ec4445;
 							    font-size:1px;
-							    height:41em;
-							    width:53em;
+							    height:36px;
+							    padding:0 17px;
+							    text-indent:-5000em;
+							    width:auto;
 								}
 								#content FORM#update-cart .links BUTTON#update-button:hover{
-								    background:#191919 url("/assets/update-iconHover.png") no-repeat center center;
-								    color:#191919;
+								    background:#ec4445 url("/assets/update-icon.png") no-repeat center center;
 									}
 							#content FORM#update-cart .links .checkout-button{
 							    float:right;
