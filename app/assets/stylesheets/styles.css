@@ -1638,6 +1638,9 @@ body{
 							font-weight:normal!important;
 							text-align:right;
 							}
+						#content TABLE#cart-detail TR.line-item TD.cart-item-total{
+							color:#fe5252;
+							}
 						#content TABLE#cart-detail TR.line-item TD.cart-item-description{
 							text-align:left;
 							}
@@ -1681,16 +1684,16 @@ body{
 							    text-transform:uppercase;			
 								}
 								TABLE#cart-detail TR.cart-subtotal TD H5,
-								TABLE#cart-detail TR.adjustment TD H5{
+								TABLE#cart-detail TR.adjustment TD H5,
+								#content TABLE#cart-detail TR.total-price H5{
 									color:#777777;
 								    font-family:Verdana,helvetica,sans-serif;
 								    font-size:12px;
 								    font-weight:normal;
 								    text-transform:uppercase;			
 									}
-							#content TABLE#cart-detail TR.total-price H5{
-								font-size:1.4em;
-							    font-weight:normal;
+							#content TABLE#cart-detail TR.total-price TD:nth-last-child H5{
+								color:#fe5252;
 								}
 						#content FORM#update-cart .links{
 						    float:left;
