@@ -1639,7 +1639,7 @@ body{
 							text-align:right;
 							}
 						#content TABLE#cart-detail TR.line-item TD.cart-item-total{
-							color:#fe5252;
+							color:#fe5252!important;
 							}
 						#content TABLE#cart-detail TR.line-item TD.cart-item-description{
 							text-align:left;
@@ -1692,8 +1692,8 @@ body{
 								    font-weight:normal;
 								    text-transform:uppercase;			
 									}
-							#content TABLE#cart-detail TR.total-price TD:nth-last-child H5{
-								color:#fe5252;
+							#content TABLE#cart-detail TR.total-price TD:nth-child(1) H5{
+								color:#fe5252!important;
 								}
 						#content FORM#update-cart .links{
 						    float:left;
