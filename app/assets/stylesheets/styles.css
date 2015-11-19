@@ -1741,6 +1741,7 @@ body{
 								    height:36px;
 								    margin:0 1em 0 0;
 								    padding:0 15px;
+								    text-transform:uppercase;
 								    width:auto;
 									}
 								#content #empty-carted FORM #clear_cart_link A{
