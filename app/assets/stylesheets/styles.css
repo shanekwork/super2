@@ -1714,6 +1714,8 @@ body{
 								}
 							#content FORM#update-cart .links BUTTON#update-button{
 							    background:#252525 url("/assets/update-icon.png") no-repeat center center;
+							    border:none;
+							    border-radius:3px;
 							    color:#ec4445;
 							    font-size:1px;
 							    height:36px;
