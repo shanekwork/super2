@@ -1692,7 +1692,7 @@ body{
 								    font-weight:normal;
 								    text-transform:uppercase;			
 									}
-							#content TABLE#cart-detail TR.total-price TD:nth-child(1) H5{
+							#content TABLE#cart-detail TR.total-price TD:nth-last-child(2) H5{
 								color:#fe5252!important;
 								}
 						#content FORM#update-cart .links{
