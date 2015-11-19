@@ -1692,8 +1692,14 @@ body{
 								    font-weight:normal;
 								    text-transform:uppercase;			
 									}
+							#content TABLE#cart-detail TR.cart-subtotal TD:nth-last-child(2) H5,
+							#content TABLE#cart-detail TR.adjustment TD:nth-last-child(2) H5,
+							#content TABLE#cart-detail TR.total-price TD:nth-last-child(2) H5{
+								text-align:right;
+								}
 							#content TABLE#cart-detail TR.total-price TD:nth-last-child(2) H5{
 								color:#fe5252!important;
+								text-align:right;
 								}
 						#content FORM#update-cart .links{
 						    float:left;
