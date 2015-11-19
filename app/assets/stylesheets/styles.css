@@ -1673,13 +1673,21 @@ body{
 							    max-width:1em;
 							    width:auto;
 								}
-							TABLE#cart-detail TR.cart-subtotal TD H5{
+							TABLE#cart-detail TR.cart-subtotal{
 								color:#777777;
 							    font-family:Verdana,helvetica,sans-serif;
 							    font-size:12px;
 							    font-weight:normal;
 							    text-transform:uppercase;			
 								}
+								TABLE#cart-detail TR.cart-subtotal TD H5,
+								TABLE#cart-detail TR.adjustment TD H5{
+									color:#777777;
+								    font-family:Verdana,helvetica,sans-serif;
+								    font-size:12px;
+								    font-weight:normal;
+								    text-transform:uppercase;			
+									}
 							#content TABLE#cart-detail TR.total-price H5{
 								font-size:1.4em;
 							    font-weight:normal;
