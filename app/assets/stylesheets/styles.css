@@ -1728,18 +1728,25 @@ body{
 									}
 							#content FORM#update-cart .links .checkout-button{
 							    float:right;
-							    margin:1em 0 0 0;
+							    margin:1em 0;
 							    width:100%;
 								}
-								#content FORM#update-cart .links .checkout-button BUTTON{
-									background:#ec4445 url("/assets/checkout-icon.png") no-repeat 1.8em center;
+								#content FORM#update-cart .links .checkout-button BUTTON,
+								#content #empty-carted FORM #clear_cart_link INPUT,
+								#content #empty-carted FORM #clear_cart_link A{
+									background:#252525;
+									border:none;
+									border-radius:3px;
 								    float:left;
+								    height:36px;
 								    margin:0 1em 0 0;
-								    padding:1em 1.75em 1em 3.5em;
+								    padding:0 15px;
 								    width:auto;
 									}
-									#content FORM#update-cart .links .checkout-button BUTTON:hover{
-										background:#191919 url("/assets/checkout-iconHover.png") no-repeat 1.8em center;
+									#content FORM#update-cart .links .checkout-button BUTTON:hover,
+									#content #empty-carted FORM #clear_cart_link INPUT:hover,
+									#content #empty-carted FORM #clear_cart_link A:hover{
+										background:#ec4445;
 										}
 					#content #empty-carted FORM{
 						border:none;
@@ -1753,18 +1760,6 @@ body{
 						    margin:0 1em 0 0;
 						    width:auto;
 							}
-						#content #empty-carted FORM #clear_cart_link INPUT{
-						    background:#ec4445 url("/assets/empty-icon.png") no-repeat 1.8em center;
-							}
-							#content #empty-carted FORM #clear_cart_link INPUT:hover{
-							    background:#191919 url("/assets/empty-iconHover.png") no-repeat 1.8em center;
-								}
-						#content #empty-carted FORM #clear_cart_link A{
-							background:#ec4445 url("/assets/shopping-icon.png") no-repeat 1.8em center;
-							}
-							#content #empty-carted FORM #clear_cart_link A:hover{
-							    background:#191919 url("/assets/shopping-iconHover.png") no-repeat 1.8em center;
-								}
 				#content #checkout{
 				    float:left;
 				    width:100%;
