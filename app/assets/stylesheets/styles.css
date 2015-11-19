@@ -1693,9 +1693,12 @@ body{
 								    text-transform:uppercase;			
 									}
 							#content TABLE#cart-detail TR.cart-subtotal TD:nth-last-child(2) H5,
-							#content TABLE#cart-detail TR.adjustment TD:nth-last-child(2) H5,
 							#content TABLE#cart-detail TR.total-price TD:nth-last-child(2) H5{
 								text-align:right;
+								}
+							#content TABLE#cart-detail TR.adjustment TD:last-child H5{
+							    padding:0 0 0 1.2em;
+							    text-align:left;
 								}
 							#content TABLE#cart-detail TR.total-price TD:nth-last-child(2) H5{
 								color:#fe5252!important;
