@@ -1744,7 +1744,7 @@ body{
 								    width:auto;
 									}
 								#content #empty-carted FORM #clear_cart_link A{
-								    height:auto;
+								    height:16px;
 									}
 									#content FORM#update-cart .links .checkout-button BUTTON:hover,
 									#content #empty-carted FORM #clear_cart_link INPUT:hover,
