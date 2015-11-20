@@ -2189,7 +2189,7 @@ body{
 						}						
 						#content #checkout .row #checkout-summary H3{
 							background:#fafafa url("/assets/checkout-step-order3.png") no-repeat 0.55em center;
-							border:none;
+							border-bottom:1px solid #dddddd;
 							font-size:1em;
 							line-height:1.4em;
 							margin:0;
