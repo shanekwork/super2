@@ -2196,6 +2196,7 @@ body{
 							width:87.2%;
 							}
 						#content #checkout .row #checkout-summary TABLE TD{
+							border:none;
 						    color:#777777;
 						    font-family:Verdana,helvetica,sans-serif;
 						    font-size:0.75em;
