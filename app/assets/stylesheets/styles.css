@@ -1854,8 +1854,9 @@ body{
 								    margin:0;
 								    padding:0;
 									}
-									#content #checkout .row .columns FORM LEGEND{
-										background:#fafafa;
+									#content #checkout .row .columns FORM LEGEND,
+									#content #checkout .row #checkout-summary H3{
+										background:#fafafa url("/assets/checkout-step-order1.png") no-repeat 0.55em center;
 										border-bottom:1px solid #dddddd;
 									    color:#444444;
 									    float:left;
@@ -1863,10 +1864,16 @@ body{
 									    font-size:1em;
 									    font-weight:normal;
 									    margin:0 0 1.5em 0;
-									    padding:0.35em 0.5em;
+									    padding:0.35em 2.5em;
 									    text-align:left;
 									    text-transform:capitalize;
-									    width:97%;
+									    width:79.1%;
+										}
+									#content #checkout .row .columns FORM #shipping LEGEND{
+										background:#fafafa url("/assets/checkout-step-order2.png") no-repeat 0.55em center;
+										}
+									#content #checkout .row #checkout-summary H3{
+										background:#fafafa url("/assets/checkout-step-order3.png") no-repeat 0.55em center;
 										}
 									#content #checkout .row .columns FORM .inner{
 									    float:left;
