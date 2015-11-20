@@ -1855,15 +1855,18 @@ body{
 								    padding:0;
 									}
 									#content #checkout .row .columns FORM LEGEND{
-										border-bottom:1px solid #d9d9db;
-									    color:#ec4445;
+										background:#fafafa;
+										border-bottom:1px solid #dddddd;
+									    color:#444444;
 									    float:left;
+									    font-family:Verdana,helvetica,sans-serif;
 									    font-size:1em;
 									    font-weight:normal;
 									    margin:0 0 1.5em 0;
-									    padding:0.35em 0.35em 1.1em 0.35em;
-									    text-align:center;
-									    width:97.8%;
+									    padding:0.35em 0.5em;
+									    text-align:left;
+									    text-transform:capitalize;
+									    width:97%;
 										}
 									#content #checkout .row .columns FORM .inner{
 									    float:left;
