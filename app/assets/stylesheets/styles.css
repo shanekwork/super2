@@ -1746,7 +1746,8 @@ body{
 								    width:auto;
 									}
 								#content FORM#update-cart .links .checkout-button BUTTON{
-								    padding:0 23.5px;
+								    font-weight:normal;
+								    padding:0 18.5px;
 									}
 								#content #empty-carted FORM #clear_cart_link A{
 								    height:16px;
