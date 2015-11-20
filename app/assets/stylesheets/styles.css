@@ -2071,14 +2071,10 @@ body{
 										width:auto;
 										}
 							#content #checkout .row .columns FORM .form-buttons INPUT{
-								background:#ec4445 url("/assets/save-icon.png") no-repeat 1.8em center;
 								float:left;
 								margin:0;
 								width:auto;
 								}
-								#content #checkout .row .columns FORM .form-buttons INPUT:hover{
-									background:#191919 url("/assets/save-iconHover.png") no-repeat 1.8em center;
-									}
 							#content #checkout .row .columns FORM .form-buttons SPAN INPUT{
 								background:none;
 								margin:0.2em 0.3em 0 0;
