@@ -1567,11 +1567,11 @@ body{
 					#content H2.taxon-title{
 					    color:#ffffff;
 					    display:inline-block;
-					    float:none;
+					    float:none!important;
 					    font-size:40px;
 					    line-height:1.35em;
 					    position:relative;
-					    width:auto;
+					    width:auto!important;
 						}
 					#content H2.taxon-title:after{
 					    border-bottom:4px double #fff;
