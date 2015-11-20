@@ -1699,6 +1699,18 @@ body{
 							#content TABLE#cart-detail TR.total-price TD:nth-last-child(2) H5{
 								text-align:right;
 								}
+							#content TABLE#cart-detail #cart_adjustments TR TD H5{
+							    color:#777777;
+							    font-family:Verdana,helvetica,sans-serif;
+							    font-size:0.8em;
+							    font-weight:normal;
+								}
+							#content TABLE#cart-detail #cart_adjustments TR:last-child TD:last-child H5{
+							    color:#777777;
+							    font-family:Verdana,helvetica,sans-serif;
+							    font-size:0.8em;
+							    font-weight:normal;
+								}
 							#content TABLE#cart-detail TR.adjustment TD:last-child H5{
 							    padding:0 0 0 1.2em;
 							    text-align:left;
