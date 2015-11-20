@@ -2196,7 +2196,14 @@ body{
 							width:87.2%;
 							}
 						#content #checkout .row #checkout-summary TABLE TD{
+						    color:#777777;
+						    font-family:Verdana,helvetica,sans-serif;
+						    font-size:0.75em;
+						    padding:0.7em 0.85em 0 0.85em;
 						    text-align:left;
+							}
+						#content #checkout .row #checkout-summary TABLE TR.total TD:last-child{
+						    text-align:right;
 							}
 							#content #checkout .row #checkout-summary TABLE TD STRONG{
 								color:#ec4445;
