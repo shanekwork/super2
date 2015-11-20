@@ -1809,7 +1809,7 @@ body{
 									}
 									#content #checkout .thirteen.columns OL LI SPAN{
 										background:transparent url("/assets/next-checkout.png") no-repeat center top;
-										color:#191919;
+										color:#ec4445;
 										padding:2.2em 0 0 0;
 										}
 									#content #checkout .thirteen.columns OL LI.current-first SPAN,
@@ -1823,7 +1823,7 @@ body{
 										#content #checkout .thirteen.columns OL LI.completed-first A,
 										#content #checkout .thirteen.columns OL LI.completed A{
 											background:transparent url("/assets/completed-checkout.png") no-repeat center top;
-											color:#f5f5f5;
+											color:#d8d8d8;
 											padding:2.2em 0 0 0;
 											}
 					#content #checkout .row .columns.alpha{
