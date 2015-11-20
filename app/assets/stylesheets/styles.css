@@ -149,7 +149,10 @@ FORM{
 					display:none;
 					}
 				FORM SPAN.required{
-					color:#ec4445;
+					color:#777777;
+					float:left;
+					font-size:0.75em;
+					margin:0 0 0.2em 0;
 					}
 				FORM INPUT,
 				FORM TEXTAREA,
@@ -1849,6 +1852,10 @@ body{
 							    padding:0;
 							    width:49.1%;
 								}
+
+							#content #checkout .row .columns FORM .columns.alpha{
+							    min-height:auto;
+								}
 								#content #checkout .row .columns FORM FIELDSET{
 									border:none;
 								    margin:0;
@@ -1874,24 +1881,37 @@ body{
 										}
 									#content #checkout .row .columns FORM .inner{
 									    float:left;
-									    width:100%;
+									    padding:0 0.85em 1em 0.85em;
+									    width:92.8%;
 										}
-										#content #checkout .row .columns FORM .inner LABEL{
-											margin:0 0.2em 0 0;
-										    width:auto;
+										#content #checkout .row .columns FORM .inner P{
+											margin:0 0 0.3em 0;
 											}
-										#content #checkout .row .columns FORM .inner LABEL.errror{
-											font-size:0.8em;
-											margin:0.3em 0 0 0;
-											}
-										#content #checkout .row .columns FORM .inner SPAN#bcountry-selection,
-										#content #checkout .row .columns FORM .inner SPAN#scountry-selection{
-											float:left;
-										    width:100%;
-											}
-											#content #checkout .row .columns FORM .inner SELECT{
+											#content #checkout .row .columns FORM .inner LABEL{
+												font-family:Verdana,helvetica,sans-serif;
+												font-size:0.75em;
+												margin:0 0.2em 0.2em 0;
 											    width:auto;
 												}
+											#content #checkout .row .columns FORM .inner LABEL.errror{
+												font-size:0.8em;
+												margin:0.3em 0 0 0;
+												}										
+											#content #checkout .row .columns FORM .inner INPUT{
+												border:1px solid #cccccc;
+											    box-shadow:0 1px 1px rgba(0, 0, 0, 0.075) inset;
+											    font-family:Verdana,helvetica,sans-serif;
+											    font-size:0.875em;
+											    padding:0.3em 0.5em!important;
+												}
+											#content #checkout .row .columns FORM .inner SPAN#bcountry-selection,
+											#content #checkout .row .columns FORM .inner SPAN#scountry-selection{
+												float:left;
+											    width:100%;
+												}
+												#content #checkout .row .columns FORM .inner SELECT{
+												    width:auto;
+													}
 							#content #checkout .row .columns FORM#checkout_form_delivery,
 							#content #checkout .row .columns FORM#checkout_form_payment{
 								min-height:auto;
