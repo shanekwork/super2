@@ -1815,6 +1815,7 @@ body{
 									#content #checkout .thirteen.columns OL LI.current-first SPAN,
 									#content #checkout .thirteen.columns OL LI.current SPAN{
 										background:transparent url("/assets/current-checkout.png") no-repeat center top;
+										color:#ec4445;
 										}
 									#content #checkout .thirteen.columns OL LI.completed-first SPAN,
 									#content #checkout .thirteen.columns OL LI.completed SPAN{
