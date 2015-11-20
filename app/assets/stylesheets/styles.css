@@ -1823,8 +1823,8 @@ body{
 										#content #checkout .thirteen.columns OL LI.completed-first A,
 										#content #checkout .thirteen.columns OL LI.completed A{
 											background:transparent url("/assets/completed-checkout.png") no-repeat center top;
-											color:#ec4445;
-											padding:2em 0 0 0;
+											color:#f5f5f5;
+											padding:2.2em 0 0 0;
 											}
 					#content #checkout .row .columns.alpha{
 					    float:left;
