@@ -1985,7 +1985,7 @@ body{
 										text-align:right;
 										}
 										#content #checkout .row .columns FORM#checkout_form_delivery .shipment TABLE TD IMG{
-										    width:auto;
+										    width:auto!important;
 											}
 								#content #checkout .row .columns FORM#checkout_form_delivery .shipment H5{
 									float:left;
@@ -2108,6 +2108,9 @@ body{
 								float:left;
 								margin:0;
 								width:auto;
+								}
+							#content #checkout .row .columns FORM#checkout_form_delivery .form-buttons INPUT{
+								margin:0.85em;
 								}
 							#content #checkout .row .columns FORM .form-buttons SPAN INPUT{
 								background:none;
