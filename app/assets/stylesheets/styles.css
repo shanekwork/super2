@@ -2253,8 +2253,8 @@ body{
 									    color:#ec4445;
 										}
 									#content #checkout .row .columns.alpha.omega FORM#checkout_form_confirm TABLE#line-items #subtotal TD.total SPAN,
-									#content #checkout .row .columns.alpha.omega FORM#checkout_form_confirm TABLE#tax-adjustments TD.total SPAN,
-									#content #checkout .row .columns.alpha.omega FORM#checkout_form_confirm TABLE#shipment-total TD.total SPAN{
+									#content #checkout .row .columns.alpha.omega FORM#checkout_form_confirm TABLE#line-items #tax-adjustments TD.total SPAN,
+									#content #checkout .row .columns.alpha.omega FORM#checkout_form_confirm TABLE#line-items #shipment-total TD.total SPAN{
 									    color:#777777;
 										}
 								#content #checkout .row .columns.alpha.omega FORM#checkout_form_confirm TFOOT TD{
