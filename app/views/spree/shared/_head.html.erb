@@ -180,7 +180,7 @@
 
 		$(".offcanvas-menu .module-content ul > li a").click(function(){
 			//slide up all the link lists
-			$(".offcanvas-menu .module-content ul").slideUp();
+			$(".offcanvas-menu .module-content ul li .menu-content ul").slideUp();
 			//slide down the link list below the h5 clicked - only if its closed
 			if(!$(this).next().is(":visible")){
 				$(this).next().slideDown();
