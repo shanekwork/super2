@@ -1899,6 +1899,10 @@ body{
 									    padding:0 0.85em 1em 0.85em;
 									    width:92.8%;
 										}
+									#content #checkout .row .columns FORM#checkout_form_delivery .inner,
+									#content #checkout .row .columns FORM#checkout_form_payment .inner{
+									    width:96.4%;
+										}
 									#content #checkout .row .columns FORM #billing .inner{
 									    min-height:46.4em;
 										}
@@ -2043,6 +2047,10 @@ body{
 								#content #checkout .row .columns #payment UL#payment-methods LI{
 								    margin:0;
 									}
+									#content #checkout .row .columns #payment UL#payment-methods LI #stripeError{
+										margin:0!important;
+									    width:70.5%!important;
+										}
 									#content #checkout .row .columns #payment UL#payment-methods LI IMG{
 										margin:0 0 1em 0;
 									    width:auto;
