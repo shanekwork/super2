@@ -2142,6 +2142,7 @@ body{
 					    width:100%;
 						}
 						#content #checkout .row .columns.alpha.omega FORM#checkout_form_confirm{
+							min-height:auto;
 							margin:0;
 						    width:99.8%;
 							}
@@ -2214,11 +2215,18 @@ body{
 								padding:0;
 							    width:100%;
 								}
+								#content #checkout .row .columns.alpha.omega FORM#checkout_form_confirm TABLE#line-items TH{
+									font-family:Verdana,helvetica,sans-serif;
+								    font-size:0.75em;
+								    padding:0.69em;
+									}
 								#content #checkout .row .columns.alpha.omega FORM#checkout_form_confirm TABLE#line-items TD{
-								    font-size:0.95em;
+									font-family:Verdana,helvetica,sans-serif;
+								    font-size:0.75em;
 								    text-align:center;
 									}
 									#content #checkout .row .columns.alpha.omega FORM#checkout_form_confirm TABLE#line-items TD IMG{
+									    max-width:50px;
 									    width:auto;
 										}
 									#content #checkout .row .columns.alpha.omega FORM#checkout_form_confirm TABLE#line-items TD H4{
@@ -2237,12 +2245,17 @@ body{
 								#content #checkout .row .columns.alpha.omega FORM#checkout_form_confirm TABLE#line-items TD.qty{
 								    text-align:center;
 									}
-									#content #checkout .row .columns.alpha.omega FORM#checkout_form_confirm TABLE#line-items TD.price SPAN,
+									#content #checkout .row .columns.alpha.omega FORM#checkout_form_confirm TABLE#line-items TD.price SPAN{
+									    color:#777777;
+									    font-weight:normal;
+										}									
 									#content #checkout .row .columns.alpha.omega FORM#checkout_form_confirm TABLE#line-items TD.total SPAN{
 									    color:#ec4445;
 										}
-									#content #checkout .row .columns.alpha.omega FORM#checkout_form_confirm TABLE#line-items TD.price SPAN{
-									    font-weight:normal;
+									#content #checkout .row .columns.alpha.omega FORM#checkout_form_confirm TABLE#line-items #subtotal TD.total SPAN,
+									#content #checkout .row .columns.alpha.omega FORM#checkout_form_confirm TABLE#tax-adjustments TD.total SPAN,
+									#content #checkout .row .columns.alpha.omega FORM#checkout_form_confirm TABLE#shipment-total TD.total SPAN{
+									    color:#777777;
 										}
 								#content #checkout .row .columns.alpha.omega FORM#checkout_form_confirm TFOOT TD{
 								    color:#191919;
