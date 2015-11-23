@@ -1981,10 +1981,19 @@ body{
 									#content #checkout .row .columns FORM#checkout_form_delivery .shipment TABLE TH{
 									    background:#fafafa;
 									    border:1px solid #e5e5e5;
-									    font-size:1.2em;
+									    font-family:Verdana,helvetica,sans-serif;
+									    font-size:0.75em;
 									    font-weight:normal;
 									    margin:0;
-									    padding:0.8em 0.3em;
+									    padding:0.69em;
+									    text-align:center;
+										}
+									#content #checkout .row .columns FORM#checkout_form_delivery .shipment TABLE TD{
+									    font-family:Verdana,helvetica,sans-serif;
+									    font-size:0.75em;
+									    font-weight:normal;
+									    padding:0.69em;
+									    text-align:center;
 										}
 									#content #checkout .row .columns FORM#checkout_form_delivery .shipment TABLE TD.item-price{
 										color:#ec4445;
