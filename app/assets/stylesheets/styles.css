@@ -680,6 +680,7 @@ body{
 						    height:35px;
 						    padding:0 12px!important;
 							}
+						#search-bar FORM INPUT:focus,
 						#search-bar FORM INPUT[type="submit"]:focus{
 							border:none!important;
 							box-shadow:none!important;
