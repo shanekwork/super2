@@ -1957,10 +1957,16 @@ body{
 								    padding:0;
 									}
 								#content #checkout .row .columns FORM#checkout_form_delivery .shipment H3,
-								#content #checkout .row .columns FORM#checkout_form_delivery .shipment H3 STRONG{
+								#content #checkout .row .columns FORM#checkout_form_delivery .shipment H3 STRONG,
+								#content #checkout .row .columns FORM#checkout_form_delivery .shipment H5{
 								    font-family:"Montserrat",sans-serif;
+								    font-size:0.9em;
 								    font-weight:normal;
+								    text-align:left;
 									}
+									#content #checkout .row .columns FORM#checkout_form_delivery .shipment H3 STRONG{
+									    font-size:1em;
+										}
 								#content #checkout .row .columns FORM#checkout_form_delivery .shipment TABLE{
 									    float:left;
 									    margin:0 0 2em 0;
