@@ -1943,6 +1943,9 @@ body{
 								#content #checkout .row .columns FORM#checkout_form_delivery LEGEND{
 								    width:98.8%;
 									}
+								#content #checkout .row .columns FORM#checkout_form_delivery #shipping_method LEGEND{
+								    width:93.7%;
+									}
 								#content #checkout .row .columns FORM#checkout_form_delivery .shipment H3,
 								#content #checkout .row .columns FORM#checkout_form_delivery .shipment TABLE TH,
 								#content #checkout .row .columns FORM#checkout_form_delivery .shipment H5{
@@ -1952,6 +1955,11 @@ body{
 								    font-weight:bold;
 								    margin:0 0 0.5em 0;
 								    padding:0;
+									}
+								#content #checkout .row .columns FORM#checkout_form_delivery .shipment H3,
+								#content #checkout .row .columns FORM#checkout_form_delivery .shipment H3 STRONG{
+								    font-family:"Montserrat",sans-serif;
+								    font-weight:normal;
 									}
 								#content #checkout .row .columns FORM#checkout_form_delivery .shipment TABLE{
 									    float:left;
