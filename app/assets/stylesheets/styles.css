@@ -1943,7 +1943,8 @@ body{
 								#content #checkout .row .columns FORM#checkout_form_delivery LEGEND{
 								    width:98.8%;
 									}
-								#content #checkout .row .columns FORM#checkout_form_delivery #shipping_method LEGEND{
+								#content #checkout .row .columns FORM#checkout_form_delivery #shipping_method LEGEND,
+								#content #checkout .row .columns FORM#checkout_form_payment #payment LEGEND{
 								    width:93.7%;
 									}
 								#content #checkout .row .columns FORM#checkout_form_delivery .shipment H3,
