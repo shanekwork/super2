@@ -223,16 +223,20 @@ TABLE{
 		TABLE TBODY TR TD.favorite-product-name{
 			text-align:center!important;
 			}
-		TABLE TBODY TR TD{
-			border:1px solid #e5e5e5;
-			font-size:0.95em;
-			padding:0.8em 0.3em;
+		TABLE TBODY TR{
+			background:none!important;
 			}
-			TABLE TBODY TR TD IMG{
-				color:#ec4445;
-				max-width:6.6em;
-    			width:6.6em!important;
+			TABLE TBODY TR TD{
+				border:1px solid #e5e5e5;
+				background:none!important;
+				font-size:0.95em;
+				padding:0.8em 0.3em;
 				}
+				TABLE TBODY TR TD IMG{
+					color:#ec4445;
+					max-width:6.6em;
+	    			width:6.6em!important;
+					}
 .container{
 	width:1167px;
 	}
