@@ -1898,6 +1898,9 @@ body{
 									    padding:0 0.85em 1em 0.85em;
 									    width:92.8%;
 										}
+									#content #checkout .row .columns FORM #billing .inner{
+									    min-height:46.4em;
+										}
 										#content #checkout .row .columns FORM .inner P{
 											margin:0 0 0.3em 0;
 											}
