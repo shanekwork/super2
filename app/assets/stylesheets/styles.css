@@ -2120,7 +2120,8 @@ body{
 								width:auto;
 								}
 							#content #checkout .row .columns FORM#checkout_form_delivery .form-buttons INPUT,
-							#content #checkout .row .columns FORM#checkout_form_payment .form-buttons INPUT{
+							#content #checkout .row .columns FORM#checkout_form_payment .form-buttons INPUT,
+							#content #checkout .row .columns FORM#checkout_form_confirm .form-buttons INPUT{
 								margin:0.85em;
 								}
 							#content #checkout .row .columns FORM .form-buttons SPAN INPUT{
@@ -2142,10 +2143,10 @@ body{
 						}
 						#content #checkout .row .columns.alpha.omega FORM#checkout_form_confirm{
 							margin:0;
-						    width:97.6%;
+						    width:99.8%;
 							}
 							#content #checkout .row .columns.alpha.omega FORM#checkout_form_confirm LEGEND{
-							    width:99.1%;
+							    width:95.9%;
 								}
 							#content #checkout .row .columns.alpha.omega FORM#checkout_form_confirm .steps-data{
 							    margin:0;
@@ -2157,7 +2158,7 @@ body{
 									margin:0 0.6em 0 0;
 									min-height:17em;
 									padding:0 0.8em;
-								    width:22.15%;
+								    width:22.1%;
 									}
 								#content #checkout .row .columns.alpha.omega FORM#checkout_form_confirm .omega.four{
 									border:none;
@@ -2167,21 +2168,29 @@ body{
 									#content #checkout .row .columns.alpha.omega FORM#checkout_form_confirm .omega.four H6{
 										border:none;
 									    color:#191919;
-									    font-size:1em;
-									    font-weight:bold;
+									    font-size:0.9em;
+									    font-weight:normal;
 									    margin:0 0 1em 0;
+									    text-align:left;
 										}
 										#content #checkout .row .columns.alpha.omega FORM#checkout_form_confirm .alpha.four H6 A,
 										#content #checkout .row .columns.alpha.omega FORM#checkout_form_confirm .omega.four H6 A{
+											color:#777777;
 											font-size:0.85em;
 										    font-weight:normal;
 										    text-transform:none;
 											}
+											#content #checkout .row .columns.alpha.omega FORM#checkout_form_confirm .alpha.four H6 A:hover,
+											#content #checkout .row .columns.alpha.omega FORM#checkout_form_confirm .omega.four H6 A:hover{
+												color:#ec4445;
+												}
 									#content #checkout .row .columns.alpha.omega FORM#checkout_form_confirm .alpha.four .tel SPAN{
 									    font-weight:bold;
 										}
 									#content #checkout .row .columns.alpha.omega FORM#checkout_form_confirm #order_details DIV:last-child,
 									#content #checkout .row .columns.alpha.omega FORM#checkout_form_confirm #order_summary DIV:last-child{
+									    font-family:Verdana,helvetica,sans-serif;
+									    font-size:0.9em;
 									    margin:0;
 										}
 									#content #checkout .row .columns.alpha.omega FORM#checkout_form_confirm .delivery,
@@ -2196,14 +2205,29 @@ body{
 									#content #checkout .row .columns.alpha.omega FORM#checkout_form_confirm .payment-info IMG{
 										width:auto;
 										}
+								#content #checkout .row .columns.alpha.omega FORM#checkout_form_confirm HR{
+									display:none;
+									}
 							#content #checkout .row .columns.alpha.omega FORM#checkout_form_confirm TABLE#line-items{
 								border:none;
 								margin:0;
 								padding:0;
 							    width:100%;
 								}
-								#content #checkout .row .columns.alpha.omega FORM#checkout_form_confirm TABLE#line-items TD IMG{
-								    width:auto;
+								#content #checkout .row .columns.alpha.omega FORM#checkout_form_confirm TABLE#line-items TD{
+								    font-size:0.95em;
+								    text-align:center;
+									}
+									#content #checkout .row .columns.alpha.omega FORM#checkout_form_confirm TABLE#line-items TD IMG{
+									    width:auto;
+										}
+									#content #checkout .row .columns.alpha.omega FORM#checkout_form_confirm TABLE#line-items TD H4{
+									    color:#252525;
+									    font-size:1em;
+									    margin:0;
+										}
+								#content #checkout .row .columns.alpha.omega FORM#checkout_form_confirm TABLE#line-items TFOOT TD{
+								    text-align:right;
 									}
 								#content #checkout .row .columns.alpha.omega FORM#checkout_form_confirm TABLE#line-items TD.price,
 								#content #checkout .row .columns.alpha.omega FORM#checkout_form_confirm TABLE#line-items TD.qty,
