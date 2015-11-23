@@ -225,6 +225,7 @@ TABLE{
 			}
 		TABLE TBODY TR{
 			background:none!important;
+			border:none;
 			}
 			TABLE TBODY TR TD{
 				border:1px solid #e5e5e5;
@@ -2110,7 +2111,8 @@ body{
 								margin:0;
 								width:auto;
 								}
-							#content #checkout .row .columns FORM#checkout_form_delivery .form-buttons INPUT{
+							#content #checkout .row .columns FORM#checkout_form_delivery .form-buttons INPUT,
+							#content #checkout .row .columns FORM#checkout_form_payment .form-buttons INPUT{
 								margin:0.85em;
 								}
 							#content #checkout .row .columns FORM .form-buttons SPAN INPUT{
