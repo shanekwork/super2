@@ -2638,6 +2638,9 @@ body{
 							    padding:0.45em 0!important;
 							    text-transform:capitalize;
 								}
+							.offcanvas-menu .offcanvas-inner .module-content #main-nav-bar LI:first-child A{
+								background:none;
+								}
 								.offcanvas-menu .offcanvas-inner .module-content #main-nav-bar LI A:hover{
 									background:transparent url("/assets/plus_dark.png") no-repeat 96% 50%!important;
 									color:#ec4445!important;
