@@ -2251,6 +2251,7 @@ body{
 										}									
 									#content #checkout .row .columns.alpha.omega FORM#checkout_form_confirm TABLE#line-items TD.total SPAN{
 									    color:#ec4445;
+									    font-weight:normal;
 										}
 									#content #checkout .row .columns.alpha.omega FORM#checkout_form_confirm TABLE#line-items #subtotal TD.total SPAN,
 									#content #checkout .row .columns.alpha.omega FORM#checkout_form_confirm TABLE#line-items #tax-adjustments TD.total SPAN,
