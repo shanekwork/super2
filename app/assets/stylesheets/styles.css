@@ -2076,7 +2076,7 @@ body{
 										}
 									#content #checkout .row .columns #payment UL#payment-methods LI A#cvv_link{
 										background:transparent url("/assets/help-icon.png") no-repeat left center;
-									    color:#ec4445!important;
+									    color:#777777!important;
 									    float:left;
 									    font-size:0.8em;
 									    margin:0.4em 0 0.4em 0.5em;
@@ -2085,7 +2085,7 @@ body{
 										}
 										#content #checkout .row .columns #payment UL#payment-methods LI A#cvv_link:hover{
 											background:transparent url("/assets/help-iconHover.png") no-repeat left center;
-										    color:#191919!important;
+										    color:#ec4445!important;
 											}
 							#content #checkout .row .columns FORM .columns.omega{
 								margin:0 0 1em 0.6em;
