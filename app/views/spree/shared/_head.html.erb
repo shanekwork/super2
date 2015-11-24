@@ -180,6 +180,13 @@
 				$(this).next().slideDown();
 			}
 		});
+
+		/* Main menu */
+		if($("#main-menu ul li ul").length == 1){
+		   $("#main-menu ul li ul").css("width", "23.8em");
+		   $("#main-menu ul li ul li").css("width", "100%");
+		   $("#main-menu ul li ul li").css("margin", "0!important");
+		}
 	});
 </script>
 
