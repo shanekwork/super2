@@ -151,30 +151,22 @@
 		//Vertical menu
 		$("#offcanvas-toggler").click(function(){
 			$("body").addClass("oncanvas");
-
 			// Set the effect type
 		    var effect = 'slide';
-
 		    // Set the options for the effect type chosen
 		    var options = { direction: 'right' };
-
 		    // Set the duration (default: 400 milliseconds)
 		    var duration = 500;
-
 			$('.offcanvas-menu').toggle(effect, options, duration);
 		});
 
 		$(".offcanvas-menu a.close-offcanvas").click(function(){
 			$("body").removeClass("oncanvas");
-
 			var effect = 'slide';
-
 		    // Set the options for the effect type chosen
 		    var options = { direction: 'right' };
-
 		    // Set the duration (default: 400 milliseconds)
 		    var duration = 500;
-
 			$('.offcanvas-menu').toggle(effect, options, duration);
 		});
 
@@ -182,8 +174,8 @@
 			//slide up all the link lists
 			$(".offcanvas-menu .module-content ul > li > .menu-content > ul").slideUp();
 			//slide down the link list below the h5 clicked - only if its closed
-			if(!$(this).next(".menu-content ul").is(":visible")){
-				$(this).next(".menu-content ul").slideDown();
+			if(!$(this).next(".menu-content").is(":visible")){
+				$(this).next(".menu-content").slideDown();
 			}
 		});
 	});
