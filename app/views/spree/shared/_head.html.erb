@@ -172,9 +172,9 @@
 
 		$(".offcanvas-menu .module-content #main-nav-bar li > .menu-content > ul").unwrap();
 
-		$(".offcanvas-menu .module-content ul > li > a").click(function(){
+		$(".offcanvas-menu .module-content ul li a").click(function(){
 			//slide up all the link lists
-			$(".offcanvas-menu .module-content ul > li > ul").slideUp();
+			$(".offcanvas-menu .module-content ul li ul").slideUp();
 			//slide down the link list below the h5 clicked - only if its closed
 			if(!$(this).next().is(":visible")){
 				$(this).next().slideDown();
