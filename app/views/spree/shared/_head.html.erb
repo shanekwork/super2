@@ -182,8 +182,8 @@
 			//slide up all the link lists
 			$(".offcanvas-menu .module-content ul > li > .menu-content > ul").slideUp();
 			//slide down the link list below the h5 clicked - only if its closed
-			if(!$(this).next("ul").is(":visible")){
-				$(this).next("ul").slideDown();
+			if(!$(this).next(".menu-content ul").is(":visible")){
+				$(this).next(".menu-content ul").slideDown();
 			}
 		});
 	});
