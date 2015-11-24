@@ -2666,7 +2666,8 @@ body{
 									margin:0 0 0 1em;
     								width:93%;
 									}
-									.offcanvas-menu .offcanvas-inner .module-content #main-nav-bar LI UL LI A{
+									.offcanvas-menu .offcanvas-inner .module-content #main-nav-bar LI UL LI A,
+									.offcanvas-menu .offcanvas-inner .module-content #main-nav-bar LI UL LI A:hover{
 										background:none;
 										}
 
