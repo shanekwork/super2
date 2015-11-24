@@ -170,8 +170,8 @@
 			$('.offcanvas-menu').toggle(effect, options, duration);
 		});
 
-		$(".offcanvas-menu .module-content #main-nav-bar .menu-content").unwrap();
-		
+		$(".offcanvas-menu .module-content #main-nav-bar li > .menu-content").unwrap();
+
 		$(".offcanvas-menu .module-content ul > li > a").click(function(){
 			//slide up all the link lists
 			$(".offcanvas-menu .module-content ul > li > .menu-content > ul").slideUp();
