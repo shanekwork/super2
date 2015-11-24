@@ -4465,7 +4465,7 @@ ul#main-nav-bar li ul li a {
 
 ul#main-nav-bar li ul li ul {
 	position: absolute;
-	display: none !important;
+	display: none;
 	left: 210px;
 	top: -1px;
 	z-index: 999;
