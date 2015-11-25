@@ -108,7 +108,7 @@
 			    width:286px;
 				}
 				#tabs .product{
-					margin:0;
+					margin:0 0 2.3em 0;
 					width:100%;
 					}
 					#tabs .product .product-desc A{
@@ -134,14 +134,16 @@
 					#footer .left-footerContent IMG{
 						width:50%;
 						}
-				#footer .right-footerContent .left-fc,
-				#footer .right-footerContent .middle-fc,
-				#footer .right-footerContent .right-fc{
-					padding:0;
+					#footer .right-footerContent .left-fc,
+					#footer .right-footerContent .middle-fc,
+					#footer .right-footerContent .right-fc{
+						padding:0;
+						width:100%;
+						}
+						#footer .right-footerContent .middle-fc H3{
+							margin:1.45em 0 1.25em 0;
+							}
+				#footer .right-footerContent{
 					width:100%;
 					}
-					#footer .right-footerContent .middle-fc H3{
-						margin:1em 0 1.25em 0;
-						}
-
 }
