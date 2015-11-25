@@ -50,6 +50,7 @@
 				}
 				#search-bar {
 				    float:right;
+				    margin:0 0 0.6em 0;
 					}
 					#search-bar .select-style{
 						display:none;
@@ -79,5 +80,51 @@
 					#main-menu NAV UL{
 						display:none;
 						}
+		#content .banner{
+			display:none;
+			}
+		#tabs UL{
+			margin:0 0.95em 1em 0.95em;
+			width:89.5%;
+			}
+			#tabs UL LI{
+				margin:0 0.25em;
+				}
+				#tabs UL LI H3{
+					font-size:0.5em;
+					}
+					#tabs UL LI H3 A::before{
+						bottom:-0.8em;
+						}
+		#tabs #special_sale,
+		#tabs #featured,
+		#tabs #latest{
+		    margin:0 0.95em;
+		    width:89.5%;
+			}
+			#tabs #special_sale .container,
+			#tabs #featured .container,
+			#tabs #latest .container{
+			    width:286px;
+				}
+				#tabs .product .product-price{
+					text-align:left;
+					}
+		#footer #top-footerContent{
+			padding:2.2em 0.95em;
+			width:90.4%;
+			}
+			#footer .container{
+				width:290px;
+				}
+				#footer .left-footerContent{
+					width:40%;
+					}
+				#footer .right-footerContent .left-fc,
+				#footer .right-footerContent .middle-fc,
+				#footer .right-footerContent .right-fc{
+					padding:0;
+					width:100%;
+					}
 
 }
