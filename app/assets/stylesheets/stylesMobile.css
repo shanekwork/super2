@@ -1,4 +1,37 @@
 @media screen and (min-device-width:320px) and (max-device-width:400px){
-	
+	.container{
+		width:320px;
+		}
+		#header .header-top .phone,
+		nav#top-nav-bar{
+		    margin:0;
+		    padding:0 0.95em 0.5em 0.95em;
+		    text-align:center;
+		    width:90.3%;
+			}
+			#header .header-top .phone I{
+			    display:inline-block;
+			    float:none;
+			    margin:0 0.3em 0 0;
+				}
+			#header .header-top .phone P{
+			    display:inline-block;
+			    float:none;
+				}
+			#header .header-top .phone A,
+			#header .header-top .phone A:hover{
+			    display:inline-block;
+			    float:none;
+				}
+		nav#top-nav-bar{
+			padding:0 0.95em;
+			}
+			nav#top-nav-bar UL{
+				text-align:center;
+				}
+				nav#top-nav-bar UL LI{
+				    display:inline-block;
+				    float:none;
+					}
 
 }
