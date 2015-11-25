@@ -192,10 +192,11 @@
 
 		/* Main menu */
 		$("#main-menu ul#main-nav-bar li ul li").each(function(){
-			if($("#main-menu ul#main-nav-bar li ul > li.main-nav-bar-child").size() < 2){
-			   $(this).parent().css("width", "23.8em");
+			if($("#main-menu ul#main-nav-bar li ul > li.main-nav-bar-child").size() > 2){
+				alert($(this));
+			   /*$(this).parent().css("width", "23.8em");
 			   $(this).css("width", "100%");
-			   $(this).css("margin", "0!important");
+			   $(this).css("margin", "0!important");*/
 			}
 		});
 	});
