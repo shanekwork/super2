@@ -55,8 +55,29 @@
 						display:none;
 						}
 		#main-menu{
+			background:#ec4445;
 		    margin:0 0.95em;
 		    width:90.9%;
 		    }
+		    #main-menu .container{
+			    width:300px;
+				}
+				#main-menu NAV{
+					padding:0.55em 0;
+				    text-align:center;
+					}
+					#main-menu NAV A#offcanvas-toggler{
+					    float:none;
+					    padding:0;
+						}
+						#main-menu NAV A#offcanvas-toggler:hover{
+						    color:#ffffff;
+							}
+						#main-menu NAV A#offcanvas-toggler I{
+						    font-size:1.5em;
+							}
+					#main-menu NAV UL{
+						display:none;
+						}
 
 }
