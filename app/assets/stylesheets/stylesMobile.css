@@ -117,9 +117,6 @@
 					#tabs .product .product-price{
 						text-align:left;
 						}
-		#footer H3{
-			margin:0.8em 0 1.25em 0;
-			}
 		#footer #top-footerContent{
 			padding:2.2em 0.95em;
 			width:90.4%;
@@ -140,8 +137,8 @@
 						padding:0;
 						width:100%;
 						}
-						#footer .right-footerContent .left-fc H3{
-							margin:1.45em 0 1.25em 0;
+						#footer .right-footerContent .left-fc #footer-pages UL{
+							margin:0;
 							}
 				#footer .right-footerContent{
 					width:100%;
