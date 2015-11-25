@@ -33,5 +33,30 @@
 				    display:inline-block;
 				    float:none;
 					}
+		#header .header-bottom{
+		    padding:1.5em 0 0.5em 0;
+			}
+			#header .header-bottom FIGURE{
+			    margin:0!important;
+			    text-align:center;
+				width:90.5%!important;
+				}
+				#header .header-bottom FIGURE A,
+				#header .header-bottom FIGURE A IMG{
+				    float:none;
+					}
+			#header .right-header-bottom{
+			    padding:0 0.95em;
+				}
+				#search-bar {
+				    float:right;
+					}
+					#search-bar .select-style{
+						display:none;
+						}
+		#main-menu{
+		    margin:0 0.95em;
+		    width:90.9%;
+		    }
 
 }
