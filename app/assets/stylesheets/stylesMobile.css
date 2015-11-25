@@ -107,9 +107,19 @@
 			#tabs #latest .container{
 			    width:286px;
 				}
-				#tabs .product .product-price{
-					text-align:left;
+				#tabs .product{
+					margin:0;
+					width:100%;
 					}
+					#tabs .product .product-desc A{
+						min-height:auto;
+						}
+					#tabs .product .product-price{
+						text-align:left;
+						}
+		#footer H3{
+			margin:0.8em 0 1.25em 0;
+			}
 		#footer #top-footerContent{
 			padding:2.2em 0.95em;
 			width:90.4%;
@@ -118,13 +128,20 @@
 				width:290px;
 				}
 				#footer .left-footerContent{
-					width:40%;
+					padding:0;
+					width:100%;
 					}
+					#footer .left-footerContent IMG{
+						width:50%;
+						}
 				#footer .right-footerContent .left-fc,
 				#footer .right-footerContent .middle-fc,
 				#footer .right-footerContent .right-fc{
 					padding:0;
 					width:100%;
 					}
+					#footer .right-footerContent .middle-fc H3{
+						margin:1em 0 1.25em 0;
+						}
 
 }
