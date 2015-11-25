@@ -191,11 +191,13 @@
 		});
 
 		/* Main menu */
-		if($("#main-menu ul#main-nav-bar li ul li.main-nav-bar-child").length < 2){
-		   $(this).parent().css("width", "23.8em");
-		   $(this).css("width", "100%");
-		   $(this).css("margin", "0!important");
-		}
+		$("#main-menu ul#main-nav-bar li").each(function{
+			if($("#main-menu ul#main-nav-bar li ul li.main-nav-bar-child").length < 2){
+			   $(this).parent().css("width", "23.8em");
+			   $(this).css("width", "100%");
+			   $(this).css("margin", "0!important");
+			}
+		});
 	});
 </script>
 
