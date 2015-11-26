@@ -2686,6 +2686,9 @@ body{
 	.banner{
 		z-index:-1;
 		}
+	FORM#contact_newsletter FIELDSET DIV.button INPUT#submit{
+		height:33px;
+		}
 }
 
 /* IE 8 - IE 9 */
