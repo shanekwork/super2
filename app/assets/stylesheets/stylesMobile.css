@@ -184,6 +184,26 @@
 				.pagination .page{
 					margin:0 1px 5px 1px!important;
 					}
+			#content [data-hook="product_left_part"],
+			#content [data-hook="product_right_part"]{
+				margin:0;
+				width:100%;
+				}
+				#product-images #main-image{
+					margin:0 0 1em 0;
+					width:90.1%;
+					}
+					#content [data-hook="product_right_part"] H2.product-title{
+						font-size:1.5em;
+						}
+					#content [data-hook="product_right_part"] A.favorite_link{
+						text-align:left;
+						width:91%;
+						}
+					#content [data-hook="product_right_part"] #cart-form #product-price,
+					#content [data-hook="product_right_part"] #cart-form .add-to-cart{
+						text-align:left;
+						}
 		#footer #top-footerContent{
 			padding:2.2em 0.95em;
 			width:90.4%;
