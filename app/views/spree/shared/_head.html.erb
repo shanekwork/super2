@@ -201,11 +201,11 @@
 	});
 
 	$(function(){
-	    $(document).tooltip({
+	    $("#footer .right-fc ul li").tooltip({
 	      position:{
 	        my:"center bottom-20",
 	        at:"center top",
-	        using: function(position, feedback){
+	        using:function(position, feedback){
 	          $(this).css(position);
 	          $("<div>")
 	            .addClass("arrow")
