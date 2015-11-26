@@ -3988,11 +3988,6 @@ div[data-hook="inside_cart_form"] #subtotal {
 #registration h6 {
   text-transform: uppercase;
 }
-/* line 1005, /Users/shane/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/spree_frontend-2.2.1/app/assets/stylesheets/spree/frontend/screen.css.scss */
-#registration #existing-customer {
-  width: auto;
-  text-align: left;
-}
 
 /* line 1011, /Users/shane/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/spree_frontend-2.2.1/app/assets/stylesheets/spree/frontend/screen.css.scss */
 #user-info {
