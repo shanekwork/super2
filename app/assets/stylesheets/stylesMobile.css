@@ -294,6 +294,9 @@
 			#content #checkout .row .columns FORM#checkout_form_payment .inner{
 				width:90.4%;
 				}
+			#content #checkout .row .columns #payment UL#payment-methods LI IMG{
+				max-width:12em;
+				}
 		#footer #top-footerContent{
 			padding:2.2em 0.95em;
 			width:90.4%;
