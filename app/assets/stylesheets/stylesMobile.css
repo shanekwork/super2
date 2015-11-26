@@ -89,6 +89,10 @@
 				.pogoSlider-slide{
 					left:0;
 					}
+				#js-main-slider .pogoSlider-dir-btn--prev,
+				#js-main-slider .pogoSlider-dir-btn--next{
+					display:none;
+					}
 		#tabs UL{
 			margin:0 0.95em 1em 0.95em;
 			width:89.5%;
