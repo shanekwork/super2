@@ -204,6 +204,9 @@
 					#content [data-hook="product_right_part"] #cart-form .add-to-cart{
 						text-align:left;
 						}
+				#content #empty-carted FORM #clear_cart_link A{
+					margin:0;
+					}
 		#footer #top-footerContent{
 			padding:2.2em 0.95em;
 			width:90.4%;
