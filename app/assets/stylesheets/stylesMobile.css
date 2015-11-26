@@ -80,6 +80,9 @@
 					#main-menu NAV UL{
 						display:none;
 						}
+		#content H1{
+			font-size:2em;
+			}
 		#content .banner{
 			min-height:auto;
 			}
@@ -155,7 +158,8 @@
 					}
 					#existing-customer FORM > P:last-child,
 					#new-customer FORM > DIV[data-hook="signup_inside_form"] P:last-child,
-					#edit-account > P:last-child{
+					#edit-account > P:last-child,
+					#guest_checkout > P:last-child{
 						width:90%;
 						}
 				#existing-customer DIV > A,
