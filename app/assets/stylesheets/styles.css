@@ -958,7 +958,8 @@ body{
 				#existing-customer,
 				#forgot-password,
 				#new-customer,
-				#edit-account{
+				#edit-account,
+				#guest_checkout{
 					float:left;
 					min-height:20em;
 					padding:2.3em 5.7em;
@@ -967,7 +968,8 @@ body{
 					#existing-customer H6,
 					#forgot-password H6,
 					#new-customer H6,
-					#edit-account H1{
+					#edit-account H1,
+					#guest_checkout H6{
 						border-bottom:1px solid #eeeeee;
 						color:#252525;
 						font-size:1.8em;
@@ -978,12 +980,14 @@ body{
 						}
 					#existing-customer > DIV,
 					#new-customer > DIV,
-					#edit-account > DIV{
+					#edit-account > DIV,
+					#guest_checkout > DIV{
 						text-indent:-5000em;
 						}
 						#existing-customer FORM,
 						#new-customer FORM,
-						#edit-account FORM{
+						#edit-account FORM,
+						#guest_checkout FORM{
 							clear:both;
 							padding:1em 0 0 0;
 							text-indent:0;
@@ -991,18 +995,21 @@ body{
 							}
 							#existing-customer FORM LABEL,
 							#new-customer FORM LABEL,
-							#edit-account FORM LABEL{
+							#edit-account FORM LABEL,
+							#guest_checkout FORM LABEL{
 								margin:0 0 0.5em 0;
 								}
 							#existing-customer FORM > DIV,
 							#existing-customer P,
 							#new-customer FORM > DIV,
 							#new-customer P,
-							#edit-account P{
+							#edit-account P,
+							#guest_checkout P{
 								padding:0 1.15em;
 								width:93.5%;
 								}
-							#existing-customer FORM > DIV P{
+							#existing-customer FORM > DIV P,
+							#guest_checkout FORM > DIV P{
 								padding:0;
 								}
 							#existing-customer FORM > P:last-child,
