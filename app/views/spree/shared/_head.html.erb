@@ -201,18 +201,7 @@
 	});
 
 	$(function(){
-	    $("#footer .right-fc ul li").tooltip({
-			position:{
-				using:function(position, feedback){
-					$(this).css(position);
-					$("<div>")
-					.addClass("arrow")
-					.addClass(feedback.vertical)
-					.addClass(feedback.horizontal)
-					.appendTo(this);
-				}
-			}
-	    });
+	    $("#footer .right-fc ul li").tooltip();
 	});
 </script>
 
