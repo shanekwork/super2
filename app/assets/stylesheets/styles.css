@@ -335,7 +335,7 @@ UL#payment-methods LI:before{
     border:1px solid #e45353;
     display:table;
     float:none;
-    margin:2em auto 0 auto!important;
+    margin:2em auto 1.5em auto!important;
     padding:2em 2em 2em 14em;
     width:77.5%!important;
 	}
