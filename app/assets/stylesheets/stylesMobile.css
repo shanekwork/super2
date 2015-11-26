@@ -1,6 +1,7 @@
 @media screen and (min-device-width:320px) and (max-device-width:400px){
 	#errorExplanation,
 	#stripeError{
+		background:#f2dede;
 		margin:2em auto 1em auto!important;
 		padding:1em;
 		}
@@ -267,6 +268,14 @@
 			#content #checkout .row #checkout-summary{
 				margin:0 0 1em 0;
     			width:100%;
+				}
+			#content #checkout .row .columns FORM#checkout_form_delivery #shipping_method LEGEND,
+			#content #checkout .row .columns FORM#checkout_form_payment #payment LEGEND{
+				width:83.2%;
+				}
+			#content #checkout .row .columns FORM#checkout_form_delivery .inner,
+			#content #checkout .row .columns FORM#checkout_form_payment .inner{
+				width:90.4%;
 				}
 		#footer #top-footerContent{
 			padding:2.2em 0.95em;
