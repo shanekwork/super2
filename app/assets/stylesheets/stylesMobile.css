@@ -164,8 +164,12 @@
 			#content .page-title{
 				min-height:8.6em;
 				padding:2.75em 0 0 0;
-				width:99.9%;
+				width:100%;
 				}
+				#content H2.taxon-title::after {
+				    left:5%;
+				    width:90%;
+					}
 				#content H2.taxon-title{
 					font-size:30px;
 					}
