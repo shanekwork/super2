@@ -18,6 +18,12 @@
 		#errorExplanation P{
 			font-size:0.75em;
 			}
+	TABLE THEAD TR TH{
+		font-size:0.9em;
+		}
+	TABLE TBODY{
+		width:100%;
+		}
 	.container{
 		width:320px;
 		}
