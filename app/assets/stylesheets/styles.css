@@ -965,6 +965,9 @@ body{
 					padding:2.3em 5.7em;
     				width:86.5%;
 					}
+				#guest_checkout{
+					padding:0 5.7em 2.3em 5.7em;
+					}
 					#existing-customer H6,
 					#forgot-password H6,
 					#new-customer H6,
