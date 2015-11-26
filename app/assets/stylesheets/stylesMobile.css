@@ -1,4 +1,15 @@
 @media screen and (min-device-width:320px) and (max-device-width:400px){
+	.ui-dialog{
+		left:3%!important;
+    	width:300px!important;
+		}
+		.flash.notice,
+		.flash.success,
+		.flash.error,
+		.flash.alert{
+			padding:7em 1em 1.8em 1em;
+    		width:82.3%!important;
+			}
 	#errorExplanation,
 	#stripeError{
 		background:#f2dede;
