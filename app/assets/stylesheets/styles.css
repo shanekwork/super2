@@ -2687,6 +2687,9 @@ body{
 FORM#contact_newsletter FIELDSET DIV.button INPUT#submit{
 	height/*\**/:33px\0;
 	}
+form p input[type='checkbox']{
+	padding/*\**/:0\0;
+	}
 
 /* IE 9 - IE 10 */
 @media screen and (min-width:0\0){
