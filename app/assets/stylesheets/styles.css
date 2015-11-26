@@ -2683,6 +2683,9 @@ body{
 
 /* GOOGLE CHROME & SAFARI */
 @media screen and (-webkit-min-device-pixel-ratio:0) {
+	.banner{
+		z-index:-1;
+		}
 }
 
 /* IE 8 - IE 9 */
