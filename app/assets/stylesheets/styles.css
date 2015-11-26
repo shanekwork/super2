@@ -2683,7 +2683,8 @@ body{
 
 /* GOOGLE CHROME & SAFARI */
 @media screen and (-webkit-min-device-pixel-ratio:0) {
-	.banner{
+	.banner,
+	#content .page-title{
 		z-index:-1;
 		}
 	FORM#contact_newsletter FIELDSET DIV.button INPUT#submit{
