@@ -222,6 +222,7 @@
 			#content #checkout .thirteen.columns OL LI{
 				display:inline-block;
 				top:0;
+				width:auto;
 				}
 				#content #checkout .thirteen.columns OL LI SPAN{
 					font-size:0.85em;
@@ -244,6 +245,10 @@
 					min-height:auto;
     				padding:0 0.63em 1em 0.63em;
 					}
+			#content #checkout .row #checkout-summary{
+				margin:0 0 1em 0;
+    			width:100%;
+				}
 		#footer #top-footerContent{
 			padding:2.2em 0.95em;
 			width:90.4%;
