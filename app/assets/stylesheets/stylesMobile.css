@@ -159,7 +159,7 @@
 					#existing-customer FORM > P:last-child,
 					#new-customer FORM > DIV[data-hook="signup_inside_form"] P:last-child,
 					#edit-account > P:last-child,
-					#guest_checkout > P:last-child{
+					#checkout_form_registration > P:last-child{
 						width:90%;
 						}
 				#existing-customer DIV > A,
