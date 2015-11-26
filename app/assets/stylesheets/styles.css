@@ -2683,101 +2683,14 @@ body{
 
 /* GOOGLE CHROME & SAFARI */
 @media screen and (-webkit-min-device-pixel-ratio:0) {
-	nav#top-nav-bar UL LI{
-		margin:0 0 0 0.9em;
-		}
-		nav#top-nav-bar UL LI#search-bar INPUT[type="submit"]{
-			padding:0.95em 1.15em 0.9em 1.15em!important;
-			}
-		nav#top-nav-bar UL LI A{
-			font-size:1px;
-			max-width:6em;
-			min-width:6em;
-    		padding:12.5em 18.75em;
-			}
-	#main-menu NAV UL LI{
-		margin:0 0 0 2.04em;
-		}
-	#content #checkout .row .columns FORM .columns.omega{
-	    min-height:53.8em;
-		}
-	#content UL#products LI{
-		width:18.7%;
-		}
-	#toTop{
-		bottom:45px;
-		}
 }
 
 /* IE 8 - IE 9 */
-input[type="checkbox"],
-input[type="radio"]{
-	border/*\**/:none!important\0;
-	padding/*\**/:0!important\0;
-	}
-#header .phone{
-	margin/*\**/:0 0.99em 0 0\0;
-	}
-nav#top-nav-bar UL LI{
-	margin/*\**/:0 0 0 0.9em\0;
-	}
-	nav#top-nav-bar UL LI#search-bar INPUT{
-		width/*\**/:16.36em\0;
-		}
-	nav#top-nav-bar UL LI A{
-		font-size/*\**/:1px\0;
-		max-width/*\**/:6em\0;
-		min-width/*\**/:6em\0;
-		padding/*\**/:12.5em 18.75em\0;
-		}
-#main-menu NAV UL LI {
-    margin/*\**/:0 0 0 2.04em\0;
-	}
-#content ul#products li{
-	margin/*\**/:0 0.73em 1.9em 0.73em\0;
-	}
-#footer .container{
-    background/*\**/:#ffffff\0;
-    box-shadow/*\**/:none\0;
-	}
 
 /* IE 9 - IE 10 */
 @media screen and (min-width:0\0) {
-	input[type="checkbox"],
-	input[type="radio"]{
-		border:none!important;
-		padding:0!important;
-		}
 }
 
 /* IE 11 */
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {	
-	#header .phone{
-		margin:0 0.99em 0 0;
-		}
-	nav#top-nav-bar UL LI{
-		margin:0 0 0 0.9em;
-		}
-	nav#top-nav-bar UL LI#search-bar{
-		max-width:19.85em;
-		width:19.85em;
-		}
-		nav#top-nav-bar UL LI#search-bar INPUT{
-			width:16.3em;
-			}
-		nav#top-nav-bar UL LI A{
-			font-size:1px;
-			max-width:6em;
-			min-width:6em;
-    		padding:12.5em 18.75em;
-			}
-	#main-menu NAV UL LI{
-	    margin:0 0 0 2.04em;
-		}
-	#content #checkout .row .columns FORM .columns.omega{
-	    min-height:53.8em;
-		}
-	#content ul#products li{
-		margin:0 0.73em 1.9em 0.73em;
-		}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
 }
