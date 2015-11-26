@@ -219,6 +219,31 @@
 				#content #empty-carted FORM #clear_cart_link A{
 					margin:0;
 					}
+			#content #checkout .thirteen.columns OL LI{
+				display:inline-block;
+				top:0;
+				}
+				#content #checkout .thirteen.columns OL LI SPAN{
+					font-size:0.85em;
+					}
+			#content #checkout .row .columns.alpha,
+			#content #checkout .row .columns FORM .columns.alpha,
+			#content #checkout .row .columns FORM .columns.omega,
+			#content #checkout .row .columns FORM#checkout_form_delivery,
+			#content #checkout .row .columns FORM#checkout_form_payment,
+			#content #checkout .row .columns FORM#checkout_form_confirm{
+				min-height:auto;
+				margin:0 0 1.5em 0;
+				width:100%;
+				}
+				#content #checkout .row .columns FORM LEGEND,
+				#content #checkout .row #checkout-summary H3{
+					width:83.4%;
+					}
+				#content #checkout .row .columns FORM #billing .inner{
+					min-height:auto;
+    				padding:0 0.63em 1em 0.63em;
+					}
 		#footer #top-footerContent{
 			padding:2.2em 0.95em;
 			width:90.4%;
