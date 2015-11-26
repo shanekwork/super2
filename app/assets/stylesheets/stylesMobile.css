@@ -136,6 +136,7 @@
 			#content .inside-content,
 			#page_content,
 			#guest_checkout{
+				min-height:auto;
 				padding:2.3em 0.95em;
 				width:90.4%;
 				}
