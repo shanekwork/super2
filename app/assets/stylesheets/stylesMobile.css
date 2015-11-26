@@ -131,19 +131,22 @@
 			#forgot-password,
 			#new-customer, #edit-account,
 			#content .inside-content,
-			#page_content{
+			#page_content,
+			#guest_checkout{
 				padding:2.3em 0.95em;
 				width:90.4%;
 				}
 				#existing-customer H6,
 				#forgot-password H6,
 				#new-customer H6,
-				#edit-account H1{
+				#edit-account H1,
+				#guest_checkout H6{
 					font-size:1.1em;
 					}
 				#existing-customer FORM,
 				#new-customer FORM,
-				#edit-account FORM{
+				#edit-account FORM,
+				#guest_checkout FORM{
 					width:100%;
 					}
 					#existing-customer FORM > P:last-child,
