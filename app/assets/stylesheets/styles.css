@@ -1146,7 +1146,8 @@ body{
 							    width:60px;
 							    z-index:2;
 								}
-								#categories .categories-left A:hover:before{
+								#categories .categories-left A:hover:before,
+								#categories .categories-right A:hover:before{
 								    left:0;
 								    opacity:100;
 								    width:100%;
