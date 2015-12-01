@@ -1107,7 +1107,7 @@ body{
 							#categories .categories-right A:before{
 							    animation-duration:0.5s;
 							    background:rgba(0, 0, 0, 0.3) none repeat scroll 0 0;
-							    content:"\f0c1";
+							    content:"";
 							    display:block;
 							    font-family:"FontAwesome";
 							    height:100%;
