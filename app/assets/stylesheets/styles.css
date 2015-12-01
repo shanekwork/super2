@@ -900,7 +900,7 @@ body{
 				}
 				#content .banner{
 					height:auto!important;
-					margin:0;
+					margin:0 0 0.95em 0;
 					width:100%!important;
 					}
 					#content .banner H1{
@@ -1083,6 +1083,78 @@ body{
 					position:absolute;
     				z-index:-999;
 					}
+					#categories{
+						float:left;
+						width:100%;
+						}
+						#categories .categories-left,
+						#categories .categories-right{
+							float:left;
+							width:48.84%;
+							}
+							#categories .categories-left A,
+							#categories .categories-right A{
+								float:left;
+								margin:0 0 0.75em 0;
+								width:100%;
+								}
+							#categories .categories-left A{
+								position:relative;
+								}
+							#categories .categories-left A:before{
+							    animation-duration:0.5s;
+							    background:rgba(0, 0, 0, 0.3) none repeat scroll 0 0;
+							    content:"\f0c1";
+							    display:block;
+							    font-family:"FontAwesome";
+							    height:100%;
+							    left:50%;
+							    opacity:0;
+							    pointer-events:none;
+							    position:absolute;
+							    top:0;
+							    transition:all 0.5s ease 0s;
+							    width:0;
+								}
+							#categories .categories-left A:after{
+							    animation-duration:0.5s;
+							    background:rgba(255, 255, 255, 0.3) none repeat scroll 0 0;
+							    border-radius:100%;
+							    bottom:0;
+							    box-shadow:0 0 0 8px rgba(246, 249, 250, 0.42);
+							    color:#fff;
+							    content:"\f0c1";
+							    display:block;
+							    font-family:"FontAwesome";
+							    font-size:30px;
+							    height:60px;
+							    left:0;
+							    line-height:60px;
+							    margin:auto;
+							    opacity:0;
+							    position:absolute;
+							    right:0;
+							    text-align:center;
+							    top:0;
+							    transform:scale(3);
+							    transition:all 0.5s ease 0s;
+							    visibility:hidden;
+							    width:60px;
+							    z-index:2;
+								}
+								#categories .categories-left A:hover:after{
+								    opacity:1;
+								    transform:scale(1);
+								    visibility:visible;
+									}
+								#categories .categories-left A IMG,
+								#categories .categories-right A IMG{
+									float:left;
+									width:auto;
+									}
+						#categories .categories-right{
+							margin:0 0 0 1.68em;
+							}
 					#tabs{
 						float:left;
 						margin:1.6em 0 0 0;
