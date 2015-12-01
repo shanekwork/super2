@@ -1094,10 +1094,14 @@ body{
 							}
 							#categories .categories-left A,
 							#categories .categories-right A{
-								float:left;
-								margin:0 0 0.75em 0;
-								position:relative;
-								width:100%;
+								display:block;
+							    float:left;
+							    margin:0 0 0.75em;
+							    overflow:hidden;
+							    padding:0;
+							    position:relative;
+							    text-align:center;
+							    width:100%;
 								}
 							#categories .categories-left A:before,
 							#categories .categories-right A:before{
@@ -1142,6 +1146,11 @@ body{
 							    width:60px;
 							    z-index:2;
 								}
+								#categories .categories-left A:hover:before{
+								    left:0;
+								    opacity:100;
+								    width:100%;
+									}
 								#categories .categories-left A:hover:after,
 								#categories .categories-right A:hover:after{
 								    opacity:1;
