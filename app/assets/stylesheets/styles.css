@@ -1167,6 +1167,35 @@ body{
 									float:left;
 									width:auto;
 									}
+								#categories .categories-left .ctg-title{
+								    color:#ffffff;
+								    float:left;
+								    font-family:Arial;
+								    font-size:0.95em;
+								    font-weight:bold;
+								    padding:0.4em 0;
+								    position:relative;
+								    text-align:center;
+								    text-transform:uppercase;
+								    top:-8em;
+								    width:100%;
+									}
+								#categories .categories-left .ctg-title::before{
+								    border-top:4px double #ffffff;
+								    content:"";
+								    left:36%;
+								    position:absolute;
+								    top:0;
+								    width:27.5%;
+									}
+								#categories .categories-left .ctg-title::after{
+								    border-bottom:4px double #ffffff;
+								    bottom:0;
+								    content:"";
+								    left:36%;
+								    position:absolute;
+								    width:27.5%;
+									}
 						#categories .categories-right{
 							margin:0 0 0 1.68em;
 							}
