@@ -1097,12 +1097,14 @@ body{
 								display:block;
 							    float:left;
 							    margin:0 0 0.75em;
-							    max-height:14.4em;
 							    overflow:hidden;
 							    padding:0;
 							    position:relative;
 							    text-align:center;
 							    width:100%;
+								}
+							#categories .categories-left A{
+							    max-height:14.4em;
 								}
 							#categories .categories-left A:last-child,
 							#categories .categories-right A{
