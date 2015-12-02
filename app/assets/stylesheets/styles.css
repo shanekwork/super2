@@ -1243,39 +1243,38 @@ body{
 						#special-sale .title H3,
 						#featured .title H3,
 						#latest .title H3{
+							border-bottom:1px solid #e8e8e9;
 							float:left;
 							font-family:"Montserrat", sans-serif;
 							font-size:0.95em;
 							font-weight:bold;
 							margin:0;
 							padding:0;
+							text-align:center;
 							text-transform:uppercase;
-							width:auto;
+							width:100%;
 							}
 							#special-sale .title H3 A,
 							#featured .title H3 A,
 							#latest .title H3 A{
 								color:#252525!important;
-								float:left;
+								float:none;
 								font-size:1em;
 								padding:0;
 								position:relative;
 								width:auto;
 								}
-							#special-sale .title H3 A:before,
-							#featured .title H3 A:before,
-							#latest .title H3 A:before{
-							    border:none;
+							#special-sale .title H3 A:after,
+							#featured .title H3 A:after,
+							#latest .title H3 A:after{
 								border-bottom:3px solid #252525;
 							    bottom:-0.45em;
 							    content:"";
-							    height:0;
+							    display:block;
 							    left:0;
 								margin:0 auto;
-							    opacity:0;
 							    position:absolute;
 								right:0;
-							    transition:all 0.2s ease 0s;
 							    width:2.35em;
 								}
 						#special-sale,
