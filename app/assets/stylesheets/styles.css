@@ -1241,6 +1241,9 @@ body{
 							padding:0;
 							width:100%;
 							}
+						#featured-latest{
+							margin:0 0 3.3em 0;
+							}
 							#special-sale .title,
 							#featured .title,
 							#latest .title,
@@ -1378,6 +1381,7 @@ body{
 									}
 						#footer-brands{
 							float:left;
+							margin:0 0 2.35em 0;
 							padding:0;
 							width:100%;
 							}
@@ -1387,6 +1391,9 @@ body{
 							    margin:0 4.95em 1em 0;
 							    padding:1.7em 0.81em;
 							    width:12.17%;
+								}
+							#footer-brands .brand:last-child{
+								margin:0;
 								}
 								#footer-brands .brand:hover{
 									border:1px solid #ec4445;
