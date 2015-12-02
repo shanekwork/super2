@@ -46,14 +46,13 @@
             </div>
         </div>
     </div>
-    <div id="tabs">
+    <div id="featured products">
         <div class="container">
-            <ul>
-                <li>
-                    <h3>
-                        <a href="#special_sale">Sale Items</a>
-                    </h3>
-                </li>
+            <div class="fp-title">
+                <h3>
+                    <a href="#special_sale">Sale Items</a>
+                </h3>
+            </div>
                 <li>
                     <h3>
                         <a href="#featured">Featured Products</a>
@@ -66,60 +65,82 @@
                 </li>
             </ul>
         </div><!--.container-->
+    </div>
 
-        <div id="special_sale" class="clearfix">
-            <div class="container">
-                <% @products.where(special: true).each do |e| %>
-                    <div class="product">                                    
-                        <div class="home_images">
-                            <%= link_to image_tag('http://www.op-insight.co.uk/images/product/large/' + e.image_name + '.jpg'), e %>
-                        </div>
-                        <div class="product-desc">
-                            <%= link_to e.short_description, e, class: 'threex3' %>
-                        </div>
-                        <div class="product-price">
-                            €<%= e.price %>
-                        </div>
+    <div id="special-sale-title">
+        <div class="container">
+            <h3>
+                <a href="#special-sale">Sale Items</a>
+            </h3>
+        </div><!--.container-->
+    </div>
+    <div id="special-sale" class="clearfix">
+        <div class="container">
+            <% @products.where(special: true).each do |e| %>
+                <div class="product">                                    
+                    <div class="home_images">
+                        <%= link_to image_tag('http://www.op-insight.co.uk/images/product/large/' + e.image_name + '.jpg'), e %>
                     </div>
-                <% end %>
-            </div><!--.container-->
-        </div><!--#special_sale-->
+                    <div class="product-desc">
+                        <%= link_to e.short_description, e, class: 'threex3' %>
+                    </div>
+                    <div class="product-price">
+                        €<%= e.price %>
+                    </div>
+                </div>
+            <% end %>
+        </div><!--.container-->
+    </div><!--#special_sale-->
 
-        <div id="featured" class="clearfix">
-            <div class="container">
-                <% @products.where(featured: true).each do |e| %>
-                    <div class="product">
-                        <div class="home_images">
-                            <%= link_to image_tag('http://www.op-insight.co.uk/images/product/large/' + e.image_name + '.jpg'), e %>
-                        </div>
-                        <div class="product-desc">
-                            <%= link_to e.short_description, e, class: 'threex3' %>
-                        </div>
-                        <div class="product-price">
-                            €<%= e.price %>
-                        </div>
+    <div id="featured-title">
+        <div class="container">
+            <h3>
+                <a href="#featured">Featured Products</a>
+            </h3>
+        </div><!--.container-->
+    </div>
+    <div id="featured" class="clearfix">
+        <div class="container">
+            <% @products.where(featured: true).each do |e| %>
+                <div class="product">
+                    <div class="home_images">
+                        <%= link_to image_tag('http://www.op-insight.co.uk/images/product/large/' + e.image_name + '.jpg'), e %>
                     </div>
-                <% end %>
-            </div><!--.container-->
-        </div><!--#featured-->
+                    <div class="product-desc">
+                        <%= link_to e.short_description, e, class: 'threex3' %>
+                    </div>
+                    <div class="product-price">
+                        €<%= e.price %>
+                    </div>
+                </div>
+            <% end %>
+        </div><!--.container-->
+    </div><!--#featured-->
 
-        <div id="latest" class="clearfix">
-            <div class="container">
-                <% @products.where(latest: true).each do |e| %>
-                    <div class="product">
-                        <div class="home_images">
-                            <%= link_to image_tag('http://www.op-insight.co.uk/images/product/large/' + e.image_name + '.jpg'), e %>
-                        </div>
-                        <div class="product-desc">
-                            <%= link_to e.short_description, e, class: 'threex3' %>
-                        </div>
-                        <div class="product-price">
-                            €<%= e.price %>
-                        </div>
+    <div id="latest-title">
+        <div class="container">
+            <h3>
+                <a href="#latest">Latest Products</a>
+            </h3>
+        </div><!--.container-->
+    </div>
+    <div id="latest" class="clearfix">
+        <div class="container">
+            <% @products.where(latest: true).each do |e| %>
+                <div class="product">
+                    <div class="home_images">
+                        <%= link_to image_tag('http://www.op-insight.co.uk/images/product/large/' + e.image_name + '.jpg'), e %>
                     </div>
-                <% end %>
-            </div><!--.container-->
-        </div><!--#latest-->
+                    <div class="product-desc">
+                        <%= link_to e.short_description, e, class: 'threex3' %>
+                    </div>
+                    <div class="product-price">
+                        €<%= e.price %>
+                    </div>
+                </div>
+            <% end %>
+        </div><!--.container-->
+    </div><!--#latest-->
 
     </div><!--#tabs-->
 </div><!--main-content-->

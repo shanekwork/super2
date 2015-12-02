@@ -1233,12 +1233,12 @@ body{
 						#categories .categories-right{
 							margin:0 0 0 1.68em;
 							}
-					#tabs{
+					#featured products{
 						float:left;
 						margin:2.65em 0 0 0;
 						width:100%;
 						}
-						#tabs UL{
+						#featured products UL{
 							background:none;
 							border:none;
 							border-bottom:1px solid #e8e8e9;
@@ -1249,7 +1249,7 @@ body{
 							text-align:center;
 							width:100%;
 							}
-							#tabs UL LI{
+							#featured products UL LI{
 								background:none;
 								border:none;
 								border-radius:0;
@@ -1260,16 +1260,16 @@ body{
 								margin:0 1.45em;
 								width:auto;
 								}
-							#tabs UL LI.ui-tabs-active,
-							#tabs UL LI:hover{
+							#featured products UL LI.ui-tabs-active,
+							#featured products UL LI:hover{
 								background:none;
 								}
-								#tabs UL LI.ui-tabs-active:after{
+								#featured products UL LI.ui-tabs-active:after{
 									border-bottom:3px solid #252525;
 									bottom:-2px;
 									position:absolute;
 									}
-								#tabs UL LI H3{
+								#featured products UL LI H3{
 									float:left;
 									font-family:"Montserrat", sans-serif;
 									font-size:0.95em;
@@ -1279,7 +1279,7 @@ body{
 									text-transform:uppercase;
 									width:auto;
 									}
-									#tabs UL LI H3 A{
+									#featured products UL LI H3 A{
 										color:#252525!important;
 										float:left;
 										font-size:1em;
@@ -1287,7 +1287,7 @@ body{
 										position:relative;
 										width:auto;
 										}
-									#tabs UL LI H3 A::before{
+									#featured products UL LI H3 A::before{
 									    border:none;
 										border-bottom:3px solid #252525;
 									    bottom:-0.45em;
@@ -1301,11 +1301,11 @@ body{
 									    transition:all 0.2s ease 0s;
 									    width:2.35em;
 										}
-									#tabs UL LI.ui-tabs-active H3 A::before,
-									#tabs UL LI.ui-state-hover H3 A::before{
+									#featured products UL LI.ui-tabs-active H3 A::before,
+									#featured products UL LI.ui-state-hover H3 A::before{
 									    opacity:1;
 										}
-						#tabs #special_sale,
+						#tabs #special-sale,
 						#tabs #featured,
 						#tabs #latest{
 							border-radius:0;
