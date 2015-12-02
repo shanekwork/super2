@@ -1188,6 +1188,8 @@ body{
 									}
 								#categories .categories-right .ctg-title{
 								    font-size:1.8em;
+								    padding:0.28em 0;
+								    top:-5.88em;
 									}
 								#categories .categories-left .ctg-title:before,
 								#categories .categories-right .ctg-title:before{
@@ -1223,6 +1225,9 @@ body{
 								    position:relative;
 								    text-align:center;
 								    top:-7.42em;
+									}
+								#categories .categories-right P{
+								    top:-10.35em;
 									}
 						#categories .categories-right{
 							margin:0 0 0 1.68em;
