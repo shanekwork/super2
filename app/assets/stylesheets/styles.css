@@ -1243,7 +1243,8 @@ body{
 							}
 							#special-sale .title,
 							#featured .title,
-							#latest .title{								
+							#latest .title,
+							#footer-brands .title{								
 								border-bottom:1px solid #e8e8e9;
 								float:left;
 								margin:0 0 2.2em 0;
@@ -1253,7 +1254,7 @@ body{
 								#special-sale .title H3,
 								#featured .title H3,
 								#latest .title H3,
-								#footer-brands H3{
+								#footer-brands .title H3{
 									color:#252525!important;
 									float:none;
 									font-family:"Montserrat", sans-serif;
@@ -1268,7 +1269,7 @@ body{
 									#special-sale .title H3:after,
 									#featured .title H3:after,
 									#latest .title H3:after,
-									#footer-brands H3:after{
+									#footer-brands .title H3:after{
 										border-bottom:3px solid #252525;
 									    bottom:-0.1em;
 									    content:"";
@@ -1380,6 +1381,21 @@ body{
 							padding:0;
 							width:100%;
 							}
+							#footer-brands .brand{
+								border:1px solid #e8e8e9;
+							    float:left;
+							    margin:0 4.95em 1em 0;
+							    padding:1.7em 0.81em;
+							    width:12.17%;
+								}
+								#footer-brands .brand:hover{
+									border:1px solid #ec4445;
+									}
+								#footer-brands .brand A{
+									float:left;
+									text-align:center;
+	    							width:100%;
+									}
 					#product-show,
 					#reviews{
 						float:left;
