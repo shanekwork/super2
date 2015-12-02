@@ -1243,38 +1243,32 @@ body{
 							}
 							#special-sale .title,
 							#featured .title,
-							#latest .title{
+							#latest .title{								
+								border-bottom:1px solid #e8e8e9;
 								float:left;
 								margin:0 0 2.2em 0;
+								text-align:center;
 								width:100%;
 								}
 								#special-sale .title H3,
 								#featured .title H3,
-								#latest .title H3{
-									border-bottom:1px solid #e8e8e9;
-									float:left;
+								#latest .title H3,
+								#footer-brands H3{
+									color:#252525!important;
+									float:none;
 									font-family:"Montserrat", sans-serif;
 									font-size:1.05em;
 									font-weight:700;
 									margin:0;
 									padding:0 0 0.35em 0;
-									text-align:center;
+									position:relative;
 									text-transform:uppercase;
-									width:100%;
+									width:auto;
 									}
-									#special-sale .title H3 A,
-									#featured .title H3 A,
-									#latest .title H3 A{
-										color:#252525!important;
-										float:none;
-										font-size:1em;
-										padding:0;
-										position:relative;
-										width:auto;
-										}
-									#special-sale .title H3 A:after,
-									#featured .title H3 A:after,
-									#latest .title H3 A:after{
+									#special-sale .title H3:after,
+									#featured .title H3:after,
+									#latest .title H3:after,
+									#footer-brands H3:after{
 										border-bottom:3px solid #252525;
 									    bottom:-0.7em;
 									    content:"";
