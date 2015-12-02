@@ -1086,6 +1086,7 @@ body{
 					}
 					#categories{
 						float:left;
+						margin:0 0 2.95em 0;
 						width:100%;
 						}
 						#categories .categories-left,
@@ -1237,7 +1238,7 @@ body{
 					#featured .title,
 					#latest .title{
 						float:left;
-						margin:2.65em 0 0 0;
+						margin:0 0 2.2em 0;
 						width:100%;
 						}
 						#special-sale .title H3,
@@ -1246,10 +1247,10 @@ body{
 							border-bottom:1px solid #e8e8e9;
 							float:left;
 							font-family:"Montserrat", sans-serif;
-							font-size:0.95em;
-							font-weight:bold;
+							font-size:1.05em;
+							font-weight:700;
 							margin:0;
-							padding:0;
+							padding:0 0 0.35em 0;
 							text-align:center;
 							text-transform:uppercase;
 							width:100%;
@@ -1268,14 +1269,14 @@ body{
 							#featured .title H3 A:after,
 							#latest .title H3 A:after{
 								border-bottom:3px solid #252525;
-							    bottom:-0.45em;
+							    bottom:-0.7em;
 							    content:"";
 							    display:block;
 							    left:0;
 								margin:0 auto;
 							    position:absolute;
 								right:0;
-							    width:2.35em;
+							    width:3.29em;
 								}
 						#special-sale,
 						#featured,
