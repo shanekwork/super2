@@ -1177,7 +1177,6 @@ body{
 								#categories .categories-right .ctg-title{
 								    color:#ffffff;
 								    float:left;
-								    font-family:Arial;
 								    font-size:0.95em;
 								    font-weight:bold;
 								    padding:0.4em 0;
@@ -1186,6 +1185,9 @@ body{
 								    text-transform:uppercase;
 								    top:-8em;
 								    width:100%;
+									}
+								#categories .categories-right .ctg-title{
+								    font-size:1.8em;
 									}
 								#categories .categories-left .ctg-title:before,
 								#categories .categories-right .ctg-title:before{
