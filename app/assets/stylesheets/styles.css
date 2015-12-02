@@ -1106,6 +1106,9 @@ body{
 							#categories .categories-left A{
 							    max-height:14.4em;
 								}
+							#categories .categories-right A{
+							    max-height:29.55em;
+								}
 							#categories .categories-left A:last-child,
 							#categories .categories-right A{
 								margin:0;
@@ -1201,6 +1204,11 @@ body{
 								    left:36%;
 								    position:absolute;
 								    width:27.5%;
+									}
+								#categories .categories-right .ctg-title:before,
+								#categories .categories-right .ctg-title:after{
+								    left:25.2%;
+								    width:50%;
 									}
 								#categories .categories-left P,
 								#categories .categories-right P{
