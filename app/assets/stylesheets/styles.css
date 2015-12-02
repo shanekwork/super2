@@ -1334,6 +1334,9 @@ body{
 								    text-align:center;
 								    width:82.5%;
 									}
+								#featured .product .home_images{
+								    padding:3.4em 1.3em;
+									}
 								#latest .product .home_images{
 								    padding:3.4em 2em;
 									}
