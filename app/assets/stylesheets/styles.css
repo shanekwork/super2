@@ -1234,58 +1234,67 @@ body{
 						#categories .categories-right{
 							margin:0 0 0 1.68em;
 							}
-					#special-sale .title,
-					#featured .title,
-					#latest .title{
-						float:left;
-						margin:0 0 2.2em 0;
-						width:100%;
-						}
-						#special-sale .title H3,
-						#featured .title H3,
-						#latest .title H3{
-							border-bottom:1px solid #e8e8e9;
-							float:left;
-							font-family:"Montserrat", sans-serif;
-							font-size:1.05em;
-							font-weight:700;
-							margin:0;
-							padding:0 0 0.35em 0;
-							text-align:center;
-							text-transform:uppercase;
-							width:100%;
-							}
-							#special-sale .title H3 A,
-							#featured .title H3 A,
-							#latest .title H3 A{
-								color:#252525!important;
-								float:none;
-								font-size:1em;
-								padding:0;
-								position:relative;
-								width:auto;
-								}
-							#special-sale .title H3 A:after,
-							#featured .title H3 A:after,
-							#latest .title H3 A:after{
-								border-bottom:3px solid #252525;
-							    bottom:-0.7em;
-							    content:"";
-							    display:block;
-							    left:0;
-								margin:0 auto;
-							    position:absolute;
-								right:0;
-							    width:3.29em;
-								}
 						#special-sale,
-						#featured,
-						#latest{
+						#featured-latest{
 							border-radius:0;
 							float:left;
 							padding:0;
 							width:100%;
 							}
+							#special-sale .title,
+							#featured .title,
+							#latest .title{
+								float:left;
+								margin:0 0 2.2em 0;
+								width:100%;
+								}
+								#special-sale .title H3,
+								#featured .title H3,
+								#latest .title H3{
+									border-bottom:1px solid #e8e8e9;
+									float:left;
+									font-family:"Montserrat", sans-serif;
+									font-size:1.05em;
+									font-weight:700;
+									margin:0;
+									padding:0 0 0.35em 0;
+									text-align:center;
+									text-transform:uppercase;
+									width:100%;
+									}
+									#special-sale .title H3 A,
+									#featured .title H3 A,
+									#latest .title H3 A{
+										color:#252525!important;
+										float:none;
+										font-size:1em;
+										padding:0;
+										position:relative;
+										width:auto;
+										}
+									#special-sale .title H3 A:after,
+									#featured .title H3 A:after,
+									#latest .title H3 A:after{
+										border-bottom:3px solid #252525;
+									    bottom:-0.7em;
+									    content:"";
+									    display:block;
+									    left:0;
+										margin:0 auto;
+									    position:absolute;
+										right:0;
+									    width:3.29em;
+										}
+							#featured{
+								float:left;
+								margin:0 30px 0 0;
+								width:370px;
+								}
+							#latest{
+								float:left;
+								margin:0;
+								width:770px;
+								}
 							#special-sale .product,
 							#featured .product,
 							#latest .product{
