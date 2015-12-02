@@ -186,6 +186,10 @@ div.home_images a img {
 	max-height: 120px;
 }
 
+#tabs .product .home_images {
+	background: white !important;
+}
+
 
 /*
 #special_sale {
