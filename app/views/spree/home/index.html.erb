@@ -47,15 +47,13 @@
         </div>
     </div>
 
-    <div id="special-sale-title">
-        <div class="container">
-            <h3>
-                <a href="#special-sale">Sale Items</a>
-            </h3>
-        </div><!--.container-->
-    </div>
     <div id="special-sale" class="clearfix">
         <div class="container">
+            <div class="title">
+                <h3>
+                    <a href="#special-sale">Sale Items</a>
+                </h3>
+            </div>
             <% @products.where(special: true).each do |e| %>
                 <div class="product">                                    
                     <div class="home_images">
@@ -72,15 +70,13 @@
         </div><!--.container-->
     </div><!--#special_sale-->
 
-    <div id="featured-title">
-        <div class="container">
-            <h3>
-                <a href="#featured">Featured Products</a>
-            </h3>
-        </div><!--.container-->
-    </div>
     <div id="featured" class="clearfix">
         <div class="container">
+            <div class="title">
+                <h3>
+                    <a href="#featured">Featured Products</a>
+                </h3>
+            </div>
             <% @products.where(featured: true).each do |e| %>
                 <div class="product">
                     <div class="home_images">
@@ -97,15 +93,13 @@
         </div><!--.container-->
     </div><!--#featured-->
 
-    <div id="latest-title">
-        <div class="container">
-            <h3>
-                <a href="#latest">Latest Products</a>
-            </h3>
-        </div><!--.container-->
-    </div>
     <div id="latest" class="clearfix">
         <div class="container">
+            <div id="title">
+                <h3>
+                    <a href="#latest">Latest Products</a>
+                </h3>
+            </div>
             <% @products.where(latest: true).each do |e| %>
                 <div class="product">
                     <div class="home_images">
