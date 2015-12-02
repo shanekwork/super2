@@ -1205,11 +1205,6 @@ body{
 								    position:absolute;
 								    width:27.5%;
 									}
-								#categories .categories-right .ctg-title:before,
-								#categories .categories-right .ctg-title:after{
-								    left:25.2%;
-								    width:50%;
-									}
 								#categories .categories-left P,
 								#categories .categories-right P{
 								    color:#ffffff;
