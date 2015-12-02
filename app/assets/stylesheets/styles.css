@@ -1257,10 +1257,10 @@ body{
 									color:#252525!important;
 									float:none;
 									font-family:"Montserrat", sans-serif;
-									font-size:1.05em;
+									font-size:1.1em;
 									font-weight:700;
 									margin:0;
-									padding:0 0 0.35em 0;
+									padding:0 0 0.4em 0;
 									position:relative;
 									text-transform:uppercase;
 									width:auto;
@@ -1270,7 +1270,7 @@ body{
 									#latest .title H3:after,
 									#footer-brands H3:after{
 										border-bottom:3px solid #252525;
-									    bottom:-0.7em;
+									    bottom:-0.1em;
 									    content:"";
 									    display:block;
 									    left:0;
@@ -1375,6 +1375,11 @@ body{
 								    padding:0;
 								    width:100%;
 									}
+						#footer-brands{
+							float:left;
+							padding:0;
+							width:100%;
+							}
 					#product-show,
 					#reviews{
 						float:left;

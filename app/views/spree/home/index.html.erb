@@ -50,9 +50,7 @@
     <div id="special-sale" class="clearfix">
         <div class="container">
             <div class="title">
-                <h3>
-                    <a href="#special-sale">Sale Items</a>
-                </h3>
+                <h3>Sale Items</h3>
             </div>
             <% @products.where(special: true).each do |e| %>
                 <div class="product">                                    
@@ -74,9 +72,7 @@
         <div class="container">
             <div id="featured" class="clearfix">            
                 <div class="title">
-                    <h3>
-                        <a href="#featured">Featured Products</a>
-                    </h3>
+                    <h3>Featured Products</h3>
                 </div>
                 <% @products.where(featured: true).each do |e| %>
                     <div class="product">
@@ -95,9 +91,7 @@
 
             <div id="latest" class="clearfix">
                 <div class="title">
-                    <h3>
-                        <a href="#latest">Latest Products</a>
-                    </h3>
+                    <h3>Latest Products</h3>
                 </div>
                 <% @products.where(latest: true).each do |e| %>
                     <div class="product">
@@ -117,31 +111,33 @@
     </div><!--#featured-latest-->
 
     <div id="footer-brands">
-        <h3>Our brands</h3>
-        <div class="brand">
-            <a href="#">
-                <img alt="Samsung" src="/assets/samsung.png" />
-            </a>
-        </div>
-        <div class="brand">
-            <a href="#">
-                <img alt="Xerox" src="/assets/xerox.png" />
-            </a>
-        </div>
-        <div class="brand">
-            <a href="#">
-                <img alt="HP" src="/assets/hp.png" />
-            </a>
-        </div>
-        <div class="brand">
-            <a href="#">
-                <img alt="Lexmark" src="/assets/lexmark.png" />
-            </a>
-        </div>
-        <div class="brand">
-            <a href="#">
-                <img alt="Canon" src="/assets/canon.png" />
-            </a>
+        <div class="container">
+            <h3>Our brands</h3>
+            <div class="brand">
+                <a href="#">
+                    <img alt="Samsung" src="/assets/samsung.png" />
+                </a>
+            </div>
+            <div class="brand">
+                <a href="#">
+                    <img alt="Xerox" src="/assets/xerox.png" />
+                </a>
+            </div>
+            <div class="brand">
+                <a href="#">
+                    <img alt="HP" src="/assets/hp.png" />
+                </a>
+            </div>
+            <div class="brand">
+                <a href="#">
+                    <img alt="Lexmark" src="/assets/lexmark.png" />
+                </a>
+            </div>
+            <div class="brand">
+                <a href="#">
+                    <img alt="Canon" src="/assets/canon.png" />
+                </a>
+            </div>
         </div>
     </div>
 </div><!--.main-content-->
