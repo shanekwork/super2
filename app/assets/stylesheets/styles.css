@@ -1233,78 +1233,51 @@ body{
 						#categories .categories-right{
 							margin:0 0 0 1.68em;
 							}
-					#featured products{
+					#special-sale .title,
+					#featured .title,
+					#latest .title{
 						float:left;
 						margin:2.65em 0 0 0;
 						width:100%;
 						}
-						#featured products UL{
-							background:none;
-							border:none;
-							border-bottom:1px solid #e8e8e9;
-							border-radius:0;
+						#special-sale .title H3,
+						#featured .title H3,
+						#latest .title H3{
 							float:left;
-							margin:0 0 2em 0;
+							font-family:"Montserrat", sans-serif;
+							font-size:0.95em;
+							font-weight:bold;
+							margin:0;
 							padding:0;
-							text-align:center;
-							width:100%;
+							text-transform:uppercase;
+							width:auto;
 							}
-							#featured products UL LI{
-								background:none;
-								border:none;
-								border-radius:0;
-								display:inline-block;
-								float:none;
+							#special-sale .title H3 A,
+							#featured .title H3 A,
+							#latest .title H3 A{
+								color:#252525!important;
+								float:left;
 								font-size:1em;
-								list-style:none;
-								margin:0 1.45em;
+								padding:0;
+								position:relative;
 								width:auto;
 								}
-							#featured products UL LI.ui-tabs-active,
-							#featured products UL LI:hover{
-								background:none;
+							#special-sale .title H3 A:before,
+							#featured .title H3 A:before,
+							#latest .title H3 A:before{
+							    border:none;
+								border-bottom:3px solid #252525;
+							    bottom:-0.45em;
+							    content:"";
+							    height:0;
+							    left:0;
+								margin:0 auto;
+							    opacity:0;
+							    position:absolute;
+								right:0;
+							    transition:all 0.2s ease 0s;
+							    width:2.35em;
 								}
-								#featured products UL LI.ui-tabs-active:after{
-									border-bottom:3px solid #252525;
-									bottom:-2px;
-									position:absolute;
-									}
-								#featured products UL LI H3{
-									float:left;
-									font-family:"Montserrat", sans-serif;
-									font-size:0.95em;
-									font-weight:bold;
-									margin:0;
-									padding:0;
-									text-transform:uppercase;
-									width:auto;
-									}
-									#featured products UL LI H3 A{
-										color:#252525!important;
-										float:left;
-										font-size:1em;
-										padding:0;
-										position:relative;
-										width:auto;
-										}
-									#featured products UL LI H3 A::before{
-									    border:none;
-										border-bottom:3px solid #252525;
-									    bottom:-0.45em;
-									    content:"";
-									    height:0;
-									    left:0;
-										margin:0 auto;
-									    opacity:0;
-									    position:absolute;
-										right:0;
-									    transition:all 0.2s ease 0s;
-									    width:2.35em;
-										}
-									#featured products UL LI.ui-tabs-active H3 A::before,
-									#featured products UL LI.ui-state-hover H3 A::before{
-									    opacity:1;
-										}
 						#special-sale,
 						#featured,
 						#latest{
