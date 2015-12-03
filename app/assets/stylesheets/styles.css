@@ -2848,6 +2848,9 @@ body{
 									background:transparent url("/assets/plus_dark.png") no-repeat 96% 50%!important;
 									color:#ec4445!important;
 									}
+								.offcanvas-menu .offcanvas-inner .module-content #main-nav-bar LI:first-child A:hover{
+									background:none;
+									}
 							.offcanvas-menu .offcanvas-inner .module-content #main-nav-bar .menu-content{
 								float:left;
 							    margin:0;
