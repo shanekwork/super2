@@ -1310,6 +1310,9 @@ body{
 							    margin:0 1.86em 0 0;
     							width:22.1%;
 								}
+							#latest .product:last-child{
+							    margin:0;
+								}
 								#special-sale .product .product-desc,
 								#special-sale .product .home_images,
 								#special-sale .product .product-price,
@@ -1336,7 +1339,7 @@ body{
 								    padding:3.4em 2em;
 									}
 								#latest .product .home_images{
-								    padding:3.4em 2em;
+								    padding:3.4em 0.95em;
 									}
 									#special-sale .product .home_images A IMG,
 									#featured .product .home_images A IMG,
