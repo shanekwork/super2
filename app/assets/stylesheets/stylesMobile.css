@@ -116,7 +116,8 @@
 					#main-menu NAV UL{
 						display:none;
 						}
-		#content{
+		#content,
+		#footer-brands{
     		margin:0 0.95em;
 			width:90.2%!important;
 			}
@@ -126,7 +127,8 @@
 				}
 				#categories .container,
 				#special-sale .container,
-				#featured-latest .container{
+				#featured-latest .container,
+				#footer-brands .container{
 				    width:289px;
 					}
 					#categories .categories-left,
@@ -186,9 +188,20 @@
 						#latest .product .product-price{
 							text-align:left;
 							}
-			#fwslider{
-				height:515px !important;
+			#featured-latest{
+				margin:0 0 1.5em 0;
 				}
+				#featured,
+				#latest{
+				    margin:0;
+				    width:100%;
+					}
+					#fwslider{
+						height:470px!important;
+						}
+						#fwslider .timers{
+						    display:block!important;
+							}
 		#content H1{
 			font-size:2em;
 			}
