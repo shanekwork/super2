@@ -205,7 +205,8 @@
 			#footer-brands{
 				margin:0 0.95em 2.35em 0.95em;
 				}
-				#footer-brands .brand{
+				#footer-brands .brand,
+				#footer-brands .brand:last-child{
 					margin:0 0.5em 1em 0.5em;
     				width:34.8%;
 					}
