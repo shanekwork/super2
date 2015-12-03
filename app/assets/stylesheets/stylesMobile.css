@@ -132,38 +132,31 @@
 				#js-main-slider .pogoSlider-dir-btn--next{
 					display:none;
 					}
-		#tabs UL{
-			margin:0 0.95em 1em 0.95em;
-			width:89.5%;
-			}
-			#tabs UL LI{
-				margin:0 0.25em;
-				}
-				#tabs UL LI H3{
-					font-size:0.5em;
-					}
-					#tabs UL LI H3 A::before{
-						bottom:-0.8em;
-						}
-		#tabs #special_sale,
-		#tabs #featured,
-		#tabs #latest{
+		#special_sale,
+		#featured,
+		#latest{
 		    margin:0 0.95em;
 		    width:89.5%;
 			}
-			#tabs #special_sale .container,
-			#tabs #featured .container,
-			#tabs #latest .container{
+			#special_sale .container,
+			#featured .container,
+			#latest .container{
 			    width:286px;
 				}
-				#tabs .product{
+				#special_sale .product,
+				#featured .product,
+				#latest .product{
 					margin:0 0 2.3em 0;
 					width:100%;
 					}
-					#tabs .product .product-desc A{
+					#special_sale .product .product-desc A,
+					#featured .product .product-desc A,
+					#latest .product .product-desc A{
 						min-height:auto;
 						}
-					#tabs .product .product-price{
+					#special_sale .product .product-price,
+					#featured .product .product-price,
+					#latest .product .product-price{
 						text-align:left;
 						}
 			#existing-customer,
