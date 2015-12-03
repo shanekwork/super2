@@ -1358,6 +1358,9 @@ body{
 								#latest .product .product-desc{
 									margin:0 0 0.35em 0;
 									}
+								#featured .product .product-desc{
+									margin:0 0 0.9em 0;
+									}
 									#special-sale .product .product-desc A,
 									#featured .product .product-desc A,
 									#latest .product .product-desc A{
@@ -1370,6 +1373,10 @@ body{
 										overflow:hidden;
 										text-align:left;
 										width:auto;
+										}
+									#featured .product .product-desc A{
+										font-size:1.2em;
+										min-height:auto;
 										}
 										#special-sale .product .product-desc A:hover,
 										#featured .product .product-desc A:hover,
@@ -1385,6 +1392,9 @@ body{
 								    line-height:0.98em;
 								    padding:0;
 								    width:100%;
+									}
+								#featured .product .product-price{
+								    font-size:1.5em;
 									}
 						#footer-brands{
 							float:left;
