@@ -186,6 +186,9 @@
 						#latest .product .product-price{
 							text-align:left;
 							}
+			#fwslider{
+				height:515px !important;
+				}
 		#content H1{
 			font-size:2em;
 			}
@@ -201,13 +204,7 @@
 				#js-main-slider .pogoSlider-dir-btn--prev,
 				#js-main-slider .pogoSlider-dir-btn--next{
 					display:none;
-					}
-		#special_sale,
-		#featured,
-		#latest{
-		    margin:0 0.95em;
-		    width:89.5%;
-			}				
+					}	
 			#existing-customer,
 			#forgot-password,
 			#new-customer, #edit-account,
