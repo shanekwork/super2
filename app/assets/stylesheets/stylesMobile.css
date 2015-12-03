@@ -116,12 +116,12 @@
 					#main-menu NAV UL{
 						display:none;
 						}
-		#content,
-		#content .main-content{
+		#content{
     		margin:0 0.95em;
-			width:90.2%;
+			width:90.2%!important;
 			}
 			#categories{
+				margin:0 0 1.95em 0;
 			    width:100%;
 				}
 				#categories .container{
@@ -142,6 +142,13 @@
 							#categories .categories-right .ctg-title{
 								top:-6em;
 								}
+							#categories .categories-left .ctg-title::before,
+							#categories .categories-right .ctg-title::before,
+							#categories .categories-left .ctg-title::after,
+							#categories .categories-right .ctg-title::after{
+								left:26%;
+    							width:47.5%;
+								}
 						#categories .categories-right A{
 							height:15em;
 							}
@@ -153,6 +160,9 @@
 						#categories .categories-right P{
 						    font-size:0.8em;
 						    top:-7em;
+							}
+						#categories .categories-right P{
+							top:-13em;
 							}
 		#content H1{
 			font-size:2em;
