@@ -116,6 +116,44 @@
 					#main-menu NAV UL{
 						display:none;
 						}
+		#content,
+		#content .main-content{
+    		margin:0 0.95em;
+			width:90.2%;
+			}
+			#categories{
+			    width:100%;
+				}
+				#categories .container{
+				    width:289px;
+					}
+					#categories .categories-left,
+					#categories .categories-right{
+					    float:left;
+					    width:100%;
+						}
+					#categories .categories-right{
+					    margin:0.75em 0 0;
+						}
+						#categories .categories-left A{
+							height:7.25em;
+							}
+							#categories .categories-left .ctg-title,
+							#categories .categories-right .ctg-title{
+								top:-6em;
+								}
+						#categories .categories-right A{
+							height:15em;
+							}
+							#categories .categories-left A IMG,
+							#categories .categories-right A IMG{
+								max-width:18em;
+								}
+						#categories .categories-left P,
+						#categories .categories-right P{
+						    font-size:0.8em;
+						    top:-7em;
+							}
 		#content H1{
 			font-size:2em;
 			}
