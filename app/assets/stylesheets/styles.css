@@ -2849,7 +2849,7 @@ body{
 									color:#ec4445!important;
 									}
 								.offcanvas-menu .offcanvas-inner .module-content #main-nav-bar LI:first-child A:hover{
-									background:none;
+									background:none!important;
 									}
 							.offcanvas-menu .offcanvas-inner .module-content #main-nav-bar .menu-content{
 								float:left;
