@@ -2842,7 +2842,8 @@ body{
 							    text-transform:capitalize;
 								}
 								.offcanvas-menu .offcanvas-inner .module-content #main-nav-bar LI A:hover,
-								.offcanvas-menu .offcanvas-inner .module-content #main-nav-bar > LI.selected > A{
+								.offcanvas-menu .offcanvas-inner .module-content #main-nav-bar > LI.selected > A,
+								.offcanvas-menu .offcanvas-inner .module-content #main-nav-bar > LI.selected > UL > LI.selected > A{
 									color:#ec4445!important;
 									}
 							.offcanvas-menu .offcanvas-inner .module-content #main-nav-bar .menu-content{
