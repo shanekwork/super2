@@ -2832,7 +2832,7 @@ body{
 							content:"";
 							}
 							.offcanvas-menu .offcanvas-inner .module-content #main-nav-bar LI A{
-								background:#ffffff url("/assets/plus_dark.png") no-repeat 96% 50%;
+								background:#ffffff url("/assets/plus_dark.png") no-repeat 96% 50%!important;
 								color:#777777!important;
 								display:block;
 							    font-family:"Open Sans",sans-serif;
