@@ -175,7 +175,7 @@
 		$(".offcanvas-menu .module-content ul li a").not(".offcanvas-menu .module-content ul li ul li a").not(".offcanvas-menu .module-content ul li ul li ul li a").click(function(){
 			//slide up all the link lists
 			$(".offcanvas-menu .module-content ul li ul").slideUp();
-			if($(".offcanvas-menu .module-content ul li")).hasClass("selected"){
+			if($(".offcanvas-menu .module-content ul li").hasClass("selected")){
 				$(".offcanvas-menu .module-content ul li").removeClass("selected");
 			}
 			//slide down the link list below the h5 clicked - only if its closed
@@ -188,7 +188,7 @@
 		$(".offcanvas-menu .module-content ul li ul li a").not(".offcanvas-menu .module-content ul li ul li ul li a").click(function(){
 			//slide up all the link lists
 			$(".offcanvas-menu .module-content ul li ul li ul").slideUp();
-			if($(".offcanvas-menu .module-content ul li ul li")).hasClass("selected"){
+			if($(".offcanvas-menu .module-content ul li ul li").hasClass("selected")){
 				$(".offcanvas-menu .module-content ul li ul li").removeClass("selected");
 			}
 			//slide down the link list below the h5 clicked - only if its closed
