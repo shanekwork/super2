@@ -2848,9 +2848,6 @@ body{
 									background:transparent url("/assets/plus_dark.png") no-repeat 96% 50%!important;
 									color:#ec4445!important;
 									}
-								.offcanvas-menu .offcanvas-inner .module-content #main-nav-bar LI:first-child A:hover{
-									background:none!important;
-									}
 							.offcanvas-menu .offcanvas-inner .module-content #main-nav-bar .menu-content{
 								float:left;
 							    margin:0;
@@ -2877,6 +2874,9 @@ body{
 									.offcanvas-menu .offcanvas-inner .module-content #main-nav-bar LI UL LI:first-child A{
 										background:transparent url("/assets/plus_dark.png") no-repeat 96% 50%!important;
 										}
+										.offcanvas-menu .offcanvas-inner .module-content #main-nav-bar LI UL LI UL LI A{
+											background:none!important;
+											}
 
 /* GOOGLE CHROME & SAFARI */
 @media screen and (-webkit-min-device-pixel-ratio:0){
