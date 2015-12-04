@@ -1,1 +1,0 @@
-Spree::PermittedAttributes.product_attributes << :year
