@@ -2841,7 +2841,8 @@ body{
 							    padding:0.45em 0!important;
 							    text-transform:capitalize;
 								}
-								.offcanvas-menu .offcanvas-inner .module-content #main-nav-bar LI A:hover{
+								.offcanvas-menu .offcanvas-inner .module-content #main-nav-bar LI A:hover,
+								.offcanvas-menu .offcanvas-inner .module-content #main-nav-bar LI.selected{
 									color:#ec4445!important;
 									}
 							.offcanvas-menu .offcanvas-inner .module-content #main-nav-bar .menu-content{
