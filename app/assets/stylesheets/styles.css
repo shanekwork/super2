@@ -2847,6 +2847,7 @@ body{
 								.offcanvas-menu .offcanvas-inner .module-content #main-nav-bar LI A:hover,
 								.offcanvas-menu .offcanvas-inner .module-content #main-nav-bar > LI.selected > A,
 								.offcanvas-menu .offcanvas-inner .module-content #main-nav-bar > LI.selected > UL > LI.selected > A{
+									background:#ffffff url("/assets/less_red.png") no-repeat 96% 50%!important;
 									color:#ec4445!important;
 									}
 							.offcanvas-menu .offcanvas-inner .module-content #main-nav-bar .menu-content{
