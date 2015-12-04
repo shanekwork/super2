@@ -2841,13 +2841,6 @@ body{
 							    padding:0.45em 0!important;
 							    text-transform:capitalize;
 								}
-							.offcanvas-menu .offcanvas-inner .module-content #main-nav-bar LI:first-child A{
-								background:none!important;
-								}
-								.offcanvas-menu .offcanvas-inner .module-content #main-nav-bar LI A:hover{
-									background:transparent url("/assets/plus_dark.png") no-repeat 96% 50%!important;
-									color:#ec4445!important;
-									}
 							.offcanvas-menu .offcanvas-inner .module-content #main-nav-bar .menu-content{
 								float:left;
 							    margin:0;
@@ -2869,14 +2862,10 @@ body{
 									margin:0 0 0 1em;
     								width:93%;
 									}
-									.offcanvas-menu .offcanvas-inner .module-content #main-nav-bar LI UL LI A,
-									.offcanvas-menu .offcanvas-inner .module-content #main-nav-bar LI UL LI A:hover,
-									.offcanvas-menu .offcanvas-inner .module-content #main-nav-bar LI UL LI:first-child A{
-										background:transparent url("/assets/plus_dark.png") no-repeat 96% 50%!important;
+									.offcanvas-menu .offcanvas-inner .module-content #main-nav-bar LI:first-child A,
+									.offcanvas-menu .offcanvas-inner .module-content #main-nav-bar LI UL LI UL LI A{
+										background:none!important;
 										}
-										.offcanvas-menu .offcanvas-inner .module-content #main-nav-bar LI UL LI UL LI A{
-											background:none!important;
-											}
 
 /* GOOGLE CHROME & SAFARI */
 @media screen and (-webkit-min-device-pixel-ratio:0){
