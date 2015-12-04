@@ -2871,7 +2871,9 @@ body{
     								width:93%;
 									}
 									.offcanvas-menu .offcanvas-inner .module-content #main-nav-bar > LI:first-child A,
-									.offcanvas-menu .offcanvas-inner .module-content #main-nav-bar LI UL LI UL LI A{
+									.offcanvas-menu .offcanvas-inner .module-content #main-nav-bar LI UL LI UL LI A,
+									.offcanvas-menu .offcanvas-inner .module-content #main-nav-bar > LI:first-child A:hover,
+									.offcanvas-menu .offcanvas-inner .module-content #main-nav-bar LI UL LI UL LI A:hover{
 										background:none!important;
 										}
 
