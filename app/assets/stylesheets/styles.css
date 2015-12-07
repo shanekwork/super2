@@ -2532,6 +2532,13 @@ body{
 					#content .search-results #products{
 						margin:0;
 						}
+			#page_content .firstSectionAboutUs{
+			    float:left;
+    			width:100%;
+				}
+				#page_content .firstSectionAboutUs IMG{
+				    max-width:35.6em;
+					}
 			#footer{
 				border:none!important;
 			    color:#191919;
