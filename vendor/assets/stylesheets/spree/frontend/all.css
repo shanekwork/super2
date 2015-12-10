@@ -16,6 +16,10 @@
  *= require spree/frontend/spree_paypal_express
 */
 
+#main-menu {
+    background: #4681d3;
+}
+
 .threex3 {
 	color: #333;
 }
@@ -184,10 +188,6 @@ html[xmlns] .clearfix {
 div.home_images a img {
 	max-width: 120px;
 	max-height: 120px;
-}
-
-#tabs .product .home_images {
-	background: white !important;
 }
 
 

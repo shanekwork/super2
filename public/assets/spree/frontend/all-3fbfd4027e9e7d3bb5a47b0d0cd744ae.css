@@ -3988,6 +3988,11 @@ div[data-hook="inside_cart_form"] #subtotal {
 #registration h6 {
   text-transform: uppercase;
 }
+/* line 1005, /Users/shane/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/spree_frontend-2.2.1/app/assets/stylesheets/spree/frontend/screen.css.scss */
+#registration #existing-customer {
+  width: auto;
+  text-align: left;
+}
 
 /* line 1011, /Users/shane/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/spree_frontend-2.2.1/app/assets/stylesheets/spree/frontend/screen.css.scss */
 #user-info {
@@ -4014,6 +4019,11 @@ div[data-hook="inside_cart_form"] #subtotal {
   overflow: auto;
 }
 
+/* line 1037, /Users/shane/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/spree_frontend-2.2.1/app/assets/stylesheets/spree/frontend/screen.css.scss */
+table.order-summary tbody tr td {
+  width: 10%;
+  text-align: center;
+}
 /* line 1042, /Users/shane/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/spree_frontend-2.2.1/app/assets/stylesheets/spree/frontend/screen.css.scss */
 table.order-summary tbody tr td:first-child a {
   text-transform: uppercase;
@@ -4262,11 +4272,19 @@ table.order-summary tbody tr td:first-child a {
   table.order-summary thead tr {
     display: block;
   }
-  
+  /* line 1278, /Users/shane/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/spree_frontend-2.2.1/app/assets/stylesheets/spree/frontend/screen.css.scss */
+  table.order-summary th {
+    display: block;
+  }
   /* line 1279, /Users/shane/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/spree_frontend-2.2.1/app/assets/stylesheets/spree/frontend/screen.css.scss */
   table.order-summary tbody tr {
     display: inline-block;
     vertical-align: top;
+  }
+  /* line 1280, /Users/shane/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/spree_frontend-2.2.1/app/assets/stylesheets/spree/frontend/screen.css.scss */
+  table.order-summary td {
+    display: block;
+    min-height: 1.25em;
   }
 
   /* line 1283, /Users/shane/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/spree_frontend-2.2.1/app/assets/stylesheets/spree/frontend/screen.css.scss */
@@ -4447,7 +4465,7 @@ ul#main-nav-bar li ul li a {
 
 ul#main-nav-bar li ul li ul {
 	position: absolute;
-	display: none;
+	display: none !important;
 	left: 210px;
 	top: -1px;
 	z-index: 999;
@@ -4455,7 +4473,7 @@ ul#main-nav-bar li ul li ul {
 }
 
 ul#main-nav-bar li ul li:hover ul {
-	display: block;
+	display: block !important;
 	margin: 0 0 0 0;
 }
 

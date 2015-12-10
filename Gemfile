@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-ruby "2.2.0"
+ruby "2.1.6"
 
 gem 'rails', '4.0.4'
 
@@ -8,7 +8,7 @@ gem 'pg', '~> 0.18.1'
 gem 'sass-rails', '~> 4.0.2'
 
 gem 'uglifier', '>= 1.3.0'
-
+gem 'carrierwave', '~> 0.10.0'
 gem 'fog', '~> 1.24.0'
 
 gem 'mail_form'
@@ -25,7 +25,7 @@ gem 'turbolinks'
 
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 1.2'
-
+gem 's3'
 gem 'spree_paypal_express', github: 'spree-contrib/better_spree_paypal_express', branch: '2-2-stable'
 
 group :doc do
