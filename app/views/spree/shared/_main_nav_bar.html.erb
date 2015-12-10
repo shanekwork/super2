@@ -1,156 +1,147 @@
 <nav id="main-menu-label" class="columns sixteen">
-
-
-
+  <a id="offcanvas-toggler" href="#">
+    <i class="fa fa-bars"></i>
+  </a>
   <ul id="main-nav-bar" class="inline" data-hook>
-
     
     <li id="home-link" data-hook><%= link_to Spree.t(:home), root_path, class: "small_a" %></li>
 
     <!--<li><a href="/additional_pages/consumables">ink &amp; toner</a></li>-->
 
-
-
-
     <li><a class="small_a" href="#">Office Supplies</a>
-      <ul>
-      <% Spree::Taxonomy.where(id: [17, 16, 12, 18, 13, 21, 20, 15, 19, 30, 31, 32]).each do |t| %>
-        <li>
-          <%= link_to t.name, '#' %>
-            <ul>
-                <% t.taxons.each do |taxon| %>
-                  <li>
-                    <%= link_to taxon.name, nested_taxons_path(taxon.permalink) %>                  
-                  </li>
-                <% end %>
-            </ul>
-        </li>        
-      <% end %>
-      </ul>
+      <div class="menu-content">
+        <ul>
+        <% Spree::Taxonomy.where(id: [17, 16, 12, 18, 13, 21, 20, 15, 19, 30, 31, 32]).each do |t| %>
+          <li>
+            <%= link_to t.name, '#' %>
+              <ul>
+                  <% t.taxons.each do |taxon| %>
+                    <li>
+                      <%= link_to taxon.name, nested_taxons_path(taxon.permalink) %>                  
+                    </li>
+                  <% end %>
+              </ul>
+          </li>        
+        <% end %>
+        </ul>
+      </div>
     </li>
-
-
-
 
     <li><a class="small_a" href="#">Ink &amp; Toner</a>
-      <ul>
-      <% Spree::Taxonomy.where(id: [43]).each do |t| %>
-        <li>
-          <%= link_to t.name, '#' %>
-            <ul>
-                <% t.taxons.each do |taxon| %>
-                  <li>
-                    <%= link_to taxon.name, nested_taxons_path(taxon.permalink) %>                  
-                  </li>
-                <% end %>
-            </ul>
-        </li>        
-      <% end %>
-      </ul>
+      <div class="menu-content">
+        <ul>
+        <% Spree::Taxonomy.where(id: [43]).each do |t| %>
+          <li>
+            <%= link_to t.name, '#' %>
+              <ul>
+                  <% t.taxons.each do |taxon| %>
+                    <li>
+                      <%= link_to taxon.name, nested_taxons_path(taxon.permalink) %>                  
+                    </li>
+                  <% end %>
+              </ul>
+          </li>        
+        <% end %>
+        </ul>
+      </div>
     </li>
-    
-
-
-
 
     <li><a class="small_a" href="#">Paper</a>
-      <ul>
-      <% Spree::Taxonomy.where(id: [10]).each do |t| %>
-        <li>
-          <%= link_to t.name, '#' %>
-            <ul>
-                <% t.taxons.each do |taxon| %>
-                  <li>
-                    <%= link_to taxon.name, nested_taxons_path(taxon.permalink) %>                  
-                  </li>
-                <% end %>
-            </ul>
-        </li>        
-      <% end %>
-      </ul>
+      <div class="menu-content">
+        <ul>
+        <% Spree::Taxonomy.where(id: [10]).each do |t| %>
+          <li>
+            <%= link_to t.name, '#' %>
+              <ul>
+                  <% t.taxons.each do |taxon| %>
+                    <li>
+                      <%= link_to taxon.name, nested_taxons_path(taxon.permalink) %>                  
+                    </li>
+                  <% end %>
+              </ul>
+          </li>        
+        <% end %>
+        </ul>
+      </div>
     </li>
-
 
     <li><a class="small_a" href="#">Post &amp; Packaging</a>
-      <ul>
-      <% Spree::Taxonomy.where(id: [11, 63]).each do |t| %>
-        <li>
-          <%= link_to t.name, '#' %>
-            <ul>
-                <% t.taxons.each do |taxon| %>
-                  <li>
-                    <%= link_to taxon.name, nested_taxons_path(taxon.permalink) %>                  
-                  </li>
-                <% end %>
-            </ul>
-        </li>        
-      <% end %>
-      </ul>
+      <div class="menu-content">
+        <ul>
+        <% Spree::Taxonomy.where(id: [11, 63]).each do |t| %>
+          <li>
+            <%= link_to t.name, '#' %>
+              <ul>
+                  <% t.taxons.each do |taxon| %>
+                    <li>
+                      <%= link_to taxon.name, nested_taxons_path(taxon.permalink) %>                  
+                    </li>
+                  <% end %>
+              </ul>
+          </li>        
+        <% end %>
+        </ul>
+      </div>
     </li>
-
-
-
 
     <li><a class="small_a" href="#">Machines</a>
-      <ul>
-      <% Spree::Taxonomy.where(id: [42, 40, 41, 44, 50, 51, 83]).each do |t| %>
-        <li>
-          <%= link_to t.name, '#' %>
-            <ul>
-                <% t.taxons.each do |taxon| %>
-                  <li>
-                    <%= link_to taxon.name, nested_taxons_path(taxon.permalink) %>                  
-                  </li>
-                <% end %>
-            </ul>
-        </li>        
-      <% end %>
-      </ul>
+      <div class="menu-content">
+        <ul>
+        <% Spree::Taxonomy.where(id: [42, 40, 41, 44, 50, 51, 83]).each do |t| %>
+          <li>
+            <%= link_to t.name, '#' %>
+              <ul>
+                  <% t.taxons.each do |taxon| %>
+                    <li>
+                      <%= link_to taxon.name, nested_taxons_path(taxon.permalink) %>                  
+                    </li>
+                  <% end %>
+              </ul>
+          </li>        
+        <% end %>
+        </ul>
+      </div>
     </li>
-
-
-
 
     <li><a class="small_a" href="#">Facilities</a>
-      <ul>
-      <% Spree::Taxonomy.where(id: [70, 61, 71, 62]).each do |t| %>
-        <li>
-          <%= link_to t.name, '#' %>
-            <ul>
-                <% t.taxons.each do |taxon| %>
-                  <li>
-                    <%= link_to taxon.name, nested_taxons_path(taxon.permalink) %>                  
-                  </li>
-                <% end %>
-            </ul>
-        </li>        
-      <% end %>
-      </ul>
+      <div class="menu-content">
+        <ul>
+        <% Spree::Taxonomy.where(id: [70, 61, 71, 62]).each do |t| %>
+          <li>
+            <%= link_to t.name, '#' %>
+              <ul>
+                  <% t.taxons.each do |taxon| %>
+                    <li>
+                      <%= link_to taxon.name, nested_taxons_path(taxon.permalink) %>                  
+                    </li>
+                  <% end %>
+              </ul>
+          </li>        
+        <% end %>
+        </ul>
+      </div>
     </li>
-
-
-
 
     <li><a class="small_a" href="#">Furniture</a>
-      <ul>
-      <% Spree::Taxonomy.where(id: [60]).each do |t| %>
-        <li>
-          <%= link_to t.name, '#' %>
-            <ul>
-                <% t.taxons.each do |taxon| %>
-                  <li>
-                    <%= link_to taxon.name, nested_taxons_path(taxon.permalink) %>                  
-                  </li>
-                <% end %>
-            </ul>
-        </li>        
-      <% end %>
-      </ul>
+      <div class="menu-content">
+        <ul>
+        <% Spree::Taxonomy.where(id: [60]).each do |t| %>
+          <li>
+            <%= link_to t.name, '#' %>
+              <ul>
+                  <% t.taxons.each do |taxon| %>
+                    <li>
+                      <%= link_to taxon.name, nested_taxons_path(taxon.permalink) %>                  
+                    </li>
+                  <% end %>
+              </ul>
+          </li>        
+        <% end %>
+        </ul>
+      </div>
     </li>
 
-
-
-<!--
+  <!--
     <li><a class="small_a" href="#">Ink &amp; Toner</a>
       <ul>
         <li><a href="#">Printer/Fax/Copier Supplies</a> TAXONOMY ID 43
@@ -180,10 +171,6 @@
         </li>
       </ul>
     </li>
-
-
-
-
 
     <li><a class="small_a" href="#">Paper</a> TAXONOMY ID 10
       <ul>
@@ -320,11 +307,6 @@
       </ul>
     </li>
 
-
-
-
-
-
     <li><a class="small_a" href="#">Post &amp; Packaging</a>
       <ul>
         <li><a href="#">Envelopes</a> TAXONOMY ID 11
@@ -362,12 +344,6 @@
         </li>
       </ul>
     </li>
-
-
-
-
-
-
 
     <li><a class="small_a" href="#">Machines</a>
       <ul>
@@ -477,12 +453,6 @@
       </ul>
     </li>
 
-
-
-
-
-
-
     <li><a class="small_a" href="#">Facilities</a>
       <ul>
         <li><a href="#">Catering</a> TAXONOMY ID 70
@@ -547,11 +517,6 @@
         </li>
       </ul>
     </li>
-
-
-
-
-
 
     <li><a class="small_a" href="#">Furniture</a> TAXONOMY ID 60
       <ul>
@@ -727,11 +692,7 @@
         </li>
       </ul>
     </li>
-
--->
-
-
-
+  -->
 
   </ul>
 

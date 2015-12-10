@@ -5,34 +5,58 @@
 <%== meta_data_tags %>
 <%= canonical_tag(Spree::Config.site_url) %>
 <%= favicon_link_tag image_path('favicon.ico') %>
+
 <%= stylesheet_link_tag 'spree/frontend/all', :media => 'screen' %>
 <%= stylesheet_link_tag 'jquery-styles', :media => 'screen' %><%= csrf_meta_tags %>
 <%= stylesheet_link_tag 'slicknav', :media => 'screen' %>
+<%= stylesheet_link_tag 'https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css', :media => 'screen' %>
+<%= stylesheet_link_tag 'https://fonts.googleapis.com/css?family=Open+Sans', :media => 'screen' %>
+<%= stylesheet_link_tag 'https://fonts.googleapis.com/css?family=Montserrat', :media => 'screen' %>
 <%= stylesheet_link_tag 'styles', :media => 'screen' %>
+<%= stylesheet_link_tag 'fwslider', :media => 'screen' %>
 <%= stylesheet_link_tag 'stylesMobile', :media => 'screen' %>
-<%= stylesheet_link_tag 'http://fonts.googleapis.com/css?family=Roboto', :media => 'screen' %>
-<%= stylesheet_link_tag '//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css', :media => 'screen' %>
+<%= stylesheet_link_tag 'pogo-slider.min', :media => 'screen' %>
+<%= stylesheet_link_tag 'jquery.slidepanel', :media => 'screen' %>
+
 <%= javascript_include_tag 'spree/frontend/all' %>
+<%= javascript_include_tag '//code.jquery.com/jquery-1.10.2.js' %>
 <%= javascript_include_tag '//code.jquery.com/ui/1.11.3/jquery-ui.js' %>
 <%= javascript_include_tag 'slicknav.js' %>
+<%= javascript_include_tag 'jquery.slidepanel.js' %>
+<%= javascript_include_tag 'fwslider.js' %>
+
 <!--[if lt IE 9]>
   <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6/html5shiv.min.js"></script>
 <![endif]-->
-<%
-  @trader = Spree::User.first
-  company = Company.where(user_id: 1)
-  @c = @trader.company
-%>
+
 <script>
 	$(document).ready(function(){
 		/* Add class just to home page */
 		var pathname = window.location.pathname;
 		if(pathname == "/"){
-				$("body").addClass("home");
-			}
+			$("body").addClass("home");
 
-		/* Add tabs to index */
-		$( "#tabs" ).tabs();
+			//Home main Slider
+			$("#js-main-slider").pogoSlider({
+				autoplay:true,
+				autoplayTimeout:5000,
+				displayProgess:true,
+				slideTransition:"zipReveal",
+				slideTransitionDuration:1000,
+				elementTransitionIn:"slideUp",
+				elementTransitionOut:"slideDown",
+				elementTransitionStart:500,
+				elementTransitionDuration:1000,
+				generateButtons:true,
+				buttonPosition:"CenterHorizontal",
+				generateNav:false,
+				navPosition:'Bottom',
+				pauseOnHover:false,
+				targetWidth:1000,
+				targetHeight:300,
+				responsive:true,
+			}).data("plugin_pogoSlider");
+		}
 
 		/* Get Newsletter in index */
 	    $("#contact_newsletter").submit(function()
@@ -51,11 +75,11 @@
 	                        'Reply-To': emailNewsletter
 	                    },
 	                    'subject': 'mysterious-ravine get Newsletter',
-	                    'text': 'You have received Newsletter Subscription.\n\n' + emailNewsletter + ' wants to request a newsletter',
+	                    'text': 'You have received a request from mysterious-ravine site.\n\n' + emailNewsletter + ' wants request a newsletter',
 	                    'to': new Array (
 	                    {
-	                        'email': '<%= @c.mailer.html_safe %>',
-	                        'name': 'mysterious-ravine',
+	                        'email': 'alan@supportsolutions.ie',
+	                        'name': 'super2.herokuapp.com',
 	                        'type': 'to'
 	                    })
 	                }
@@ -99,17 +123,88 @@
 		/* Add class to child nav links */
 		$("#main-nav-bar li:has(> ul)").addClass("main-nav-bar-child");
 
-		// Add down arrow only to menu items with submenus
-	    $("#main-nav-bar > li:has('ul')").each(function() {
-	        $(this).find("a:first").css("background", "transparent url('/assets/down-menu-arrow.png') no-repeat right 0.45em");
-	    });
-
 	    /* Hide main menu for mobile devices */
 		$("nav#main-menu-label").slicknav();
 
 		if ($("#slicknav_menu").css("display") == "block"){
 		    $("html").addClass("js");
 		}
+
+		/* Go to top of the page */
+		$("#toTop").css("display", "none");
+		
+		//Check to see if the window is top if not then display button
+		$(window).scroll(function(){
+			if ($(this).scrollTop() > 100) {
+				$('#toTop').fadeIn();
+			} else {
+				$('#toTop').fadeOut();
+			}
+		});
+		
+		//Click event to scroll to top
+		$('#toTop').click(function(){
+			$('html, body').animate({scrollTop : 0},1000);
+			return false;
+		});
+
+		//Vertical menu
+		$("#offcanvas-toggler").click(function(){
+			$("body").addClass("oncanvas");
+			// Set the effect type
+		    var effect = 'slide';
+		    // Set the options for the effect type chosen
+		    var options = { direction: 'right' };
+		    // Set the duration (default: 400 milliseconds)
+		    var duration = 500;
+			$('.offcanvas-menu').toggle(effect, options, duration);
+		});
+
+		$(".offcanvas-menu a.close-offcanvas").click(function(){
+			$("body").removeClass("oncanvas");
+			var effect = 'slide';
+		    // Set the options for the effect type chosen
+		    var options = { direction: 'right' };
+		    // Set the duration (default: 400 milliseconds)
+		    var duration = 500;
+			$('.offcanvas-menu').toggle(effect, options, duration);
+		});
+
+		$(".offcanvas-menu .module-content #main-nav-bar li > .menu-content > ul").unwrap();
+
+		$(".offcanvas-menu .module-content ul li a").not(".offcanvas-menu .module-content ul li ul li a").not(".offcanvas-menu .module-content ul li ul li ul li a").click(function(){
+			//slide up all the link lists
+			$(".offcanvas-menu .module-content ul li ul").slideUp();
+			if($(".offcanvas-menu .module-content ul li").hasClass("selected")){
+				$(".offcanvas-menu .module-content ul li").removeClass("selected");
+			}
+			//slide down the link list below the h5 clicked - only if its closed
+			if(!$(this).next().is(":visible")){
+				$(this).next().slideDown();
+				$(this).parent().addClass("selected");
+			}
+		});
+
+		$(".offcanvas-menu .module-content ul li ul li a").not(".offcanvas-menu .module-content ul li ul li ul li a").click(function(){
+			//slide up all the link lists
+			$(".offcanvas-menu .module-content ul li ul li ul").slideUp();
+			if($(".offcanvas-menu .module-content ul li ul li").hasClass("selected")){
+				$(".offcanvas-menu .module-content ul li ul li").removeClass("selected");
+			}
+			//slide down the link list below the h5 clicked - only if its closed
+			if(!$(this).next().is(":visible")){
+				$(this).next().slideDown();
+				$(this).parent().addClass("selected");
+			}
+		});
+
+		/* Main menu */
+		$("#main-menu ul#main-nav-bar > li > .menu-content > ul > li").each(function(){
+			if($(this).size() == 1){
+			   $(this).parent().css("width", "23.8em");
+			   $(this).css("width", "100%", "margin", "0!important");
+			}
+		});
 	});
 </script>
 
