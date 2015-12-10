@@ -11,38 +11,38 @@
     </style>
   </head>
   <body class="<%= body_class %>" id="<%= @body_id || 'default' %>" data-hook="body">
+    <div class="body-inner">
 
-<%
-  @trader = Spree::User.first
-  company = Company.where(user_id: 1)
-  @c = @trader.company
-%>
+        <%= render :partial => 'spree/shared/header' %>    
 
-      <%= render :partial => 'spree/shared/header' %>
-  
+        <div id="wrapper" class="row" data-hook>
 
-      <div id="wrapper" class="row" data-hook>
-        <div class="container">
+          <%= render :partial => 'spree/shared/sidebar' if content_for? :sidebar %>
 
-        <%= breadcrumbs(@taxon) %>
+          <div id="content" class="columns <%= !content_for?(:sidebar) ? "sixteen" : "twelve omega" %>" data-hook>
+            <%= flash_messages %>
+            <%= yield %>
+          </div>
 
-        <%= render :partial => 'spree/shared/sidebar' if content_for? :sidebar %>
+          <%= yield :templates %>
 
-        <div id="content" class="columns <%= !content_for?(:sidebar) ? "sixteen" : "twelve omega" %>" data-hook>
-          <%= flash_messages %>
-          <%= yield %>
+          <%= render :partial => 'spree/shared/footer' %>
+
+          <div id="toTop">
+            <a href="#header">
+              <i class="fa fa-angle-up"></i>
+            </a>
+          </div>
+
         </div>
+        
+        <%= render :partial => 'spree/shared/off_canvas_menu' %>
 
-        <%= yield :templates %>
-
-        <%= render :partial => 'spree/shared/footer' %>
-        </div>
-      </div>
-
-    <%= render :partial => 'spree/shared/google_analytics' %>
-    <script>
-      Spree.api_key = <%= raw(try_spree_current_user.try(:spree_api_key).to_s.inspect) %>;
-    </script>
+      <%= render :partial => 'spree/shared/google_analytics' %>
+      <script>
+        Spree.api_key = <%= raw(try_spree_current_user.try(:spree_api_key).to_s.inspect) %>;
+      </script>
+    </div>
   </body>
 </html>
 
