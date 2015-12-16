@@ -1436,7 +1436,7 @@ body{
 								width:100%;
 								}
 							#product-images #main-image{
-							    background:#f4f4f4;
+							    border:1px solid #f4f4f4;
 							    border:none;
 							    float:left;
 							    margin:0 0 1em 0;

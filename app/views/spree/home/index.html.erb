@@ -74,30 +74,20 @@
                 <div class="title">
                     <h3>Featured Products</h3>
                 </div>
-                <div id="slideFW">
-                    <div id="fwslider">
-                        <div class="slider_container">
-                            <div class="slide">
-                                <% @products.where(featured: true).each do |e| %>
-                                    <div class="product">
-                                        <div class="home_images">
-                                            <%= link_to image_tag('http://www.op-insight.co.uk/images/product/large/' + e.image_name + '.jpg'), e %>
-                                        </div>
-                                        <div class="product-desc">
-                                            <%= link_to e.short_description, e, class: 'threex3' %>
-                                        </div>
-                                        <div class="product-price">
-                                            €<%= e.price %>
-                                        </div>
-                                    </div>
-                                <% end %>
+                <div id="owl-carousel" class="owl-carousel">
+                    <% @products.where(featured: true).each do |e| %>
+                        <div class="product">
+                            <div class="home_images">
+                                <%= link_to image_tag('http://www.op-insight.co.uk/images/product/large/' + e.image_name + '.jpg'), e %>
+                            </div>
+                            <div class="product-desc">
+                                <%= link_to e.short_description, e, class: 'threex3' %>
+                            </div>
+                            <div class="product-price">
+                                €<%= e.price %>
                             </div>
                         </div>
-                        <div class="timers"></div>
-
-                        <div class="slidePrev"><span></span></div>
-                        <div class="slideNext"><span></span></div>
-                    </div>
+                    <% end %>
                 </div>
             </div><!--#featured-->
 

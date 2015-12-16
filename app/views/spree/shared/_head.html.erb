@@ -17,6 +17,7 @@
 <%= stylesheet_link_tag 'stylesMobile', :media => 'screen' %>
 <%= stylesheet_link_tag 'pogo-slider.min', :media => 'screen' %>
 <%= stylesheet_link_tag 'jquery.slidepanel', :media => 'screen' %>
+<%= stylesheet_link_tag 'owl-carousel', :media => 'screen' %>
 
 <%= javascript_include_tag 'spree/frontend/all' %>
 <%= javascript_include_tag '//code.jquery.com/jquery-1.10.2.js' %>
@@ -24,6 +25,7 @@
 <%= javascript_include_tag 'slicknav.js' %>
 <%= javascript_include_tag 'jquery.slidepanel.js' %>
 <%= javascript_include_tag 'fwslider.js' %>
+<%= javascript_include_tag 'owl-carousel.js' %>
 
 <!--[if lt IE 9]>
   <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6/html5shiv.min.js"></script>
@@ -205,6 +207,9 @@
 			   $(this).css("width", "100%", "margin", "0!important");
 			}
 		});
+
+		/* Featured Products slider */
+		$("#owl-carousel").owlCarousel();
 	});
 </script>
 
