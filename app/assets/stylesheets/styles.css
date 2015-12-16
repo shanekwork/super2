@@ -1332,7 +1332,7 @@ body{
 								#special-sale .product .home_images,
 								#featured .product .home_images,
 								#latest .product .home_images{
-									background:#f4f4f4;
+									border:1px solid #f4f4f4;
 								    margin:0 0 0.85em;
 								    min-height:7em;
 								    padding:6.4em 1.3em;
