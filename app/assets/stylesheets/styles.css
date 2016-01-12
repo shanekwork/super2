@@ -2112,6 +2112,9 @@ body{
 										#content #checkout .row .columns FORM .inner P{
 											margin:0 0 0.3em 0;
 											}
+										#content #checkout .row .columns FORM .inner P#bstate{
+											display:none;
+											}
 											#content #checkout .row .columns FORM .inner LABEL{
 												font-family:Verdana,helvetica,sans-serif;
 												font-size:0.75em;
@@ -2314,6 +2317,9 @@ body{
 								#content #checkout .row .columns FORM .columns.omega P{
 									margin:0 0 1em 0;
 									padding:0;
+									}
+								#content #checkout .row .columns FORM .columns.omega P#sstate{
+									display:none;
 									}
 									#content #checkout .row .columns FORM .columns.omega P INPUT{
 										width:100%;
