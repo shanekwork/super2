@@ -2146,6 +2146,15 @@ body{
 											padding:0 0.85em;
     										width:93%;
 											}
+								#content #checkout .row .columns FORM FIELDSE.payment{
+									border:none;
+								    margin:0;
+								    padding:0;
+									}
+									#content #checkout .row .columns FORM FIELDSE.payment .inner .label-field{
+										float:lef;
+										width:100%;
+										}
 							#content #checkout .row .columns FORM#checkout_form_delivery,
 							#content #checkout .row .columns FORM#checkout_form_payment{
 								min-height:auto;
