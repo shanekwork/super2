@@ -2151,7 +2151,7 @@ body{
 								    margin:0;
 								    padding:0;
 									}
-									#content #checkout .row .columns FORM FIELDSE.payment .inner .label-field{
+									#content #checkout .row .columns FORM FIELDSET#payment .inner .label-field{
 										float:lef;
 										width:100%;
 										}
