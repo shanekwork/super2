@@ -2913,7 +2913,7 @@ body{
 				    float:left;
 				    margin:0 0.5em 1.2em 0.5em;
 				    padding:0;
-				    width:48.8%;
+				    width:48.2%;
 					}
 					FIELDSET#order_summary .steps-data DIV.columns H6,
 					FIELDSET#order_summary .steps-data DIV.columns .address,
@@ -2921,7 +2921,7 @@ body{
 					FIELDSET#order_summary .steps-data DIV.columns .payment-info{
 						float:left;
 					    padding:0 1em;
-					    width:96%;
+					    width:94.2%;
 						}					
 					FIELDSET#order_summary .steps-data DIV.columns DIV IMG{
 					    width:auto;
@@ -2941,13 +2941,12 @@ body{
 					    font-family:Verdana,helvetica,sans-serif;
 					    font-size:0.75em;
 					    padding:0.45em 1em;
-					    width:96.9%;
+					    width:95.5%;
 						}
 					FIELDSET#order_summary .steps-data DIV.columns .address,
 					FIELDSET#order_summary .steps-data DIV.columns .delivery,
 					FIELDSET#order_summary .steps-data DIV.columns .payment-info{
 						min-height:10em;
-					    width:96%;
 						}
 			FIELDSET#order_summary #line-items{
 				border:1px solid #dddddd;
