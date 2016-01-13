@@ -3009,6 +3009,23 @@ body{
 				FIELDSET#order_summary #line-items TBODY TD.qty{
 					text-align:center;
 					}
+	#checkout .inside-content FIELDSET#payment .inner .card_options{
+		float:left;
+	    margin:0 0 1em 0;
+	    width:100%;
+		}
+		#content #checkout .row .columns FORM .inner .card_options INPUT{
+		    clear:left;
+		    float:left;
+		    margin:0 0.3em 1em 0;
+		    width:auto;
+			}
+		#content #checkout .row .columns FORM .inner .card_options LABEL{
+		    clear:right;
+		    float:left;
+		    margin:0 0 1em;
+		    width:auto;
+			}
 
 /* GOOGLE CHROME & SAFARI */
 @media screen and (-webkit-min-device-pixel-ratio:0){
