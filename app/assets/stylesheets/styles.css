@@ -2913,14 +2913,13 @@ body{
 				    float:left;
 				    margin:0 0.5em 1.2em 0.5em;
 				    padding:0;
-				    width:46.95%;
+				    width:48.8%;
 					}
 					FIELDSET#order_summary .steps-data DIV.columns H6,
 					FIELDSET#order_summary .steps-data DIV.columns .address,
 					FIELDSET#order_summary .steps-data DIV.columns .delivery,
 					FIELDSET#order_summary .steps-data DIV.columns .payment-info{
 						float:left;
-						min-height:10em;
 					    padding:0 1em;
 					    width:96%;
 						}					
@@ -2947,9 +2946,8 @@ body{
 					FIELDSET#order_summary .steps-data DIV.columns .address,
 					FIELDSET#order_summary .steps-data DIV.columns .delivery,
 					FIELDSET#order_summary .steps-data DIV.columns .payment-info{
-						float:left;
-					    padding:0 1em;
-					    width:94.2%;
+						min-height:10em;
+					    width:96%;
 						}
 			FIELDSET#order_summary #line-items{
 				border:1px solid #dddddd;
@@ -2992,6 +2990,10 @@ body{
 					    font-size:1em;
 					    font-weight:normal;
 						}
+					FIELDSET#order_summary #line-items TBODY TD.total SPAN,
+					FIELDSET#order_summary #line-items TFOOT#order-total TD.total SPAN{
+					    color:#fe5252;
+						}
 				FIELDSET#order_summary #line-items TBODY TD.qty,
 				FIELDSET#order_summary #line-items TBODY TD.total,
 				FIELDSET#order_summary #line-items TFOOT#order-total TD,
@@ -2999,7 +3001,14 @@ body{
 				FIELDSET#order_summary #line-items TFOOT#tax-adjustments TD,
 				FIELDSET#order_summary #line-items TFOOT#shipment-total TD,
 				FIELDSET#order_summary #line-items TFOOT#order-charges TD{
-				    text-align:center;
+				    font-family:Verdana,helvetica,sans-serif;
+				    font-size:0.8em;
+				    font-weight:normal;
+				    text-align:right;
+				    text-transform:uppercase;
+					}
+				FIELDSET#order_summary #line-items TBODY TD.qty{
+					text-align:center;
 					}
 
 /* GOOGLE CHROME & SAFARI */
