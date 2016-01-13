@@ -2899,46 +2899,108 @@ body{
 	FIELDSET#order_summary{
 		border:none;
 		}
-		#order_summary #order{
+		FIELDSET#order_summary #order{
 			float:left;
 		    margin:0;
 		    width:100%;
 			}
-			#order_summary .steps-data{
+			FIELDSET#order_summary .steps-data{
 				float: left;
 				width: 100%;
 				}
-				#order_summary .steps-data DIV.columns{
+				FIELDSET#order_summary .steps-data DIV.columns{
 					border:1px solid #dddddd;
 				    float:left;
-				    margin:0 0.5em 0.5em 0.5em;
+				    margin:0 0.5em 1.2em 0.5em;
 				    padding:0;
 				    width:46.95%;
 					}
-					#order_summary .steps-data DIV.columns H6,
-					#order_summary .steps-data DIV.columns .address,
-					#order_summary .steps-data DIV.columns .delivery,
-					#order_summary .steps-data DIV.columns .payment-info{
+					FIELDSET#order_summary .steps-data DIV.columns H6,
+					FIELDSET#order_summary .steps-data DIV.columns .address,
+					FIELDSET#order_summary .steps-data DIV.columns .delivery,
+					FIELDSET#order_summary .steps-data DIV.columns .payment-info{
 						float:left;
+						min-height:10em;
 					    padding:0 1em;
 					    width:96%;
 						}					
-					#order_summary .steps-data DIV.columns DIV IMG{
+					FIELDSET#order_summary .steps-data DIV.columns DIV IMG{
 					    width:auto;
 						}
-					#order_summary .steps-data DIV.columns H6{
+					FIELDSET#order_summary .steps-data DIV.columns DIV > DIV{
+					    color:#252525;
+					    font-family:Verdana,helvetica,sans-serif;
+    					font-size:0.9em;
+						}
+						FIELDSET#order_summary .steps-data DIV.columns DIV > DIV DIV,
+						FIELDSET#order_summary .steps-data DIV.columns DIV > DIV SPAN{
+	    					font-size:1em;
+							}
+					FIELDSET#order_summary .steps-data DIV.columns H6{
+						background:#fafafa;
 						color:#252525;
 					    font-family:Verdana,helvetica,sans-serif;
 					    font-size:0.75em;
+					    padding:0.45em 1em;
 					    width:96.9%;
 						}
-					#order_summary .steps-data DIV.columns .address,
-					#order_summary .steps-data DIV.columns .delivery,
-					#order_summary .steps-data DIV.columns .payment-info{
+					FIELDSET#order_summary .steps-data DIV.columns .address,
+					FIELDSET#order_summary .steps-data DIV.columns .delivery,
+					FIELDSET#order_summary .steps-data DIV.columns .payment-info{
 						float:left;
 					    padding:0 1em;
 					    width:94.2%;
 						}
+			FIELDSET#order_summary #line-items{
+				border:1px solid #dddddd;
+				float:left;
+				width:99.9%;
+				}
+				FIELDSET#order_summary #line-items THEAD TH{
+					font-family:Verdana,helvetica,sans-serif;
+					font-size:0.75em;
+					}
+				FIELDSET#order_summary #line-items TBODY TD{
+					border:none;
+				    color:#252525;
+				    font-family:Verdana,helvetica,sans-serif;
+				    font-size:0.75em;
+				    text-transform:uppercase;
+					}
+					FIELDSET#order_summary #line-items TBODY TD H4{
+					    color:#252525;
+						}
+				FIELDSET#order_summary #line-items TBODY TD.price,
+				FIELDSET#order_summary #line-items TBODY TD.qty,
+				FIELDSET#order_summary #line-items TBODY TD.total,
+				FIELDSET#order_summary #line-items TFOOT#order-total TD,
+				FIELDSET#order_summary #line-items TFOOT#subtotal TD{
+				    color:#777777;
+				    font-weight:normal;
+				    font-size:0.8em;
+				    text-align:right;
+					}
+					FIELDSET#order_summary #line-items TBODY TD.price SPAN,
+					FIELDSET#order_summary #line-items TBODY TD.total SPAN,
+					FIELDSET#order_summary #line-items TFOOT#order-total TD SPAN,
+					FIELDSET#order_summary #line-items TFOOT#subtotal TD SPAN,
+					FIELDSET#order_summary #line-items TFOOT#tax-adjustments TD SPAN,
+					FIELDSET#order_summary #line-items TFOOT#shipment-total TD SPAN,
+					FIELDSET#order_summary #line-items TFOOT#order-charges TD SPAN{
+					    color:#777777;
+					    font-family:Verdana,helvetica,sans-serif;
+					    font-size:1em;
+					    font-weight:normal;
+						}
+				FIELDSET#order_summary #line-items TBODY TD.qty,
+				FIELDSET#order_summary #line-items TBODY TD.total,
+				FIELDSET#order_summary #line-items TFOOT#order-total TD,
+				FIELDSET#order_summary #line-items TFOOT#subtotal TD,
+				FIELDSET#order_summary #line-items TFOOT#tax-adjustments TD,
+				FIELDSET#order_summary #line-items TFOOT#shipment-total TD,
+				FIELDSET#order_summary #line-items TFOOT#order-charges TD{
+				    text-align:center;
+					}
 
 /* GOOGLE CHROME & SAFARI */
 @media screen and (-webkit-min-device-pixel-ratio:0){
