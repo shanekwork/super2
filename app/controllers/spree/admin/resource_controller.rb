@@ -28,6 +28,9 @@ class Spree::Admin::ResourceController < Spree::Admin::BaseController
 
   def update
     invoke_callbacks(:update, :before)
+    @user = Spree::User.first
+      company = Company.where(user_id: 1)
+      @c = @user.company
     if @object.update_attributes(permitted_resource_params)
       invoke_callbacks(:update, :after)
       flash[:success] = flash_message_for(@object, :successfully_updated)
