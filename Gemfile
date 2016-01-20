@@ -33,7 +33,7 @@ group :doc do
   gem 'sdoc', require: false
 end
 gem 'rails_12factor'
-
+gem 'spree_i18n', :github => "spree/spree_i18n", :branch => "1-3-stable"
 gem 'money', '6.0.1'
 gem 'spree', '2.2.1'
 gem 'spree_gateway', :git => 'https://github.com/spree/spree_gateway.git', :branch => '2-2-stable'
