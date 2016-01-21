@@ -20,11 +20,4 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  activerecord:
-    attributes:
-    date: Date
-    date_completed: Date Completed
-    date_picker:
-      first_day: 0
-      format: ! '%d/%m/%Y'
-      js_format: dd/mm/yy
+    hello: "Hello world"
