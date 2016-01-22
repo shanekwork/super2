@@ -886,6 +886,7 @@ body{
 								position:absolute;
 								right:0;
 								}
+								#main-menu NAV UL LI UL.fourChild LI:nth-last-child(-n+3) UL,
 								#main-menu NAV UL LI:nth-last-child(-n+3) UL LI UL{
 									left:inherit;
 									position:inherit;
