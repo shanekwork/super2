@@ -710,6 +710,7 @@ body{
 			#main-menu NAV{
 				float:right;
 				margin:0;
+				position:relative;
 				width:100%;
 				}
 				#main-menu NAV A#offcanvas-toggler{
@@ -871,6 +872,9 @@ body{
 									margin:0!important;
 									width:100%;
 									}
+							#main-menu NAV UL LI UL.fourChild{
+								width:30em;
+								}
 							#main-menu NAV UL LI UL.moreChild{
 								width:30em;
 								}
@@ -880,6 +884,12 @@ body{
 									#main-menu NAV UL LI UL.moreChild LI UL LI{
 										width:100%;
 										}
+							#main-menu NAV UL LI:nth-last-child(-n+3) UL{
+								left:inherit;
+								padding:2.2em 0.95em 2.2em 0;
+								position:absolute;
+								right:0;
+								}
 		#wrapper .container{
 			overflow:hidden;
 			}			
