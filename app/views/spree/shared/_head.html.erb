@@ -210,15 +210,16 @@
 			}*/
 			var countLI = $(this).children().length;
 			alert("childs:" + countLI);
-			if($(countLI >= 4)){
-				alert("multi");
-				$(this).addClass("multiChild");
-			}else if($(countLI == 4)){
-				alert("two");
-				$(this).addClass("twoChild");
-			}else{
+			if($(countLI == 1)){
 				alert("one");
 				$(this).addClass("oneChild");
+			}}else if($(countLI > 1 && countLI < 5)){
+				alert("two");
+				$(this).addClass("fourChild");
+			}
+			}else{
+				alert("multi");
+				$(this).addClass("multiChild");
 			}
 		});
 
