@@ -210,15 +210,18 @@
 			}*/
 			var countLI = $(this).children().length;
 			alert("childs:" + countLI);
-			if($(countLI == 1)){
-				alert("one");
-				$(this).addClass("oneChild");
-			}else if($(countLI > 1) && (countLI < 5)){
-				alert("two");
-				$(this).addClass("fourChild");
-			}else{
-				alert("multi");
-				$(this).addClass("multiChild");
+			switch(){
+				case (countLI == 1):
+					alert("one");
+					$(this).addClass("oneChild");
+					break;
+				case (countLI > 1) && (countLI < 5):
+					alert("two");
+					$(this).addClass("fourChild");
+					break;
+				case (countLI >= 5)
+					alert("multi");
+					$(this).addClass("multiChild");
 			}
 		});
 
