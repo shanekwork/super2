@@ -207,11 +207,13 @@
 			var countLI = $(this).children().length;
 			alert("childs:" + countLI);
 			switch(countLI){
-				case (countLI = 1):
+				case (1):
 					alert("one");
 					$(this).addClass("oneChild");
 					break;
-				case (countLI > 1 && countLI < 5):
+				case(2):
+				case(3):
+				case(4):
 					alert("two");
 					$(this).addClass("fourChild");
 					break;
