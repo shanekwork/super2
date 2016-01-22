@@ -868,20 +868,17 @@ body{
 							#main-menu NAV UL LI UL.oneChild{
 								width:17em;
 								}
-								#main-menu NAV UL LI UL.oneChild{
+								#main-menu NAV UL LI UL.oneChild LI{
 									margin:0!important;
 									width:100%;
 									}
 							#main-menu NAV UL LI UL.fourChild{
 								width:30em;
 								}
-							#main-menu NAV UL LI UL.moreChild{
-								width:30em;
-								}
-								#main-menu NAV UL LI UL.moreChild LI{
+								#main-menu NAV UL LI UL.fourChild LI{
 									width:43.3%;
 									}
-									#main-menu NAV UL LI UL.moreChild LI UL LI{
+									#main-menu NAV UL LI UL.fourChild LI UL LI{
 										width:100%;
 										}
 							#main-menu NAV UL LI:nth-last-child(-n+3) UL{
