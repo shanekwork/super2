@@ -739,6 +739,7 @@ body{
 						margin:0 0 0 2.08em;
 						padding:0;
 						width:auto;
+						z-index:999;
 						}
 					#main-menu NAV UL LI:first-child{
 						margin:0;
