@@ -204,10 +204,6 @@
 
 		/* Main menu */
 		$("#main-menu ul#main-nav-bar > li > .menu-content > ul").each(function(){
-			/*if($(this).size() == 1){
-			   $(this).parent().css("width", "23.8em");
-			   $(this).css("width", "100%", "margin", "0!important");
-			}*/
 			var countLI = $(this).children().length;
 			alert("childs:" + countLI);
 			switch(countLI){
@@ -215,7 +211,7 @@
 					alert("one");
 					$(this).addClass("oneChild");
 					break;
-				case (countLI <= 5):
+				case (countLI > 1 && < 5):
 					alert("two");
 					$(this).addClass("fourChild");
 					break;
