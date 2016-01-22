@@ -209,12 +209,12 @@
 			   $(this).css("width", "100%", "margin", "0!important");
 			}*/
 			var countLI = $("#main-menu ul#main-nav-bar > li > .menu-content > ul").children().length;
-			if($(countLI) == 1){
-			   $(countLI).parent().addClass("oneChild");
+			if($(countLI) > 2){
+				$(countLI).parent().addClass("multiChild");
 			}else if($(countLI) == 2){
-			   $(countLI).parent().addClass("twoChild");
+				$(this).parent().addClass("twoChild");
 			}else{
-			   $(countLI).parent().addClass("multiChild");
+				$(this).parent().addClass("oneChild");
 			}
 		});
 
