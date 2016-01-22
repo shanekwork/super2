@@ -208,7 +208,7 @@
 			   $(this).parent().css("width", "23.8em");
 			   $(this).css("width", "100%", "margin", "0!important");
 			}*/
-			var countLI = $("#main-menu ul#main-nav-bar > li > .menu-content > ul").children().length;
+			var countLI = $(this).children().length;
 			alert("childs:" + countLI);
 			if($(countLI) > 2){
 				alert("multi");
@@ -216,7 +216,7 @@
 			}else if($(countLI) == 2){
 				alert("two");
 				$(this).parent().addClass("twoChild");
-			}else{
+			}else if($(countLI) == 1){
 				alert("one");
 				$(this).parent().addClass("oneChild");
 			}
