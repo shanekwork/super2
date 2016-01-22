@@ -211,15 +211,13 @@
 			var countLI = $("#main-menu ul#main-nav-bar > li > .menu-content > ul").children().length;
 			if($(countLI).size() == 1){
 			   $(this).parent().addClass("oneChild");
-			}
-			if($(countLI).size() == 2){
+			}else if($(countLI).size() == 2){
 			   $(this).parent().addClass("twoChild");
-			}
-			if($(countLI).size() > 2){
+			}else if($(countLI).size() > 2){
 			   $(this).parent().addClass("multiChild");
 			}
 		});
-		
+
 		/* Featured Products slider */
 		$("#owl-carousel").owlCarousel({
 			autoPlay: true,
