@@ -881,7 +881,7 @@ body{
 									#main-menu NAV UL LI UL.fourChild LI UL LI{
 										width:100%;
 										}
-							#main-menu NAV UL LI:nth-last-child(-n+3) > UL{
+							#main-menu NAV UL LI:nth-last-child(-n+3) UL LI UL{
 								left:inherit;
 								padding:2.2em 0.95em 2.2em 0;
 								position:absolute;
