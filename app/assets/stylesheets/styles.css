@@ -820,7 +820,7 @@ body{
 										font-size:0.77em;
 										font-weight:bold;
 										line-height:1.2em;
-										margin:0 0 2em 0!important;
+										margin:0 0 1em 0!important;
 										min-height:2.5em;
 										padding:0 1.8em 0.95em 1.8em!important;
 										width:72%;
@@ -857,7 +857,7 @@ body{
 													font-weight:normal;
 													margin:0!important;
 													min-height:auto;
-													padding:0 1.8em 2.1em 1.8em!important;
+													padding:0 1.8em 1.1em 1.8em!important;
 													text-align:left;
 													text-transform:initial;
 													width:auto;
