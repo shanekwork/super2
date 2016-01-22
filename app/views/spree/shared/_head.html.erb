@@ -210,11 +210,11 @@
 			}*/
 			var countLI = $("#main-menu ul#main-nav-bar > li > .menu-content > ul").children().length;
 			if($(countLI) == 1){
-			   $(this).parent().addClass("oneChild");
+			   $(countLI).parent().addClass("oneChild");
 			}else if($(countLI) == 2){
-			   $(this).parent().addClass("twoChild");
+			   $(countLI).parent().addClass("twoChild");
 			}else{
-			   $(this).parent().addClass("multiChild");
+			   $(countLI).parent().addClass("multiChild");
 			}
 		});
 
