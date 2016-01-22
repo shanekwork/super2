@@ -864,6 +864,22 @@ body{
 													#main-menu NAV UL LI:hover UL LI UL LI A:hover{
 														color:#ec4445!important;
 														}
+							#main-menu NAV UL LI UL.oneChild{
+								width:17em;
+								}
+								#main-menu NAV UL LI UL.oneChild{
+									margin:0!important;
+									width:100%;
+									}
+							#main-menu NAV UL LI UL.moreChild{
+								width:30em;
+								}
+								#main-menu NAV UL LI UL.moreChild LI{
+									width:43.3%;
+									}
+									#main-menu NAV UL LI UL.moreChild LI UL LI{
+										width:100%;
+										}
 		#wrapper .container{
 			overflow:hidden;
 			}			
