@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-ruby "2.1.6"
+ruby "2.2.3"
 
 gem 'rails', '4.0.4'
 
@@ -33,7 +33,6 @@ group :doc do
   gem 'sdoc', require: false
 end
 gem 'rails_12factor'
-
 gem 'money', '6.0.1'
 gem 'spree', '2.2.1'
 gem 'spree_gateway', :git => 'https://github.com/spree/spree_gateway.git', :branch => '2-2-stable'

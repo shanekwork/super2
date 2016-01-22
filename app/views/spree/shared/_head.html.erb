@@ -28,7 +28,11 @@
 <!--[if lt IE 9]>
   <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6/html5shiv.min.js"></script>
 <![endif]-->
-
+<%
+  @trader = Spree::User.first
+  company = Company.where(user_id: 1)
+  @c = @trader.company
+%>
 <script>
 	$(document).ready(function(){
 		/* Add class just to home page */
