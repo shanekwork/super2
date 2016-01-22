@@ -215,11 +215,11 @@
 					alert("one");
 					$(this).addClass("oneChild");
 					break;
-				case ((countLI > 1) && (countLI < 5)):
+				case (countLI > 1 && countLI < 5):
 					alert("two");
 					$(this).addClass("fourChild");
 					break;
-				case (countLI >= 5):
+				default:
 					alert("multi");
 					$(this).addClass("multiChild");
 			}
