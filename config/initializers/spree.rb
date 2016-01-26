@@ -10,7 +10,6 @@ Spree.config do |config|
 	
   # Example:
   # Uncomment to override the default site name.
-  config.site_name = "Stationery Store"
   config.logo = "store/logo.png"
   config.admin_interface_logo = "store/logo.png"
   config.track_inventory_levels = false
