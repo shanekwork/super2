@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-ruby "2.2.3"
+ruby "2.1.4"
 
 gem 'rails', '4.0.4'
 
@@ -13,7 +13,7 @@ gem 'fog', '~> 1.24.0'
 
 gem 'mail_form'
 gem 'simple_form'
-
+gem 'net-ssh'
 
 # Use CoffeeScript for .js.coffee assets and views
 gem 'coffee-rails', '~> 4.0.0'
