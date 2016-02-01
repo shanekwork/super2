@@ -811,7 +811,11 @@ body{
 									margin:0 2em 0 0!important;
 									padding:0;
 									width:21.28%;
+									z-index:100;
 									}
+									#main-menu NAV UL LI UL LI:hover A{
+										z-index:2;
+										}
 									#main-menu NAV UL LI:hover UL LI A,
 									#main-menu NAV UL LI UL LI A{
 										border-bottom:none;
@@ -824,6 +828,10 @@ body{
 										min-height:2.5em;
 										padding:0 1.8em 0.95em 1.8em!important;
 										width:72%;
+										}
+									#main-menu NAV UL LI UL LI,
+									#main-menu NAV UL LI UL LI > A{
+										position:relative;
 										}
 									#main-menu NAV UL LI UL LI A:after{
 										content:none;
@@ -839,13 +847,14 @@ body{
 											display:none;
 											left:0;
 											padding:0;
-											position:relative;
+											position:absolute;
 											top:0;
 											width:100%;
 											}
 										UL#main-nav-bar LI:hover UL LI UL{
 											display:none;
 											box-shadow:0 0 1.5em #545454;
+											padding:1em 0;
 											}
 											#main-menu NAV UL LI UL LI UL LI{
 												margin:0!important;
