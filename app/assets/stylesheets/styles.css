@@ -843,6 +843,9 @@ body{
 											top:0;
 											width:100%;
 											}
+										UL#main-nav-bar LI:hover UL LI UL{
+											display:none;
+											}
 											#main-menu NAV UL LI UL LI UL LI{
 												margin:0!important;
 												padding:0;
@@ -866,6 +869,7 @@ body{
 													#main-menu NAV UL LI:hover UL LI UL LI A:hover{
 														color:#ec4445!important;
 														}
+										}
 							#main-menu NAV UL LI UL.oneChild{
 								width:17em;
 								}
