@@ -2895,7 +2895,9 @@ body{
 							.offcanvas-menu .offcanvas-inner .module-content #main-nav-bar LI:hover UL{
 								border:none;
 								border-top:1px dotted #e8e8e8;
+								box-shadow:none;
 								left:0;
+								padding:0;
 								position:relative;
 								width:100%;
 								}
