@@ -797,7 +797,7 @@ body{
 								background:#ffffff;
 								border:none;
 								border-bottom:3px solid #ec4445;
-								display:flex;
+								display:flex!important;
 								flex-wrap:wrap;
 								float:left;
 								left:0;
@@ -810,17 +810,15 @@ body{
 									font-size:1em;
 									margin:0 2em 0 0!important;
 									padding:0;
-									position:relative;
 									width:21.28%;
 									}
 									#main-menu NAV UL LI:hover UL LI A,
 									#main-menu NAV UL LI UL LI A{
-										background:none;
-										border-bottom:none;
+										border-bottom:1px solid #f2f2f2;
 										color:#2f2f2f!important;
 										font-family:"Open Sans",sans-serif;
 										font-size:0.77em;
-										font-weight:normal;
+										font-weight:bold;
 										line-height:1.2em;
 										margin:0 0 1em 0!important;
 										min-height:2.5em;
@@ -835,22 +833,15 @@ body{
 											color:#ec4445!important;
 											padding:0;
 											}
-									#main-menu NAV UL LI UL LI A.selected{
-										color:#ec4445!important;
-										}
 										#main-menu NAV UL LI UL LI UL{
 											border:none;
-											box-shadow:0 0 1.5em #545454;
-											display:none;
-											left:1.8em!important;
-											padding:1em 0.7em;
+											box-shadow:none;
+											display:block!important;
+											left:0;
+											padding:0;
 											position:relative;
 											top:0;
 											width:100%;
-											z-index:999;
-											}
-										UL#main-nav-bar LI:hover UL LI UL{
-											display:none;
 											}
 											#main-menu NAV UL LI UL LI UL LI{
 												margin:0!important;
