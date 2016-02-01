@@ -845,7 +845,6 @@ body{
 											}
 										UL#main-nav-bar LI:hover UL LI UL{
 											display:none;
-											margin:0;
 											}
 											#main-menu NAV UL LI UL LI UL LI{
 												margin:0!important;
@@ -870,7 +869,6 @@ body{
 													#main-menu NAV UL LI:hover UL LI UL LI A:hover{
 														color:#ec4445!important;
 														}
-										}
 							#main-menu NAV UL LI UL.oneChild{
 								width:17em;
 								}
