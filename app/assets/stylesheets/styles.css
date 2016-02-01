@@ -845,6 +845,7 @@ body{
 											}
 										UL#main-nav-bar LI:hover UL LI UL{
 											display:none;
+											margin:0;
 											}
 											#main-menu NAV UL LI UL LI UL LI{
 												margin:0!important;
