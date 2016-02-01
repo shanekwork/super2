@@ -836,7 +836,7 @@ body{
 											padding:0;
 											}
 									#main-menu NAV UL LI UL LI A.selected{
-										color:#ec4445;
+										color:#ec4445!important;
 										}
 										#main-menu NAV UL LI UL LI UL{
 											border:none;
