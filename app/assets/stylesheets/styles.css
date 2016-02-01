@@ -809,7 +809,7 @@ body{
 								}
 								#main-menu NAV UL LI UL LI{
 									font-size:1em;
-									margin:0 2em 0 0!important;
+									margin:0;
 									padding:0;
 									width:100%;
 									}
@@ -825,8 +825,7 @@ body{
 										font-size:0.77em;
 										font-weight:normal;
 										line-height:1.2em;
-										margin:0 0 1em 0!important;
-										min-height:2.5em;
+										margin:0 0 0.5em 0!important;
 										padding:0 1.8em 0.95em 1.8em!important;
 										width:75%;
 										}
