@@ -797,7 +797,7 @@ body{
 								background:#ffffff;
 								border:none;
 								border-bottom:3px solid #ec4445;
-								display:flex!important;
+								display:flex;
 								flex-wrap:wrap;
 								float:left;
 								left:0;
@@ -842,6 +842,9 @@ body{
 											position:relative;
 											top:0;
 											width:100%;
+											}
+										UL#main-nav-bar LI:hover UL LI UL{
+											display:none;
 											}
 											#main-menu NAV UL LI UL LI UL LI{
 												margin:0!important;
