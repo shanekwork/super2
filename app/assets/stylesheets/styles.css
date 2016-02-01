@@ -875,7 +875,7 @@ body{
 													#main-menu NAV UL LI:hover UL LI UL LI A:hover{
 														color:#ec4445!important;
 														}
-							#main-menu NAV UL LI:nth-last-child(-n+3) UL UL LI{
+							#main-menu NAV UL LI:nth-last-child(-n+2) UL LI UL{
 								left:inherit;
 								position:absolute;
 								right:13em;
