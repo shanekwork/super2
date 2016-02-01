@@ -843,7 +843,7 @@ body{
 											top:0;
 											width:100%;
 											}
-										#main-menu NAV UL LI:hover UL
+										#main-menu NAV UL LI:hover UL,
 										#main-menu NAV UL LI UL LI:hover UL{
 											display:none;
 											}
