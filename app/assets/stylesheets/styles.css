@@ -835,6 +835,9 @@ body{
 											color:#ec4445!important;
 											padding:0;
 											}
+									#main-menu NAV UL LI UL LI A.selected{
+										color:#ec4445;
+										}
 										#main-menu NAV UL LI UL LI UL{
 											border:none;
 											box-shadow:0 0 1.5em #545454;
