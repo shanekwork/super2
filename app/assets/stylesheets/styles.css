@@ -878,10 +878,6 @@ body{
 							#main-menu NAV UL LI UL.oneChild{
 								width:17em;
 								}
-								#main-menu NAV UL LI UL.oneChild LI{
-									margin:0!important;
-									width:100%;
-									}
 							#main-menu NAV UL LI UL.fourChild{
 								width:30em;
 								}
@@ -891,11 +887,6 @@ body{
 									#main-menu NAV UL LI UL.fourChild LI UL LI{
 										width:100%;
 										}
-							#main-menu NAV UL LI:nth-last-child(-n+3) UL{
-								left:inherit;
-								position:absolute;
-								right:0;
-								}
 								#main-menu NAV UL LI UL LI:nth-last-child(-n+3) UL,
 								#main-menu NAV UL LI:nth-last-child(-n+3) UL LI UL{
 									left:inherit;
