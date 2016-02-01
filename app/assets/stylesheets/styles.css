@@ -767,7 +767,8 @@ body{
 							margin:0 0 0 0.8em;
 							}
 							#main-menu NAV UL LI A.selected,
-							#main-menu NAV UL LI:hover A{
+							#main-menu NAV UL LI:hover A,
+							#main-menu NAV UL LI:hover UL LI A.selected{
 								color:#ec4445!important;
 								}
 								#main-menu NAV UL LI A:hover{
@@ -818,6 +819,7 @@ body{
 										}
 									#main-menu NAV UL LI:hover UL LI A,
 									#main-menu NAV UL LI UL LI A{
+										background:none;
 										border-bottom:none;
 										color:#2f2f2f!important;
 										font-family:"Open Sans",sans-serif;
@@ -845,11 +847,11 @@ body{
 											border:none;
 											box-shadow:none;
 											display:none;
-											left:0;
+											left:10em;
 											padding:0;
 											position:absolute;
 											top:0;
-											width:100%;
+											width:600px;
 											}
 										UL#main-nav-bar LI:hover UL LI UL{
 											display:none;
@@ -859,7 +861,7 @@ body{
 											#main-menu NAV UL LI UL LI UL LI{
 												margin:0!important;
 												padding:0;
-												width:100%;
+												width:200px;
 												}
 												#main-menu NAV UL LI UL LI UL LI A,
 												#main-menu NAV UL LI:hover UL LI UL LI A{
