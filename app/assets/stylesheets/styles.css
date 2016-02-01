@@ -865,6 +865,7 @@ body{
 													font-size:0.8em;
 													font-weight:normal;
 													margin:0!important;
+													min-height:2.5em;
 													padding:0 1.8em 1.1em 1.8em!important;
 													text-align:left;
 													text-transform:initial;
