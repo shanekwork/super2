@@ -839,9 +839,9 @@ body{
 											border:none;
 											box-shadow:0 0 1.5em #545454;
 											display:none;
-											left:9em;
+											left:9em!important;
 											padding:1em 0.7em;
-											position:absolute;
+											position:absolute!important;
 											top:0;
 											width:600px;
 											z-index:999;
