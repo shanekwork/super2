@@ -875,24 +875,6 @@ body{
 													#main-menu NAV UL LI:hover UL LI UL LI A:hover{
 														color:#ec4445!important;
 														}
-							#main-menu NAV UL LI UL.oneChild{
-								width:17em;
-								}
-							#main-menu NAV UL LI UL.fourChild{
-								width:30em;
-								}
-								#main-menu NAV UL LI UL.fourChild LI{
-									width:43.3%;
-									}
-									#main-menu NAV UL LI UL.fourChild LI UL LI{
-										width:100%;
-										}
-								#main-menu NAV UL LI UL LI:nth-last-child(-n+3) UL,
-								#main-menu NAV UL LI:nth-last-child(-n+3) UL LI UL{
-									left:inherit;
-									position:inherit;
-									right:inherit;
-									}
 		#wrapper .container{
 			overflow:hidden;
 			}			
