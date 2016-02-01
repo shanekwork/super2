@@ -845,7 +845,7 @@ body{
 											padding:0;
 											position:absolute;
 											top:0;
-											width:600px;
+											width:500px;
 											}
 										UL#main-nav-bar LI:hover UL LI UL{
 											display:none;
@@ -855,7 +855,7 @@ body{
 											#main-menu NAV UL LI UL LI UL LI{
 												margin:0!important;
 												padding:0;
-												width:200px;
+												width:150px;
 												}
 												#main-menu NAV UL LI UL LI UL LI A,
 												#main-menu NAV UL LI:hover UL LI UL LI A{
