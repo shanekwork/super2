@@ -805,7 +805,7 @@ body{
 								min-height:10em;
 								padding:1.55em 0.7em;
 								top:0;
-								width:200px;
+								width:250px;
 								}
 								#main-menu NAV UL LI UL LI{
 									font-size:1em;
@@ -826,7 +826,7 @@ body{
 										font-weight:normal;
 										line-height:1.2em;
 										margin:0 0 0.5em 0!important;
-										padding:0 1.8em 0.95em 1.8em!important;
+										padding:0 1.8em 0.5em 1.8em!important;
 										width:75%;
 										}
 									#main-menu NAV UL LI UL LI A:after{
