@@ -775,7 +775,8 @@ body{
 								#main-menu NAV UL LI A:hover{
 									background:none!important;
 									}
-							#main-menu NAV UL LI A.selected{
+							#main-menu NAV UL LI A.selected,
+							#main-menu NAV UL LI A.selected:hover{
 								background:#f0f0f0!important;
 								}
 						#main-menu NAV UL LI .menu-content{
