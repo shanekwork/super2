@@ -887,7 +887,7 @@ body{
 							#main-menu NAV UL LI:nth-last-child(-n+3) UL LI UL{
 								left:inherit;
 								position:fixed;
-								right:6.35em;
+								right:6.1em;
 								}
 		#wrapper .container{
 			overflow:hidden;
