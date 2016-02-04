@@ -858,10 +858,11 @@ body{
 										UL#main-nav-bar LI:hover UL LI UL{
 											border-bottom:3px solid #ec4445;
 											display:none;
-											padding:1em 0;
+											padding:2em 0 1em 0;
 											}
 											#main-menu NAV UL LI UL LI UL LI{
 												margin:0!important;
+												min-height:2.2em;
 												padding:0 1.8em 1.1em 1.8em!important;
 												width:130px;
 												}
