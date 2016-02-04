@@ -775,8 +775,8 @@ body{
 								#main-menu NAV UL LI A:hover{
 									background:none!important;
 									}
-							#main-menu NAV UL LI A.selected,
-							#main-menu NAV UL LI A.selected:hover{
+							#main-menu NAV UL LI.selected,
+							#main-menu NAV UL LI.selected:hover{
 								background:#f0f0f0!important;
 								}
 						#main-menu NAV UL LI .menu-content{
@@ -817,8 +817,8 @@ body{
 									font-size:1em;
 									height:auto;
 									margin:0;
-									padding:0;
-									width:100%;
+									padding:0.55em 1.8em !important;
+									width:78.5%;
 									}
 									#main-menu NAV UL LI UL LI:hover A{
 										z-index:2;
@@ -833,7 +833,7 @@ body{
 										font-weight:normal;
 										line-height:1.2em;
 										margin:0!important;
-										padding:0.8em 1.8em!important;
+										padding:0!important;
 										width:80.1%;
 										}
 									#main-menu NAV UL LI UL LI A:after{
@@ -853,7 +853,7 @@ body{
 											padding:0;
 											position:fixed;
 											top:0;
-											width:450px;
+											width:555px;
 											}
 										UL#main-nav-bar LI:hover UL LI UL{
 											border-bottom:3px solid #ec4445;
@@ -862,8 +862,8 @@ body{
 											}
 											#main-menu NAV UL LI UL LI UL LI{
 												margin:0!important;
-												padding:0;
-												width:150px;
+												padding:0 1.8em 1.1em 1.8em!important;
+												width:130px;
 												}
 												#main-menu NAV UL LI UL LI UL LI A,
 												#main-menu NAV UL LI:hover UL LI UL LI A{
@@ -873,7 +873,6 @@ body{
 													font-size:0.8em;
 													font-weight:normal;
 													margin:0!important;
-													min-height:2.5em;
 													padding:0 1.8em 1.1em 1.8em!important;
 													text-align:left;
 													text-transform:initial;
