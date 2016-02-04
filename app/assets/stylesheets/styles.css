@@ -807,7 +807,7 @@ body{
 								flex-wrap:wrap;
 								float:left;
 								left:0;
-								min-height:10em;
+								min-height:33em;
 								padding:1.55em 0;
 								position:fixed;
 								top:0;
@@ -850,6 +850,7 @@ body{
 											box-shadow:none;
 											display:none;
 											left:16.45em;
+											min-height:33.1em;
 											padding:0;
 											position:fixed;
 											top:0;
