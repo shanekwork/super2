@@ -855,6 +855,7 @@ body{
 											width:450px;
 											}
 										UL#main-nav-bar LI:hover UL LI UL{
+											border:3px solid #ec4445;
 											display:none;
 											padding:1em 0;
 											}
