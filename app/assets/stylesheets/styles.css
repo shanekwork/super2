@@ -776,7 +776,7 @@ body{
 									background:none!important;
 									}
 							#main-menu NAV UL LI A.selected{
-								background:#f0f0f0;
+								background:#f0f0f0!important;
 								}
 						#main-menu NAV UL LI .menu-content{
 							clear:both;
@@ -856,7 +856,6 @@ body{
 											}
 										UL#main-nav-bar LI:hover UL LI UL{
 											display:none;
-											box-shadow:0 0 1.5em #545454;
 											padding:1em 0;
 											}
 											#main-menu NAV UL LI UL LI UL LI{
@@ -884,8 +883,8 @@ body{
 														}
 							#main-menu NAV UL LI:nth-last-child(-n+3) UL LI UL{
 								left:inherit;
-								position:absolute;
-								right:13em;
+								position:fixed;
+								right:6.35em;
 								}
 		#wrapper .container{
 			overflow:hidden;
